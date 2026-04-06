@@ -249,8 +249,30 @@ const GuDashboard = () => {
                       <tr className="gu-expanded-row">
                         <td colSpan="7">
                           <div className="gu-expanded-inner">
-                            <div className={`gu-expanded-grid ${!gu.Steed ? 'no-steed' : ''}`}>
+                            <div className={`gu-expanded-grid ${!gu.steed ? 'no-steed' : ''}`}>
                               <div>
+                                {/* Add a mobile stats row that shows hidden columns */}
+                                <div className="mobile-stats-row">
+                                  {gu.cost && (
+                                    <div className="mobile-stat-chip">
+                                      <span className="mobile-stat-label">Cost</span>
+                                      <span className="mobile-stat-value">{gu.cost}</span>
+                                    </div>
+                                  )}
+                                  {gu.health && (
+                                    <div className="mobile-stat-chip">
+                                      <span className="mobile-stat-label">Health</span>
+                                      <span className="mobile-stat-value">{gu.health}</span>
+                                    </div>
+                                  )}
+                                  {gu.range && (
+                                    <div className="mobile-stat-chip">
+                                      <span className="mobile-stat-label">Range</span>
+                                      <span className="mobile-stat-value">{gu.range}</span>
+                                    </div>
+                                  )}
+                                </div>
+
                                 <div className="expand-section-title">Primary Effect</div>
                                 <div className="effect-box">
                                   {gu.effect || 'No effect description provided.'}
