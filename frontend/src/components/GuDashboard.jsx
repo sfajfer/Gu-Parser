@@ -249,7 +249,7 @@ const GuDashboard = () => {
                       <tr className="gu-expanded-row">
                         <td colSpan="7">
                           <div className="gu-expanded-inner">
-                            <div className="gu-expanded-grid">
+                            <div className={`gu-expanded-grid ${!gu.Steed ? 'no-steed' : ''}`}>
                               <div>
                                 <div className="expand-section-title">Primary Effect</div>
                                 <div className="effect-box">

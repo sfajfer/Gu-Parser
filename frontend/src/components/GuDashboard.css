@@ -238,9 +238,10 @@ body {
 
 .gu-main {
   flex: 1;
-  overflow-x: auto;
+  overflow-x: auto; /* Allows horizontal scroll if the table is too wide */
   padding: 16px;
-  min-width: 0;
+  min-width: 0; 
+  -webkit-overflow-scrolling: touch; /* Smooth scroll on iOS */
 }
 
 .gu-table-wrap {
@@ -255,6 +256,7 @@ table.gu-table {
   width: 100%;
   border-collapse: collapse;
   font-size: 12px;
+  table-layout: auto; /* Allows columns to shrink/grow based on content */
 }
 
 .gu-table thead tr {
@@ -328,6 +330,11 @@ table.gu-table {
   white-space: nowrap;
 }
 
+.gu-expanded-row td {
+  padding: 0;
+  max-width: 0;
+  width: 100%;
+}
 
 tr.gu-expanded-row {
   background: rgba(52,211,153,0.03);
@@ -343,6 +350,10 @@ tr.gu-expanded-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 24px;
+}
+
+.gu-expanded-grid.no-steed {
+  grid-template-columns: 1fr;
 }
 
 .expand-section-title {
@@ -363,6 +374,8 @@ tr.gu-expanded-row {
   font-size: 12px;
   line-height: 1.65;
   white-space: pre-wrap;
+  word-break: break-word;
+  overflow-wrap: anywhere; 
 }
 
 .meta-row {
@@ -490,6 +503,20 @@ tr.gu-expanded-row {
   .gu-topbar {
     padding: 12px 16px;
     gap: 12px;
+  }
+
+  .gu-expanded-inner {
+    padding: 16px;
+  }
+
+  .gu-expanded-grid {
+    grid-template-columns: 1fr; /* Always stack on mobile */
+    gap: 16px;
+  }
+
+  .cell-name {
+    white-space: normal; /* Allow name to wrap if it's very long on mobile */
+    min-width: 100px;
   }
 
   .gu-title { font-size: 2.2rem; }
