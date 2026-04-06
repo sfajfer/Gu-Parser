@@ -7,9 +7,8 @@ import org.springframework.stereotype.Service;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
@@ -21,18 +20,23 @@ public class GuParser {
     @Autowired
     private MongoTemplate mongoTemplate;
 
-    public void parseAndPopulate(String filePath) {
-        System.out.println("Starting Gu Index refinement process...");
+    public void parseAndPopulate(String fileName) {
+        System.out.println("Starting Gu Index refinement process using file: " + fileName);
         
         MongoDatabase db = mongoTemplate.getDb();
         MongoCollection<Document> collection = db.getCollection("GuIndex");
+        collection.drop();
 
-        collection.drop(); // Wipes the collection to prevent duplicates
+        // Use getResourceAsStream to read from inside the JAR or classpath
+        try (InputStream is = getClass().getClassLoader().getResourceAsStream(fileName)) {
+            if (is == null) {
+                System.err.println("FATAL ERROR: Could not find " + fileName + " in resources.");
+                return;
+            }
 
-        try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
+            BufferedReader reader = new BufferedReader(new InputStreamReader(is, StandardCharsets.UTF_8));
             String line;
             Document currentGu = null;
-            
             StringBuilder effectBuilder = new StringBuilder();
             StringBuilder combatActionsBuilder = new StringBuilder();
             Document steedDoc = null;
@@ -40,7 +44,6 @@ public class GuParser {
             
             boolean inEffect = false;
             boolean inCombatActions = false;
-
             String currentPath = "Unknown";
 
             Pattern rankPattern = Pattern.compile("\\*Rank\\s+(\\d+)(?:-(\\d+))?\\s+(.+)\\*");
@@ -51,17 +54,12 @@ public class GuParser {
 
                 if (trimmed.startsWith("## ")) {
                     currentPath = trimmed.substring(3)
-                            .replace("$", "")
-                            .replace("\\centerline{", "")
-                            .replace("}", "")
-                            .replace("*", "")
-                            .trim();
+                            .replace("$", "").replace("\\centerline{", "")
+                            .replace("}", "").replace("*", "").trim();
                     continue;
                 }
 
-                if (trimmed.equals("::: columns") || trimmed.equals(":::")) {
-                    continue;
-                }
+                if (trimmed.equals("::: columns") || trimmed.equals(":::")) continue;
 
                 if (trimmed.isEmpty()) {
                     if (inEffect && effectBuilder.length() > 0) effectBuilder.append("\n\n");
@@ -70,10 +68,8 @@ public class GuParser {
                 }
 
                 if (trimmed.startsWith("### ")) {
-                    // SAVE PREVIOUS GU
                     saveGu(collection, currentPath, currentGu, effectBuilder, steedDoc, combatActionsBuilder);
-
-                    // RESET FOR NEW GU
+                    
                     currentGu = new Document("Name", trimmed.substring(4).trim());
                     effectBuilder = new StringBuilder();
                     combatActionsBuilder = new StringBuilder();
@@ -86,6 +82,7 @@ public class GuParser {
 
                 if (currentGu == null) continue;
 
+                // --- Parsing Logic ---
                 if (trimmed.startsWith("*Rank ") && trimmed.endsWith("*")) {
                     Matcher m = rankPattern.matcher(trimmed);
                     if (m.find()) {
@@ -130,7 +127,10 @@ public class GuParser {
                     }
                 } 
                 else if (trimmed.startsWith("\\end{tabular}")) currentTable = null;
-                else if (trimmed.contains("***Combat Actions***")) inCombatActions = true;
+                else if (trimmed.contains("***Combat Actions***")) {
+                    inCombatActions = true;
+                    inEffect = false;
+                }
                 else if (trimmed.startsWith("Effect:")) {
                     inEffect = true;
                     inCombatActions = false;
@@ -140,7 +140,6 @@ public class GuParser {
                 else if (inCombatActions) combatActionsBuilder.append(trimmed).append("\n");
             }
 
-            // FINAL SAVE FOR THE LAST GU IN THE FILE
             saveGu(collection, currentPath, currentGu, effectBuilder, steedDoc, combatActionsBuilder);
             System.out.println("Gu Index successfully refined into MongoDB.");
 
@@ -149,7 +148,6 @@ public class GuParser {
         }
     }
 
-    // THE MISSING PIECE
     private void saveGu(MongoCollection<Document> collection, String currentPath, Document currentGu, 
                         StringBuilder effectBuilder, Document steedDoc, 
                         StringBuilder combatActionsBuilder) {
