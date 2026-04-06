@@ -1,179 +1,316 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import axios from 'axios';
+import './GuDashboard.css';
+
+const PATHS = [
+  'Blood Path','Dark Path','Earth Path','Enslavement Path','Fire Path',
+  'Food Path','Human Path','Ice Path','Information Path','Light Path',
+  'Lightning Path','Luck Path','Metal Path','Poison Path','Refinement Path',
+  'Rule Path','Soul Path','Sound Path','Space Path','Strength Path',
+  'Sword Path','Theft Path','Time Path','Transformation Path','Water Path',
+  'Wind Path','Wisdom Path','Wood Path',
+];
+
+const RANKS = [1, 2, 3, 4, 5];
+
+const TYPES = [
+  'Attack','Manifestation','Guard','Celerity','Divination',
+  'Concealment','Tonic','Container','Catalyst','Carver',
+];
+
+const rangeToMeters = (rangeStr) => {
+  if (!rangeStr) return -1;
+  const s = String(rangeStr).toLowerCase().trim();
+  const num = parseFloat(s);
+  if (isNaN(num)) return -1;
+  if (s.includes('kilometer') || s.includes(' km')) return num * 1000;
+  if (s.includes('mile'))      return num * 1609.34;
+  if (s.includes('foot') || s.includes('feet') || s.includes('ft')) return num * 0.3048;
+  if (s.includes('meter'))     return num;
+  return num;
+};
+
+const FilterDropdown = ({ label, value, onChange, options, placeholder }) => (
+  <div className="gu-filter-group">
+    <span className="gu-filter-label">{label}</span>
+    <div className="gu-select-wrap">
+      <select
+        className={`gu-select${value ? ' has-value' : ''}`}
+        value={value}
+        onChange={e => onChange(e.target.value)}
+      >
+        <option value="">{placeholder}</option>
+        {options.map(opt => (
+          <option key={opt.value ?? opt} value={opt.value ?? opt}>
+            {opt.label ?? opt}
+          </option>
+        ))}
+      </select>
+    </div>
+  </div>
+);
+
+const SortTh = ({ label, sortKey, sortConfig, onSort, className }) => {
+  const active = sortConfig.key === sortKey;
+  return (
+    <th
+      className={`${active ? 'sort-active' : ''} ${className ?? ''}`}
+      onClick={() => onSort(sortKey)}
+    >
+      {label}
+      <span className="sort-arrow">
+        {active ? (sortConfig.direction === 'ascending' ? '↑' : '↓') : ''}
+      </span>
+    </th>
+  );
+};
 
 const GuDashboard = () => {
-  const [guList, setGuList] = useState([]);
-  const [search, setSearch] = useState('');
-  const [sortConfig, setSortConfig] = useState({ key: 'name', direction: 'ascending' });
-  const [expandedId, setExpandedId] = useState(null);
+  const [guList,      setGuList]      = useState([]);
+  const [search,      setSearch]      = useState('');
+  const [sortConfig,  setSortConfig]  = useState({ key: 'name', direction: 'ascending' });
+  const [expandedId,  setExpandedId]  = useState(null);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+
+  const [filterPath, setFilterPath] = useState('');
+  const [filterRank, setFilterRank] = useState('');
+  const [filterType, setFilterType] = useState('');
 
   useEffect(() => {
-    // Fetching from the search endpoint
     axios.get('https://gu-index-b9jp.onrender.com/api/gu/search')
       .then(res => {
-        // Double check in console that this isn't empty!
-        console.log("Fetched Data:", res.data);
+        console.log('Fetched:', res.data);
         setGuList(Array.isArray(res.data) ? res.data : []);
       })
-      .catch(err => console.error("Connection Error:", err));
+      .catch(err => console.error('Fetch error:', err));
   }, []);
 
   const requestSort = (key) => {
-    let direction = 'ascending';
-    if (sortConfig.key === key && sortConfig.direction === 'ascending') {
-      direction = 'descending';
-    }
-    setSortConfig({ key, direction });
+    setSortConfig(prev => ({
+      key,
+      direction: prev.key === key && prev.direction === 'ascending' ? 'descending' : 'ascending',
+    }));
   };
 
+  const clearAll = () => {
+    setFilterPath('');
+    setFilterRank('');
+    setFilterType('');
+    setSearch('');
+  };
+
+  const activeFilterCount = [filterPath, filterRank, filterType].filter(Boolean).length;
+
   const processedGu = useMemo(() => {
-    if (!guList) return [];
-    
-    let filtered = guList.filter(gu => {
-      const searchStr = search.toLowerCase();
-      return (
-        gu.name?.toLowerCase().includes(searchStr) ||
-        gu.path?.toLowerCase().includes(searchStr) ||
-        gu.type?.toLowerCase().includes(searchStr) ||
-        gu.keywords?.some(k => k.toLowerCase().includes(searchStr)) ||
-        gu.rank?.join(',').includes(searchStr)
+    if (!guList.length) return [];
+
+    let out = guList.filter(gu => {
+      const q = search.toLowerCase();
+      const matchSearch = !q || (
+        gu.name?.toLowerCase().includes(q) ||
+        gu.path?.toLowerCase().includes(q) ||
+        gu.type?.toLowerCase().includes(q) ||
+        gu.keywords?.some(k => k.toLowerCase().includes(q))
       );
+      const matchPath = !filterPath || gu.path === filterPath;
+      const matchRank = !filterRank ||
+        (gu.rank && gu.rank.some(r => Number(r) === Number(filterRank)));
+      const matchType = !filterType || gu.type === filterType;
+      return matchSearch && matchPath && matchRank && matchType;
     });
 
     if (sortConfig.key) {
-      filtered.sort((a, b) => {
-        let valA = a[sortConfig.key] ?? '';
-        let valB = b[sortConfig.key] ?? '';
-        
-        if (Array.isArray(valA)) valA = valA[0] || 0;
-        if (Array.isArray(valB)) valB = valB[0] || 0;
-
-        if (valA < valB) return sortConfig.direction === 'ascending' ? -1 : 1;
-        if (valA > valB) return sortConfig.direction === 'ascending' ? 1 : -1;
+      out = [...out].sort((a, b) => {
+        const dir = sortConfig.direction === 'ascending' ? 1 : -1;
+        if (sortConfig.key === 'range') {
+          return (rangeToMeters(a.range) - rangeToMeters(b.range)) * dir;
+        }
+        let va = a[sortConfig.key] ?? '';
+        let vb = b[sortConfig.key] ?? '';
+        if (Array.isArray(va)) va = va[0] ?? 0;
+        if (Array.isArray(vb)) vb = vb[0] ?? 0;
+        if (va < vb) return -dir;
+        if (va > vb) return dir;
         return 0;
       });
     }
-    return filtered;
-  }, [guList, search, sortConfig]);
+    return out;
+  }, [guList, search, sortConfig, filterPath, filterRank, filterType]);
+
+  const rankOptions = RANKS.map(r => ({ value: String(r), label: `Rank ${r}` }));
+  const pathOptions = PATHS.map(p => ({ value: p, label: p.replace(' Path', '') }));
 
   return (
-    <div className="min-h-screen bg-gray-900 text-gray-100 p-4 md:p-8">
-      <div className="max-w-6xl mx-auto">
-        <header className="mb-8">
-          <h1 className="text-4xl font-black text-emerald-500 tracking-tighter mb-2">GU INDEX</h1>
-          <p className="text-gray-400 text-sm">Southern Border Repository • Click rows to expand details</p>
-        </header>
-        
+    <div className="gu-shell">
+      <header className="gu-topbar">
+        <div>
+          <div className="gu-title">GU INDEX</div>
+          <div className="gu-subtitle">click rows to expand</div>
+        </div>
+
         <input
           type="text"
-          placeholder="Search names, paths, or keywords..."
-          className="w-full p-4 mb-6 bg-gray-800 border border-gray-700 rounded-xl focus:ring-2 focus:ring-emerald-500 outline-none transition-all"
-          onChange={(e) => setSearch(e.target.value)}
+          className="gu-search"
+          placeholder="Search names, paths, keywords…"
+          value={search}
+          onChange={e => setSearch(e.target.value)}
         />
 
-        <div className="bg-gray-800 rounded-2xl border border-gray-700 overflow-hidden shadow-2xl">
-          <table className="w-full text-left border-collapse">
-            <thead>
-              <tr className="bg-gray-900/50 text-gray-400 text-xs uppercase tracking-widest border-b border-gray-700">
-                {['Name', 'Path', 'Rank', 'Type', 'Cost', 'Range', 'Health'].map(h => (
-                  <th 
-                    key={h}
-                    className="p-4 cursor-pointer hover:text-emerald-400 transition"
-                    onClick={() => requestSort(h.toLowerCase())}
-                  >
-                    {h} {sortConfig.key === h.toLowerCase() ? (sortConfig.direction === 'ascending' ? '↑' : '↓') : ''}
-                  </th>
-                ))}
-              </tr>
-            </thead>
-            <tbody className="divide-y divide-gray-700/50">
-              {processedGu.map(gu => (
-                <React.Fragment key={gu.id || gu.name}>
-                  {/* MAIN THIN ROW */}
-                  <tr 
-                    onClick={() => setExpandedId(expandedId === gu.id ? null : gu.id)}
-                    className="hover:bg-emerald-500/5 cursor-pointer transition-colors group"
-                  >
-                    <td className="p-4 font-bold text-emerald-400 group-hover:text-emerald-300">{gu.name}</td>
-                    <td className="p-4 text-sm text-gray-400">{gu.path}</td>
-                    <td className="p-4 text-sm">
-                        {gu.rank?.length > 1 ? `${gu.rank[0]}-${gu.rank[gu.rank.length-1]}` : gu.rank?.[0]}
-                    </td>
-                    <td className="p-4 text-sm">{gu.type}</td>
-                    <td className="p-4 text-sm">{gu.cost}</td>
-                    <td className="p-4 text-sm">{gu.range}</td>
-                    <td className="p-4 text-sm">{gu.health}</td>
-                  </tr>
+        <button
+          className="gu-filter-toggle"
+          onClick={() => setSidebarOpen(o => !o)}
+        >
+          ⚙ Filters
+          {activeFilterCount > 0 && <span className="badge">{activeFilterCount}</span>}
+        </button>
 
-                  {/* EXPANDED CONTENT ROW */}
-                  {expandedId === gu.id && (
-                    <tr className="bg-gray-900/40 border-l-4 border-emerald-500 animate-in fade-in slide-in-from-top-1 duration-200">
-                      <td colSpan="7" className="p-6">
-                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                          {/* Effect & Lore */}
-                          <div className="space-y-4">
-                            <div>
-                              <h4 className="text-[10px] font-black text-emerald-500 uppercase mb-2">Primary Effect</h4>
-                              <p className="text-gray-200 leading-relaxed text-sm whitespace-pre-wrap bg-gray-800/50 p-4 rounded-lg border border-gray-700">
-                                {gu.effect || "No effect description provided."}
-                              </p>
-                            </div>
-                            <div className="flex gap-4">
-                              <div className="bg-gray-800 p-2 rounded px-3 border border-gray-700">
-                                <span className="text-[10px] text-gray-500 block uppercase">Food</span>
-                                <span className="text-xs">{gu.food || "Unknown"}</span>
-                              </div>
-                              <div className="flex-1 bg-gray-800 p-2 rounded px-3 border border-gray-700">
-                                <span className="text-[10px] text-gray-500 block uppercase">Keywords</span>
-                                <div className="flex flex-wrap gap-1 mt-1">
-                                    {gu.keywords?.map(k => (
-                                        <span key={k} className="bg-emerald-500/10 text-emerald-400 text-[10px] px-1.5 py-0.5 rounded border border-emerald-500/20">{k}</span>
-                                    ))}
+        <div className="gu-count">
+          <strong>{processedGu.length}</strong> / {guList.length}
+        </div>
+      </header>
+
+      <div className="gu-body">
+        <aside className={`gu-sidebar${sidebarOpen ? ' open' : ''}`}>
+          <div className="gu-sidebar-header">
+            <span className="gu-sidebar-title">Filters</span>
+            {activeFilterCount > 0 && (
+              <button className="gu-clear-btn" onClick={clearAll}>Clear all</button>
+            )}
+          </div>
+
+          <FilterDropdown
+            label="Path"
+            value={filterPath}
+            onChange={setFilterPath}
+            options={pathOptions}
+            placeholder="All paths"
+          />
+
+          <FilterDropdown
+            label="Rank"
+            value={filterRank}
+            onChange={setFilterRank}
+            options={rankOptions}
+            placeholder="All ranks"
+          />
+
+          <FilterDropdown
+            label="Type"
+            value={filterType}
+            onChange={setFilterType}
+            options={TYPES}
+            placeholder="All types"
+          />
+        </aside>
+
+        <main className="gu-main">
+          <div className="gu-table-wrap">
+            <table className="gu-table">
+              <thead>
+                <tr>
+                  <SortTh label="Name"   sortKey="name"   sortConfig={sortConfig} onSort={requestSort} />
+                  <SortTh label="Path"   sortKey="path"   sortConfig={sortConfig} onSort={requestSort} />
+                  <SortTh label="Rank"   sortKey="rank"   sortConfig={sortConfig} onSort={requestSort} />
+                  <SortTh label="Type"   sortKey="type"   sortConfig={sortConfig} onSort={requestSort} />
+                  <SortTh label="Cost"   sortKey="cost"   sortConfig={sortConfig} onSort={requestSort} className="col-cost" />
+                  <SortTh label="Range"  sortKey="range"  sortConfig={sortConfig} onSort={requestSort} className="col-range" />
+                  <SortTh label="Health" sortKey="health" sortConfig={sortConfig} onSort={requestSort} className="col-health" />
+                </tr>
+              </thead>
+              <tbody>
+                {processedGu.length === 0 ? (
+                  <tr>
+                    <td colSpan="7">
+                      <div className="gu-empty">
+                        {guList.length === 0 ? 'Loading…' : 'No results match your filters.'}
+                      </div>
+                    </td>
+                  </tr>
+                ) : processedGu.map(gu => (
+                  <React.Fragment key={gu.id || gu.name}>
+                    <tr
+                      className="gu-row"
+                      onClick={() => setExpandedId(expandedId === gu.id ? null : gu.id)}
+                    >
+                      <td className="cell-name">{gu.name}</td>
+                      <td className="cell-path">{gu.path}</td>
+                      <td className="cell-rank">
+                        {gu.rank?.length > 1
+                          ? `${gu.rank[0]}–${gu.rank[gu.rank.length - 1]}`
+                          : gu.rank?.[0]}
+                      </td>
+                      <td><span className="type-badge">{gu.type}</span></td>
+                      <td className="cell-cost col-cost">{gu.cost}</td>
+                      <td className="cell-range col-range">{gu.range}</td>
+                      <td className="cell-health col-health">{gu.health}</td>
+                    </tr>
+
+                    {expandedId === gu.id && (
+                      <tr className="gu-expanded-row">
+                        <td colSpan="7">
+                          <div className="gu-expanded-inner">
+                            <div className="gu-expanded-grid">
+                              <div>
+                                <div className="expand-section-title">Primary Effect</div>
+                                <div className="effect-box">
+                                  {gu.effect || 'No effect description provided.'}
+                                </div>
+                                <div className="meta-row">
+                                  <div className="meta-chip">
+                                    <span className="meta-chip-label">Food</span>
+                                    <span className="meta-chip-value">{gu.food || 'Unknown'}</span>
+                                  </div>
+                                  <div className="meta-chip" style={{ flex: 1 }}>
+                                    <span className="meta-chip-label">Keywords</span>
+                                    <div className="keyword-list">
+                                      {gu.keywords?.map(k => (
+                                        <span key={k} className="keyword-tag">{k}</span>
+                                      ))}
+                                    </div>
+                                  </div>
                                 </div>
                               </div>
-                            </div>
-                          </div>
 
-                          {/* Steed Stats Display */}
-                          {gu.steed && (
-                            <div className="bg-gray-900 p-5 rounded-xl border border-emerald-500/20 shadow-inner">
-                              <div className="flex justify-between items-center border-b border-gray-800 pb-3 mb-4">
-                                <span className="text-xs font-bold text-gray-400 uppercase tracking-tighter">Steed Statblock</span>
-                                <span className="text-xs bg-emerald-600 px-2 py-0.5 rounded text-white font-bold">CR {gu.steed.cr}</span>
-                              </div>
-                              <div className="grid grid-cols-2 gap-6 text-xs">
-                                <ul className="space-y-1">
-                                    {gu.steed.attributes && Object.entries(gu.steed.attributes).map(([k,v]) => (
-                                        <li key={k} className="flex justify-between text-gray-400 border-b border-gray-800/50 pb-1">
-                                            <span>{k}</span> <span className="text-emerald-400 font-mono font-bold">{v}</span>
+                              {gu.steed && (
+                                <div className="steed-block">
+                                  <div className="steed-header">
+                                    <span className="steed-header-label">Steed Statblock</span>
+                                    <span className="steed-cr">CR {gu.steed.cr}</span>
+                                  </div>
+                                  <div className="steed-stats-grid">
+                                    <ul className="steed-stat-list">
+                                      {gu.steed.attributes && Object.entries(gu.steed.attributes).map(([k, v]) => (
+                                        <li key={k}><span>{k}</span><span>{v}</span></li>
+                                      ))}
+                                    </ul>
+                                    <ul className="steed-stat-list">
+                                      {gu.steed.skills && Object.entries(gu.steed.skills).map(([k, v]) => (
+                                        <li key={k}>
+                                          <span style={{ overflow:'hidden', textOverflow:'ellipsis', whiteSpace:'nowrap' }}>{k}</span>
+                                          <span>{v}</span>
                                         </li>
-                                    ))}
-                                </ul>
-                                <ul className="space-y-1">
-                                    {gu.steed.skills && Object.entries(gu.steed.skills).map(([k,v]) => (
-                                        <li key={k} className="flex justify-between text-gray-400 border-b border-gray-800/50 pb-1">
-                                            <span className="truncate pr-2">{k}</span> <span className="text-emerald-400 font-mono font-bold">{v}</span>
-                                        </li>
-                                    ))}
-                                </ul>
-                              </div>
-                              {gu.steed.combatActions && (
-                                <div className="mt-4 pt-3 border-t border-gray-800">
-                                    <span className="text-[10px] text-gray-500 block uppercase mb-1">Combat Actions</span>
-                                    <p className="text-[11px] text-gray-400 italic leading-snug">{gu.steed.combatActions}</p>
+                                      ))}
+                                    </ul>
+                                  </div>
+                                  {gu.steed.combatActions && (
+                                    <div className="steed-actions">
+                                      <div className="steed-actions-label">Combat Actions</div>
+                                      <p className="steed-actions-text">{gu.steed.combatActions}</p>
+                                    </div>
+                                  )}
                                 </div>
                               )}
                             </div>
-                          )}
-                        </div>
-                      </td>
-                    </tr>
-                  )}
-                </React.Fragment>
-              ))}
-            </tbody>
-          </table>
-        </div>
+                          </div>
+                        </td>
+                      </tr>
+                    )}
+                  </React.Fragment>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </main>
       </div>
     </div>
   );
