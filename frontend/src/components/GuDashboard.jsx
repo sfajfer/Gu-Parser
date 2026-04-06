@@ -9,7 +9,7 @@ const GuDashboard = () => {
 
   useEffect(() => {
     // Fetching from the search endpoint
-    axios.get('https://gu-index.onrender.com/api/search')
+    axios.get('https://gu-index-b9jp.onrender.com/')
       .then(res => {
         // Double check in console that this isn't empty!
         console.log("Fetched Data:", res.data);
