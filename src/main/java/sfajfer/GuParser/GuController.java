@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 
 @RestController
 @RequestMapping("/api/gu")
-@CrossOrigin(origins = "guindex-sand.vercel.app")
+@CrossOrigin(origins = "https://guindex-sand.vercel.app")
 public class GuController {
 
     @Autowired
