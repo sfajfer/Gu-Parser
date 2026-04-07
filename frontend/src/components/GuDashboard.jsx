@@ -20,6 +20,28 @@ const TYPES = [
   'Concealment','Tonic','Container','Catalyst','Carver',
 ];
 
+const KEYWORD_FILTERS = [
+  { key: 'Deductive',      label: 'Deductive',      match: kws => kws.some(k => k.toLowerCase() === 'deductive') },
+  { key: 'Dao',            label: 'Dao',             match: kws => kws.some(k => k.toLowerCase() === 'dao') },
+  { key: 'Expendable',     label: 'Expendable',      match: kws => kws.some(k => k.toLowerCase().startsWith('expendable')) },
+  { key: 'Extinct',        label: 'Extinct',         match: kws => kws.some(k => k.toLowerCase() === 'extinct') },
+  { key: 'Fast',           label: 'Fast',            match: kws => kws.some(k => k.toLowerCase() === 'fast') },
+  { key: 'Ingredient',     label: 'Ingredient',      match: kws => kws.some(k => k.toLowerCase() === 'ingredient') },
+  { key: 'Investigative',  label: 'Investigative',   match: kws => kws.some(k => k.toLowerCase().startsWith('investigative')) },
+  { key: 'Low Vitality',   label: 'Low Vitality',    match: kws => kws.some(k => k.toLowerCase() === 'low vitality') },
+  { key: 'Piercing',       label: 'Piercing',        match: kws => kws.some(k => k.toLowerCase() === 'piercing') },
+  { key: 'Shield',         label: 'Shield',          match: kws => kws.some(k => k.toLowerCase() === 'shield') },
+  { key: 'Size',           label: 'Size',            match: kws => kws.some(k => ['small','medium','large','huge'].includes(k.toLowerCase())) },
+  { key: 'Steed',          label: 'Steed',           match: kws => kws.some(k => k.toLowerCase() === 'steed') },
+  { key: 'Supplementary',  label: 'Supplementary',   match: kws => kws.some(k => k.toLowerCase().startsWith('supplement')) },
+  { key: 'Sustained',      label: 'Sustained',       match: kws => kws.some(k => k.toLowerCase() === 'sustained') },
+  { key: 'Transformation', label: 'Transformation',  match: kws => kws.some(k => k.toLowerCase() === 'transformation') },
+  { key: 'Undodgeable',    label: 'Undodgeable',     match: kws => kws.some(k => k.toLowerCase() === 'undodgeable') },
+  { key: 'Unreactable',    label: 'Unreactable',     match: kws => kws.some(k => k.toLowerCase() === 'unreactable') },
+  { key: 'Unrefinable',    label: 'Unrefinable',     match: kws => kws.some(k => k.toLowerCase() === 'unrefinable') },
+  { key: 'Vital',          label: 'Vital',           match: kws => kws.some(k => k.toLowerCase() === 'vital') },
+];
+
 const rangeToMeters = (rangeStr) => {
   if (!rangeStr) return -1;
   const s = String(rangeStr).toLowerCase().trim();
@@ -32,7 +54,7 @@ const rangeToMeters = (rangeStr) => {
   return num;
 };
 
-// NEW HELPER: Extracts the first number found in a string, else returns the original string
+// Extracts the first number found in a string, else returns the original string
 const extractNumber = (val) => {
   if (val === null || val === undefined) return '';
   const s = String(val);
@@ -60,6 +82,30 @@ const FilterDropdown = ({ label, value, onChange, options, placeholder }) => (
   </div>
 );
 
+const KeywordCheckboxes = ({ selected, onToggle }) => (
+  <div className="gu-filter-group">
+    <span className="gu-filter-label">Keywords</span>
+    <div className="keyword-checkbox-grid">
+      {KEYWORD_FILTERS.map(({ key, label }) => {
+        const checked = selected.has(key);
+        return (
+          <label
+            key={key}
+            className={`keyword-checkbox-label${checked ? ' checked' : ''}`}
+          >
+            <input
+              type="checkbox"
+              checked={checked}
+              onChange={() => onToggle(key)}
+            />
+            {" " + label}
+          </label>
+        );
+      })}
+    </div>
+  </div>
+);
+
 const SortTh = ({ label, sortKey, sortConfig, onSort, className }) => {
   const active = sortConfig.key === sortKey;
   return (
@@ -76,16 +122,16 @@ const SortTh = ({ label, sortKey, sortConfig, onSort, className }) => {
 };
 
 const GuDashboard = () => {
-  const [guList,      setGuList]      = useState(guData || []);
-  const [search,      setSearch]      = useState('');
-  const [sortConfig,  setSortConfig]  = useState({ key: 'name', direction: 'ascending' });
-  const [expandedId,  setExpandedId]  = useState(null);
-  const [sidebarOpen, setSidebarOpen] = useState(false);
-  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
-
-  const [filterPath, setFilterPath] = useState('');
-  const [filterRank, setFilterRank] = useState('');
-  const [filterType, setFilterType] = useState('');
+  const [guList,         setGuList]         = useState(guData || []);
+  const [search,         setSearch]         = useState('');
+  const [sortConfig,     setSortConfig]     = useState({ key: 'name', direction: 'ascending' });
+  const [expandedId,     setExpandedId]     = useState(null);
+  const [sidebarOpen,    setSidebarOpen]    = useState(false);
+  const [screenWidth,    setScreenWidth]    = useState(window.innerWidth);
+  const [filterPath,     setFilterPath]     = useState('');
+  const [filterRank,     setFilterRank]     = useState('');
+  const [filterType,     setFilterType]     = useState('');
+  const [filterKeywords, setFilterKeywords] = useState(new Set());
 
   useEffect(() => {
     const handleResize = () => setScreenWidth(window.innerWidth);
@@ -104,6 +150,14 @@ const GuDashboard = () => {
       .catch(err => console.error('Fetch error:', err));
   }, []);
 
+  const toggleKeyword = (key) => {
+    setFilterKeywords(prev => {
+      const next = new Set(prev);
+      next.has(key) ? next.delete(key) : next.add(key);
+      return next;
+    });
+  };
+
   const requestSort = (key) => {
     setSortConfig(prev => ({
       key,
@@ -116,9 +170,11 @@ const GuDashboard = () => {
     setFilterRank('');
     setFilterType('');
     setSearch('');
+    setFilterKeywords(new Set());
   };
 
-  const activeFilterCount = [filterPath, filterRank, filterType].filter(Boolean).length;
+  const activeFilterCount =
+    [filterPath, filterRank, filterType].filter(Boolean).length + filterKeywords.size;
 
   const processedGu = useMemo(() => {
     if (!guList.length) return [];
@@ -135,7 +191,16 @@ const GuDashboard = () => {
       const matchRank = !filterRank ||
         (gu.rank && gu.rank.some(r => Number(r) === Number(filterRank)));
       const matchType = !filterType || gu.type === filterType;
-      return matchSearch && matchPath && matchRank && matchType;
+
+      // ALL selected keywords must be present on the gu
+      const matchKeywords = filterKeywords.size === 0 || (
+        gu.keywords && [...filterKeywords].every(key => {
+          const filter = KEYWORD_FILTERS.find(f => f.key === key);
+          return filter?.match(gu.keywords);
+        })
+      );
+
+      return matchSearch && matchPath && matchRank && matchType && matchKeywords;
     });
 
     if (sortConfig.key) {
@@ -162,7 +227,7 @@ const GuDashboard = () => {
           
           if (rA !== -1 && rB !== -1) return (rA - rB) * dir;
           
-          if (rA !== -1) return -1 * dir; 
+          if (rA !== -1) return -1 * dir;
           if (rB !== -1) return 1 * dir;
           
           const strA = String(a.range || '').toLowerCase();
@@ -206,7 +271,7 @@ const GuDashboard = () => {
       });
     }
     return out;
-  }, [guList, search, sortConfig, filterPath, filterRank, filterType]);
+  }, [guList, search, sortConfig, filterPath, filterRank, filterType, filterKeywords]);
 
   const rankOptions = RANKS.map(r => ({ value: String(r), label: `Rank ${r}` }));
   const pathOptions = PATHS.map(p => ({ value: p, label: p.replace(' Path', '') }));
@@ -222,7 +287,7 @@ const GuDashboard = () => {
         <input
           type="text"
           className="gu-search"
-          placeholder="Search names, paths, keywords…"
+          placeholder="Search..."
           value={search}
           onChange={e => setSearch(e.target.value)}
         />
@@ -272,6 +337,11 @@ const GuDashboard = () => {
             options={TYPES}
             placeholder="All types"
           />
+
+          <KeywordCheckboxes
+            selected={filterKeywords}
+            onToggle={toggleKeyword}
+          />
         </aside>
 
         <main className="gu-main">
@@ -282,12 +352,10 @@ const GuDashboard = () => {
                   <SortTh label="Name"   sortKey="name"   sortConfig={sortConfig} onSort={requestSort} />
                   <SortTh label="Path"   sortKey="path"   sortConfig={sortConfig} onSort={requestSort} />
                   <SortTh label="Rank"   sortKey="rank"   sortConfig={sortConfig} onSort={requestSort} />
-                  { screenWidth >= 718 && (
-                    <>
-                      <SortTh label="Type"   sortKey="type"   sortConfig={sortConfig} onSort={requestSort} className="col-type" />
-                    </>
+                  {screenWidth >= 718 && (
+                    <SortTh label="Type" sortKey="type" sortConfig={sortConfig} onSort={requestSort} className="col-type" />
                   )}
-                  { screenWidth >= 768 && (
+                  {screenWidth >= 768 && (
                     <>
                       <SortTh label="Cost"   sortKey="cost"   sortConfig={sortConfig} onSort={requestSort} className="col-cost" />
                       <SortTh label="Range"  sortKey="range"  sortConfig={sortConfig} onSort={requestSort} className="col-range" />
@@ -318,12 +386,10 @@ const GuDashboard = () => {
                           ? `${gu.rank[0]}–${gu.rank[gu.rank.length - 1]}`
                           : gu.rank?.[0]}
                       </td>
-                      { screenWidth >= 710 && (
-                        <>
-                          <td><span className="type-badge">{gu.type}</span></td>
-                        </>
+                      {screenWidth >= 710 && (
+                        <td><span className="type-badge">{gu.type}</span></td>
                       )}
-                      { screenWidth >= 768 && (
+                      {screenWidth >= 768 && (
                         <>
                           <td className="cell-cost col-cost">{gu.cost}</td>
                           <td className="cell-range col-range">{gu.range}</td>
@@ -357,7 +423,7 @@ const GuDashboard = () => {
                                       <span className="mobile-stat-value">{gu.range}</span>
                                     </div>
                                   )}
-                                  <br></br>
+                                  <br />
                                   <span className="type-badge">{gu.type}</span>
                                 </div>
 
@@ -396,7 +462,7 @@ const GuDashboard = () => {
                                     <ul className="steed-stat-list">
                                       {gu.steed.skills && Object.entries(gu.steed.skills).map(([k, v]) => (
                                         <li key={k}>
-                                          <span style={{ overflow:'hidden', textOverflow:'ellipsis', whiteSpace:'nowrap' }}>{k}</span>
+                                          <span style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{k}</span>
                                           <span>{v}</span>
                                         </li>
                                       ))}
