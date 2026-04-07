@@ -108,10 +108,7 @@ public class GuParser {
                 }
                 else if (trimmed.startsWith("Cost:"))    currentGu.append("Cost",  trimmed.substring(5).trim());
                 else if (trimmed.startsWith("Range:"))   currentGu.append("Range", trimmed.substring(6).trim());
-                else if (trimmed.startsWith("Health:")) {
-                    try { currentGu.append("Health", Integer.parseInt(trimmed.substring(7).trim())); }
-                    catch (NumberFormatException e) { currentGu.append("Health", 0); }
-                }
+                else if (trimmed.startsWith("Health:")) currentGu.append("Health", trimmed.substring(7).trim());
                 else if (trimmed.startsWith("Food:"))    currentGu.append("Food", trimmed.substring(5).trim());
                 else if (trimmed.startsWith("Keywords:")) {
                     Matcher m = keywordPattern.matcher(trimmed);

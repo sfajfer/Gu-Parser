@@ -31,7 +31,7 @@ public class Gu {
     private String range;
 
     @Field("Health")
-    private Integer health;
+    private String health;
 
     @Field("Food")
     private String food;
@@ -68,8 +68,8 @@ public class Gu {
     public String getRange() { return range; }
     public void setRange(String range) { this.range = range; }
 
-    public Integer getHealth() { return health; }
-    public void setHealth(Integer health) { this.health = health; }
+    public String getHealth() { return health; }
+    public void setHealth(String health) { this.health = health; }
 
     public String getFood() { return food; }
     public void setFood(String food) { this.food = food; }
