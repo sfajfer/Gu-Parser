@@ -5059,7 +5059,7 @@ Food: <!-- TODO ->
 
 Effect: A green sickle curves towards an enemy within range. Make an attack roll; on a hit, deal 5 poison damage directly to their hit points and apply the *poisoned* condition with the following effect:
 
-- At the end of each of your turns, your Movement is reduced by 2, to a minimum of 1.
+- At the end of each of your turns, your Movement is reduced by 1, to a minimum of 1.
 
 This condition lasts for 10 minutes.
 
@@ -8742,7 +8742,7 @@ Food: Consumes dreams when the owner sleeps
 Effect: Awaken a sleeping target. Can be activated as a *Reaction* to you or a creature within range falling to 0 hit points to give them a -{20, 40, 60} bonus to their **Perseverance** attribute test.
 
 ### Awaken Cloud Gu
-*Rank 4 Catalyst*
+*Rank 4 Divination*
 
 Cost: 40 portions
 
@@ -9170,7 +9170,7 @@ Whenever you make an attack roll from a Gu effect, you may consume an Intent Bla
 *The main recipe for Rank 3 Sharp Intent Gu combines Rank 2 Sabre Gu with many Rank 1 Little Will Gu*
 
 ### Space Thoughts Gu
-*Rank 1-5 Catalyst*
+*Rank 1-5 Divination*
 
 Cost: 30 portions
 

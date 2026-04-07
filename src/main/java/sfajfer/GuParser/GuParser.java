@@ -56,6 +56,7 @@ public class GuParser {
 
             boolean inEffect = false;
             boolean inCombatActions = false;
+            boolean inPath = false;
             String currentPath = "Unknown";
 
             Pattern rankPattern = Pattern.compile("\\*Rank\\s+([\\d,\\- ]+?)\\s+([A-Za-z].*)\\*");
@@ -68,10 +69,16 @@ public class GuParser {
                     currentPath = trimmed.substring(3)
                             .replace("$", "").replace("\\centerline{", "")
                             .replace("}", "").replace("*", "").trim();
+                    inPath = true;
                     continue;
                 }
 
-                if (trimmed.equals("::: columns") || trimmed.equals(":::") || trimmed.equals("\newpage")) continue;
+                if (trimmed.startsWith("*") && inPath) {
+                    inPath = false;
+                    continue;
+                }
+
+                if (trimmed.equals("::: columns") || trimmed.equals(":::") || trimmed.equals("\\newpage")) continue;
 
                 if (trimmed.isEmpty()) {
                     if (inEffect && effectBuilder.length() > 0) effectBuilder.append("\n\n");
