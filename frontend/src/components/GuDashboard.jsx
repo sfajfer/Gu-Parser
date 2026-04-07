@@ -279,7 +279,11 @@ const GuDashboard = () => {
                   <SortTh label="Name"   sortKey="name"   sortConfig={sortConfig} onSort={requestSort} />
                   <SortTh label="Path"   sortKey="path"   sortConfig={sortConfig} onSort={requestSort} />
                   <SortTh label="Rank"   sortKey="rank"   sortConfig={sortConfig} onSort={requestSort} />
-                  <SortTh label="Type"   sortKey="type"   sortConfig={sortConfig} onSort={requestSort} />
+                  { screenWidth >= 718 && (
+                    <>
+                      <SortTh label="Type"   sortKey="type"   sortConfig={sortConfig} onSort={requestSort} className="col-type" />
+                    </>
+                  )}
                   { screenWidth >= 768 && (
                     <>
                       <SortTh label="Cost"   sortKey="cost"   sortConfig={sortConfig} onSort={requestSort} className="col-cost" />
@@ -311,7 +315,11 @@ const GuDashboard = () => {
                           ? `${gu.rank[0]}–${gu.rank[gu.rank.length - 1]}`
                           : gu.rank?.[0]}
                       </td>
-                      <td><span className="type-badge">{gu.type}</span></td>
+                      { screenWidth >= 710 && (
+                        <>
+                          <td><span className="type-badge">{gu.type}</span></td>
+                        </>
+                      )}
                       { screenWidth >= 768 && (
                         <>
                           <td className="cell-cost col-cost">{gu.cost}</td>
