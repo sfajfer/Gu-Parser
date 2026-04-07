@@ -283,8 +283,6 @@ table.gu-table {
   opacity: 0.8;
 }
 
-.gu-table tbody { }
-
 .gu-table tbody tr.gu-row {
   border-bottom: 1px solid var(--border-dim);
   cursor: pointer;

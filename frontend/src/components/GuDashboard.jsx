@@ -80,10 +80,17 @@ const GuDashboard = () => {
   const [sortConfig,  setSortConfig]  = useState({ key: 'name', direction: 'ascending' });
   const [expandedId,  setExpandedId]  = useState(null);
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
   const [filterPath, setFilterPath] = useState('');
   const [filterRank, setFilterRank] = useState('');
   const [filterType, setFilterType] = useState('');
+
+  useEffect(() => {
+    const handleResize = () => setScreenWidth(window.innerWidth);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   useEffect(() => {
     axios.get('https://gu-index-b9jp.onrender.com/api/gu/search')
@@ -273,9 +280,13 @@ const GuDashboard = () => {
                   <SortTh label="Path"   sortKey="path"   sortConfig={sortConfig} onSort={requestSort} />
                   <SortTh label="Rank"   sortKey="rank"   sortConfig={sortConfig} onSort={requestSort} />
                   <SortTh label="Type"   sortKey="type"   sortConfig={sortConfig} onSort={requestSort} />
-                  <SortTh label="Cost"   sortKey="cost"   sortConfig={sortConfig} onSort={requestSort} className="col-cost" />
-                  <SortTh label="Range"  sortKey="range"  sortConfig={sortConfig} onSort={requestSort} className="col-range" />
-                  <SortTh label="Health" sortKey="health" sortConfig={sortConfig} onSort={requestSort} className="col-health" />
+                  { screenWidth >= 768 && (
+                    <>
+                      <SortTh label="Cost"   sortKey="cost"   sortConfig={sortConfig} onSort={requestSort} className="col-cost" />
+                      <SortTh label="Range"  sortKey="range"  sortConfig={sortConfig} onSort={requestSort} className="col-range" />
+                      <SortTh label="Health" sortKey="health" sortConfig={sortConfig} onSort={requestSort} className="col-health" />
+                    </>
+                  )}
                 </tr>
               </thead>
               <tbody>
@@ -301,9 +312,13 @@ const GuDashboard = () => {
                           : gu.rank?.[0]}
                       </td>
                       <td><span className="type-badge">{gu.type}</span></td>
-                      <td className="cell-cost col-cost">{gu.cost}</td>
-                      <td className="cell-range col-range">{gu.range}</td>
-                      <td className="cell-health col-health">{gu.health}</td>
+                      { screenWidth >= 768 && (
+                        <>
+                          <td className="cell-cost col-cost">{gu.cost}</td>
+                          <td className="cell-range col-range">{gu.range}</td>
+                          <td className="cell-health col-health">{gu.health}</td>
+                        </>
+                      )}
                     </tr>
 
                     {expandedId === gu.id && (
@@ -333,7 +348,7 @@ const GuDashboard = () => {
                                   )}
                                 </div>
 
-                                <div className="expand-section-title">Primary Effect</div>
+                                <div className="expand-section-title">Effect</div>
                                 <div className="effect-box">
                                   <Markdown>{gu.effect}</Markdown>
                                 </div>
