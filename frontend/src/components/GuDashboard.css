@@ -27,7 +27,7 @@ body {
   background: var(--bg-base);
   color: var(--text-primary);
   font-family: var(--font-mono);
-  font-size: 13px;
+  font-size: 16px;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
@@ -54,7 +54,6 @@ body {
 
 .gu-title {
   font-family: var(--font-display);
-  font-size: 3rem;
   color: var(--accent);
   letter-spacing: 0.04em;
   line-height: 1;
@@ -62,7 +61,6 @@ body {
 }
 
 .gu-subtitle {
-  font-size: 10px;
   color: var(--text-faint);
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -91,7 +89,6 @@ body {
 
 .gu-count {
   margin-left: auto;
-  font-size: 11px;
   color: var(--text-muted);
   white-space: nowrap;
   flex-shrink: 0;
@@ -108,7 +105,6 @@ body {
   border-radius: var(--radius-sm);
   color: var(--text-muted);
   font-family: var(--font-mono);
-  font-size: 11px;
   cursor: pointer;
   transition: border-color var(--transition), color var(--transition);
 }
@@ -118,7 +114,6 @@ body {
   color: var(--bg-base);
   border-radius: 999px;
   padding: 1px 6px;
-  font-size: 10px;
   font-weight: 500;
 }
 
@@ -323,7 +318,7 @@ table.gu-table {
   display: inline-block;
   padding: 2px 8px;
   border-radius: 999px;
-  font-size: 10px;
+  font-size: 14px;
   letter-spacing: 0.05em;
   background: var(--bg-raised);
   border: 1px solid var(--border);
@@ -372,7 +367,7 @@ tr.gu-expanded-row {
   border-radius: var(--radius-sm);
   padding: 16px;
   color: var(--text-primary);
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.6;
   white-space: pre-wrap;  
   word-wrap: break-word;  
@@ -380,6 +375,11 @@ tr.gu-expanded-row {
   text-align: left;       
   width: 100%;
   display: block;
+
+  strong {
+    color: var(--accent);
+    font-size: 16px;
+  }
 }
 
 .meta-row {
@@ -411,15 +411,17 @@ tr.gu-expanded-row {
   flex-wrap: wrap;
   gap: 4px;
   margin-top: 4px;
+  justify-content: center;
 }
 
 .keyword-tag {
   background: var(--accent-dim);
   border: 1px solid rgba(52,211,153,0.2);
   color: var(--accent);
-  font-size: 10px;
+  font-size: 14px;
   padding: 2px 6px;
   border-radius: 4px;
+
 }
 
 /* Steed statblock */

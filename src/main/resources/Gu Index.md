@@ -3363,7 +3363,7 @@ If the creature cannot see or hear, Deafening Flash Gu has no effect on them.
 
 ### Flash Blink Gu
 
-*Rank 1 attack*
+*Rank 1 Attack*
 
 Cost: 2 portions
 
@@ -4697,9 +4697,9 @@ Cost: 60 portions
 
 Range: None
 
-Health: 
+Health: 3
 
-Food: 
+Food: <!-- TODO ->
 
 Keywords: [**Large**]
 
@@ -5770,7 +5770,7 @@ Effect: You read through a soul that you touch over the course of {8 hours, 1 ho
 
 *Rank 3 Divination*
 
-Cost: 2 primeval essence
+Cost: 2 portions
 
 Range: Self
 
@@ -6793,7 +6793,7 @@ Food: 1 kg of shattered glass (1/4 primeval stone)
 Effect: You throw an *invisible* 1 meter wide curved blade in an 8 meter long line. The first creature hit takes 30 rending damage. If this damage is dealt to a creature's hit points, they gain *bleeding 2*.
 
 ### Rend Gu
-*Rank 3 attack*
+*Rank 3 Attack*
 
 Previous Rank: Slash Gu
 
@@ -7096,7 +7096,7 @@ Keywords: [**Dao**], [**Expendable**]
 Effect: A small pocket of Theft Path dao is placed within the primeval sea of your **Aperture**. [**Investigative**] Gu of rank {1, 2, 3, 4, 5} and lower that glimpse inside your aperture cannot see the pocket or anything inside of it. You can stow or withdraw an object or Gu of rank {1, 2, 3, 4, 5} or lower from the pocket as a *Bonus Action*. If an object, it cannot be larger than [Small]; the pocket can store up to {2, 5, 12, 30, 80} kilograms worth of objects and any number of Gu.
 
 ### Steal Luck Gu
-*Rank 1 attack*
+*Rank 1 Attack*
 
 Cost: 30 portions
 
@@ -7756,7 +7756,7 @@ Cost: 10 portions
 
 Range: Self
 
-Health: 
+Health: 2
 
 Food: 10 kg rotting *human* flesh
 
@@ -8391,7 +8391,7 @@ Effect: You are assailed with the feeling of your flesh and bones melting and re
 
 ### Soul Bubble Gu
 
-*Rank 2-3*
+*Rank 2-3 Catalyst*
 
 Cost: 60 portions
 

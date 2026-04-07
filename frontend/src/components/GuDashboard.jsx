@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
+import Markdown from 'react-markdown'
 import axios from 'axios';
 import './GuDashboard.css';
 
@@ -28,6 +29,14 @@ const rangeToMeters = (rangeStr) => {
   if (s.includes('foot') || s.includes('feet') || s.includes('ft')) return num * 0.3048;
   if (s.includes('meter'))     return num;
   return num;
+};
+
+// NEW HELPER: Extracts the first number found in a string, else returns the original string
+const extractNumber = (val) => {
+  if (val === null || val === undefined) return '';
+  const s = String(val);
+  const match = s.match(/-?\d+(\.\d+)?/);
+  return match ? parseFloat(match[0]) : s;
 };
 
 const FilterDropdown = ({ label, value, onChange, options, placeholder }) => (
@@ -122,15 +131,67 @@ const GuDashboard = () => {
     if (sortConfig.key) {
       out = [...out].sort((a, b) => {
         const dir = sortConfig.direction === 'ascending' ? 1 : -1;
-        if (sortConfig.key === 'range') {
-          return (rangeToMeters(a.range) - rangeToMeters(b.range)) * dir;
+        const key = sortConfig.key;
+
+        // --- RANK SORTING ---
+        if (key === 'rank') {
+          const aMin = Number(a.rank?.[0] ?? 0);
+          const bMin = Number(b.rank?.[0] ?? 0);
+          if (aMin !== bMin) return (aMin - bMin) * dir;
+          
+          // If starting rank is the same, sort by the end of the range
+          const aMax = Number(a.rank?.[a.rank.length - 1] ?? 0);
+          const bMax = Number(b.rank?.[b.rank.length - 1] ?? 0);
+          return (aMax - bMax) * dir;
         }
-        let va = a[sortConfig.key] ?? '';
-        let vb = b[sortConfig.key] ?? '';
+
+        // --- RANGE SORTING ---
+        if (key === 'range') {
+          const rA = rangeToMeters(a.range);
+          const rB = rangeToMeters(b.range);
+          
+          if (rA !== -1 && rB !== -1) return (rA - rB) * dir;
+          
+          if (rA !== -1) return -1 * dir; 
+          if (rB !== -1) return 1 * dir;
+          
+          const strA = String(a.range || '').toLowerCase();
+          const strB = String(b.range || '').toLowerCase();
+          if (strA < strB) return -1 * dir;
+          if (strA > strB) return 1 * dir;
+          return 0;
+        }
+
+        // --- COST & HEALTH SORTING ---
+        if (key === 'cost' || key === 'health') {
+          const valA = extractNumber(a[key]);
+          const valB = extractNumber(b[key]);
+
+          const isNumA = typeof valA === 'number';
+          const isNumB = typeof valB === 'number';
+
+          if (isNumA && isNumB) return (valA - valB) * dir;
+          if (isNumA) return -1 * dir;
+          if (isNumB) return 1 * dir;
+
+          const strA = String(valA).toLowerCase();
+          const strB = String(valB).toLowerCase();
+          if (strA < strB) return -1 * dir;
+          if (strA > strB) return 1 * dir;
+          return 0;
+        }
+
+        // --- DEFAULT SORTING ---
+        let va = a[key] ?? '';
+        let vb = b[key] ?? '';
         if (Array.isArray(va)) va = va[0] ?? 0;
         if (Array.isArray(vb)) vb = vb[0] ?? 0;
-        if (va < vb) return -dir;
-        if (va > vb) return dir;
+        
+        if (typeof va === 'string') va = va.toLowerCase();
+        if (typeof vb === 'string') vb = vb.toLowerCase();
+
+        if (va < vb) return -1 * dir;
+        if (va > vb) return 1 * dir;
         return 0;
       });
     }
@@ -251,7 +312,6 @@ const GuDashboard = () => {
                           <div className="gu-expanded-inner">
                             <div className={`gu-expanded-grid ${!gu.steed ? 'no-steed' : ''}`}>
                               <div>
-                                {/* Add a mobile stats row that shows hidden columns */}
                                 <div className="mobile-stats-row">
                                   {gu.cost && (
                                     <div className="mobile-stat-chip">
@@ -275,7 +335,7 @@ const GuDashboard = () => {
 
                                 <div className="expand-section-title">Primary Effect</div>
                                 <div className="effect-box">
-                                  {gu.effect || 'No effect description provided.'}
+                                  <Markdown>{gu.effect}</Markdown>
                                 </div>
                                 <div className="meta-row">
                                   <div className="meta-chip">
