@@ -354,6 +354,8 @@ const GuDashboard = () => {
                                       <span className="mobile-stat-value">{gu.range}</span>
                                     </div>
                                   )}
+                                  <br></br>
+                                  <span className="type-badge">{gu.type}</span>
                                 </div>
 
                                 <div className="expand-section-title">Effect</div>

@@ -312,7 +312,9 @@ table.gu-table {
 .cell-health { color: var(--text-muted); }
 
 .type-badge {
-  display: inline-block;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
   padding: 2px 8px;
   border-radius: 999px;
   font-size: 14px;
