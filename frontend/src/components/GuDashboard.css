@@ -12,6 +12,7 @@
   --accent-glow:  rgba(52,211,153,0.06);
   --text-primary: #e4e4e7;
   --text-muted:   #71717a;
+  --text-muted-ital:   #cccccca5;
   --text-faint:   #3f3f46;
   --font-mono:    'DM Mono', monospace;
   --font-display: 'Bebas Neue', sans-serif;
@@ -378,6 +379,10 @@ tr.gu-expanded-row {
   strong {
     color: var(--accent);
     font-size: 16px;
+  }
+
+  em {
+    color: var(--text-muted-ital);
   }
 }
 

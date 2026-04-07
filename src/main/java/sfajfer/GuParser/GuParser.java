@@ -9,8 +9,12 @@ import com.mongodb.client.MongoDatabase;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -20,12 +24,20 @@ public class GuParser {
     @Autowired
     private MongoTemplate mongoTemplate;
 
+    private static final String JSON_OUTPUT_PATH = "frontend/src/assets/gu-index.json";
+
     public void parseAndPopulate(String fileName) {
+
+        int idCounter = 0;
+
         System.out.println("Starting Gu Index refinement process using file: " + fileName);
 
         MongoDatabase db = mongoTemplate.getDb();
         MongoCollection<Document> collection = db.getCollection("GuIndex");
         collection.drop();
+
+        // Accumulate every parsed Gu so we can write them all to JSON at the end
+        List<Document> allGuEntries = new ArrayList<>();
 
         try (InputStream is = getClass().getClassLoader().getResourceAsStream(fileName)) {
             if (is == null) {
@@ -38,6 +50,7 @@ public class GuParser {
             Document currentGu = null;
             StringBuilder effectBuilder = new StringBuilder();
             StringBuilder combatActionsBuilder = new StringBuilder();
+            StringBuilder descriptionBuilder = new StringBuilder();
             Document steedDoc = null;
             Document currentTable = null;
 
@@ -58,7 +71,7 @@ public class GuParser {
                     continue;
                 }
 
-                if (trimmed.equals("::: columns") || trimmed.equals(":::")) continue;
+                if (trimmed.equals("::: columns") || trimmed.equals(":::") || trimmed.equals("\newpage")) continue;
 
                 if (trimmed.isEmpty()) {
                     if (inEffect && effectBuilder.length() > 0) effectBuilder.append("\n\n");
@@ -67,12 +80,14 @@ public class GuParser {
                 }
 
                 if (trimmed.startsWith("### ")) {
-                    saveGu(collection, currentGu, effectBuilder, steedDoc, combatActionsBuilder);
+                    saveGu(collection, currentGu, effectBuilder, descriptionBuilder, steedDoc, combatActionsBuilder, allGuEntries, idCounter);
+                    idCounter++;
 
                     currentGu = new Document("Name", trimmed.substring(4).trim());
                     currentGu.append("Path", currentPath);
                     effectBuilder = new StringBuilder();
                     combatActionsBuilder = new StringBuilder();
+                    descriptionBuilder = new StringBuilder();
                     steedDoc = null;
                     currentTable = null;
                     inEffect = false;
@@ -82,7 +97,12 @@ public class GuParser {
 
                 if (currentGu == null) continue;
 
-                // --- Parsing Logic ---
+                else if (trimmed.startsWith("*") && trimmed.endsWith("*") 
+                        && !trimmed.startsWith("*Rank")
+                        && !currentGu.containsKey("Rank")) {
+                    descriptionBuilder.append(trimmed);
+                }
+
                 if (trimmed.startsWith("*Rank ") && trimmed.endsWith("*")) {
                     Matcher m = rankPattern.matcher(trimmed);
                     if (m.find()) {
@@ -150,8 +170,11 @@ public class GuParser {
             }
 
             // Save the very last Gu in the file
-            saveGu(collection, currentGu, effectBuilder, steedDoc, combatActionsBuilder);
+            saveGu(collection, currentGu, effectBuilder, descriptionBuilder, steedDoc, combatActionsBuilder, allGuEntries, idCounter);
             System.out.println("Gu Index successfully refined into MongoDB.");
+
+            // Write all accumulated entries to a JSON file
+            writeJsonFile(allGuEntries);
 
         } catch (IOException e) {
             System.err.println("Failed to read Gu Index file: " + e.getMessage());
@@ -159,17 +182,72 @@ public class GuParser {
     }
 
     private void saveGu(MongoCollection<Document> collection, Document currentGu,
-                        StringBuilder effectBuilder, Document steedDoc,
-                        StringBuilder combatActionsBuilder) {
+                    StringBuilder effectBuilder, StringBuilder descriptionBuilder,
+                    Document steedDoc, StringBuilder combatActionsBuilder,
+                    List<Document> allGuEntries, int id) {
         if (currentGu != null) {
-            currentGu.append("Effect", effectBuilder.toString().trim());
+            String effect = effectBuilder.toString().trim();
+            if (descriptionBuilder.length() > 0) {
+                effect = effect + "\n\n" + descriptionBuilder.toString().trim();
+                System.out.println(descriptionBuilder.toString());
+            }
+            currentGu.append("Effect", effect);
+            currentGu.append("id", id);
             if (steedDoc != null) {
                 if (combatActionsBuilder.length() > 0) {
                     steedDoc.append("CombatActions", combatActionsBuilder.toString().trim());
                 }
                 currentGu.append("Steed", steedDoc);
             }
+
             collection.insertOne(currentGu);
+
+            Document copy = new Document(currentGu);
+            copy.remove("_id");
+            allGuEntries.add(copy);
         }
+    }
+
+    /**
+     * Serialises every parsed Gu entry to a pretty-printed JSON array and writes
+     * it to {@link #JSON_OUTPUT_PATH}.  The frontend can fetch this file the same
+     * way it would query the REST API — the field names are identical to those
+     * stored in MongoDB.
+     */
+    private void writeJsonFile(List<Document> entries) {
+        try {
+            Path outputPath = Paths.get(JSON_OUTPUT_PATH);
+            Files.createDirectories(outputPath.getParent());
+
+            StringBuilder sb = new StringBuilder("[\n");
+            for (int i = 0; i < entries.size(); i++) {
+                sb.append("  ").append(toLowerCamelKeys(entries.get(i)));
+                if (i < entries.size() - 1) sb.append(",");
+                sb.append("\n");
+            }
+            sb.append("]");
+
+            Files.writeString(outputPath, sb.toString(), StandardCharsets.UTF_8);
+            System.out.println("JSON export written to: " + outputPath.toAbsolutePath());
+        } catch (IOException e) {
+            System.err.println("Failed to write JSON export: " + e.getMessage());
+        }
+    }
+
+    private String toLowerCamelKeys(Document doc) {
+        Document result = new Document();
+        for (Map.Entry<String, Object> entry : doc.entrySet()) {
+            String key = entry.getKey();
+            Object value = entry.getValue();
+            String newKey = Character.toLowerCase(key.charAt(0)) + key.substring(1);
+
+            // Recursively handle nested Documents (e.g. Steed)
+            if (value instanceof Document) {
+                value = Document.parse(toLowerCamelKeys((Document) value));
+            }
+
+            result.append(newKey, value);
+        }
+        return result.toJson();
     }
 }

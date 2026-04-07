@@ -3229,7 +3229,7 @@ Keywords: [**Sustained**]
 
 Effect: Light reflecting off of your body becomes blurred while sustained, rendering it impossible for you to be identified. Your facial features become indistinguishable, and your build shifts between various heights and weights. Attack rolls made against you are made with a +10 penalty.
 
-#### Aurora Curtain Gu
+### Aurora Curtain Gu
 
 *Rank 3 Guard*
 
@@ -3259,7 +3259,7 @@ Food: <!-- TODO ->
 
 Effect: You teleport to an unoccupied square within range.
 
-#### Blue Light Shield Gu
+### Blue Light Shield Gu
 
 *Rank 1-5 Guard*
 
@@ -3340,7 +3340,7 @@ Effect: Choose {1, 3} unoccupied squares that you can see within range. A brilli
 
 Creatures with the *blinded* condition or that lack eyes are immune to this effect.
 
-#### Deafening Flash Gu
+### Deafening Flash Gu
 \break
 
 *Rank 2 Attack*
@@ -3408,7 +3408,7 @@ Keywords: [**Sustained**]
 
 Effect: While sustained, you can see footprints where any creature has stepped in the last hour. Different creature's footsteps appear as different colors.
 
-#### Gentle Light Gu
+### Gentle Light Gu
 
 *Rank 3-5 Tonic*
 
@@ -3716,7 +3716,7 @@ Effect: Pick a square that you can see within range. You turn into a beam of lig
 
 If you would move through darkness created by a Gu of rank 4 or higher, you instead stop in the square immediately before it.
 
-#### Rainbow Prism Gu
+### Rainbow Prism Gu
 
 *Rank 1-5 Divination*
 
@@ -3749,7 +3749,7 @@ Keywords: [**Sustained**]
 
 Effect: Light bends around your body, making you and any objects you are carrying *invisible* while sustained.
 
-#### Solar Flare Gu
+### Solar Flare Gu
 \break
 
 *Rank 3 Attack*
@@ -3816,7 +3816,7 @@ Keywords: [**Sustained**]
 
 Effect: While sustained, a 3 meter radius sphere of light surrounds you and blocks attacks, creatures, and objects from entering (but not exiting). When an attack from outside the sphere hits a creature inside the sphere, the sphere takes the damage instead, though the defender can still dodge the attack. For every 2 points of damage the sphere takes, you lose 1 portion of primeval essence. If the sphere takes more than 50 damage from a single attack, it breaks, the remainder of the damage is dealt to the defender, and Two-stretch Golden Light Gu takes 2d6 damage as backlash. The sphere does not block sonic damage.
 
-#### Zhulong Slither Snake Gu
+### Zhulong Slither Snake Gu
 
 *Rank 3 Celerity*
 

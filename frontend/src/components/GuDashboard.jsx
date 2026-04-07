@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import Markdown from 'react-markdown'
 import axios from 'axios';
+import guData from '../assets/gu-index.json';
 import './GuDashboard.css';
 
 const PATHS = [
@@ -75,7 +76,7 @@ const SortTh = ({ label, sortKey, sortConfig, onSort, className }) => {
 };
 
 const GuDashboard = () => {
-  const [guList,      setGuList]      = useState([]);
+  const [guList,      setGuList]      = useState(guData || []);
   const [search,      setSearch]      = useState('');
   const [sortConfig,  setSortConfig]  = useState({ key: 'name', direction: 'ascending' });
   const [expandedId,  setExpandedId]  = useState(null);
@@ -96,7 +97,9 @@ const GuDashboard = () => {
     axios.get('https://gu-index-b9jp.onrender.com/api/gu/search')
       .then(res => {
         console.log('Fetched:', res.data);
-        setGuList(Array.isArray(res.data) ? res.data : []);
+        // Only update if we get more entries than the local file; this will only happen when new gu are added and the json isnt updated yet
+        if (res.data.length > guList.length) setGuList(Array.isArray(res.data) ? res.data : []);
+        console.log("Fetched data: ", res.data, "Local data: ", guList);
       })
       .catch(err => console.error('Fetch error:', err));
   }, []);
