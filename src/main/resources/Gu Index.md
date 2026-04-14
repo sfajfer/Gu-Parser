@@ -587,7 +587,7 @@ Health: 2
 
 Food: <!-- TODO ->
 
-Effect: Dark Transposition Gu has no effect if you are in bright light. You and any objects you are carrying become *invisible.* As a reaction to any trigger, you may teleport to a square within range as long as that square is not in bright light and this effect ends. If you become lit by bright light, move, or take any actions before using the teleport, this effect ends.
+Effect: Dark Transposition Gu has no effect if you are in bright light. You and any objects you are carrying become *invisible.* As a reaction to any trigger, you may teleport to a square within range as long as that square is not in bright light, and this effect ends. If you become lit by bright light, move, or take any actions before using the teleport, this effect ends.
 
 ### Faceless Dung Beetle Gu
 
@@ -2394,6 +2394,8 @@ Health: 3
 
 Food: 1 kg wine (1/4 primeval stone)
 
+Keywords: [**Fast**]
+
 Effect: Liquor Worm Gu has no effect unless you have rank {1, 2, 3, 4} initial stage, middle stage, or upper stage cultivation. You immediately gain one refined portion of primeval essence of the stage above your own. Keep track of your current refined portions separately from your other portions of primeval essence. The sum of your natural and refined primeval essence can never exceed your maximum primeval essence.
 
 Expending 1 portion of refined primeval essence is equivalent to expending 2 portions of unrefined primeval essence.
@@ -3010,7 +3012,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Expendable**], [**Extinct**]
 
-Effect: Remove the effect of a single Poison Vow Gu from your body.
+Effect: Remove the effect of a single <span>Poison Vow Gu</span> from your body.
 
 ### Encyclopedia Gu
 
@@ -3886,7 +3888,7 @@ Health: 3
 
 Food: <!-- TODO ->
 
-Keywords: [**Sustained**], [**Unreactable**]
+Keywords: [**Sustained**], [**Unreactable**], [**Fast**]
 
 Effect: Call Lightning Gu has no effect unless activated in an area with at least 100 meters of vertical space. At the start of your next turn, a dark cloud gathers high above a square you can see within range, covering a 3-meter radius. As an activation and at the end of each of your turns while sustained you may call lightning down on a square directly below the cloud. Any creature in that square takes 40 shock damage, and any creature in that square or an adjacent square takes 3 sonic damage.
 
@@ -3903,7 +3905,7 @@ Health: 10
 
 Food: <!-- TODO ->
 
-Keywords: [**Undodgeable**]
+Keywords: [**Undodgeable**], [**Fast**]
 
 Effect: A bolt of lightning streaks from your outstretched hand towards a creature within range. Make an attack roll; on a hit, deal 80 shock damage. The lightning then chains to the closest creature within 3 meters for 40 shock damage. It chains again to the closest creature within 3 meters of the second target (this can be the first target again), dealing 20 shock damage.
 
@@ -3933,7 +3935,7 @@ Health: 3
 
 Food: <!-- TODO ->
 
-Keywords: [**Dao**], [**Expendable**]
+Keywords: [**Dao**], [**Expendable**], [**Fast**]
 
 Effect: Your **Arm Muscles** are permanently carved with Lightning Path dao, making your jabs lightning fast. Your punching attacks are treated as though they had the [**Unreactable**] keyword and deal an additional 4 force damage.
 
@@ -3949,9 +3951,11 @@ Health: 4
 
 Food: <!-- TODO ->
 
-Keywords: [**Dao**], [**Expendable**]
+Keywords: [**Dao**], [**Expendable**], [**Fast**]
 
 Effect: Your **Brain**'s instincts are permanently sharpened by Lightning Path Dao, allowing you to act quicker in combat. You gain a -10 bonus to initiative tests and can make an additional *Reaction* each turn.
+
+If a wild Hair Trigger Gu detects a creature within 12 meters of it, it can immediately move up to its speed as a reaction.
 
 ### Jolt Gu
 *Rank 1 Attack*
@@ -4002,7 +4006,7 @@ Health: 1
 
 Food: <!-- TODO ->
 
-Keywords: [**Unreactable**]
+Keywords: [**Unreactable**], [**Fast**]
 
 Effect: A crackling bolt of plasma erupts from your finger in a line 1 meter wide and 1 kilometer long. All creatures in the line take {60, 140, 300} shock damage. Creatures in the line or adjacent to it take {10, 25, 60} sonic damage. If the sonic damage is dealt to a creature's hit points, they gain the *deafened* condition for 1 minute.
 
@@ -4020,7 +4024,7 @@ Health: 3
 
 Food: <!-- TODO ->
 
-Keywords: [**Unreactable**]
+Keywords: [**Unreactable**], [**Fast**]
 
 Effect: You launch an arrow of lightning in a 15-meter line. The closest creature hit by the arrow takes {15, 30, 90} shock damage. The damage is reduced to {10, 20, 60} on the second creature in the line, {5, 10, 30} on the third creature, and the arrow does not hit any creatures in the line beyond the first 3 hit.
 
@@ -4440,9 +4444,9 @@ Keywords: [**Large**], [**Low Vitality**]
 
 Effect: Battle Bone Wheel Gu charges to a square that you can see within range. If Battle Bone Wheel Gu moves through an occupied square, the occupant takes 200 rending and 200 force damage. If this damage is dealt to a creature's hit points, they gain *bleeding 15*. If this damage is not enough to destroy or kill the occupant of the square, Battle Bone Wheel Gu is stopped in the last unoccupied square it traveled through.
 
-**Dodge** skill tests made to avoid **Battle Bone Wheel** Gu are made with a +20 penalty.
+**Dodge** skill tests made to avoid Battle Bone Wheel Gu are made with a +20 penalty.
 
-**Low Vitality:** Battle Bone Wheel Gu does not regain hit points when fed. Instead, you must set rank 1 Bone Bamboo Gu alight using rank 2 Ghost Fire Gu and hold the burning Gu up to Battle Bone Wheel Gu, consuming the Bone Bamboo Gu. For every Bone Bamboo Gu expended this way, Battle Bone Wheel Gu recovers 10 hit points.
+**Low Vitality:** Battle Bone Wheel Gu does not regain hit points when fed. Instead, you must set rank 1 <span>Bone Bamboo Gu</span> alight using rank 2 <span>Ghost Fire Gu</span> and hold the burning Gu up to Battle Bone Wheel Gu, consuming the Bone Bamboo Gu. For every Bone Bamboo Gu expended this way, Battle Bone Wheel Gu recovers 10 hit points.
 
 ### Bleeding Bismuth Gu
 
@@ -4782,7 +4786,7 @@ Keywords: [**Dao**], [**Expendable**]
 Effect: You are assailed with a horrendous pain for 1 hour while your **Skin** molts and is replaced with {iron, steel, titanium}. You are incapable of taking any actions except to speak for the entire duration. When the process is complete, your skin is permanently transmuted into a flexible membrane as strong as the respective metal. Whenever you take damage to your hit points, except shock or sonic, reduce it by {5, 12, 25}, to a minimum of 0. You have vulnerability to shock damage.
 
 ### Polished Gold Gu
-*As is the case with most cultivation improving Gu, Polished Gold Gu is exceptionally valuable. Despite only being rank 3, Polished Gold Gu's refinement recipe requires the sacrifice of a precious rank 4 Relic Gu. While rarely sold, they can fetch prices as high as 100,000 primeval stones at auction.*
+*As is the case with most cultivation improving Gu, Polished Gold Gu is exceptionally valuable. Despite only being rank 3, Polished Gold Gu's refinement recipe requires the sacrifice of a precious rank 4 <span>Relic Gu</span>. While rarely sold, they can fetch prices as high as 100,000 primeval stones at auction.*
 
 *Rank 3 Carver*
 
@@ -5024,10 +5028,10 @@ Health: 2
 
 Food: None
 
-Effect: A creature you touch has the *posioned* condition removed if it was inflicted by Single Gate Poison Gu.
+Effect: A creature you touch has the *posioned* condition removed if it was inflicted by <span>Single Gate Poison Gu</span>.
 
 ### Single Gate Poison Gu
-*When Single Gate Poison Gu is successfully refined, a rank 3 Close Gate Gu is also refined. Close Gate Gu costs no primeval essence and has no effect other than to remove the poisoned condition inflicted by Single Gate Poison Gu.*
+*When Single Gate Poison Gu is successfully refined, a rank 3 <span>Close Gate Gu</span> is also refined. <span>Close Gate Gu</span> costs no primeval essence and has no effect other than to remove the poisoned condition inflicted by Single Gate Poison Gu.*
 
 *Rank 3 Attack*
 
@@ -5652,7 +5656,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Expendable**]
 
-Effect: Your soul is molded and unrefined; any effects that have permanently refined your soul (such as General Soul or Dark Soul Gu) are removed.
+Effect: Your soul is molded and unrefined; any effects that have permanently refined your soul (such as <span>General Soul Gu</span> or <span>Dark Soul Gu</span>) are removed.
 
 ### Piercing Shriek Gu
 
@@ -6179,11 +6183,6 @@ Keywords: [**Extinct**], [**Sustained**]
 
 Effect: While sustained, whenever you roll to activate a beast phantom from a Strength Path Gu of rank {1, 2, 3, 4, 5} or lower, you may forego the roll and trigger the beast phantom automatically.
 
-[**Beast Strength**]
-*Many Gu of Strength Path belong to the beast strength archetype; Gu that, over many uses, permanently grant the user the strength of a particular beast. Curiously, it also enables users to sporadically summon beast phantoms with their unarmed attacks, increasing their potency.*
-
-*While Beast Strength Gu do carve dao into the entire muscular system, they are still compatible with other muscle transformation [**Dao**] Gu, as long as that Gu is of a path compatible with Strength Path. Your Muscular System can have up to 9 Beast Strength Gu effects applied at a time.*
-
 ### Bear Strength Gu
 *Rank 1 Carver*
 
@@ -6197,7 +6196,7 @@ Food: 10 kg of bear flesh
 
 Keywords: [**Dao**]
 
-Effect: Your **Muscular System** is carved with Strength Path dao; Your Strength attribute permanently increases by 10. For 24 hours, you cannot gain strength from Bear Strength Gu. Once you've gained 50 strength from Bear Strength Gu, activating Bear Strength Gu further has no effect on you, but you permanently gain the following feature:
+Effect: **Beast Strength**: Your **Muscular System** is carved with Strength Path dao; Your Strength attribute permanently increases by 10. For 24 hours, you cannot gain strength from Bear Strength Gu. Once you've gained 50 strength from Bear Strength Gu, activating Bear Strength Gu further has no effect on you, but you permanently gain the following feature:
 
 Whenever you deal damage to a creature with an unarmed melee attack, roll 1d6. If you roll a 1, a bear phantom appears behind you, increasing the damage of the attack by 5 force damage.
 
@@ -6215,7 +6214,7 @@ Food: 10 kg of beastman flesh
 
 Keywords: [**Dao**]
 
-Effect: Your **Muscular System** is carved with Strength Path dao; Your Strength attribute permanently increases by 50. For 24 hours, you cannot gain strength from Beastman Strength Gu. Once you've gained 250 strength from Beastman Strength Gu, activating Beastman Strength Gu further has no effect on you, but you permanently gain the following feature:
+Effect: **Beast Strength**: Your **Muscular System** is carved with Strength Path dao; Your Strength attribute permanently increases by 50. For 24 hours, you cannot gain strength from Beastman Strength Gu. Once you've gained 250 strength from Beastman Strength Gu, activating Beastman Strength Gu further has no effect on you, but you permanently gain the following feature:
 
 Whenever you deal damage to a creature with an unarmed melee attack, roll 1d10. If you roll a 1, a beastman phantom appears behind you, increasing the damage of the attack by 60 force damage.
 
@@ -6235,7 +6234,7 @@ Food: 10 kilograms of blobfish flesh
 
 Keywords: [**Dao**]
 
-Effect: Your **Muscular System** is carved with Strength Path dao; Your Strength attribute permanently decreases by 4 and you reduce all force damage dealt to your hit points by 1. For 24 hours, you cannot reduce your Strength attribute or gain damage reduction from Blobfish Strength Gu. Once you have lost 20 Strength and gained 5 damage reduction, further activations have no effect, but you permanently gain the following feature:
+Effect: **Beast Strength**: Your **Muscular System** is carved with Strength Path dao; Your Strength attribute permanently decreases by 4 and you reduce all force damage dealt to your hit points by 1. For 24 hours, you cannot reduce your Strength attribute or gain damage reduction from Blobfish Strength Gu. Once you have lost 20 Strength and gained 5 damage reduction, further activations have no effect, but you permanently gain the following feature:
 
 Whenever you deal damage to a creature with an unarmed melee attack, roll 1d4. If you roll a 1, a blobfish phantom appears behind you, increasing the damage of the attack by 0 force damage and applying the *dazed* condition.
 
@@ -6252,7 +6251,7 @@ Food: 10 kg of boar flesh
 
 Keywords: [**Dao**]
 
-Effect: Your **Muscular System** is carved with Strength Path dao; Your Strength attribute permanently increases by 5. For 24 hours, you cannot gain strength from Boar Strength Gu. Once you've gained 25 strength from Boar Strength Gu, activating Boar Strength Gu further has no effect on you, but you permanently gain the following features:
+Effect: **Beast Strength**: Your **Muscular System** is carved with Strength Path dao; Your Strength attribute permanently increases by 5. For 24 hours, you cannot gain strength from Boar Strength Gu. Once you've gained 25 strength from Boar Strength Gu, activating Boar Strength Gu further has no effect on you, but you permanently gain the following features:
 
 Whenever you deal damage to a creature with an unarmed melee attack, roll 1d4. If you roll a 1, a boar phantom appears behind you, increasing the damage of the attack by 2 force damage.
 
@@ -6274,7 +6273,7 @@ Food: 10 kilograms of crane flesh
 
 Keywords: [**Dao**]
 
-Effect: Your **Muscular System** is carved with Strength Path dao; Your Strength attribute permanently increases by 2, and your **Flying** skill permanently increases by 2. For 24 hours, you cannot gain strength or **Flying** from Crane Strength Gu. Once you’ve gained 10 Strength and 10 **Flying** from Crane Strength Gu, activating Crane Strength Gu further has no effect on you, but you permanently gain the following features:
+Effect: **Beast Strength**: Your **Muscular System** is carved with Strength Path dao; Your Strength attribute permanently increases by 2, and your **Flying** skill permanently increases by 2. For 24 hours, you cannot gain strength or **Flying** from Crane Strength Gu. Once you’ve gained 10 Strength and 10 **Flying** from Crane Strength Gu, activating Crane Strength Gu further has no effect on you, but you permanently gain the following features:
 
 Whenever you deal damage to a creature with an unarmed melee attack, roll 1d4. If you roll a 1, a crane phantom appears behind you, increasing the damage of the attack by 2 force damage.
 
@@ -6293,7 +6292,7 @@ Food: 10 kg of crocodile flesh
 
 Keywords: [**Dao**]
 
-Effect: Your **Muscular System** is carved with Strength Path dao; Your Strength attribute permanently increases by 5. For 24 hours, you cannot gain strength from Crocodile Strength Gu. Once you've gained 25 strength from Crocodile Strength Gu, activating Crocodile Strength Gu further has no effect on you, but you permanently gain the following features:
+Effect: **Beast Strength**: Your **Muscular System** is carved with Strength Path dao; Your Strength attribute permanently increases by 5. For 24 hours, you cannot gain strength from Crocodile Strength Gu. Once you've gained 25 strength from Crocodile Strength Gu, activating Crocodile Strength Gu further has no effect on you, but you permanently gain the following features:
 
 Whenever you deal damage to a creature with an unarmed melee attack, roll 1d4. If you roll a 1, a crocodile phantom appears behind you, increasing the damage of the attack by 2 force damage.
 
@@ -6312,7 +6311,7 @@ Food: 10 kg of deer flesh
 
 Keywords: [**Dao**]
 
-Effect: Your **Muscular System** is carved with Strength Path dao; Your Strength attribute permanently increases by 4. For 24 hours, you cannot gain strength from Deer Strength Gu. Once you've gained 20 strength from Deer Strength Gu, activating Deer Strength Gu further has no effect on you, but you permanently gain the following features:
+Effect: **Beast Strength**: Your **Muscular System** is carved with Strength Path dao; Your Strength attribute permanently increases by 4. For 24 hours, you cannot gain strength from Deer Strength Gu. Once you've gained 20 strength from Deer Strength Gu, activating Deer Strength Gu further has no effect on you, but you permanently gain the following features:
 
 Whenever you deal damage to a creature with an unarmed melee attack, roll 1d4. If you roll a 1, a deer phantom appears behind you, increasing the damage of the attack by 2 force damage.
 
@@ -6332,7 +6331,7 @@ Food: 10 kg of elephant flesh
 
 Keywords: [**Dao**]
 
-Effect: Your **Muscular System** is carved with Strength Path dao; Your Strength attribute permanently increases by 15. For 24 hours, you cannot gain strength from Elephant Strength Gu. Once you've gained 75 strength from Elephant Strength Gu, activating Elephant Strength Gu further has no effect on you, but you permanently gain the following features:
+Effect: **Beast Strength**: Your **Muscular System** is carved with Strength Path dao; Your Strength attribute permanently increases by 15. For 24 hours, you cannot gain strength from Elephant Strength Gu. Once you've gained 75 strength from Elephant Strength Gu, activating Elephant Strength Gu further has no effect on you, but you permanently gain the following features:
 
 Whenever you deal damage to a creature with an unarmed melee attack, roll 1d6. If you roll a 1, an Elephant phantom appears behind you, increasing the damage of the attack by 5 force damage.
 
@@ -6368,7 +6367,7 @@ Food: 10 kg of leviathan flesh
 
 Keywords: [**Dao**]
 
-Effect: Your **Muscular System** is carved with Strength Path dao; Your Strength attribute permanently increases by 100. For 24 hours, you cannot gain strength from Leviathan Strength Gu. Once you've gained 500 strength from Leviathan Strength Gu, activating Leviathan Strength Gu further has no effect on you, but you permanently gain the following features:
+Effect: **Beast Strength**: Your **Muscular System** is carved with Strength Path dao; Your Strength attribute permanently increases by 100. For 24 hours, you cannot gain strength from Leviathan Strength Gu. Once you've gained 500 strength from Leviathan Strength Gu, activating Leviathan Strength Gu further has no effect on you, but you permanently gain the following features:
 
 Whenever you deal damage to a creature with an unarmed melee attack, roll 1d12. If you roll a 1, a leviathan phantom appears behind you, increasing the damage of the attack by 200 force damage.
 
@@ -6388,7 +6387,7 @@ Food: 10 kg of sea or land serpent flesh
 
 Keywords: [**Dao**]
 
-Effect: Your **Muscular System** is carved with Strength Path dao; Your Strength attribute permanently increases by 25. For 24 hours, you cannot gain strength from Serpent Strength Gu. Once you've gained 125 strength from Serpent Strength Gu, activating Serpent Strength Gu further has no effect on you, but you permanently gain the following features:
+Effect: **Beast Strength**: Your **Muscular System** is carved with Strength Path dao; Your Strength attribute permanently increases by 25. For 24 hours, you cannot gain strength from Serpent Strength Gu. Once you've gained 125 strength from Serpent Strength Gu, activating Serpent Strength Gu further has no effect on you, but you permanently gain the following features:
 
 Whenever you deal damage to a creature with an unarmed melee attack, roll 1d8. If you roll a 1, a serpent phantom appears behind you, increasing the damage of the attack by 15 force damage.
 
@@ -6411,7 +6410,7 @@ Food: 10 kg of shark-fin wolf flesh
 
 Keywords: [**Dao**]
 
-Effect: Your **Muscular System** is carved with Strength Path dao; Your Strength attribute permanently increases by 50. For 24 hours, you cannot gain strength from Shark-fin Wolf Strength Gu. Once you've gained 250 strength from Shark-fin Wolf Strength Gu, activating Shark-fin Wolf Strength Gu further has no effect on you, but you permanently gain the following features:
+Effect: **Beast Strength**: Your **Muscular System** is carved with Strength Path dao; Your Strength attribute permanently increases by 50. For 24 hours, you cannot gain strength from Shark-fin Wolf Strength Gu. Once you've gained 250 strength from Shark-fin Wolf Strength Gu, activating Shark-fin Wolf Strength Gu further has no effect on you, but you permanently gain the following features:
 
 Whenever you deal damage to a creature with an unarmed melee attack, roll 1d10. If you roll a 1, a shark-fin wolf phantom appears behind you, increasing the damage of the attack by 60 force damage.
 
@@ -6433,7 +6432,7 @@ Food: 10 kilograms of Tanuki flesh
 
 Keywords: [**Dao**]
 
-Effect: Your **Muscular System** is carved with Strength Path dao; Your Strength attribute permanently increases by 3. Once you’ve gained 15 Strength from Tanuki Strength Gu, further activations have no effect, but you permanently gain the following features: 
+Effect: **Beast Strength**: Your **Muscular System** is carved with Strength Path dao; Your Strength attribute permanently increases by 3. Once you’ve gained 15 Strength from Tanuki Strength Gu, further activations have no effect, but you permanently gain the following features: 
 
 When you spend a luck point to reroll or gain a bonus to an unarmed attack, you gain an additional -20 bonus to the roll.
 
@@ -6455,7 +6454,7 @@ Food: 10 kilograms of turtle flesh
 
 Keywords: [**Dao**]
 
-Effect: Your **Muscular System** is carved with Strength Path dao; Your Strength and Fortitude attributes permanently increase by 1. For 24 hours, you cannot gain Strength or Fortitude from Tortoise Strength Gu. Once you have gained 5 Strength and Fortitude from Tortoise Strength Gu, further activations have no effect, but you permanently gain the following features: 
+Effect: **Beast Strength**: Your **Muscular System** is carved with Strength Path dao; Your Strength and Fortitude attributes permanently increase by 1. For 24 hours, you cannot gain Strength or Fortitude from Tortoise Strength Gu. Once you have gained 5 Strength and Fortitude from Tortoise Strength Gu, further activations have no effect, but you permanently gain the following features: 
 
 Whenever you are hit by an attack roll that was not a called shot, there is a 50% chance it hits your torso. Reduce all damage dealt to your torso by 5.
 
@@ -6474,13 +6473,11 @@ Food: 10 kg of wolf flesh
 
 Keywords: [**Dao**]
 
-Effect: Your **Muscular System** is carved with Strength Path dao; Your Strength attribute permanently increases by 5. For 24 hours, you cannot gain strength from Wolf Strength Gu. Once you've gained 25 strength from Wolf Strength Gu, activating Wolf Strength Gu further has no effect on you, but you permanently gain the following features:
+Effect: **Beast Strength**: Your **Muscular System** is carved with Strength Path dao; Your Strength attribute permanently increases by 5. For 24 hours, you cannot gain strength from Wolf Strength Gu. Once you've gained 25 strength from Wolf Strength Gu, activating Wolf Strength Gu further has no effect on you, but you permanently gain the following features:
 
 Whenever you deal damage to a creature with an unarmed melee attack, roll 1d4. If you roll a 1, a wolf phantom appears behind you, increasing the damage of the attack by 2 force damage.
 
 Your movement is increased by 1 meter.
-
-[**END**]
 
 ### Big Strength Gu
 *Rank 2 Catalyst*
@@ -7531,6 +7528,22 @@ Effect: While sustained, thick Azure Wolf hairs sprout all over your body, cover
 
 [**End**]
 
+### Bat Wings Gu
+
+*Rank 2 Manifestation*
+
+Cost: 4 portions
+
+Range: Self
+
+Health: 3
+
+Food: 1 kilogram of raw meat
+
+Keywords: [**Sustained**]
+
+Effect: Two of your arms transform into leathery bat wings. While sustained, you have a flying speed of 8 meters and can make 3 Maneuvers every turn, but you can no longer make punch attacks with those arms or hold objects in your hands.
+
 ### Big Teeth Gu
 
 *Rank 2 Attack*
@@ -7724,7 +7737,7 @@ Food: 5 kg of monkey flesh (1 primeval stone)
 
 Keywords: [**Sustained**]
 
-Effect: Your arms grow dramatically in length, increasing the range of your punching and weapon attacks by 1 meter while sustained. Your touch range also increases by 1 meter.
+Effect: Two of your arms grow dramatically in length, increasing the range of your punching and weapon attacks with them by 1 meter while sustained. Your touch range also increases by 1 meter.
 
 ### Ram's Head Gu
 
@@ -8141,7 +8154,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: Your arms transform into wings with razor sharp feathers. While sustained, you have a flying speed of 15 meters and can make 3 Maneuvers every turn. You can no longer make punch attacks, but gain the following unarmed melee attack option:
+Effect: Two of your arms transform into wings with razor sharp feathers. While sustained, you have a flying speed of 15 meters and can make 3 Maneuvers every turn. You can no longer make punch attacks, but gain the following unarmed melee attack option:
 
 **Wings:** Make a **Close Combat** skill test against a creature within 1 meter of you. On a hit, deal 20 rending damage, increased to 50 rending damage if performed at the end of a *Dive* Maneuver. If this damage is dealt to the target's hit points, they gain *bleeding 4.*
 
