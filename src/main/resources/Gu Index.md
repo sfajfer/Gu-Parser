@@ -1134,7 +1134,7 @@ Health: 12
 
 Food: <!-- TODO ->
 
-Keywords: [**Sustained**]
+Keywords: [**Investigative: Hearing**], [**Sustained**]
 
 Effect: While sustained, you can sense the exact square a creature within range moves to as long as they are touching the ground. You also gain immunity to the *deafened* condition.
 
@@ -2030,7 +2030,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Unreactable**]
 
-Effect: Lightning Charged Potato Gu must be buried in any kind of soil before activation. It sprouts roots into the nearby earth and becomes firmly lodged in place. After 1 minute of growth, Lightning Charged Potato Gu is armed. If any creature, including you, steps on a square within 1 meter of Lightning Charged Potato Gu, Lightning Charged Potato Gu explodes, instantly dying and dealing 10 force damage, 10 heat damage, and 10 shock damage to creatures within 2 meters of Lightning Charged Potato Gu, increased to 20 force damage, 20 heat damage and 20 shock damage to creatures within 1 meter.
+Effect: Lightning Charged Potato Gu must be buried in any kind of soil before activation. It sprouts roots into the nearby earth and becomes firmly lodged in place. After 1 minute of growth, Lightning Charged Potato Gu is armed. If any creature, including you, steps on a square within 1 meter of Lightning Charged Potato Gu, Lightning Charged Potato Gu explodes, instantly dying and dealing 10 force damage, 10 heat damage, and 10 shock damage to creatures within 2 meters of Lightning Charged Potato Gu, increased to 20 force damage, 20 heat damage and 20 shock damage to creatures within 1 meter. Lightning Charged Potato Gu cannot detect *inaudible* creatures.
 
 ### Lightning Charged Potato Mother Gu
 *Rank 3 Manifestation*
@@ -2690,6 +2690,24 @@ Food: <!-- TODO ->
 Keywords: [**Dao**], [**Expendable**]
 
 Effect: Your **Lungs** are permanently modified to exhale sub-zero air. Your breath is always visible as a white mist. As a *Combat Action*, you may exhale freezing air in a 4-meter cone. All fires in the area are extinguished, and all creatures in the area lose the *burning* and *ablaze* conditions. The surface of water is frozen and considered *Icy Terrain*
+
+### Frozen Maw Gu
+
+*Rank 4 Carver*
+
+Upgrade Tree: Drain Heat
+
+Cost: 100 portions
+
+Range: Self
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Keywords: [**Dao**], [**Expendable**]
+
+Effect: Over the course of an hour, your **Facial Muscles** and teeth are painfully and permanently transformed into a very hard ice, freezing to the touch. Your bite attacks deal an additional 40 cold damage. If this damage is dealt to a creature's hit points, they gain the *fatigued* condition.
 
 ### Heat Sap Gu
 *Rank 3 Attack*
@@ -5591,7 +5609,9 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: You manifest {1, 3, 8} ghost soldiers while sustained, each in an unoccupied square within range. At the end of each of your turns, you may move each of them up to 4 meters and make an attack roll with each soldier. For every soldier you move, you take 1 damage to your soul. For every soldier you make an attack with, you take 2 damage to your soul. On a hit, deal 25 rending damage to the target and 4 damage to the target's soul.
+Effect: You manifest {1, 3, 8} ghost soldiers while sustained, each in an unoccupied square within range. At the end of each of your turns, you may move each of them up to 4 meters and make an attack roll against a creature within 1 meter of each soldier. For every soldier you move, you take 1 damage to your soul. For every soldier you make an attack with, you take 2 damage to your soul. On a hit, deal 25 rending damage to the target and 4 damage to the target's soul.
+
+Ghost soldiers are intangible, and creatures can enter and end their turn in a ghost soldier's square.
 
 ### Ghostly Touch Gu
 
@@ -6255,9 +6275,9 @@ Effect: **Beast Strength**: Your **Muscular System** is carved with Strength Pat
 
 Whenever you deal damage to a creature with an unarmed melee attack, roll 1d4. If you roll a 1, a boar phantom appears behind you, increasing the damage of the attack by 2 force damage.
 
-If you have enough movement to put yourself into a square adjacent to a target at least 3 meters away, you gain the following unarmed attack option:
+When a creature is at least 3 meters away from you, you gain the following unarmed attack option against them:
 
-**Charge:** You expend at least 2 meters of movement to move double that number of meters in a straight line towards a target. You and the target make an opposed **Close Combat** skill test. If you win, the target takes 1 force damage, +1 damage for every 10 points you have in Strength, and the target is knocked *prone*.
+**Charge:** You expend any amount of movement to move double that number of meters in a straight line towards a target, stopping when you are in an adjacent square. You and the target make an opposed **Close Combat** skill test. If you win, the target takes 1 force damage, +1 damage for every 10 points you have in Strength, and the target is knocked *prone*. **Dodge** skill tests made to avoid this attack are made with a -5 bonus for every 2 meters you charged.
 
 ### Crane Strength Gu
 
@@ -6414,7 +6434,7 @@ Effect: **Beast Strength**: Your **Muscular System** is carved with Strength Pat
 
 Whenever you deal damage to a creature with an unarmed melee attack, roll 1d10. If you roll a 1, a shark-fin wolf phantom appears behind you, increasing the damage of the attack by 60 force damage.
 
-When your hit points are reduced below half their maximum you gain *bloodlust*; You can sprint as a *Bonus Action* if another creature you can see has the *bleeding* condition.
+When your hit points are below half their maximum you gain *bloodlust*; You can sprint as a *Bonus Action* if another creature you can see has the *bleeding* condition.
 
 ### Tanuki Strength Gu
 
@@ -6459,6 +6479,27 @@ Effect: **Beast Strength**: Your **Muscular System** is carved with Strength Pat
 Whenever you are hit by an attack roll that was not a called shot, there is a 50% chance it hits your torso. Reduce all damage dealt to your torso by 5.
 
 Whenever you deal damage to a creature with an unarmed melee attack, roll 1d4. If you roll a 1, a Tortoise phantom appears behind you, increasing the damage of the attack by 2 force damage.
+
+### Whale Strength Gu
+*Rank 4 Carver*
+
+Cost: 100 portions
+
+Range: Self
+
+Health: 3
+
+Food: 50 kg of whale flesh
+
+Keywords: [Dao]
+
+Effect: **Beast Strength**: Your **Muscular System** is carved with Strength Path dao; Your Strength attribute permanently increases by 10 and your Fortitude attribute permanently increases by 4. For 24 hours, you cannot gain Strength or Fortitude from Whale Strength Gu. Once you’ve gained 50 Strength & 20 Fortitude from Whale Strength Gu, activating Whale Strength Gu further has no effect on you, but you permanently gain the following features:
+
+Whenever you deal damage to a creature with an unarmed melee attack, roll 1d8. If you roll a 1, a Whale phantom appears above the target, dropping in a 3-meter radius centered on the creature. Creatures other than you in the area take 25 force damage.
+
+You gain the following unarmed attack option:
+
+**Whale Flop:** You belly-flop onto a target. Make a **Close Combat** skill test. On a success, the target takes force damage equal to (Your Fortitude - Target's Fortitude)% of your Strength attribute, rounded down to a minimum of 1. Whether you succeed or fail, you fall *prone*.
 
 ### Wolf Strength Gu
 *Rank 1 Carver*
@@ -6895,6 +6936,54 @@ Keywords: [**Sustained**]
 
 Effect: You touch a creature and violently extract their physical power. Their Strength attribute is reduced by {10, 100} (to a minimum of 0), and your Strength attribute is increased by {10, 100} while sustained.
 
+### Drain Heat Gu
+
+*Rank 1 Catalyst*
+
+Upgrade Tree: Drain Heat
+
+Cost: 6 portions
+
+Range: Touch
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Effect: A [Small] or smaller object you touch has its heat drained, and lowers in temperature by 5 degrees celsius. This makes you feel marginally warmer for the next minute.
+
+### Drain Life Gu
+
+*Rank 2 Attack*
+
+Upgrade Tree: Drain Heat
+
+Cost: 6 portions
+
+Range: Touch
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Effect: A creature you touch takes 4 unmitigatable heat damage directly to their hit points. You regain 4 hit points.
+
+### Drain Vitality Gu
+
+*Rank 2 Attack*
+
+Upgrade Tree: Drain Heat
+
+Cost: 40 portions
+
+Range: Touch
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Effect: A creature you touch gains the *fatigued* condition and you lose the *fatigued* condition. If the target already has the *fatigued* condtion, they instead take 3 damage to their soul and you still lose the *fatigued* condition.
+
 ### Grand Thief Hand Gu
 
 *The pinnacle of Theft Path's extraction. A ghostly hand that bypasses defenses to plunge directly into an enemy's aperture.*
@@ -6939,6 +7028,24 @@ Effect: Gu Laundering Gu devours a target Gu of rank {1, 2, 3, 4, 5} or lower. O
 4 & 5,000 \\
 5 & 25,000 \\
 \end{tabular}
+
+### Icefang Bat Gu
+
+*Rank 3 Attack*
+
+Upgrade Tree: Drain Heat
+
+Cost: 15 portions
+
+Range: Touch
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: While sustained, your bite attacks deal an additional 40 cold damage directly to the target's hit points. If this damage is dealt to their hit points, the target gains the *fatigued* condition, you regain 10 hit points, and you lose the *fatigued* condition.
 
 ### Identity Theft Gu
 
@@ -7092,6 +7199,20 @@ Keywords: [**Dao**], [**Expendable**]
 
 Effect: A small pocket of Theft Path dao is placed within the primeval sea of your **Aperture**. [**Investigative**] Gu of rank {1, 2, 3, 4, 5} and lower that glimpse inside your aperture cannot see the pocket or anything inside of it. You can stow or withdraw an object or Gu of rank {1, 2, 3, 4, 5} or lower from the pocket as a *Bonus Action*. If an object, it cannot be larger than [Small]; the pocket can store up to {2, 5, 12, 30, 80} kilograms worth of objects and any number of Gu.
 
+### Snatch Gu
+
+*Rank 2 Catalyst*
+
+Cost: 35 portions
+
+Range: Touch
+
+Health: 3
+
+Food: <!--TODO ->
+
+Effect: You touch some sort of container (a chest, container Gu, or even someone's pockets) and your arm becomes ethereal, passing into the container and stealing a random item from it. **Awareness** skill tests made to notice you stealing an item with Snatch Gu are made with a +20 penalty.
+
 ### Steal Luck Gu
 *Rank 1 Attack*
 
@@ -7186,6 +7307,22 @@ Keywords: [**Sustained**]
 Effect: A creature you touch loses all their senses while sustained. They gain the *blinded* and *deafened* conditions and gain advantage on **Perseverance** attribute tests made to overcome pain, such as from the *ablaze* condition and when they roll to see if they enter *Final Stand*.
 
 [**END**]
+
+### Stolen Time Gu
+
+*Rank 4 Attack*
+
+
+
+Cost: 50 portions
+
+Range: Touch
+
+Health: 1
+
+Food: <!-- TODO ->
+
+Effect: A human or variant-human that you touch loses 1 month of lifespan and you gain 1 day of lifespan. Once you have gained 5 years of lifespan in this way, activating Stolen Time Gu further has no effect on you.
 
 ### Transfer Momentum Gu
 
@@ -8553,7 +8690,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: While sustained, your movement makes no sound. You also fall at a rate of 10 meters per turn (at the start of each of your turns) and take no damage from falling. You may activate Air Resistance Gu as a *Reaction* when you're sent *airborne.* If you have a flying speed greater than 10 meters, it is reduced to 10 meters.
+Effect: While sustained, your movement is *inaudible*. You also fall at a rate of 10 meters per turn (at the start of each of your turns) and take no damage from falling. You may activate Air Resistance Gu as a *Reaction* when you're sent *airborne.* If you have a flying speed greater than 10 meters, it is reduced to 10 meters.
 
 ### Big Breath Gu
 
@@ -8601,7 +8738,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: While sustained, your movement makes no sound.
+Effect: While sustained, you are *inaudible* but can still speak.
 
 ### Free Spirit Gu
 
