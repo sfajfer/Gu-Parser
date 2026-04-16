@@ -2,12 +2,15 @@ package sfajfer.GuParser;
 
 import org.bson.Document;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.SpringApplication;
+import org.springframework.context.ApplicationContext;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.stereotype.Service;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 
 import java.io.*;
+import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -26,15 +29,35 @@ public class GuParser {
 
     private static final String JSON_OUTPUT_PATH = "frontend/src/assets/gu-index.json";
 
-    public void parseAndPopulate(String fileName) {
+    public static void main(String[] args) {
+    ApplicationContext context = SpringApplication.run(GuIndexApplication.class, args);
+    
+    GuParser parser = context.getBean(GuParser.class);
+    parser.parseAndPopulate("Gu Index.md", true);
+}
+
+    public void parseAndPopulate(String fileName, boolean calledFromMain) {
+
+        URL resource = getClass().getClassLoader().getResource(fileName);
+        if (resource == null) {
+            System.err.println("Looking for file at: " + fileName);
+            System.err.println("Current Classpath root: " + getClass().getClassLoader().getResource("."));
+            return;
+    }
 
         int idCounter = 0;
 
         System.out.println("Starting Gu Index refinement process using file: " + fileName);
 
-        MongoDatabase db = mongoTemplate.getDb();
-        MongoCollection<Document> collection = db.getCollection("GuIndex");
-        collection.drop();
+        MongoCollection<Document> collection = null;
+
+        if (calledFromMain && mongoTemplate != null) {
+            MongoDatabase db = mongoTemplate.getDb();
+            collection = db.getCollection("GuIndex");
+            collection.drop();
+        } else if (calledFromMain) {
+            System.out.println("Running in local mode without MongoDB (MongoTemplate not found).");
+        }
 
         // Accumulate every parsed Gu so we can write them all to JSON at the end
         List<Document> allGuEntries = new ArrayList<>();
@@ -188,6 +211,37 @@ public class GuParser {
         }
     }
 
+    private List<String> parseEffectIntoArray(String rawEffect) {
+        List<String> effectArray = new ArrayList<>();
+        if (rawEffect == null || rawEffect.trim().isEmpty()) {
+            return effectArray;
+        }
+
+        Pattern pattern = Pattern.compile("(<span>.*?</span>)");
+        Matcher matcher = pattern.matcher(rawEffect);
+        int lastEnd = 0;
+
+        while (matcher.find()) {
+            if (matcher.start() > lastEnd) {
+                String textBefore = rawEffect.substring(lastEnd, matcher.start());
+                if (!textBefore.isEmpty()) effectArray.add(textBefore);
+            }
+            
+            effectArray.add(matcher.group(1));
+            
+            lastEnd = matcher.end();
+        }
+
+        if (lastEnd < rawEffect.length()) {
+            String remainingText = rawEffect.substring(lastEnd);
+            if (!remainingText.trim().isEmpty()) {
+                effectArray.add(remainingText);
+            }
+        }
+
+        return effectArray;
+    }
+
     private void saveGu(MongoCollection<Document> collection, Document currentGu,
                     StringBuilder effectBuilder, StringBuilder descriptionBuilder,
                     Document steedDoc, StringBuilder combatActionsBuilder,
@@ -196,7 +250,6 @@ public class GuParser {
             String effect = effectBuilder.toString().trim();
             if (descriptionBuilder.length() > 0) {
                 effect = effect + "\n\n" + descriptionBuilder.toString().trim();
-                System.out.println(descriptionBuilder.toString());
             }
             currentGu.append("Effect", effect);
             currentGu.append("id", id);
@@ -207,7 +260,16 @@ public class GuParser {
                 currentGu.append("Steed", steedDoc);
             }
 
-            collection.insertOne(currentGu);
+            if (effectBuilder.length() > 0) {
+                String rawEffectStr = effectBuilder.toString().trim();
+                List<String> parsedEffects = parseEffectIntoArray(rawEffectStr);
+                
+                currentGu.append("Effect", parsedEffects);
+            } else {
+                currentGu.append("Effect", new ArrayList<>());
+            }
+
+            if (collection != null) collection.insertOne(currentGu);
 
             Document copy = new Document(currentGu);
             copy.remove("_id");

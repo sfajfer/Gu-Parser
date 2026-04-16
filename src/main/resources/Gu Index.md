@@ -3308,6 +3308,23 @@ Food: <!-- TODO ->
 
 Effect: Bright Pearl Gu flies around a Gu of rank {1, 2, 3} or lower that you touch, sealing it. While sealed by Bright Pearl Gu, the Gu's feeding threshold does not tick down. If the seal is attacked, the Gu inside is destroyed. Any Gu Master can infuse 1 portion of primeval essence into the seal to deactivate it. The Bright Pearl Gu remains under the original Gu Master's ownership.
 
+### Bug-eyed Beetle Gu
+*A green beetle with huge eyes that look sporadically around the area.*
+
+*Rank 3 Divination*
+
+Cost: 40 portions
+
+Range: Touch
+
+Health: 15
+
+Food: <!-- TODO ->
+
+Keywords: [**Investigative: Sight**]
+
+Effect: Bug-eyed Beetle Gu attaches to a surface you touch. Bug-eyed Beetle Gu transmits visual information directly to your brain whenever it sees a creature, lasting until it loses sight of the creature.
+
 ### Broadsword Light Gu
 
 *Rank 3 Manifestation*
@@ -5888,6 +5905,22 @@ Effect: Creatures have a -20 bonus to **Dodge** skill tests made to dodge your k
 
 ::: columns
 
+### Blind Howler Monkey Gu
+
+*Rank 4 Divination*
+
+Cost: 60 portions
+
+Range: 12 meters
+
+Health: 10
+
+Food: <!-- TODO ->
+
+Keywords: [**Investigative: Hearing**], [**Small**]
+
+Effect: Blind Howler Monkey Gu must be placed outside your aperture to be activated. When activated, it curls up and sits perfectly still. If it hears a [**Medium**] or larger creature within range, it begins screeching, emitting an ear-piercing sound audible up to a kilometer away.
+
 ### Clairaudiance Gu
 *Rank 1 Divination*
 
@@ -6458,68 +6491,6 @@ When you spend a luck point to reroll or gain a bonus to an unarmed attack, you 
 
 Whenever you deal damage to a creature with an unarmed melee attack, roll 1d6. If you roll a 1, a Tanuki phantom appears behind you, increasing the damage of the attack by 5 force damage.
 
-### Tortoise Strength Gu
-
-*A washed out green beetle with a dense exoskeleton.*
-
-*Rank 1 Carver*
-
-Cost: 40 portions
-
-Range: Self
-
-Health: 4
-
-Food: 10 kilograms of turtle flesh
-
-Keywords: [**Dao**]
-
-Effect: **Beast Strength**: Your **Muscular System** is carved with Strength Path dao; Your Strength and Fortitude attributes permanently increase by 1. For 24 hours, you cannot gain Strength or Fortitude from Tortoise Strength Gu. Once you have gained 5 Strength and Fortitude from Tortoise Strength Gu, further activations have no effect, but you permanently gain the following features: 
-
-Whenever you are hit by an attack roll that was not a called shot, there is a 50% chance it hits your torso. Reduce all damage dealt to your torso by 5.
-
-Whenever you deal damage to a creature with an unarmed melee attack, roll 1d4. If you roll a 1, a Tortoise phantom appears behind you, increasing the damage of the attack by 2 force damage.
-
-### Whale Strength Gu
-*Rank 4 Carver*
-
-Cost: 100 portions
-
-Range: Self
-
-Health: 3
-
-Food: 50 kg of whale flesh
-
-Keywords: [Dao]
-
-Effect: **Beast Strength**: Your **Muscular System** is carved with Strength Path dao; Your Strength attribute permanently increases by 10 and your Fortitude attribute permanently increases by 4. For 24 hours, you cannot gain Strength or Fortitude from Whale Strength Gu. Once you’ve gained 50 Strength & 20 Fortitude from Whale Strength Gu, activating Whale Strength Gu further has no effect on you, but you permanently gain the following features:
-
-Whenever you deal damage to a creature with an unarmed melee attack, roll 1d8. If you roll a 1, a Whale phantom appears above the target, dropping in a 3-meter radius centered on the creature. Creatures other than you in the area take 25 force damage.
-
-You gain the following unarmed attack option:
-
-**Whale Flop:** You belly-flop onto a target. Make a **Close Combat** skill test. On a success, the target takes force damage equal to (Your Fortitude - Target's Fortitude)% of your Strength attribute, rounded down to a minimum of 1. Whether you succeed or fail, you fall *prone*.
-
-### Wolf Strength Gu
-*Rank 1 Carver*
-
-Cost: 40 portions
-
-Range: Self
-
-Health: 4
-
-Food: 10 kg of wolf flesh
-
-Keywords: [**Dao**]
-
-Effect: **Beast Strength**: Your **Muscular System** is carved with Strength Path dao; Your Strength attribute permanently increases by 5. For 24 hours, you cannot gain strength from Wolf Strength Gu. Once you've gained 25 strength from Wolf Strength Gu, activating Wolf Strength Gu further has no effect on you, but you permanently gain the following features:
-
-Whenever you deal damage to a creature with an unarmed melee attack, roll 1d4. If you roll a 1, a wolf phantom appears behind you, increasing the damage of the attack by 2 force damage.
-
-Your movement is increased by 1 meter.
-
 ### Big Strength Gu
 *Rank 2 Catalyst*
 
@@ -6668,6 +6639,28 @@ Food: {1, 10, 100} snap pebbles ({10, 100, 1,000} primeval stones)
 
 Effect: You clap your hands together and a deafening noise shakes your surroundings. All creatures except for you within 3 meters of you take {2, 8, 25} + {1, 2, 5}% of your Strength attribute (rounded down to a minimum of 1) sonic and force damage. If the sonic damage is dealt to their hitpoints, they gain the *dazed* condition.
 
+### Tortoise Strength Gu
+
+*A washed out green beetle with a dense exoskeleton.*
+
+*Rank 1 Carver*
+
+Cost: 40 portions
+
+Range: Self
+
+Health: 4
+
+Food: 10 kilograms of turtle flesh
+
+Keywords: [**Dao**]
+
+Effect: **Beast Strength**: Your **Muscular System** is carved with Strength Path dao; Your Strength and Fortitude attributes permanently increase by 1. For 24 hours, you cannot gain Strength or Fortitude from Tortoise Strength Gu. Once you have gained 5 Strength and Fortitude from Tortoise Strength Gu, further activations have no effect, but you permanently gain the following features: 
+
+Whenever you are hit by an attack roll that was not a called shot, there is a 50% chance it hits your torso. Reduce all damage dealt to your torso by 5.
+
+Whenever you deal damage to a creature with an unarmed melee attack, roll 1d4. If you roll a 1, a Tortoise phantom appears behind you, increasing the damage of the attack by 2 force damage.
+
 ### Toughen Up Gu
 *Rank 3 Carver*
 
@@ -6682,6 +6675,47 @@ Food: <!-- TODO ->
 Keywords: [**Dao**], [**Expendable**]
 
 Effect: Your **Torso** is carved with Strength Path dao, permanently increasing your maximum hit points by 25. 
+
+### Whale Strength Gu
+*Rank 4 Carver*
+
+Cost: 100 portions
+
+Range: Self
+
+Health: 3
+
+Food: 50 kg of whale flesh
+
+Keywords: [Dao]
+
+Effect: **Beast Strength**: Your **Muscular System** is carved with Strength Path dao; Your Strength attribute permanently increases by 10 and your Fortitude attribute permanently increases by 4. For 24 hours, you cannot gain Strength or Fortitude from Whale Strength Gu. Once you’ve gained 50 Strength & 20 Fortitude from Whale Strength Gu, activating Whale Strength Gu further has no effect on you, but you permanently gain the following features:
+
+Whenever you deal damage to a creature with an unarmed melee attack, roll 1d8. If you roll a 1, a Whale phantom appears above the target, dropping in a 3-meter radius centered on the creature. Creatures other than you in the area take 25 force damage.
+
+You gain the following unarmed attack option:
+
+**Whale Flop:** You belly-flop onto a target. Make a **Close Combat** skill test. On a success, the target takes force damage equal to (Your Fortitude - Target's Fortitude)% of your Strength attribute, rounded down to a minimum of 1. Whether you succeed or fail, you fall *prone*.
+
+### Wolf Strength Gu
+*Rank 1 Carver*
+
+Cost: 40 portions
+
+Range: Self
+
+Health: 4
+
+Food: 10 kg of wolf flesh
+
+Keywords: [**Dao**]
+
+Effect: **Beast Strength**: Your **Muscular System** is carved with Strength Path dao; Your Strength attribute permanently increases by 5. For 24 hours, you cannot gain strength from Wolf Strength Gu. Once you've gained 25 strength from Wolf Strength Gu, activating Wolf Strength Gu further has no effect on you, but you permanently gain the following features:
+
+Whenever you deal damage to a creature with an unarmed melee attack, roll 1d4. If you roll a 1, a wolf phantom appears behind you, increasing the damage of the attack by 2 force damage.
+
+Your movement is increased by 1 meter.
+
 
 
 :::
@@ -7209,9 +7243,9 @@ Range: Touch
 
 Health: 3
 
-Food: <!--TODO ->
+Food: <!-- TODO ->
 
-Effect: You touch some sort of container (a chest, container Gu, or even someone's pockets) and your arm becomes ethereal, passing into the container and stealing a random item from it. **Awareness** skill tests made to notice you stealing an item with Snatch Gu are made with a +20 penalty.
+Effect: You touch some sort of container (a chest, container Gu, or even someone's pockets) and your arm becomes ethereal, passing into the container and stealing a random item from it. If you can see inside the container, you may choose the stolen item. **Awareness** skill tests made to notice you stealing an item with Snatch Gu are made with a +20 penalty.
 
 ### Steal Luck Gu
 *Rank 1 Attack*

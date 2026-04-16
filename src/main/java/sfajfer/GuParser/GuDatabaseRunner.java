@@ -12,6 +12,6 @@ public class GuDatabaseRunner implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         // Pass only the filename
-        guParser.parseAndPopulate("Gu Index.md");
+        guParser.parseAndPopulate("Gu Index.md", false);
     }
 }
