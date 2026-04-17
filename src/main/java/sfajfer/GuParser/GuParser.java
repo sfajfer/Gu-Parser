@@ -142,6 +142,7 @@ public class GuParser {
                         List<Integer> ranks = new ArrayList<>();
                         for (String part : rankRaw.split(",")) {
                             part = part.trim();
+                            if (part.isEmpty()) continue;
                             if (part.contains("-")) {
                                 String[] range = part.split("-");
                                 int start = Integer.parseInt(range[0].trim());
@@ -151,9 +152,8 @@ public class GuParser {
                                 ranks.add(Integer.parseInt(part));
                             }
                         }
-
-                        currentGu.append("Rank", ranks);
-                        currentGu.append("Type", type);
+                        currentGu.put("Rank", ranks);
+                        currentGu.put("Type", type);
                     }
                 }
                 else if (trimmed.startsWith("Cost:"))    currentGu.append("Cost",  trimmed.substring(5).trim());

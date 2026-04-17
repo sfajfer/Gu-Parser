@@ -111,6 +111,7 @@ public class GuParserLocal {
                         List<Integer> ranks = new ArrayList<>();
                         for (String part : rankRaw.split(",")) {
                             part = part.trim();
+                            if (part.isEmpty()) continue;
                             if (part.contains("-")) {
                                 String[] range = part.split("-");
                                 int start = Integer.parseInt(range[0].trim());
