@@ -498,6 +498,26 @@ Effect: Target creature within range has some of their blood vessels burst, taki
 
 ::: columns
 
+### Black Hearted Gu
+
+*Rank 4 Carver*
+
+Cost: 100 portions
+
+Range: Self
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Keywords: [**Dao**], [**Expendable**]
+
+Effect: Over the course of an hour, your **Heart** and **Blood** are etched with Dark Path dao. When the process is complete, you have a dark heart that pumps a vile black liquid through your veins, and you permanently gain the following features:
+
+You can sustain 1 Dark Path Gu without it counting towards your limit of sustained Gu.
+
+Whenever you take damage from the *bleeding* condition, as long as you are in darkness, the blood is pulled back into your veins and you instead take no damage.
+
 ### Breath Concealment Gu
 *Rank 3-5 Concealment*
 
@@ -855,13 +875,13 @@ Health: 5
 
 Food: <!-- TODO ->
 
-Effect: Pick a chunk of stone {[Small], [Medium], [Large]} or smaller that you can see within range.
+Effect: Choose a chunk of stone {[Small], [Medium], [Large]} or smaller that you can see within range.
 
 [Small]: Make an attack roll against a creature within 15 meters of the stone. That creature takes {6, 12, 30} force damage.
 
-[Medium]: Pick a 10-meter line originating from the stone. The stone is launched in that line, and if it hits a creature it stops in the square immediately before them and that creature takes {N/A, 15, 40} force damage and is knocked *prone* if they are [Medium] or smaller.
+[Medium]: Choose a 10-meter line originating from the stone. The stone is launched in that line, and if it hits a creature it stops in the square immediately before them and that creature takes {N/A, 15, 40} force damage and is knocked *prone* if they are [Medium] or smaller.
 
-[Large]: Pick a 5-meter line originating from the stone. The stone is launched in that line, and creatures in the line take 50 force damage and are pushed backwards to the end of the line and knocked *prone*, taking an additional 80 force damage if they are pushed into a wall or [Huge] creature. The stone also stops in the square immediately before the first [Huge] creature hit.
+[Large]: Choose a 5-meter line originating from the stone. The stone is launched in that line, and creatures in the line take 50 force damage and are pushed backwards to the end of the line and knocked *prone*, taking an additional 80 force damage if they are pushed into a wall or [Huge] creature. The stone also stops in the square immediately before the first [Huge] creature hit.
 
 Black Antlion Gu can be activated as a *Reaction* to being hit with a {[Small], [Medium] [Large]} or smaller stone, negating the attack and launching the stone to a valid target. 
 
@@ -1332,7 +1352,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Supplementary**]
 
-Effect: Pick a creature enslaved by you that you can see within range. Your next Gu activation this turn costs double the primeval essence. As long as the Gu does not have the [**Expendable**] or [**Steed**] keywords, its effect is duplicated, treating the targeted creature as the source of the second activation. You may pick the target for targeted effects.
+Effect: Choose a creature enslaved by you that you can see within range. Your next Gu activation this turn costs double the primeval essence. As long as the Gu does not have the [**Expendable**] or [**Steed**] keywords, its effect is duplicated, treating the targeted creature as the source of the second activation. You may choose the target for targeted effects.
 
 ### Last Breath Gu
 *A ghastly vulture with ethereal wings and a bloody beak.*
@@ -1536,7 +1556,7 @@ Food: 1 blazing lotus petal (150 primeval stones)
 
 Keywords: [**Expendable 3**]
 
-Effect: The dao marks carved into your body by Gu with the [**Dao**] keyword are set ablaze. For 1 hour, you are assailed with a burning pain and have a +40 penalty to all skill tests. When the duration elapses, you lose all effects granted by Gu with the [**Dao**] keyword, unless that Gu belongs to Water Path or Ice Path. 
+Effect: The dao marks carved into your body by Gu with the [**Dao**] keyword are set ablaze. For 1 hour, you are assailed with a burning pain and have a +40 penalty to all skill tests. When the process is complete, you lose all effects granted by Gu with the [**Dao**] keyword, unless that Gu belongs to Water Path or Ice Path. 
 
 ### Blazing Shield Gu
 *Rank 2 Manifestation*
@@ -2000,7 +2020,7 @@ Health: 2
 
 Food: <!-- TODO ->
 
-Effect: Pick a square that you can see within range. A white-hot explosion scorches a 1-meter radius sphere centered on the chosen square. 8 10-meter long lines of blazing fire erupt from the square in all diagonals and cardinal directions.
+Effect: Choose a square that you can see within range. A white-hot explosion scorches a 1-meter radius sphere centered on the chosen square. 8 10-meter long lines of blazing fire erupt from the square in all diagonals and cardinal directions.
 
 Creatures caught in the explosion take 140 heat damage and gain the *ablaze* condition. Creatures caught in any of the lines of fire take 60 heat damage and gain the *ablaze* condition. If a creature takes damage from the initial explosion, it does not also take damage from the lines of fire.
 
@@ -2920,7 +2940,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: Pick a square you can see within range. While sustained, a storm of razor sharp icicles and cutting winds is manifested around it. The area is considered *Icy Terrain* and any creature that starts its turn within 5 meters of the chosen square takes 40 rending damage, 40 force damage, and 40 cold damage. If the cold damage is dealt to a creature's hit points, they gain the *fatigued* condition.
+Effect: Choose a square you can see within range. While sustained, a storm of razor sharp icicles and cutting winds is manifested around it. The area is considered *Icy Terrain* and any creature that starts its turn within 5 meters of the chosen square takes 40 rending damage, 40 force damage, and 40 cold damage. If the cold damage is dealt to a creature's hit points, they gain the *fatigued* condition.
 
 [**END**]
 
@@ -3749,7 +3769,7 @@ Health: 4
 
 Food: Light from all colors of the rainbow, or light from White Heaven
 
-Effect: Pick a square that you can see within range. You turn into a beam of light and nearly instantaneously move to the target square. You ignore effects that trigger when you move through their area of effect, but can still be stopped by barriers. The speed of travel is so fast that it disorients you and expends all of your *Reactions*.
+Effect: Choose a square that you can see within range. You turn into a beam of light and nearly instantaneously move to the target square. You ignore effects that trigger when you move through their area of effect, but can still be stopped by barriers. The speed of travel is so fast that it disorients you and expends all of your *Reactions*.
 
 If you would move through darkness created by a Gu of rank 4 or higher, you instead stop in the square immediately before it.
 
@@ -3895,6 +3915,22 @@ As long as Absorb Energy Gu is of the same or a higher rank than your own, whene
 
 If the attack is from a Gu that is the same rank as Absorb Energy Gu and has a cost of fewer than 5 portions, you instead regain a number of portions of primeval essence equal to the cost of that Gu.
 
+### Arcing Touch Gu
+
+*Rank 3 Carver*
+
+Cost: 100 portions
+
+Range: Self
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Keywords: [**Dao**], [**Expendable**]
+
+Effect: Over the course of an hour, your **Hands** are etched with Lightning Path dao. When the process is complete, you gain the ability to arc your touch attacks. Whenever you resolve a Gu effect with a range of touch, meaning the target did not successfully dodge or negate it, you may choose a creature within 2 meters of the target and expend the primeval essence cost of the Gu being arced. A thin crackle of electricity arcs to the chosen creature, who has a chance to make a *Reaction* before being affected by the effect. The arc can be dodged.
+
 ### Buzzing Ears Gu
 
 *Rank 1 Divination*
@@ -3926,6 +3962,20 @@ Food: <!-- TODO ->
 Keywords: [**Sustained**], [**Unreactable**], [**Fast**]
 
 Effect: Call Lightning Gu has no effect unless activated in an area with at least 100 meters of vertical space. At the start of your next turn, a dark cloud gathers high above a square you can see within range, covering a 3-meter radius. As an activation and at the end of each of your turns while sustained you may call lightning down on a square directly below the cloud. Any creature in that square takes 40 shock damage, and any creature in that square or an adjacent square takes 3 sonic damage.
+
+### Capacitor Gu
+
+*Rank 1-4 Container*
+
+Cost: 5 portions
+
+Range: Self
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Effect: You transfer 10 portions of primeval essence of the same rank as Capacitor Gu from your primeval sea into Capacitor Gu. Capacitor Gu can store up to 80 portions of primeval essence. When you activate a Gu of the same rank as Capacitor Gu, you may expend all primeval essence stored inside Capacitor Gu, reducing the cost of activating said Gu by the number of portions of primeval essence expended.
 
 ### Chain Lightning Gu
 *Rank 3 Attack*
@@ -4342,6 +4392,34 @@ Effect: Your **Leg Muscles** are permanently transformed by Lightning Path Dao, 
 
 ::: columns
 
+### 44 False Yin Gu
+
+*Rank 2 Attack*
+
+Cost: 14 portions
+
+Range: Touch
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Effect: A creature you touch suffers misfortune. For their next 4 turns, they gain a +4 penalty to all skill tests, and any roll of 44 on the dice before any modifiers is considered a fumble, even if the roll would normally be ignored by advantage or disadvantage.
+
+### 88 True Yang Gu
+
+*Rank 3 Catalyst*
+
+Cost: 8 portions
+
+Range: Self
+
+Health: 8
+
+Food: <!-- TODO ->
+
+Effect: Until the end of your next turn, you may reroll any d10 or td10 if it rolls 8 or 80, respectively. Any roll of 88 on the dice before any modifiers is considered a critical success, even if the roll would normally be ignored by advantage or disadvantage. Take the roll and apply any modifiers to it as normal to determine the number of degrees of success; if the roll would have normally failed, it has 1 degree of success.
+
 ### Amplify Luck Gu
 
 *Rank 2 Catalyst*
@@ -4399,6 +4477,22 @@ Food: <!-- TODO ->
 Keywords: [**Dao**], [**Expendable**]
 
 Effect: Your luck point maximum is increased by 1.
+
+### Magic Hands Gu
+
+*Rank 3 Carver*
+
+Cost: 100 portions
+
+Range: Self
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Keywords: [**Dao**], [**Expendable**]
+
+Effect: Over the course of an hour, your **Hands** are etched with Luck Path dao. When the process is complete, you permanently gain a 50% chance to refund the first luck point spent each session.
 
 ### Manifest Luck Gu
 
@@ -4706,7 +4800,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: While sustained, you manifest a [**Medium**] hand made of black iron in an unoccupied square within range. Pick a creature within range. At the end of each of your turns, the hand moves up to 5 meters towards the target and attempts to grab them. If the target does not successfully dodge the grab, they are *restrained* by the hand. A creature can break free by succeeding an **Athletics** skill test with a {+60, +120, +250} penalty.
+Effect: While sustained, you manifest a [**Medium**] hand made of black iron in an unoccupied square within range. Choose a creature within range. At the end of each of your turns, the hand moves up to 5 meters towards the target and attempts to grab them. If the target does not successfully dodge the grab, they are *restrained* by the hand. A creature can break free by succeeding an **Athletics** skill test with a {+60, +120, +250} penalty.
 
 ### Iron Hand Gu
 *Rank 2 Manifestation*
@@ -5190,6 +5284,22 @@ Food: <!-- TODO ->
 
 Effect: One refinement recipe that you know or have written in front of you is archived in Catalog Gu. You may inspect the contents of Catalog Gu without expending primeval essence, and you gain a -10 bonus to **Refinement** skill tests if the recipe is recorded in a Catalog Gu that you own.
 
+### Eye for Quality Gu
+
+*Rank 4 Carver*
+
+Cost: 100 portions
+
+Range: Self
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Keywords: [**Dao**], [**Expendable**]
+
+Effect: Over the course of an hour, your **Eyes** are cut repeatedly into flawless eyes of diamond. You are *blinded* for the duration, but When the process is complete, your eyes can spot inefficiencies in refinement recipes. Whenever you successfully create a refinement recipe for a Gu of rank 4 or lower, that recipe gains 1 additional recipe point. You also gain an additional recipe point when improving refinement recipes for Gu of rank 4 or lower, unless you've already gained a recipe point when creating or improving that specific recipe.
+
 ### Morphing Colors Gu
 *A stinkbug with an exterior sheen like an oil slick.*
 
@@ -5320,6 +5430,25 @@ If the Gu or killer move creates an area of effect, increase its size in all dim
 
 If the Gu or killer move has the [**Transformation**] keyword, the size of the transformation is increased by one stage.
 
+### Close Attack Gu
+*A 4-legged butterfly with wings white as parchment.*
+
+*Rank 2-3 Catalyst*
+
+Cost: 12 portions
+
+Range: Self
+
+Health: 5
+
+Food: <!-- TODO ->
+
+Keywords: [**Supplementary**], [**Sustained**]
+
+Effect: While sustained, you may use your **Ranged Attack** skill for attack rolls made against targets {2, 1} meters away from you.
+
+**Supplementary:** When used as part of a killer move, you may use your **Ranged Attack** skill for attack rolls in the killer move made against targets {2, 1} meters away from you.
+
 [**Upgrade Path: Hundred Meter Gu**]
 
 ### Millimeter Gu
@@ -5411,6 +5540,24 @@ Health: 2
 Food: <!-- TODO ->
 
 Effect: You touch a creature. If they are sustaining a Gu of rank {1, 2, 3, 4, 5} or lower, it deactivates and its effect ends. If they are sustaining multiple Gu of rank {1, 2, 3, 4, 5} or lower, one is selected at random. Inactive Gu cannot deactivate Gu being used as part of a killer move.
+
+### Ranged Combat Gu
+
+*Rank 2-4 Catalyst*
+
+Cost: 20 portions
+
+Range: Self
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: [**Supplementary**], [**Sustained**]
+
+Effect: While sustained, you may use your **Close Combat** skill for attack rolls made against targets within {3, 5, 8} meters.
+
+**Supplementary:** When used as part of a killer move, you may use your **Close Combat** skill for attack rolls from the killer move made against targets within {3, 5, 8} meters.
 
 ### Sacrifice Gu
 *Rank 4 Catalyst*
@@ -6117,7 +6264,27 @@ Food: <!-- TODO ->
 
 Keywords: [**Undodgeable**]
 
-Effect: You and a creature that you can see within range teleport to the other's location. Position Swap Gu can be activated as a reaction to being hit with an attack. As long as the attack does not have the [**Undodgeable**] keyword, the creature you switch places with is hit by the attack and has a +40 penalty to **Dodge** skill tests made to avoid it, reduced to a +20 penalty if the target is aware that you have Position Swap Gu.
+Effect: You and a creature that you can see within range teleport to the other's location. Position Swap Gu can be activated as a reaction to being hit with an attack. As long as the attack does not have the [**Undodgeable**] keyword, the creature you switch places with is hit by the attack and has a +40 penalty to **Dodge** skill tests made to avoid it, reduced to a +20 penalty if the target is aware that you have Position Swap Gu. 
+
+If you swap positions wtih a creature as a reaction to being hit with their own melee attack, the melee attack instead targets the same square relative to the attacker's new position. For example, if they are attacking you from directly in front, they would then switch places with you and attack the square that was originally right behind you.
+
+### Spacial Rift Gu
+
+*Rank 3-4 Catalyst*
+
+Cost: (2 * X) portions
+
+Range: X meters
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Keywords: [**Supplementary**], [**Sustained**]
+
+Effect: Choose a square you can see within range. While sustained, you may choose for any Gu you activate or continue sustaining to have its effect originate from that square instead of your own.
+
+**Supplementary:** When used as part of a killer move, you may choose for that killer move to have its effect originate from any square you can see within range. If the killer move has the [**Sustained**] keyword, you must stop sustaining it and activate it again to change the source square.
 
 ### Star Dart Gu
 
@@ -6161,7 +6328,7 @@ Health: 3
 
 Food: <!-- TODO ->
 
-Effect: Stars rain from the sky all around you. Pick up to 8 different squares within range. Each square cannot be within 3 meters of another square chosen as a target for Star Rain Gu. Stars rain on each of the chosen squares, dealing 35 heat damage to any creature within a 1-meter radius.
+Effect: Stars rain from the sky all around you. Choose up to 8 different squares within range. Each square cannot be within 3 meters of another square chosen as a target for Star Rain Gu. Stars rain on each of the chosen squares, dealing 35 heat damage to any creature within a 1-meter radius.
 
 ### Star River Gu
 
@@ -6177,7 +6344,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: Pick 10 squares within range, one after another. The first square must be adjacent to you, and every subsequent square must be adjacent to the one before it. A river of stars flows from your mouth, following the path of squares you've chosen in order. Creatures in the path take 100 heat damage and gain the *dazed* condition as they're battered with flashing stars. At the start of each of your turns while sustained, the river continues to flow, and you must choose another 10 squares, following the same rules as before, except the first square must be adjacent to the final square chosen on the previous turn.
+Effect: Choose 10 squares within range, one after another. The first square must be adjacent to you, and every subsequent square must be adjacent to the one before it. A river of stars flows from your mouth, following the path of squares you've chosen in order. Creatures in the path take 100 heat damage and gain the *dazed* condition as they're battered with flashing stars. At the start of each of your turns while sustained, the river continues to flow, and you must choose another 10 squares, following the same rules as before, except the first square must be adjacent to the final square chosen on the previous turn.
 
 ### Stargate Gu 
 *When Stargate Gu is refined, two are created. If one of them dies, the other becomes useless, but can still be used in killer moves.*
@@ -6487,7 +6654,7 @@ Keywords: [**Dao**]
 
 Effect: **Beast Strength**: Your **Muscular System** is carved with Strength Path dao; Your Strength attribute permanently increases by 3. Once you’ve gained 15 Strength from Tanuki Strength Gu, further activations have no effect, but you permanently gain the following features: 
 
-When you spend a luck point to reroll or gain a bonus to an unarmed attack, you gain an additional -20 bonus to the roll.
+When you spend a luck point to reroll or gain a bonus to an unarmed attack, the number on the die you need to roll to get a critical hit is increased by 5.
 
 Whenever you deal damage to a creature with an unarmed melee attack, roll 1d6. If you roll a 1, a Tanuki phantom appears behind you, increasing the damage of the attack by 5 force damage.
 
@@ -6815,7 +6982,7 @@ Health: 3
 
 Food: <!-- TODO ->
 
-Effect: Splits a [Medium] or smaller inanimate object perfectly in half. You can pick what direction it splits as long as splitting it that way would create 2 halves of equal volume.
+Effect: Splits a [Medium] or smaller inanimate object perfectly in half. You can choose what direction it splits as long as splitting it that way would create 2 halves of equal volume.
 
 ### Sole Sword Gu
 *Rank 4-5 Carver*
@@ -7034,7 +7201,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Undodgeable**]
 
-Effect: A ghostly hand materializes and plunges into the aperture of a Gu Master you can see within range. A Gu from their aperture is grabbed and teleported into your aperture. If you can see inside their aperture, you may pick a Gu; one is selected at random otherwise.
+Effect: A ghostly hand materializes and plunges into the aperture of a Gu Master you can see within range. A Gu from their aperture is grabbed and teleported into your aperture. If you can see inside their aperture, you may choose a Gu; one is selected at random otherwise.
 
 ### Gu Laundering Gu
 
@@ -7442,6 +7609,24 @@ Food: <!-- TODO ->
 
 Effect: Backtrack Gu projects a hologram in front of you displaying the area within range. It begins by displaying the surroundings as they appeared {3 days, 1 year} ago, and you can speed up and slow down the video feed at will, displaying what occured in the area at any time within the duration. The video feed shows creatures concealed by Gu of rank {3, 4} or lower.
 
+### Extend Affliction Gu
+
+*Rank 2, 3, 5*
+
+Cost: 15 portions
+
+Range: Touch
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Keywords: [**Supplementary**]
+
+Effect: Any conditions or effects applied to a creature you touch are increased by {1, 2, 5} turns, as long as the effect had a finite duration.
+
+**Supplementary:** When used as part of a killer move, any durations specified in the killer move are increased by {1, 2, 5} turns.
+
 ### Gu as Before Gu
 
 *Rank 4-5 Tonic*
@@ -7527,6 +7712,34 @@ Health: 4
 Food: <!-- TODO ->
 
 Effect: You gain an additional *Combat Action* this turn. At the end of your turn, if you aren't under the effect of any [**Dao**] Gu belonging to Time Path, your body becomes chronologically confused and you gain the *fatigued* condition. If you already had the *fatigued* condition, you instead gain the *stunned* condition.
+
+### Shrink Affliction Gu
+
+*Rank 1-5 Tonic*
+
+Cost: 18 portions
+
+Range: Touch
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Effect: Any conditions or effects applied to a creature you touch by Gu of rank {1, 2, 3, 4, 5} or lower are removed from them, as long as the effect had a finite duration.
+
+### Shrinking Inchworm Gu
+
+*Rank 3-4 Attack*
+
+Cost: 32 portions
+
+Range: Touch
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Effect: A creature you touch is transported {1, 3} turns downstream on the River of Time. The creature instantly takes {1, 3} turn(s) that end(s) immediately after beginning, without the creature taking any *Actions*, *Bonus Actions*, or *Movement*. Their reactions are restored, any durations affecting them tick down, conditions that end at end of turn like *stunned* and *dazed* end like they normally would, and anything that affects them at the start or end of each turn triggers like usual. If they were sustaining any Gu or killer moves, they may choose to stop sustaining them or else spend the primeval essence cost for the turn(s).
 
 ### Slow Down Gu
 
@@ -9017,6 +9230,20 @@ Keywords: [**Expendable**]
 
 Effect: Activate before rolling the failure die of a refinement recipe for a Gu of rank 3 or lower. Increase the die by one stage (d2 -> d4 -> d6 -> d8 ->  d10 -> d12 -> d20 -> d100) to a maximum of a d100.
 
+### Counter Gu
+
+*Rank 2-4 Guard*
+
+Cost: 25 portions
+
+Range: 10 meters
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Effect: Choose any path. Until the start of your next turn, creatures within range gain advantage on skill tests made as a *Reaction* against effects originating from Gu of the chosen path of rank {2, 3, 4} or lower.
+
 ### Deep Mind Gu
 *Rank 3 Carver*
 
@@ -9076,6 +9303,20 @@ Food: <!-- TODO ->
 Keywords: [**Deductive**]
 
 Effect: Thoughts like blue and purple question marks float above your head. When you use Detective Thoughts Gu to make a *Deduction* action, you gain a {-20, -40} bonus to **Deduction** skill tests made to determine the perpetrator of a crime.
+
+### Feinting Fist Gu
+
+*Rank 2 Catalyst*
+
+Cost: 5 portions
+
+Range: 2 meters
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Effect: Choose a creature that you can see within range. The next time you make a melee attack against them before the end of your next turn, they must select their reaction before you make the attack roll.
 
 ### Freezing Thoughts Gu
 
@@ -9789,6 +10030,20 @@ Food: Natural primeval essence (none)
 
 Effect: Cannot be activated. Passively sprouts 50 primeval essence stones every day at midnight. Up to 50 primeval stones can remain attached to Heavenly Essence Treasure Lotus Gu at a time.
 
+### Metabolize Essence Gu
+
+*Rank 2 Tonic*
+
+Cost: 5 portions
+
+Range: Touch
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Effect: You touch a Gu Master, and they begin consuming primeval essence to heal their wounds. At the start of each of their turns, they expend 25 portions of primeval essence and regain 5 hit points. If the target's rank is 3 or higher, they expend 5 portions of primeval essence instead of 25. If they are rank 1, they expend 100. This effect continues until the target is either at full health or cannot afford the primeval essence cost at the start of their turn.
+
 ### Paper Tiger Gu
 *Rank 2 Concealment*
 
@@ -9941,7 +10196,7 @@ Health: 14
 
 Food: <!-- TODO ->
 
-Effect: Select a 2 meter radius circle within range. Roots and vines burst forth from the ground, and creatures in the area must succeed an **Athletics** skill test with a +20 penalty or else be *restrained* for 1 minute. A *restrained* creature can remake the test as a *Combat Action* on its turn to free itself.
+Effect: Choose a 2-meter radius centered on a square you can see within range. Roots and vines burst forth from the ground, and creatures in the area must succeed an **Athletics** skill test with a +10 penalty or else be *restrained* for 1 minute. A *restrained* creature can remake the test as a *Combat Action* on its turn to free itself.
 
 ### Thorn Burst Gu
 *Rank 1 Attack*
@@ -9968,7 +10223,7 @@ Health: 4
 
 Food: <!-- TODO ->
 
-Effect: You attack a target within range with a thorny whip. Make an attack roll; on a hit, pick either *Crack*, *Trip*, or *Pull*.
+Effect: You attack a target within range with a thorny whip. Make an attack roll; on a hit, choose either *Crack*, *Trip*, or *Pull*.
 
 **Crack:** You strike the target, dealing 12 rending damage. If this damage is dealt to a creature's hit points, they gain *bleeding 1*.
 
