@@ -231,13 +231,6 @@ public class GuParserLocal {
                         List<Map<String, Object>> allGuEntries, int id) {
         if (currentGu != null) {
             String effectStr = effectBuilder.toString().trim();
-            
-            // Apply table-safety to description appending as well
-            if (descriptionBuilder.length() > 0) {
-                String desc = descriptionBuilder.toString().trim();
-                String separator = desc.startsWith("|") ? "\n" : "\n ";
-                effectStr = effectStr + separator + desc;
-            }
 
             currentGu.put("id", id);
             
@@ -248,12 +241,19 @@ public class GuParserLocal {
                 currentGu.put("Steed", steedDoc);
             }
 
+            // Parse effect into array and add description as a separate item if present
+            List<String> effectItems = new ArrayList<>();
             if (effectStr.length() > 0) {
-                List<String> parsedEffects = parseEffectIntoArray(effectStr);
-                currentGu.put("Effect", parsedEffects);
-            } else {
-                currentGu.put("Effect", new ArrayList<>());
+                effectItems.addAll(parseEffectIntoArray(effectStr));
             }
+            
+            // Append description as a separate item in the array
+            if (descriptionBuilder.length() > 0) {
+                String desc = descriptionBuilder.toString().trim();
+                effectItems.add(desc);
+            }
+            
+            currentGu.put("Effect", effectItems);
 
             Map<String, Object> copy = new LinkedHashMap<>(currentGu);
             copy.remove("_id");

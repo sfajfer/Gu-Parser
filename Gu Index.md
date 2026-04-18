@@ -234,8 +234,6 @@ Food: 100 g of dried blood
 
 Effect: You create 10 liters of black blood around your feet that can be manipulated as if it were real blood by other Gu.
 
-[**Upgrade Path: Bloodstained Robe Gu**]
-
 ### Bloody Fabric Gu
 *Rank 3 Container*
 
@@ -297,7 +295,6 @@ When you stop sustaining Bloodstained Robe Gu, the robe remains on your body and
 
 *If an ordinary human loses 2 liters of blood, they fall unconscious and are dying.*
 
-[**End**]
 
 ### Bloody Veil Gu
 *Rank 1-4 Concealment*
@@ -906,8 +903,6 @@ Food: <!-- TODO ->
 
 Effect: A {1, 2} meter radius pillar made of translucent blue crystal rises from the ground below your feet, raising you and any creatures in the area 2 meters into the air. If you activate Crystal Pillar Gu while standing on a crystal pillar created by Crystal Pillar Gu, it grows a further 2 meters into the air. **Athletics** tests made to climb the pillar are made with a +40 penalty.
 
-[**Upgrade Path: Diaoyu Fortress Gu**]
-
 ### Stoneflesh Gu
 
 *Rank 1 Guard*
@@ -984,7 +979,6 @@ Keywords: [**Defensive**]
 
 Effect: Dense stone walls rise in a 5 meter by 5 meter square perimeter, centered on your square. Any creatures occupying a square the walls rise in that do not dodge are knocked *prone* to a random side of the wall. The walls are 3 meters high and **Athletics** skill tests made to climb them are made with a -10 bonus. While you are within the perimeter, including on top of the walls, you have resistance to all damage except for sonic and reduce all non-poison damage dealt to your hit points by 75. The walls are permanent but the effect ends after 1 day.
 
-[**END**]
 
 ### Granite Bones Gu
 *Rank 3 Carver*
@@ -1829,8 +1823,6 @@ Keywords: [**Sustained**]
 
 Effect: Manifest a swarm of fireflies in 2x2 square area within range while sustained. The swarm gives off bright light for 25 meters, and can occupy the space of other creatures. If a creature is in the same square as the swarm, they have a +10 penalty to all skill tests. You can move the swarm up to 10 meters to a point within range as a *Bonus Action* or activation on your turn.
 
-[**Upgrade Path: Five Door Fire Pagoda Gu**]
-
 ### Charcoal Gu
 *Rank 1 Manifestation*
 
@@ -1922,7 +1914,6 @@ Keywords: [**Sustained**], [**Undodgeable**]
 
 Effect: While sustained, a magnificent pagoda with 5 closed doors manifests around you. If at least one door is unopened, target a creature you can see within range at the start of each of your turns. A door opens, and that creature is engulfed in flame, taking heat damage equal to 150 times the number of open doors and gaining the *ablaze* condition. While all 5 doors are open, multiply heat damage you deal from any source by 5 (not including the attack made by the fifth door).
 
-[**END**]
 
 ### Flame Binding Gu
 *Rank 2 Attack*
@@ -2155,8 +2146,6 @@ Keywords: [**Dao**], [**Expendable**]
 
 Effect: Your Maximum Soul is permanently increased by 20.
 
-[**Upgrade Path: Vengeful Sun Gu**]
-
 ### Flaming Fist Gu
 
 *Rank 1 Catalystk*
@@ -2231,7 +2220,6 @@ Keywords: [**Unreactable**]
 
 Effect: Vengeful Sun Gu can only be activated as a *Reaction* to being hit by an attack made by a creature within range. A pillar of plasma envelopes them for a split second. They take 200 heat damage and gain the *ablaze* condition.
 
-[**END**]
 
 :::
 \newpage
@@ -2819,9 +2807,6 @@ Keywords: [**Dao**], [**Expendable**]
 
 Effect: You are assailed with a piercing pain for 1 hour while your **Muscular System** is transfigured into ice muscles. For the duration, you can take no actions except to speak. When the ritual completes, you are permanently immune to the *fatigued* condition if it is being applied to you by an Ice Path Gu or as a result of taking cold damage. Additionally, your Strength attribute is permanently increased by 10, and any rending or force damage dealt to your hit points is reduced by 5.
 
-[**Upgrade Tree: Icicle Gu**]
-*The signature attack of Ice Path. Rank 1 Icicle Gu launches a sharp chunk of ice at an enemy that deals damage and saps heat from the target. It can be upgraded to the devastating single-target Spiral Ice Lance Gu or to the crowd-slaughtering Spiral Icicle Storm Gu*
-
 ### Icicle Gu
 
 *Rank 1 Attack*
@@ -2932,7 +2917,6 @@ Keywords: [**Sustained**]
 
 Effect: Choose a square you can see within range. While sustained, a storm of razor sharp icicles and cutting winds is manifested around it. The area is considered *Icy Terrain* and any creature that starts its turn within 5 meters of the chosen square takes 40 rending damage, 40 force damage, and 40 cold damage. If the cold damage is dealt to a creature's hit points, they gain the *fatigued* condition.
 
-[**END**]
 
 :::
 \newpage
@@ -3515,8 +3499,6 @@ Food: 3 drops of flammable oil.
 
 Effect: Little Light Gu emits 3 meters of bright light at all times. The light defaults to white, but activating Little Light Gu slightly shifts its color along the color wheel until it reaches your desired color.
 
-[**Upgrade Tree: Moonlight Gu**]
-
 ### Moonlight Gu
 *Rank 1 Attack*
 
@@ -3728,7 +3710,6 @@ Keywords: [**Sustained**]
 
 Effect: While sustained, you and any objects you are carrying are *invisible* as along as you are lit by moonlight.
 
-[**END**]
 
 ### One-stretch Golden Light Gu
 *Rank 1 Guard*
@@ -4950,9 +4931,6 @@ Keywords: [**Undodgeable**], [**Unreactable**]
 
 Effect: You launch a silver orb at incredibly high speeds, dealing 10 force damage to a target within range. If this damage is dealt to the creature's hitpoints, they gain *bleeding 1*.
 
-[**Upgrade Tree: Silver Lining Gu**]
-*Silver Lining Gu can be refined into several different rank 2 Gu. Quicksilver Lining Gu provides a speed boost, Steel Lining Gu provides physical defense, and Resurgence Gu pivots to Wood Path to provide additional healing to surrounding allies.*
-
 ### Silver Lining Gu
 *Rank 1 Tonic*
 
@@ -5166,7 +5144,6 @@ Effect: You touch a creature and they gain the *poisoned* condition with the fol
 
 - If it has been at least 7 days since you received this condition, you die.
 
-[**END**]
 
 ### Slowness Toxin Gu
 
@@ -5439,8 +5416,6 @@ Effect: While sustained, you may use your **Ranged Attack** skill for attack rol
 
 **Supplementary:** When used as part of a killer move, you may use your **Ranged Attack** skill for attack rolls in the killer move made against targets {2, 1} meters away from you.
 
-[**Upgrade Path: Hundred Meter Gu**]
-
 ### Millimeter Gu
 *Rank 2 Catalyst*
 
@@ -5501,7 +5476,6 @@ Keywords: [**Supplementary**]
 
 Effect: Change the range of your next Gu activation to 100 meters. Has no effect on Gu with a range of *self*. *Touch* becomes an attack roll against a target you can see within range.
 
-[**END**]
 
 ### Immobilization Gu
 
@@ -6985,8 +6959,6 @@ Food: <!-- TODO ->
 
 Effect: Carves sword dao into a weapon or Gu that deals rending damage. If rending damage from the weapon or Gu is assigned to a Gu of rank {4, 5} or less with the [**Shield**] Keyword, the defending [**Shield**] Gu is killed before the damage of the attack is assigned. After 24 hours, the weapon or Gu affected by Sole Sword Gu crumbles into dust.
 
-[**Upgrade Path: Split Mountain Gu**]
-
 ### Cut Gu
 *Rank 1 Attack*
 
@@ -7070,7 +7042,6 @@ Effect: You launch an enormous *invisible* burst of sword qi in a line 5 meters 
 
 *Discovered by Lord of Swords Jin Chang, Split Mountain Gu is named for his sundering of Mount Cao. To this day, a great ravine splits the mountain in two, with the Jin and Cao clans living on either side.*
 
-[**END**]
 
 ### Sharpen Gu
 *Rank 2-5 Carver*
@@ -7412,8 +7383,6 @@ Keywords: [**Undodgeable**]
 
 Effect: Choose a target you can see within range. If the target currently has a luck point and your luck points are below their maximum, you steal 1 luck point from the target.
 
-[**Upgrade Path: Steal Sense Gu**]
-
 ### Steal Touch Gu
 
 *Rank 1 Tonic*
@@ -7490,7 +7459,6 @@ Keywords: [**Sustained**]
 
 Effect: A creature you touch loses all their senses while sustained. They gain the *blinded* and *deafened* conditions and gain advantage on **Perseverance** attribute tests made to overcome pain, such as from the *ablaze* condition and when they roll to see if they enter *Final Stand*.
 
-[**END**]
 
 ### Stolen Time Gu
 
@@ -7893,7 +7861,6 @@ Keywords: [**Defensive**], [**Shield**], [**Sustained**]
 
 Effect: While sustained, thick Azure Wolf hairs sprout all over your body, covering you in a protective coat. Azure Wolf Skin Gu cannot block sonic damage.
 
-[**End**]
 
 ### Bat Wings Gu
 
@@ -8089,7 +8056,6 @@ Keywords: [**Sustained**]
 
 Effect: While sustained, you no longer consider water or lava to be *Difficult Terrain.*
 
-[**END**]
 
 ### Longarm Gu
 *Rank 1 Catalyst*
@@ -8123,8 +8089,6 @@ Food: 1 Skull of a horned mammal (3 Primeval Stones)
 Effect: You grow blunt horns and gain the following melee attack:
 
 * **Ram's Horns:** You headbutt a creature in an adjacent square. Make a **Close Combat** skill test. On a hit, deal 10 force damage, +1 damage for every 10 points you have in Strength. If the target is under the effect of a Gu with the [**Shield**] keyword, this damage is doubled. After using this melee attack, your horns fall off.
-
-[**Upgrade Path: Flying Zombie Gu**]
 
 ### Roaming Zombie Gu
 
@@ -8196,7 +8160,7 @@ While exposed to direct light, you suffer a +20 penalty to all skill tests.
 
 Your lifespan is not consumed over time.
 
-At the start of each of your turns, make a **Perseverance** attribute test with a +10 penalty. On a failure, you gain a **Livor Mortis Token**. If you gain your tenth **Livor Mortis Token** from Hairy Zombie Gu, your body is permanently transformed into a hairy zombie. Your natural primeval essence recovery rate is reduced to 0.
+At the start of each of your turns, make a **Perseverance** attribute test with a +10 penalty. On a failure, you gain a **Livor Mortis Token**. If you gain your tenth **Livor Mortis Token** from Hairy Zombie Gu, your body is permanently transformed into a hairy zombie. Your natural primeval essence recovery rate is reduced to 0 and you can no longer raise your rank through cultivation.
 
 As long as you have 9 or fewer **Livor Mortis Tokens**, every month you go without gaining a **Livor Mortis Token** reduces the number of **Livor Mortis Tokens** you have by 1.
 
@@ -8236,7 +8200,7 @@ While exposed to direct light, you suffer a +20 penalty to all skill tests.
 
 Your lifespan is not consumed over time.
 
-At the start of each of your turns, make a **Perseverance** attribute test with a +20 penalty. On a failure, you gain a **Livor Mortis Token**. If you gain your tenth **Livor Mortis Token** from Hairy Zombie Gu, your body is permanently transformed into a hopping zombie. Your natural primeval essence recovery rate is reduced to 0.
+At the start of each of your turns, make a **Perseverance** attribute test with a +20 penalty. On a failure, you gain a **Livor Mortis Token**. If you gain your tenth **Livor Mortis Token** from Hairy Zombie Gu, your body is permanently transformed into a hopping zombie. Your natural primeval essence recovery rate is reduced to 0 and you can no longer raise your rank through cultivation.
 
 As long as you have 9 or fewer **Livor Mortis Tokens**, every month you go without gaining a **Livor Mortis Token** reduces the number of **Livor Mortis Tokens** you have by 1.
 
@@ -8274,7 +8238,7 @@ While exposed to direct light, you suffer a +20 penalty to all skill tests.
 
 Your lifespan is not consumed over time.
 
-At the start of each of your turns, make a **Perseverance** attribute test with a +40 penalty. On a failure, you gain a **Livor Mortis Token**. If you gain your tenth **Livor Mortis Token** from Asura Zombie Gu, your body is permanently transformed into an Asura Zombie. Your natural primeval essence recovery rate is reduced to 0.
+At the start of each of your turns, make a **Perseverance** attribute test with a +40 penalty. On a failure, you gain a **Livor Mortis Token**. If you gain your tenth **Livor Mortis Token** from Asura Zombie Gu, your body is permanently transformed into an Asura Zombie. Your natural primeval essence recovery rate is reduced to 0 and you can no longer raise your rank through cultivation.
 
 As long as you have 9 or fewer **Livor Mortis Tokens**, every month you go without gaining a **Livor Mortis Token** reduces the number of **Livor Mortis Tokens** you have by 1.
 
@@ -8310,7 +8274,7 @@ While exposed to direct light, you suffer a +20 penalty to all skill tests.
 
 Your lifespan is not consumed over time.
 
-At the start of each of your turns, make a **Perseverance** attribute test with a +40 penalty. On a failure, you gain a **Livor Mortis Token**. If you gain your tenth **Livor Mortis Token** from Blood Wight Zombie Gu, your body is permanently transformed into a Blood Wight Zombie. Your natural primeval essence recovery rate is reduced to 0.
+At the start of each of your turns, make a **Perseverance** attribute test with a +40 penalty. On a failure, you gain a **Livor Mortis Token**. If you gain your tenth **Livor Mortis Token** from Blood Wight Zombie Gu, your body is permanently transformed into a Blood Wight Zombie. Your natural primeval essence recovery rate is reduced to 0 and you can no longer raise your rank through cultivation.
 
 As long as you have 9 or fewer **Livor Mortis Tokens**, every month you go without gaining a **Livor Mortis Token** reduces the number of **Livor Mortis Tokens** you have by 1.
 
@@ -8346,7 +8310,7 @@ While exposed to direct light, you suffer a +20 penalty to all skill tests.
 
 Your lifespan is not consumed over time.
 
-At the start of each of your turns, make a **Perseverance** attribute test with a +40 penalty. On a failure, you gain a **Livor Mortis Token**. If you gain your tenth **Livor Mortis Token** from Earth Chief Zombie Gu, your body is permanently transformed into an Earth Chief Zombie. Your natural primeval essence recovery rate is reduced to 0.
+At the start of each of your turns, make a **Perseverance** attribute test with a +40 penalty. On a failure, you gain a **Livor Mortis Token**. If you gain your tenth **Livor Mortis Token** from Earth Chief Zombie Gu, your body is permanently transformed into an Earth Chief Zombie. Your natural primeval essence recovery rate is reduced to 0 and you can no longer raise your rank through cultivation.
 
 As long as you have 9 or fewer **Livor Mortis Tokens**, every month you go without gaining a **Livor Mortis Token** reduces the number of **Livor Mortis Tokens** you have by 1.
 
@@ -8384,7 +8348,7 @@ While not exposed to direct light, you gain a -20 bonus to all **Awareness**, **
 
 Your lifespan is not consumed over time.
 
-At the start of each of your turns, make a **Perseverance** attribute test with a +40 penalty. On a failure, you gain a **Livor Mortis Token**. If you gain your tenth **Livor Mortis Token** from Heavenly Demon Zombie Gu, your body is permanently transformed into a Heavenly Demon Zombie. Your natural primeval essence recovery rate is reduced to 0.
+At the start of each of your turns, make a **Perseverance** attribute test with a +40 penalty. On a failure, you gain a **Livor Mortis Token**. If you gain your tenth **Livor Mortis Token** from Heavenly Demon Zombie Gu, your body is permanently transformed into a Heavenly Demon Zombie. Your natural primeval essence recovery rate is reduced to 0 and you can no longer raise your rank through cultivation.
 
 As long as you have 9 or fewer **Livor Mortis Tokens**, every month you go without gaining a **Livor Mortis Token** reduces the number of **Livor Mortis Tokens** you have by 1.
 
@@ -8421,7 +8385,7 @@ When you hit a creature with a melee attack, they take 50 damage to their soul.
 
 Your lifespan is not consumed over time.
 
-At the start of each of your turns, make a **Perseverance** attribute test with a +40 penalty. On a failure, you gain a **Livor Mortis Token**. If you gain your tenth **Livor Mortis Token** from Nightmare Zombie Gu, your body is permanently transformed into a Nightmare Zombie.
+At the start of each of your turns, make a **Perseverance** attribute test with a +40 penalty. On a failure, you gain a **Livor Mortis Token**. If you gain your tenth **Livor Mortis Token** from Nightmare Zombie Gu, your body is permanently transformed into a Nightmare Zombie. Your natural primeval essence recovery rate is reduced to 0 and you can no longer raise your rank through cultivation.
 
 As long as you have 9 or fewer **Livor Mortis Tokens**, every month you go without gaining a **Livor Mortis Token** reduces the number of **Livor Mortis Tokens** you have by 1.
 
@@ -8456,7 +8420,7 @@ While exposed to direct light, you suffer a +20 penalty to all skill tests.
 
 Your lifespan is not consumed over time.
 
-At the start of each of your turns, make a **Perseverance** attribute test with a +40 penalty. On a failure, you gain a **Livor Mortis Token**. If you gain your tenth **Livor Mortis Token** from Plague Zombie Gu, your body is permanently transformed into a Plague Zombie.
+At the start of each of your turns, make a **Perseverance** attribute test with a +40 penalty. On a failure, you gain a **Livor Mortis Token**. If you gain your tenth **Livor Mortis Token** from Plague Zombie Gu, your body is permanently transformed into a Plague Zombie. Your natural primeval essence recovery rate is reduced to 0 and you can no longer raise your rank through cultivation.
 
 As long as you have 9 or fewer **Livor Mortis Tokens**, every month you go without gaining a **Livor Mortis Token** reduces the number of **Livor Mortis Tokens** you have by 1.
 
@@ -8465,7 +8429,6 @@ If another creature starts their turn within 3 meters of you, they gain the *Poi
 - You take 50 poison damage at the end of each of your turns.
 - You have disadvantage on all skill tests.
 
-[**END**]
 
 ### Wide Knuckle Gu
 *Rank 1 Catalyst*
@@ -8525,7 +8488,6 @@ Effect: Two of your arms transform into wings with razor sharp feathers. While s
 
 **Wings:** Make a **Close Combat** skill test against a creature within 1 meter of you. On a hit, deal 20 rending damage, increased to 50 rending damage if performed at the end of a *Dive* Maneuver. If this damage is dealt to the target's hit points, they gain *bleeding 4.*
 
-[**End**]
 
 :::
 \newpage
@@ -9789,8 +9751,6 @@ Branching Wings Gu can carry 1 [**Medium**] or smaller creatures on each wing. I
 
 Creatures have to be cut off their branch as a *Combat Action* to be freed (or it can be destroyed as part of an attack, with 1 hit point). This leaves a wooden cap attached to the body that can be safely cut away over the course of an hour.
 
-[**Upgrade Path: Burning Canopy Blessing Gu**]
-
 ### Photosynthesis Gu
 *Rank 2 Tonic*
 
@@ -9863,7 +9823,6 @@ Effect: A miniature sun manifests 5 meters above your head, illuminating a 250 k
 
 While sustained, you return to your maximum hit points, heal all diseases, and regenerate all missing body parts at the end of each of your turns. You are also invulnerable to rending and force damage.
 
-[**END**]
 
 ### Cactus Pointer Gu
 
@@ -10066,6 +10025,8 @@ Effect: Your **Feet** are permanently carved with Wood Path dao, sprouting tiny 
 | 4 | 1 |
 | 5 | 1 |
 
+If you move, the roots detach from the ground and you stop gaining primeval essence.
+
 ### Primeval Tree Heart Gu
 *Rank 1-5 Catalyst*
 
@@ -10212,8 +10173,6 @@ Effect: You attack a target within range with a thorny whip. Make an attack roll
 
 **Pull:** The whip wraps around the target and constricts to pull them towards you. If the target is a creature, they must succeed an **Athletics** skill test or else be pulled to the closest square adjacent to you. The whip cannot pull objects or creatures that weigh more than 125 kilograms.
 
-[**Upgrade Path: Three Star Cave Gu**]
-
 *This Gu appears to be an acorn of brown color at rank 1, getting darker as it is upgraded. Rank 3 Three Star Cave Gu is pitch black.*
 
 ### One Star Cave Gu
@@ -10264,7 +10223,6 @@ Effect: Three Star Cave Gu must be planted in any kind of soil to be activated. 
 
 The tree has 1000 hit points and vulnerability to heat and rending damage. If the tree is reduced to 0 hit points, this effect ends.
 
-[**END**]
 
 ### Wardrobe Gu
 *Rank 2 Container*
