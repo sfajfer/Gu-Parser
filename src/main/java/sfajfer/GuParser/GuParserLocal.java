@@ -166,7 +166,19 @@ public class GuParserLocal {
                     inCombatActions = false;
                     effectBuilder.append(trimmed.substring(7).trim()).append("\n");
                 }
-                else if (inEffect)        effectBuilder.append(trimmed).append("\n ");
+                else if (inEffect) {
+                    if (trimmed.startsWith("|")) { // Markdown tables
+                        if (effectBuilder.length() > 0 && effectBuilder.charAt(effectBuilder.length() - 1) == ' ') {
+                            effectBuilder.setLength(effectBuilder.length() - 1);
+                        }
+                        effectBuilder.append(trimmed).append("\n");
+                    } else {
+                        if (effectBuilder.length() > 0 && effectBuilder.charAt(effectBuilder.length() - 1) == '\n') {
+                            effectBuilder.append(" ");
+                        }
+                        effectBuilder.append(trimmed).append("\n ");
+                    }
+                }
                 else if (inCombatActions) combatActionsBuilder.append(trimmed).append("\n");
             }
 
@@ -218,11 +230,15 @@ public class GuParserLocal {
                         Map<String, Object> steedDoc, StringBuilder combatActionsBuilder,
                         List<Map<String, Object>> allGuEntries, int id) {
         if (currentGu != null) {
-            String effect = effectBuilder.toString().trim();
+            String effectStr = effectBuilder.toString().trim();
+            
+            // Apply table-safety to description appending as well
             if (descriptionBuilder.length() > 0) {
-                effect = effect + "\n " + descriptionBuilder.toString().trim();
+                String desc = descriptionBuilder.toString().trim();
+                String separator = desc.startsWith("|") ? "\n" : "\n ";
+                effectStr = effectStr + separator + desc;
             }
-            currentGu.put("Effect", effect);
+
             currentGu.put("id", id);
             
             if (steedDoc != null) {
@@ -232,9 +248,8 @@ public class GuParserLocal {
                 currentGu.put("Steed", steedDoc);
             }
 
-            if (effectBuilder.length() > 0) {
-                String rawEffectStr = effectBuilder.toString().trim();
-                List<String> parsedEffects = parseEffectIntoArray(rawEffectStr);
+            if (effectStr.length() > 0) {
+                List<String> parsedEffects = parseEffectIntoArray(effectStr);
                 currentGu.put("Effect", parsedEffects);
             } else {
                 currentGu.put("Effect", new ArrayList<>());
