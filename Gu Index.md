@@ -341,35 +341,23 @@ Keywords: [**Sustained**]
 
 Effect: You touch a corpse and its flesh rearranges to form a Gore Hound under your control while sustained. It does not enter initiative; as a bonus action on your turn, you may direct the Gore Hound, taking its turn for it. When you stop sustaining Gore Hound Gu, the Gore Hound explodes; creatures in a 2-meter radius centered on the Gore Hound take 80 force damage, and Gore Hound Gu cannot be activated again until 4 hours have passed.
 
-\noindent
-\begin{tabular}{|l|l|}
-\hline
-\textbf{Attributes} & \textbf{Value} \\ \hline
-HP & 300 \\ \hline
-Soul & - \\ \hline
-Movement & 10 \\ \hline
-Strength & 180 \\ \hline
-Agility & 120 \\ \hline
-Fortitude & 300 \\ \hline
-Cognition & - \\ \hline
-Wisdom & - \\ \hline
-Attitude & - \\ \hline
-\end{tabular}
+Attributes,Value
+HP,300
+Soul,-
+Movement,10
+Strength,180
+Agility,120
+Fortitude,300
+Cognition,-
+Wisdom,-
+Attitude,-
 
-\vspace{0.5em}
-
-\noindent
-\begin{tabular}{|l|l|}
-\hline
-\textbf{Skills} & \textbf{Value} \\ \hline
-Close Combat & 75 \\ \hline
-Ranged Attack & 25 \\ \hline
-Athletics & 210 \\ \hline
-Dodge & 120 \\ \hline
-Awareness & 30 \\ \hline
-\end{tabular}
-
-\vspace{0.5em}
+Skills,Value
+Close Combat,75
+Ranged Attack,25
+Athletics,210
+Dodge,120
+Awareness,30
 
 The Gore Hound is immune to the *bleeding*, *blinded*, *dazed*, *deafened*, *fatigued*, *poisoned*, *stunned*, and *unconscious* conditions.
 
@@ -6734,14 +6722,11 @@ Keywords: [**Shield**], [**Sustained**]
 
 Effect: Ivory armor begins to grow around your body. Ivory Armor Gu has no effect until the start of your next turn. All damage dealt to Ivory Armor Gu is reduced by 10% of your Strength attribute, rounded down. Ivory Armor Gu cannot block cold or sonic damage. The armor remains when you stop activating Ivory Armor Gu and has the following stats:
 
-\begin{tabular}{ll}
-\textbf{Ivory Armor} & \textbf{---} \\
-\hline
-DT & 6 \\
-HP & 12 \\
-Dodge Penalty & +10 \\
-Movement Penalty & -1 \\
-\end{tabular}
+Ivory Armor,---
+DT,6
+HP,12
+Dodge Penalty,+10
+Movement Penalty,-1
 
 The armor can be broken with a *Bonus Action*.
 
@@ -7219,16 +7204,12 @@ Food: Activating Gu Laundering Gu counts as feeding it.
 
 Effect: Gu Laundering Gu devours a target Gu of rank {1, 2, 3, 4, 5} or lower. Over the course of an hour, it spins a silk sac and implants it with a number of primeval stones based the the devoured Gu's rank:
 
-
-\begin{tabular}{ll}
-\textbf{Rank} & \textbf{Primeval Stones} \\
-\hline
-1 & 50 \\
-2 & 200 \\
-3  & 1,000 \\
-4 & 5,000 \\
-5 & 25,000 \\
-\end{tabular}
+Rank,Primeval Stones
+1,50
+2,200
+3,"1,000"
+4,"5,000"
+5,"25,000"
 
 ### Icefang Bat Gu
 
@@ -7266,16 +7247,13 @@ Effect: You touch a *human* or *variant-human*, or a corpse belonging to a *huma
 
 If you interact with a creature that knew the target, the Gamemaster may call you to make an opposed skill test of your **Deception** against that creature's **Insight**; You and the creature both gain a bonus or penalty depending on how well you each knew the target's mannerisms:
 
-\begin{tabular}{ll}
-\textbf{Familiarity} & \textbf{Bonus/Penalty} \\
-\hline
-Never met & +40 \\
-Met a few times & +20 \\
-Familiar  & 0 \\
-Friends & -20 \\
-Close friends & -40 \\
-Extremely close; family or spouse & -60 \\
-\end{tabular}
+Familiarity,Bonus/Penalty
+Never met,+40
+Met a few times,+20
+Familiar,0
+Friends,-20
+Close friends,-40
+Extremely close; family or spouse,-60
 
 If you lose the skill test, the creature becomes suspicious of you. If you had 4 or more degrees of failure or rolled a fumble, they realize you are an impostor.
 
@@ -10075,15 +10053,12 @@ Keywords: [**Dao**], [**Expendable**]
 
 Effect: Your **Feet** are permanently carved with Wood Path dao, sprouting tiny organic tendrils. As a *Bonus Action*, you can root yourself into natural soil or stone. While rooted, you cannot be moved by force and you regain a number of portions of primeval essence each hour dependent on your rank:
 
-\begin{tabular}{ll}
-\textbf{Your Rank} & \textbf{PE/Hour} \\
-\hline
-1 & 40 \\
-2 & 10 \\
-3 & 3 \\
-4 & 1 \\
-5 & 1 \\
-\end{tabular}
+Your Rank,PE/Hour
+1,40
+2,10
+3,3
+4,1
+5,1
 
 ### Primeval Tree Heart Gu
 *Rank 1-5 Catalyst*
@@ -10338,15 +10313,12 @@ You reduce all rending and force damage dealt to your hit points by 10.
 
 At the end of each of your turns, you and any Gu Masters in a square adjacent to you regain portions of primeval essence according to their personal rank, per the following table:
 
-\begin{tabular}{ll}
-\textbf{Gu Master Rank} & \textbf{PE Gained} \\
-\hline
-1 & 160 \\
-2 & 40 \\
-3 & 10 \\
-4 & 1 \\
-5 & 1 \\
-\end{tabular}
+Gu Master Rank,PE Gained
+1,160
+2,40
+3,10
+4,1
+5,1
 
 At the start of each of your turns, make a **Perseverance** attribute test with a +10 penalty. On a failure, you gain a **Wood Charm Token** and your body becomes slightly more tree-like. If you ever have 10 **Wood Charm Tokens**, your body is permanently transfigured into a small tree and you die.
 

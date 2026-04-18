@@ -166,7 +166,7 @@ public class GuParserLocal {
                     inCombatActions = false;
                     effectBuilder.append(trimmed.substring(7).trim()).append("\n");
                 }
-                else if (inEffect)        effectBuilder.append(trimmed).append("\n");
+                else if (inEffect)        effectBuilder.append(trimmed).append("\n ");
                 else if (inCombatActions) combatActionsBuilder.append(trimmed).append("\n");
             }
 
@@ -220,7 +220,7 @@ public class GuParserLocal {
         if (currentGu != null) {
             String effect = effectBuilder.toString().trim();
             if (descriptionBuilder.length() > 0) {
-                effect = effect + "\n\n" + descriptionBuilder.toString().trim();
+                effect = effect + "\n " + descriptionBuilder.toString().trim();
             }
             currentGu.put("Effect", effect);
             currentGu.put("id", id);
