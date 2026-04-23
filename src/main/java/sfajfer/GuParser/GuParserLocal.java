@@ -14,7 +14,7 @@ import java.util.regex.Pattern;
 
 public class GuParserLocal {
 
-    private static final String JSON_OUTPUT_PATH = "frontend/src/assets/gu-index.json";
+    private static final String JSON_OUTPUT_PATH = "../Gu-SRD/src/assets/gu-index.json";
 
     public static void main(String[] args) {
         GuParserLocal parser = new GuParserLocal();
@@ -99,7 +99,7 @@ public class GuParserLocal {
                 else if (trimmed.startsWith("*") && trimmed.endsWith("*")
                         && !trimmed.startsWith("*Rank")
                         && !currentGu.containsKey("Rank")) {
-                    descriptionBuilder.append(trimmed);
+                    descriptionBuilder.append("\n " + trimmed);
                 }
 
                 if (trimmed.startsWith("*Rank ") && trimmed.endsWith("*")) {
