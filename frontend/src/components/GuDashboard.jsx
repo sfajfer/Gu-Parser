@@ -37,7 +37,7 @@ const KEYWORD_FILTERS = [
   { key: 'Sustained',      label: 'Sustained',       match: kws => kws.some(k => k.toLowerCase() === 'sustained') },
   { key: 'Transformation', label: 'Transformation',  match: kws => kws.some(k => k.toLowerCase() === 'transformation') },
   { key: 'Undodgeable',    label: 'Undodgeable',     match: kws => kws.some(k => k.toLowerCase() === 'undodgeable') },
-  { key: 'Unreactable',    label: 'Unreactable',     match: kws => kws.some(k => k.toLowerCase() === 'unreactable') },
+  { key: 'Split Second',    label: 'Split Second',     match: kws => kws.some(k => k.toLowerCase() === 'Split Second') },
   { key: 'Unrefinable',    label: 'Unrefinable',     match: kws => kws.some(k => k.toLowerCase() === 'unrefinable') },
   { key: 'Vital',          label: 'Vital',           match: kws => kws.some(k => k.toLowerCase() === 'vital') },
 ];

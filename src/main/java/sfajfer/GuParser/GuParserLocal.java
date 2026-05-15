@@ -247,13 +247,11 @@ public class GuParserLocal {
                 effectItems.addAll(parseEffectIntoArray(effectStr));
             }
             
-            // Append description as a separate item in the array
-            if (descriptionBuilder.length() > 0) {
-                String desc = descriptionBuilder.toString().trim();
-                effectItems.add(desc);
-            }
-            
             currentGu.put("Effect", effectItems);
+            
+            if (descriptionBuilder.length() > 0) {
+                currentGu.put("Description", descriptionBuilder.toString().trim());
+            }
 
             Map<String, Object> copy = new LinkedHashMap<>(currentGu);
             copy.remove("_id");

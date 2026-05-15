@@ -2029,7 +2029,7 @@ Health: 4
 
 Food: <!-- TODO ->
 
-Keywords: [**Unreactable**]
+Keywords: [**Split Second**]
 
 Effect: Lightning Charged Potato Gu must be buried in any kind of soil before activation. It sprouts roots into the nearby earth and becomes firmly lodged in place. After 1 minute of growth, Lightning Charged Potato Gu is armed. If any creature, including you, steps on a square within 1 meter of Lightning Charged Potato Gu, Lightning Charged Potato Gu explodes, instantly dying and dealing 10 force damage, 10 heat damage, and 10 shock damage to creatures within 2 meters of Lightning Charged Potato Gu, increased to 20 force damage, 20 heat damage and 20 shock damage to creatures within 1 meter. Lightning Charged Potato Gu cannot detect *inaudible* creatures.
 
@@ -2216,7 +2216,7 @@ Health: 3
 
 Food: 1 flame drake heart (1,500 primeval stones)
 
-Keywords: [**Unreactable**]
+Keywords: [**Split Second**]
 
 Effect: Vengeful Sun Gu can only be activated as a *Reaction* to being hit by an attack made by a creature within range. A pillar of plasma envelopes them for a split second. They take 200 heat damage and gain the *ablaze* condition.
 
@@ -2414,7 +2414,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Expendable**], [**Ingredient**], [**Investigative: Detect**]
 
-Effect: You add Omniscient Salad Gu to a meal that you prepare. Affected creatures know everything that happens within 25 meters of themselves. They can react to [**Unreactable**] Gu as if they did not have the [**Unreactable**] keyword.
+Effect: You add Omniscient Salad Gu to a meal that you prepare. Affected creatures know everything that happens within 25 meters of themselves. They can react to [**Split Second**] Gu as if they did not have the [**Split Second**] keyword.
 
 ### Rabbit Feet Gu
 
@@ -3404,7 +3404,7 @@ Health: 14
 
 Food: Natural light
 
-Keywords: [**Expendable**], [**Unreactable**]
+Keywords: [**Expendable**], [**Split Second**]
 
 Effect: You explode with a blinding flash of light. All creatures that can see you immediately become *blinded* until the end of their next turn. Any darkness you can see that was created by a Gu of rank 2 or lower is dispelled, and the source Gu takes 1d4 damage as backlash and cannot be activated again until fed.
 
@@ -3790,7 +3790,7 @@ Health: 2
 
 Food: <!-- TODO ->
 
-Keywords: [**Unreactable**]
+Keywords: [**Split Second**]
 
 Effect: You fire a concentrated beam of solar radiation. Make an attack roll against a target within range. On a hit, deal 30 heat damage and the target gains the *poisoned* condition with the following effects:
 
@@ -3930,7 +3930,7 @@ Health: 3
 
 Food: <!-- TODO ->
 
-Keywords: [**Sustained**], [**Unreactable**], [**Fast**]
+Keywords: [**Sustained**], [**Split Second**], [**Fast**]
 
 Effect: Call Lightning Gu has no effect unless activated in an area with at least 100 meters of vertical space. At the start of your next turn, a dark cloud gathers high above a square you can see within range, covering a 3-meter radius. As an activation and at the end of each of your turns while sustained you may call lightning down on a square directly below the cloud. Any creature in that square takes 40 shock damage, and any creature in that square or an adjacent square takes 3 sonic damage.
 
@@ -3993,7 +3993,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Dao**], [**Expendable**], [**Fast**]
 
-Effect: Your **Arm Muscles** are permanently carved with Lightning Path dao, making your jabs lightning fast. Your punching attacks are treated as though they had the [**Unreactable**] keyword and deal an additional 4 force damage.
+Effect: Your **Arm Muscles** are permanently carved with Lightning Path dao, making your jabs lightning fast. Your punching attacks are treated as though they had the [**Split Second**] keyword and deal an additional 4 force damage.
 
 ### Hair Trigger Gu
 
@@ -4026,7 +4026,7 @@ Health: 2
 
 Food: 100 g of combustion leaves (1 primeval stone)
 
-Keywords: [**Unreactable**]
+Keywords: [**Split Second**]
 
 Effect: You shoot a thin beam of electricity at a creature within range. Make an attack roll; On a hit, deal 8 shock damage.
 
@@ -4045,7 +4045,7 @@ Keywords: [**Dao**], [**Investigative: Sight**], [**Sustained**]
 
 Effect: To activate Lightning Eye Gu, you must remove an **Eye** and place Lightning Eye Gu in the socket. Upon activation, Lightning Eye Gu replaces the lost eye permanently, and you can see out of it with perfect vision whether or not it is activated. 
 
-While you sustain Lightning Eye Gu, your lightning eye can see any object within 150 meters in fine detail, you gain immunity to the *blinded* condition, and you can react to [**Unreactable**] Gu so long as the attacker is within your line of sight.
+While you sustain Lightning Eye Gu, your lightning eye can see any object within 150 meters in fine detail, you gain immunity to the *blinded* condition, and you can react to [**Split Second**] Gu so long as the attacker is within your line of sight.
 
 Removing Lightning Eye Gu from the socket kills it.
 
@@ -4062,7 +4062,7 @@ Health: 1
 
 Food: <!-- TODO ->
 
-Keywords: [**Unreactable**], [**Fast**]
+Keywords: [**Split Second**], [**Fast**]
 
 Effect: A crackling bolt of plasma erupts from your finger in a line 1 meter wide and 1 kilometer long. All creatures in the line take {60, 140, 300} shock damage. Creatures in the line or adjacent to it take {10, 25, 60} sonic damage. If the sonic damage is dealt to a creature's hit points, they gain the *deafened* condition for 1 minute.
 
@@ -4080,7 +4080,7 @@ Health: 3
 
 Food: <!-- TODO ->
 
-Keywords: [**Unreactable**], [**Fast**]
+Keywords: [**Split Second**], [**Fast**]
 
 Effect: You launch an arrow of lightning in a 15-meter line. The closest creature hit by the arrow takes {15, 30, 90} shock damage. The damage is reduced to {10, 20, 60} on the second creature in the line, {5, 10, 30} on the third creature, and the arrow does not hit any creatures in the line beyond the first 3 hit.
 
@@ -4162,7 +4162,7 @@ Health: 2
 
 Food: <!-- TODO ->
 
-Keywords: [**Piercing**], [**Unreactable**]
+Keywords: [**Piercing**], [**Split Second**]
 
 Effect: You hurl a spear of lightning at a target within range. Make an attack roll; on a hit, deal {12, 30, 75} shock damage and an additional {4, 10, 25} shock damage directly to their hit points.
 
@@ -4180,7 +4180,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: Wings of lightning appear on your back. While sustained, you gain a flying speed of 20 meters and can make 3 Maneuvers each turn. If you make a weapon attack, punch attack, or activate a Gu with a range of touch at the end of a dive Maneuver, you may treat the attack as though it had the [**Unreactable**] keyword.
+Effect: Wings of lightning appear on your back. While sustained, you gain a flying speed of 20 meters and can make 3 Maneuvers each turn. If you make a weapon attack, punch attack, or activate a Gu with a range of touch at the end of a dive Maneuver, you may treat the attack as though it had the [**Split Second**] keyword.
 
 ### Rumbling Thunder Gu
 
@@ -4211,7 +4211,7 @@ Health: 4
 
 Food: <!-- TODO ->
 
-Keywords: [**Unreactable**]
+Keywords: [**Split Second**]
 
 Effect: Choose a creature you can see within range. That creature takes 20 shock damage, and a streak of lightning shoots from them to the nearest creature within 2 meters of the target, dealing 10 shock damage. This process repeats from the second and each subsequent target, dealing 5 shock damage, then 2, and finally 1 before the attack ends (for a total of 5 unique targets). If the attack is not able to chain to a target that has not yet been struck by this activation of Self Strike Gu, it instead chains to you, regardless of distance.
 
@@ -4227,7 +4227,7 @@ Health: 4
 
 Food: 50g of magnetite sand (2 primeval stones)
 
-Keywords: [**Unreactable**]
+Keywords: [**Split Second**]
 
 Effect: You blink to an unoccupied square within range, leaving a crackle of static in your wake. If a creature makes a melee attack against you, you may activate Static Step Gu as a *Reaction*; the attack automatically misses, and the attacker takes 10 shock damage.
 
@@ -4275,7 +4275,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Dao**], [**Expendable**]
 
-Effect: Your **Nervous System** is permanently etched with Lightning Path Dao, making it transmit information nearly instantly between your brain and muscles. You can react to effects even if they have the [**Unreactable**] keyword and gain a -20 bonus to initiative tests.
+Effect: Your **Nervous System** is permanently etched with Lightning Path Dao, making it transmit information nearly instantly between your brain and muscles. You can react to effects even if they have the [**Split Second**] keyword and gain a -20 bonus to initiative tests.
 
 ### Tempest Gu 
 
@@ -4305,7 +4305,7 @@ Health: 3
 
 Food: <!-- TODO ->
 
-Keywords: [**Unreactable**]
+Keywords: [**Split Second**]
 
 Effect: You launch a bolt of lightning and condensed thunder that strikes like a hammer towards a target within range. Make an attack roll; on a hit, deal 150 force damage, 150 shock damage, and 50 sonic damage. The target is thrown backwards 20 meters; if it collides with a creature or object, they both take 50 force damage and the target is stopped.
 
@@ -4321,7 +4321,7 @@ Health: 3
 
 Food: <!-- TODO ->
 
-Keywords: [**Unreactable**]
+Keywords: [**Split Second**]
 
 Effect: A ball of lightning is fired from your mouth to a square within range. Creatures in a 1-meter radius take {20, 50} shock damage. Activating Thunderclap Gu twice in the same turn overloads it. The area of effect is increased to 2 meters and the damage is increased to {30, 75} shock damage, but Thunderclap Gu dies immediately afterward.
 
@@ -4573,7 +4573,7 @@ Health: 3
 
 Food: 100 g of will grass ashes (5 primeval stones)
 
-Keywords: [**Unreactable**]
+Keywords: [**Split Second**]
 
 You fire a tiny shard of metal infused with your will at a *beast* within range. Make an attack roll with advantage; on a hit, it embeds itself deep into their muscle layer and maintains a semi-permanent link with the user.
 
@@ -4594,7 +4594,7 @@ Health: 4
 
 Food: 100 g of feather soil (2 primeval stones)
 
-Keywords: [**Unreactable**]
+Keywords: [**Split Second**]
 
 You fire a tiny shard of metal at a target within range. Make an attack roll with advantage; on a hit, it embeds itself deep into their muscle layer and maintains a link with any *beasts* enslaved by you.
 
@@ -4631,7 +4631,7 @@ Health: 3
 
 Food: 100 g of smoldering stone (1 primeval stone)
 
-Keywords: [**Unreactable**]
+Keywords: [**Split Second**]
 
 Effect: You fire a small orb at incredibly high speed at a target within range. Make an attack roll with advantage. On a hit, deal 4 force damage. If this damage is dealt to the target's hit points, they gain *bleeding 1*.
 
@@ -4927,7 +4927,7 @@ Health: 5
 
 Food: 100 g of silver (10 primeval stones)
 
-Keywords: [**Undodgeable**], [**Unreactable**]
+Keywords: [**Undodgeable**], [**Split Second**]
 
 Effect: You launch a silver orb at incredibly high speeds, dealing 10 force damage to a target within range. If this damage is dealt to the creature's hitpoints, they gain *bleeding 1*.
 
@@ -6161,7 +6161,7 @@ Health: 3
 
 Food: {1, 100} kg of honey from a black pitch bee hive ({100, 10,000} primeval stones)
 
-Effect: Archer's Paradox Gu can only be activated as a *Reaction* to a projectile being used. Using your *Reaction* to activate Archer's Paradox Gu ignores the [**Unreactable**] keyword.
+Effect: Archer's Paradox Gu can only be activated as a *Reaction* to a projectile being used. Using your *Reaction* to activate Archer's Paradox Gu ignores the [**Split Second**] keyword.
 
 * **Rank 3:** The projectile takes twice as long to hit, giving reacting creatures a -40 bonus to **Dodge** skill tests made to dodge it.
 * **Rank 5:** The projectile is locked in place in the square of the user and is frozen. At the end of your next turn, the projectile continues as if it were just used, in a line towards the square its target was in when it was used, hitting the first creature in the line.
@@ -6718,7 +6718,7 @@ Health: 9
 
 Food: <!-- TODO ->
 
-Keywords: [**Unreactable**]
+Keywords: [**Split Second**]
 
 Effect: Can be activated as a *Reaction* to dealing damage to a target with a punching or kicking attack. The force of the target's body that would resist your attack is instead redirected back towards the target. The target takes force damage equal to the force damage dealt by the triggering attack. If the triggering attack was a kicking attack, the distance the target is knocked backwards is doubled.
 
@@ -7736,7 +7736,7 @@ Health: 2
 
 Food: 1 lb of fine sand
 
-Effect: Split Second Gu can be activated without using a *Reaction* when an [**Unreactable**] Gu is activated by another creature you can see. You make a *Reaction* against it as normal. Skill tests made as part of the *Reaction* have a {+80, +60, +30, +10, -10} modifier.
+Effect: Split Second Gu can be activated without using a *Reaction* when an [**Split Second**] Gu is activated by another creature you can see. You make a *Reaction* against it as normal. Skill tests made as part of the *Reaction* have a {+80, +60, +30, +10, -10} modifier.
 
 ### Spring Cicada Gu
 
@@ -9310,7 +9310,7 @@ Health: 1
 
 Food: 10 g of clear minded jade (150 primeval stones)
 
-Effect: You glow with a bright yellow light and read the thoughts of nearby people. If activated during a deduction, your deduction benefits from the combined knowledge of all *humans* and *variant-humans* within range instead of just information available to you personally. Can also be used outside of deductions to read the thoughts of all *humans* and *variant-humans* within range until the start of your next turn. While active, you may react to the thoughts of *humans* and *variant-humans*, including the activation of Gu, even if they are [**Unreactable**]. Additionally, you gain a -50 bonus to all tests made to parry, dodge, or attack *humans* and *variant-humans* within range.
+Effect: You glow with a bright yellow light and read the thoughts of nearby people. If activated during a deduction, your deduction benefits from the combined knowledge of all *humans* and *variant-humans* within range instead of just information available to you personally. Can also be used outside of deductions to read the thoughts of all *humans* and *variant-humans* within range until the start of your next turn. While active, you may react to the thoughts of *humans* and *variant-humans*, including the activation of Gu, even if they are [**Split Second**]. Additionally, you gain a -50 bonus to all tests made to parry, dodge, or attack *humans* and *variant-humans* within range.
 
 ### Kind Thoughts Gu
 
@@ -9343,7 +9343,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Deductive**]
 
-Effect: {2, 5} lightning thoughts appear crackling above your head. Whenever a creature you can see activates a Gu with the [**Unreactable**] keyword, you may expend a lightning thought to ignore the [**Unreactable**] keyword for that activation. You may also expend a lightning thought to make a *Reaction* without expending one of your *Reactions*.
+Effect: {2, 5} lightning thoughts appear crackling above your head. Whenever a creature you can see activates a Gu with the [**Split Second**] keyword, you may expend a lightning thought to ignore the [**Split Second**] keyword for that activation. You may also expend a lightning thought to make a *Reaction* without expending one of your *Reactions*.
 
 When you take the *Deduction* action, you may expend up to {2, 5} lightning thoughts to halve the time required to make the deduction for each lightning thought expended. Lightning thoughts disappear after 1 minute.
 
