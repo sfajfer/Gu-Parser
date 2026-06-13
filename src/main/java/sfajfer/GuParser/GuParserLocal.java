@@ -130,6 +130,8 @@ public class GuParserLocal {
                 else if (trimmed.startsWith("Range:"))   currentGu.put("Range", trimmed.substring(6).trim());
                 else if (trimmed.startsWith("Health:"))  currentGu.put("Health", trimmed.substring(7).trim());
                 else if (trimmed.startsWith("Food:"))    currentGu.put("Food", trimmed.substring(5).trim());
+                else if (trimmed.startsWith("Previous Rank:")) currentGu.put("PreviousRank", trimmed.substring(14).trim());
+                else if (trimmed.startsWith("Next Rank:")) currentGu.put("NextRank", trimmed.substring(10).trim());
                 else if (trimmed.startsWith("Keywords:")) {
                     Matcher m = keywordPattern.matcher(trimmed);
                     List<String> keywords = new ArrayList<>();

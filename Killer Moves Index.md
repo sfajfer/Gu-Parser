@@ -102,6 +102,24 @@ You have the following combat actions:
 
 A 2 meter radius centered on the target square is covered with lava and considered *Difficult Terrain*, and creatures that move into or end their turn in the area take 25 heat damage and gain the *burning* condition. The lava cools into an ordinary stone surface after 1 hour or after being doused.
 
+### Deafening Clap
+
+*Rank 2 Killer Move*
+
+Paths: Lightning, Strength
+
+Core Gu: Rank 2 Stunning Strike Gu, Rank 2 Thunderclap Gu
+
+Supplementary Gu: None
+
+Total Activations: 2
+
+Activation Cost: 40 portions
+
+Range: 3 meters
+
+Effect: You clap your hands together and a deafening noise shakes your surroundings. All creatures within range except for you take 2 shock damage, 13 force damage, and 2 sonic damage, +1 force and +1 sonic damage for every 100 points you have in Strength. If the shock damage is dealt to a creature's hitpoints, they gain the *stunned* condition.
+
 ### Wind Scythe Bird Transformation
 
 *Rank 3 Killer Move*

@@ -73,7 +73,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Dao**], [**Expendable**]
 
-Effect: Over the course of an hour, your **Blood** is modified by Blood Path dao. As a bonus action, you may take 2 unmitigatable damage directly to your hit points to eject hardened blood from your wrists; you now wield a blood dagger in each hand. Blood daggers are considered daggers and deal {8, 16, 40} rending damage on a hit. If this damage is dealt to a creature's hit points, they gain *bleeding* {8, 16, 40}.
+Effect: Over the course of an hour, your **Blood** is modified by Blood Path dao. As a *Bonus Action*, you may take 2 unmitigatable damage directly to your hit points to eject hardened blood from your wrists; you now wield a blood dagger in each hand. Blood daggers are considered daggers and deal {8, 16, 40} rending damage on a hit. If this damage is dealt to a creature's hit points, they gain *bleeding* {8, 16, 40}.
 
 Blood daggers melt into liquid after 10 minutes.
 
@@ -166,6 +166,23 @@ Food: <!-- TODO ->
 Effect: Blood Hatred Gu must be submerged in the blood of a single creature to be activated. All creatures within range must succeed a **Perseverance** attribute test with a +10 penalty or else gain a **Hatred Token**. Affected creatures have a dislike for the family line of the creature whose blood was used to activate Blood Hatred Gu. A creature with 3 tokens will refuse to consort with any members of the bloodline, while a creature with 5 tokens will seek to kill them on sight.
 
 A creature can have up to 5 **Hatred Tokens** for a single bloodline.
+
+### Blood Pool Restoration Gu
+*A red jasper with six thin legs. Blood Pool Restoration Gu consumes blood to restore vitality, and overuse increases one's lifespan at the cost of fortitude.*
+
+*Rank 2-5 Tonic*
+
+Cost: 50 portions
+
+Range: Self
+
+Health: 1
+
+Food: {15, 50, 200, 1000} liters of blood from the same creature
+
+Effect: Blood Pool Restoration Gu cannot be activated unless you are standing in a pool of blood. You absorb up to 50 liters of blood from the pool you are standing in, recovering {1, 2, 5, 25} hit points for every liter of blood absorbed. 
+
+If you recover more hit points than are needed to bring you to your maximum, you gain 1 year of lifespan and your Fortitude attribute is permanently reduced by {5, 3, 2, 1} for every 100 hit points restored above your maximum. This effect can stack up to 100 times, but you die if your Fortitude Attribute is reduced to 0.
 
 ### Blood Pouch Gu
 *Rank 1-5 Container*
@@ -311,6 +328,8 @@ If a *bleeding* creature is within range when you activate Bloody Visage Gu, it 
 ### Bloodstained Robe Gu
 *Rank 5 Guard*
 
+Previous Rank: Bloody Visage Gu
+
 Cost: 8 portions
 
 Range: 25 meters
@@ -396,7 +415,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: You touch a corpse and its flesh rearranges to form a Gore Hound under your control while sustained. It does not enter initiative; as a bonus action on your turn, you may direct the Gore Hound, taking its turn for it. When you stop sustaining Gore Hound Gu, the Gore Hound explodes; creatures in a 2-meter radius centered on the Gore Hound take 80 force damage, and Gore Hound Gu cannot be activated again until 4 hours have passed.
+Effect: You touch a corpse and its flesh rearranges to form a Gore Hound under your control while sustained. It does not enter initiative; as a *Bonus Action* on your turn, you may direct the Gore Hound, taking its turn for it. When you stop sustaining Gore Hound Gu, the Gore Hound explodes; creatures in a 2-meter radius centered on the Gore Hound take 80 force damage, and Gore Hound Gu cannot be activated again until 4 hours have passed.
 
 | Attributes | Value |
 |---|---|
@@ -428,28 +447,42 @@ The Gore Hound cannot make *Reactions*, and does not move or take any actions un
 
 **Bite.** *Melee Attack, 1 Meter.* The Gore Hound bites the target; Make an attack roll. On a hit, the target takes 35 rending damage. If this damage is dealt to a creature's hit points, they gain *bleeding 2*.
 
+### Hooked Spine Gu
+
+*Rank 3 Manifestation*
+
+Cost: 60 portions
+
+Range: Touch
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Effect: You touch the removed, intact spinal column of a *human* and the vertebrae lock together and extend into a staff. This staff deals 90 rending damage on a hit. If this damage is dealt to a creature's hit points, the vertebrae hook into the target and they are considered to be grappled by you until you let go of the staff. If you attempt to drag the grappled creature or if they attempt to break free of this grapple, the grapple automatically ends and the target takes an additional 60 rending damage directly to their hit points, gaining *bleeding 8* if this damage is dealt to their hit points.
+
 ### Juicy Ears Gu
 
-*Rank *
+*Rank 2 Carver*
 
-Cost: 
+Cost: 100 portions
 
-Range: 
+Range: Self
 
-Health: 
+Health: 2
 
-Food: 
+Food: <!-- TODO ->
 
-Keywords: 
+Keywords: [**Dao**], [**Expendable**], [**Investigative: Hearing**]
 
-Effect: Blood vessels expand in your **Ears** and are carved with Blood Path dao. You 
+Effect: Blood vessels expand in your **Ears** and are carved with Blood Path dao. You gain a -30 bonus to all **Awareness** skill tests made to hear.
 
 ### Man-Beast Life Burial Gu
 *Man-Beast Life Burial Gu is very useful for a rank 2 Gu Master wanting to reach rank 3. Unfortunately, its refinement recipe involves feeding a maiden Gu Master to a beast through the use of Beast Enslavement Gu.*
 
 *Rank 2 Catalyst*
 
-Cost: 5 portions
+Cost: None
 
 Range: Self
 
@@ -457,9 +490,11 @@ Health: 3
 
 Food: 2 liters of virgin blood
 
-Effect: Immediately convert 100 portions of your primeval essence into an equal number of portions of black steel primeval essence. Keep track of your current black steel primeval essence portions separately from your other portions of primeval essence. The sum of all types of primeval essence in your primeval sea can never exceed your maximum primeval essence.
+Effect: Immediately convert 100 portions of your primeval essence into 40 portions of black steel primeval essence. Keep track of your current black steel primeval essence portions separately from your other portions of primeval essence. The sum of all types of primeval essence in your primeval sea can never exceed your maximum primeval essence.
 
-Black steel primeval essence cannot be used for any purpose other than to attack rank 2 aperture walls; each portion counts as 10 portions of primeval essence when used to cultivate. Every day at midnight, if you still have at least 1 portion of black steel primeval essence, your aptitude is permanently decreased by 1%.
+Black steel primeval essence cannot be used for any purpose other than to attack rank 2 aperture walls; every 2 hours you cultivate to break through a small realm, you may expend 5 portions of black steel primeval essence to bank 2 additional hours. When you cultivate to break through to rank 3, you may expend any number of portions of black steel primeval essence to reduce the required time by 1 hour for every 5 portions expended.
+
+Every day at midnight, if you still have at least 1 portion of black steel primeval essence, your aptitude is permanently decreased by 1%.
 
 ### Red Mist Gu
 
@@ -473,7 +508,9 @@ Health: 3
 
 Food: <!-- TODO ->
 
-Effect: You disappear in a cloud of red mist and teleport to an unoccuped square that you can see within range. Red Mist Gu can also be activated as a *Reaction* to being targeted with an attack; the attack misses you as you disappear.
+Keywords: [**Defensive**]
+
+Effect: You disappear in a cloud of bloody mist and teleport to an unoccuped square that you can see within range. If Red Mist Gu was activated as a *Reaction* to being hit with an attack, you dodge it as long as the effect didn't have the [**Undodgeable**] keyword.
 
 ### Remnant Life Gu
 
@@ -1008,7 +1045,7 @@ Health: 5
 
 Food: <!-- TODO ->
 
-Effect: All stone or soil in a {1, 5, 50}-meter long line is destroyed.
+Effect: All stone or soil in a {1, 5, 50}-meter long line is erased.
 
 ### Crystal Ladybug  Gu
 *Rank 1 Container*
@@ -1094,6 +1131,20 @@ Food: <!-- TODO ->
 Keywords: [**Defensive**], [**Sustained**]
 
 Effect: While sustained, the first Gu effect of rank {2, 3, 4, 5} or lower that damages or applies a negative effect directly to you is negated on you and Stone Shield Gu deactivates. If the effect was being sustained, the effect ends and the Gu or killer move deactivates.
+
+### Meteor Smash Gu
+
+*Rank 2 Attack*
+
+Cost: 10 portions
+
+Range: Self
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Effect: The next time you hit a target with a staff before the end of your next turn, the target is knocked *prone* and takes an additional 15 force damage.
 
 ### Mountain Pass Gu
 
@@ -2030,7 +2081,7 @@ Food: 10 kg charcoal (1/2 primeval stone)
 
 Keywords: [**Sustained**], [**Defensive**]
 
-Effect: While sustained you take 10 heat damage directly to your hit points at the start of each of your turns, and heat damage dealt to you is negated and stored inside Double Decker Stove Gu. At the end of each of your turns, some stored heat bursts from your body, dealing 1/2 the stored damage (rounded down) to all creatures within range. Double Decker Stove Gu can store up to 100 heat damage, but negates heat damage dealt to you even if it is full. When you stop sustaining Double Decker Stove Gu, the stored damage reverts to 0.
+Effect: While sustained you take 10 heat damage directly to your hit points at the start of each of your turns, and heat damage dealt to you by Gu of rank 2 or lower is negated and stored inside Double Decker Stove Gu. At the end of each of your turns, some stored heat bursts from your body, dealing 1/2 the stored damage (rounded down) to all creatures within range. Double Decker Stove Gu can store up to 100 heat damage, but can negate damage even if it is full. When you stop sustaining Double Decker Stove Gu, the stored damage reverts to 0.
 
 ### Three Door Fire Hut Gu
 *Rank 3 Attack*
@@ -2361,7 +2412,7 @@ Previous Rank: Flaming Fist Gu
 
 Next Rank: Springing Dragon Gu
 
-Cost: 8 portions
+Cost: 20 portions
 
 Range: 1 meter
 
@@ -2369,7 +2420,7 @@ Health: 4
 
 Food: 100 g flame snake venom (10 primeval stones)
 
-Effect: Coiled Flame Snake Gu can only be activated as a *Reaction* to being hit by an attack made by a creature in an adjacent square. You immediately counterattack with a springing jump and chop. Make a **Close Combat** skill test with a -20 bonus against the creature that attacked you. On a hit, deal 15 force damage and 15 heat damage, and an additional 1 force damage for every 10 points you have in Strength.
+Effect: Coiled Flame Snake Gu can only be activated as a *Reaction* to being hit by an attack made by a creature in an adjacent square. You immediately counterattack with a springing jump and chop. Make a **Close Combat** skill test with a -20 bonus against the creature that attacked you. On a hit, deal 5 force damage and 15 heat damage, and an additional 1 force damage for every 10 points you have in Strength.
 
 ### Springing Dragon Gu
 *A maroon larvae with the beginnings of wings growing under its back.*
@@ -2642,6 +2693,20 @@ Keywords: [**Expendable 3**], [**Ingredient**]
 
 Effect: You break a rabbit's foot off of Rabbit Feet Gu and add it to a meal that you prepare. Affected creatures gain 1 maximum and current luck point.
 
+### Roast Gu
+
+*Rank 2 Catalyst*
+
+Cost: 40 portions
+
+Range: Self
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Effect: Roast Gu can only be activated when following a refinement recipe of rank 3 or lower. The recipe is hastened and takes a number of hours equal to half the base duration to complete (rounded down). The refinement becomes harder to control and you gain disadvantage on the **Refinement** skill test.
+
 ### Snack Gu
 
 *Rank 1-5 Manifestation*
@@ -2902,6 +2967,20 @@ Effect: You immediately regain 200 portions of primeval essence. If Do or Die Gu
 
 Your cultivation is lowered by a small realm, and your aperture walls restored to their maximum hit points. If you were at initial stage, your cultivation lowers to peak stage of the previous rank. If your rank is lowered, keep track of your current, higher ranked primeval essence separately; you may spend it like normal, but the sum of all types of primeval essence in your primeval sea can never exceed your maximum primeval essence.
 
+### Emancipate Gu
+
+*Rank 2-5 Catalyst*
+
+Cost: 70 portions
+
+Range: Touch
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Effect: A creature you touch has any enslavement or oath effects (such as <span>Slavery Gu</span> and <span>Poison Vow Gu</span>) of rank {2, 3, 4, 5} or lower permanently removed from them.
+
 ### Heal Injury Gu
 
 *Rank 1-5 Tonic*
@@ -3068,6 +3147,20 @@ Food: <!-- TODO ->
 Keywords: [**Sustained**]
 
 Effect: A creature you touch takes {3, 6, 15} cold damage. As long as you maintain contact with them the entire turn, they take a further {10, 20, 50} cold damage at the start of each of your turns while sustained. This can usually only be done on targets that cannot move, such as a creature you're grappling.
+
+### Chilly Gu
+
+*Rank 2 Manifestation*
+
+Cost: 10 portions
+
+Range: Touch
+
+Health: 5
+
+Food: <!-- TODO ->
+
+Effect: A [**Small**] or smaller object that you touch becomes permanently cold to the touch.
 
 ### Cold Lungs Gu
 
@@ -3271,7 +3364,7 @@ Effect: You launch a sharp icicle at a target within range. Make an attack roll;
 
 Previous Rank: Icicle Gu
 
-Next Rank: Spiral Icicle Spear Gu, Spiral Icicle Swarm Gu
+Next Rank: Spiral Ice Spear Gu, Spiral Icicle Swarm Gu
 
 Cost: 10 portions
 
@@ -3529,6 +3622,36 @@ Effect: You learn the contents of Heart Engraved Gu and it becomes impossible to
 
 Heart Engraved Gu will eat any parchment placed in its mouth, storing up to {1, 2, 5, 15, 50} refinement recipes, killer moves, gambling techniques, or pages of text. To remove the information stored inside Heart Engraved Gu, you must target Heart Engraved Gu with <span>Nausea Gu</span>, at which point Heart Engraved Gu vomits all of the stored parchment.
 
+### Digital Shade Gu
+
+*Rank 2 Manifestation*
+
+Next Rank: Photo-audio Gu
+
+Cost: 4 portions
+
+Range: Self
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Effect: The entirety of your field of vision is stored permanently within Digital Shade Gu. Activating Digital Shade Gu while an image is stored inside casts the image onto a surface up to 1 square meter in area.
+
+### Erase Gu
+
+*Rank 2 Manifestation*
+
+Cost: 8 portions
+
+Range: Touch
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Effect: You touch a Gu that stores information; all information stored inside the target Gu is erased.
+
 ### Ink Blood Gu
 
 *Rank 1 Carver*
@@ -3594,7 +3717,9 @@ Food: 1 kg of wood pulp (1/4 primeval stone)
 Effect: You manifest a paper crane in your hand. The paper crane records up to 50 words spoken to it. When you throw it, it flies for a set distance of your choosing, up to 50 kilometers.
 
 ### Photo-audio Gu
-*Rank 2 Manifestation*
+*Rank 3 Manifestation*
+
+Previous Rank: Digital Shade Gu
 
 Cost: 2 portions
 
@@ -4073,7 +4198,7 @@ Health: 3
 
 Food: 3 moon orchid petals (3 primeval stones)
 
-Effect: You hurl a flat, blood-red, crescent-shaped beam of light. Make an attack roll against a target within range. On a hit, deal 60 rending damage. If this damage is dealt to the target's hit points, they gain *bleeding* 10.
+Effect: You hurl a flat, blood-red, crescent-shaped beam of light. Make an attack roll against a target within range. On a hit, deal 50 rending damage. If this damage is dealt to the target's hit points, they gain *bleeding* 10.
 
 ### Frost Moon Gu
 
@@ -4641,7 +4766,7 @@ Keywords: [**Piercing**], [**Split Second**]
 
 Effect: You hurl a spear of lightning at a target within range. Make an attack roll; on a hit, deal {12, 30, 75} shock damage and an additional {4, 10, 25} shock damage directly to their hit points.
 
-### Lightning Wings Gu
+### Thunderwings Gu
 
 *Rank 3 Celerity*
 
@@ -4702,9 +4827,9 @@ Health: 4
 
 Food: 50g of magnetite sand (2 primeval stones)
 
-Keywords: [**Split Second**]
+Keywords: [**Defensive**], [**Split Second**]
 
-Effect: You blink to an unoccupied square within range, leaving a crackle of static in your wake. If a creature makes a melee attack against you, you may activate Static Step Gu as a *Reaction*; the attack automatically misses, and the attacker takes 10 shock damage.
+Effect: You blink to an unoccupied square within range, leaving a crackle of static in your wake. If Static Step Gu was activated as a *Reaction* to being hit with an attack, you dodge it as long as the effect didn't have the [**Undodgeable**] keyword. If the attack was a **Melee Attack** or a **Grapple** *Combat Action*, the attacker takes 10 shock damage.
 
 ### Static Touch Gu
 
@@ -4758,7 +4883,7 @@ Effect: Your **Nervous System** is permanently etched with Lightning Path Dao, m
 
 Cost: 35 portions
 
-Range: Self
+Range: 30 meters
 
 Health: 2
 
@@ -4766,7 +4891,9 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: You are surrounded by a flurry of wind and moisture in a 30-meter radius while sustained. If you are outside, dark clouds manifest far above you, blotting out the sky. Lightning randomly crackles; if a creature other than you starts their turn in the radius, roll 1d2. On a 1, they are struck by lightning and take 80 shock damage and 10 sonic damage. You may activate Lightning Path Gu of rank 4 or lower for free while sustained (or as part of a killer move).
+Effect: You are surrounded by a flurry of wind and moisture in a 30-meter radius, centered on you, while sustained. Lightning randomly crackles; if a creature other than you starts their turn in the radius, roll 1d2. On a 1, they are struck by lightning and take 80 shock damage and 10 sonic damage. You may activate Lightning Path Gu of rank 4 or lower for free while sustained (or as part of a killer move).
+
+If you are outside, dark clouds manifest far above you, blotting out the sky.
 
 ### Thunder Hammer Gu
 
@@ -4805,7 +4932,7 @@ Effect: A ball of lightning is fired from your mouth to a square within range. C
 
 Cost: 15 portions
 
-Range: 20 meters
+Range: 10 meters
 
 Health: 18
 
@@ -4813,7 +4940,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: A sphere of electricity is formed in a 10 meter radius centered on you. Creatures inside remain trapped while you sustain Thunderdome Gu. Creatures trapped inside can still act as normal, but the effects of Gu of equal or lesser rank cannot permeate outside the barrier. A creature that touches the sides takes 250 shock damage and can leave the sphere.
+Effect: A sphere of electricity is formed in a 10 meter radius centered on the square you were in when you activated Thunderdome Gu. Creatures inside remain trapped while you sustain Thunderdome Gu. Creatures trapped inside can still act as normal, but the effects of Gu of rank 3 or lower cannot permeate the barrier. A creature that touches the sides takes 250 shock damage and can leave the sphere.
 
 ### Volt Sprint Gu
 
@@ -4840,9 +4967,11 @@ Effect: Your **Leg Muscles** are permanently transformed by Lightning Path Dao, 
 
 ### 44 False Yin Gu
 
-*Rank 2 Attack*
+*Rank 4 Attack*
 
-Cost: 14 portions
+Cost: 44 portions
+
+Previous Rank: 88 True Yang Gu
 
 Range: Touch
 
@@ -4850,13 +4979,15 @@ Health: 4
 
 Food: <!-- TODO ->
 
-Effect: A creature you touch suffers misfortune. For their next 4 turns, they gain a +4 penalty to all skill tests, and any roll of 44 on the dice before any modifiers is considered a fumble, even if the roll would normally be ignored by advantage or disadvantage.
+Effect: A creature you touch suffers misfortune. For 4 turns, they gain a +44 penalty to all skill tests, and any roll of 44 on the dice before any modifiers is considered a fumble, even if the roll would normally be ignored by advantage or disadvantage.
 
 ### 88 True Yang Gu
 
 *Rank 3 Catalyst*
 
 Cost: 8 portions
+
+Next Rank: 44 False Yin Gu
 
 Range: Self
 
@@ -4957,6 +5088,22 @@ Keywords: [**Dao**], [**Expendable**]
 
 Effect: Your luck point maximum is increased by 1.
 
+### Luck Inspection Gu
+
+*Rank 3 Divination*
+
+Cost: 10 portions
+
+Range: Self
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: [**sustained**]
+
+Effect: You can see the luck of other creatures above their heads while sustained, so long as you can actually see the creature in question. You immediately know how many luck points they have.
+
 ### Magic Hands Gu
 
 *Rank 3 Carver*
@@ -4989,6 +5136,20 @@ Keywords: [**Sustained**]
 
 Effect: While sustained, a [Medium] tarnished bell appears in an unoccupied square within range, with 0 [**Karma**]. Whenever you or an ally within 8 meters of the bell succeeds a skill test, the bell gains 1 [**Karma**], to a maximum of 3. Whenever you or an ally within 8 meters of the bell fails a skill test, the bell loses 1 [**Karma**], to a minimum of -3. At the start of each of your turns, you may target a creature within range and reset the bell's [**Karma**] to 0. The creature gains a modifier to the next skill test they make equal to the bell's [**Karma**] times 10. The bell has 25 hit points and reduces all damage dealt to it by 30, and it cannot be moved from its square by force.
 
+### Parlay Gu 
+
+*Rank 3 Catalyst*
+
+Cost: 50 portions
+
+Range: 10 meters
+
+Health: 2
+
+Food: <!-- TODO -> 
+
+Effect: Pick 3 different Gu Masters within range; if all the selected Gu Masters are killed before the start of your next turn, you regain 50 portions of primeval essence and a luck point. If you are rank 4 or higher, you regain only 1 portion of primeval essence. If you are rank 2, you regain 200 portions, and if you are rank 1, you regain 800 portions.
+
 ### Split Luck Gu
 
 *Rank 2 Carver*
@@ -5009,7 +5170,7 @@ Effect: Your maximum Luck is permanently doubled, including any increases to it 
 \newpage
 ## $\centerline{Metal Path}$
 
-*Similar to Earth Path, but with much more focus on defensive and especially offensive methods.*
+*Similar to Earth Path, but with much more focus on offensive methods.*
 
 ::: columns
 
@@ -5083,7 +5244,7 @@ Food: 100 g of will grass ashes (5 primeval stones)
 
 Keywords: [**Split Second**]
 
-You fire a tiny shard of metal infused with your will at a *beast* within range. Make an attack roll with advantage; on a hit, it embeds itself deep into their muscle layer and maintains a semi-permanent link with the user.
+Effect: You fire a tiny shard of metal infused with your will at a *beast* within range. Make an attack roll with advantage; on a hit, it embeds itself deep into their muscle layer and maintains a semi-permanent link with the user.
 
 If the target was unaware of your attack, they must succeed an **Awareness** skill test with a +10 penalty or else remain unaware of the beast maddening bullet under their skin. The beast maddening bullet can be physically extracted by another creature as a *Combat Action*, at which point it loses its effect. If the *beast* dies, the effect ends.
 
@@ -5104,9 +5265,9 @@ Food: 100 g of feather soil (2 primeval stones)
 
 Keywords: [**Split Second**]
 
-You fire a tiny shard of metal at a target within range. Make an attack roll with advantage; on a hit, it embeds itself deep into their muscle layer and maintains a link with any *beasts* enslaved by you.
+Effect: You fire a tiny shard of metal at a target within range. Make an attack roll with advantage; on a hit, it embeds itself deep into their muscle layer and maintains a link with any *beasts* enslaved by you.
 
-If the target was unaware of your attack, they must succeed an **Awareness** skill test with a +10 penalty or else remain unaware of the beast tag bullet under their skin. Any *beasts* enslaved by you can sense the targets exact location as long as they are on the same continent. The beast tag bullet can be physically extracted by another creature as a *Combat Action*, at which point it loses its effect. If the target dies, the effect ends.
+If the target was unaware of your attack, they must succeed an **Awareness** skill test with a +10 penalty or else remain unaware of the beast tag bullet under their skin. Any *beasts* enslaved by you can sense the target's exact location as long as they are on the same continent. The beast tag bullet can be physically extracted by another creature as a *Combat Action*, at which point it loses its effect. If the target dies, the effect ends.
 
 While a creature is implanted by the beast tag bullet, activating Beast Tag Bullet Gu has the following effect:
 
@@ -5174,6 +5335,22 @@ Keywords: [**Sustained**], [**Medium**]
 Effect: Your arm goes down the Chainsaw Golden Centipede Gu's throat, turning your arm into a long spinning blade. While sustained, you may use Chainsaw Golden Centipede Gu to make weapon attacks with a range of 3 meters, dealing 100 rending damage on a hit. If Chainsaw Golden Centipede Gu has 120 or fewer hit points, it instead deals 40 rending damage on a hit.
 
 Attacks made with Chainsaw Golden Centipede Gu have a 3x Critical Multiplier.
+
+### Gold Deflection Gu
+
+*Rank 1-3 Guard*
+
+Cost: 5 portions
+
+Range: Self
+
+Health: {50, 120, 300}
+
+Food: <!-- TODO ->
+
+Keywords: [**Defensive**], [**Shield**], [**Sustained**]
+
+Effect: You are surrounded by a transparent gold membrane while sustained. Gold Deflection Gu has resistance to rending and force damage and cannot block sonic damage.
 
 ### Golden Aurora Gu
 *Rank 3 Manifestation*
@@ -5269,7 +5446,7 @@ Effect: While sustained, Heatsink Gu negates and stores all heat damage dealt to
 
 *Rank 3-5 Attack*
 
-*Previous Rank:* Iron Hand Gu
+Previous Rank: Iron Hand Gu
 
 Cost: 15 portions
 
@@ -5412,6 +5589,22 @@ Keywords: [**Expendable**]
 
 Effect: Your aptitude is permanently increased by 5%, to a maximum of 99%.
 
+### Ricochet Gu
+
+*Rank 2 Guard*
+
+Cost: 8 portions
+
+Range: Self
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: While sustained, if you are hit by an attack roll from a Gu of rank 2 or lower, the attack ricochets and you must roll 1d4. If you roll a 1, the attack ricochets back to the attacker and hits them without you having to make an attack roll, even if you don't know where the attacker is. If you roll anything else, the attack bounces harmlessly into the ground.
+
 ### Shape Metal Gu
 
 *Rank 2-3 Catalyst*
@@ -5444,7 +5637,7 @@ Effect: You launch a silver orb at incredibly high speeds, dealing 10 force dama
 ### Silver Lining Gu
 *Rank 1 Tonic*
 
-Next Rank: Quicksilver Lining Gu, Resurgence Gu (Wood Path), Steel Lining Gu
+Next Rank: Quicksilver Lining Gu, Resurgence Gu, Steel Lining Gu
 
 Cost: 5 portions
 
@@ -5696,11 +5889,25 @@ Health: 4
 
 Food: <!-- TODO ->
 
-Effect: A green sickle curves towards an enemy within range. Make an attack roll; on a hit, deal 5 poison damage directly to their hit points and apply the *poisoned* condition with the following effect:
+Effect: A green sickle curves towards a target within range. Make an attack roll; on a hit, deal 5 poison damage directly to their hit points and apply the *poisoned* condition with the following effect:
 
 - At the end of each of your turns, your Movement is reduced by 1, to a minimum of 1.
 
 This condition lasts for 10 minutes.
+
+### Synthesize Gu
+
+*Rank 2-5 Manifestation*
+
+Cost: 40 portions
+
+Range: Touch
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Effect: You touch a Gu of rank {2, 3, 4, 5} or lower that you have refined. If the Gu can apply the *poisoned* condition to a creature, Synthesize Gu secretes a small amount of clear liquid that applies that same *poisoned* condition to creatures when ingested; each use produces one dose that can be stored in a vial or used immediately. It can also be coated on ammunition, daggers, swords, and spears as a *Bonus Action*, applying the *poisoned* condition whenever the weapon deals damage to a creature's hit points. Once a weapon or piece of ammunition is coated, the weapon loses the effect after 24 hours.
 
 ### Tipped Daggers Gu
 
@@ -5790,6 +5997,20 @@ Food: <!-- TODO ->
 
 Effect: One refinement recipe that you know or have written in front of you is archived in Catalog Gu. You may inspect the contents of Catalog Gu without expending primeval essence, and you gain a -10 bonus to **Refinement** skill tests if the recipe is recorded in a Catalog Gu that you own.
 
+### Dark Knowledge Gu
+
+*Rank 3 Catalyst*
+
+Cost: 50 portions
+
+Range: Self
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Effect: You may activate Dark Knowledge Gu when you attempt to create a refinement recipe. If you do so, you may attempt to create a recipe for a rank 3 or lower Gu even if you do not have *Intermediate* Attainment in the path of the Gu. If you succeed in creating the recipe, you gain 3 fewer recipe points, to a minimum of 0.
+
 ### Eye for Quality Gu
 
 *Rank 4 Carver*
@@ -5804,7 +6025,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Dao**], [**Expendable**]
 
-Effect: Over the course of an hour, your **Eyes** are cut repeatedly into flawless eyes of diamond. You are *blinded* for the duration, but When the process is complete, your eyes can spot inefficiencies in refinement recipes. Whenever you successfully create a refinement recipe for a Gu of rank 4 or lower, that recipe gains 1 additional recipe point. You also gain an additional recipe point when improving refinement recipes for Gu of rank 4 or lower, unless you've already gained a recipe point when creating or improving that specific recipe.
+Effect: Over the course of an hour, your **Eyes** are cut repeatedly into flawless eyes of diamond. You are *blinded* for the duration, but when the process is complete, your eyes can spot inefficiencies in refinement recipes. Whenever you successfully create a refinement recipe for a Gu of rank 4 or lower, that recipe gains 1 additional recipe point. You also gain an additional recipe point when improving refinement recipes for Gu of rank 4 or lower, unless you've already gained a recipe point when creating or improving that specific recipe.
 
 ### Morphing Colors Gu
 *A stinkbug with an exterior sheen like an oil slick.*
@@ -5835,7 +6056,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Dao**], [**Expendable**]
 
-Effect: Refine Walls Gu has no effect unless your current rank is the same as or lower than Refine Walls Gu. Your **Aperture** walls are refined; your aperture wall maximum hit points are reduced by 25%. This effect persists even after increasing your cultivation, but if your rank increases beyond the rank of Refine Walls Gu, its effect ends.
+Effect: Refine Walls Gu has no effect unless your current rank is the same as or lower than Refine Walls Gu. Your **Aperture** walls are refined; the required number of banked hours needed to break through small realms and base number of hours needed to break through to the next rank are reduced by 25%. This effect persists even after increasing your cultivation, but if your rank increases beyond the rank of Refine Walls Gu, its effect ends.
 
 ### Reverse Refinement Gu
 
@@ -5980,6 +6201,24 @@ Health: 2
 Food: <!-- TODO ->
 
 Effect: Concentrate Gu has no effect unless you are rank {1, 2, 3, 4}. You immediately produce 5 portions of rank {2, 3, 4, 5} primeval essence. Keep track of your current rank {2, 3, 4, 5} primeval essence portions separately from your other portions of primeval essence. The sum of all types of primeval essence in your primeval sea can never exceed your maximum primeval essence.
+
+### Critical Gu
+
+*Rank 1-5 Catalyst*
+
+Cost: 30 portions
+
+Range: Self
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: [**Supplementary**]
+
+Effect: Any attack rolls made as a result of your next Gu activation count as a critical so long as the number on the die is less than or equal to {20, 30, 40, 60, 90}% of the relevant skill (**Close Combat** or **Ranged Attack**).
+
+**Supplementary:** When used as part of a killer move, any attack rolls made as part of the killer move count as a critical so long as the number on the die is less than or equal to {20, 30, 40, 60, 90}% of the relevant skill (**Close Combat** or **Ranged Attack**).
 
 ### Millimeter Gu
 *Rank 2 Catalyst*
@@ -6129,7 +6368,7 @@ Effect: Can only be activated as a *Reaction* to yourself using an [**Expendable
 
 ### Share Gu
 
-*Rank 3 Catalyst*
+*Rank 3-5 Catalyst*
 
 Cost: 40 portions
 
@@ -6171,7 +6410,7 @@ If the Gu or killer move has the [**Transformation**] keyword, the size of the t
 
 ### Tiny Gu
 
-*Rank 3 Catalyst*
+*Rank 3-5 Catalyst*
 
 Cost: 8 portions
 
@@ -6635,16 +6874,16 @@ Food: <!-- TODO ->
 
 Keywords: [**Investigative: Hearing**], [**Small**]
 
-Effect: Blind Howler Monkey Gu must be placed outside your aperture to be activated. When activated, it curls up and sits perfectly still. If it hears a [**Medium**] or larger creature within range, it begins screeching, emitting an ear-piercing sound audible up to a kilometer away.
+Effect: Blind Howler Monkey Gu must be placed outside your aperture to be activated. When activated, it curls up and sits perfectly still. It has a -60 bonus to **Awareness** skill tests based on hearing, and if it hears a [**Medium**] or larger creature within range, it begins screeching, emitting an ear-piercing sound audible up to a kilometer away.
 
 Blind Howler Monkey Gu can also be used as an activation trigger in a formation. While Blind Howler Monkey Gu can hear a creature within range, it sends a signal to the formation's injector.
 
 ### Clairaudiance Gu
-*Rank 1 Divination*
+*Rank 1-3 Divination*
 
 Cost: 20 portions
 
-Range: 30 meters
+Range: {5, 12, 30} meters
 
 Health: 4
 
@@ -6761,6 +7000,22 @@ Food: <!-- TODO ->
 Keywords: [**Investigative: Detect**]
 
 Effect: You attach one end of Tripwire Gu to a wall, and the other end to another wall within 1 meter, forming a tripwire. Tripwire Gu becomes *invisible* and intangible, and if a creature passes through it you hear the sound of a bell in your head that wakes you up if you are sleeping.
+
+### Voice Cast Gu
+
+*Rank 1-4 Manifestation*
+
+Cost: 3 portions
+
+Range: {5, 10, 20, 100} meters
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: Pick a square within range. While sustained, your voice originates from the chosen square instead of your mouth. You can change the target square at any time.
 
 :::
 \newpage
@@ -6969,7 +7224,7 @@ Effect: Trip Gu can only be activated as a *Reaction* to a creature you can see 
 :::
 \newpage
 ## $\centerline{Strength Path}$
-*Strength Path is a dying path, with little advancement being made as time passes. Despite it being a bit weaker than other paths at higher ranks, many Gu Masters choose to cultivate it due to its relatively cheap cost. Gu Masters that are skilled at hand-to-hand combat will typically get the most out of strength path, but some longer-range methods do exist.*
+*Strength Path is a dying path, with little advancement being made as time passes. Despite it being a bit weaker than other paths at higher ranks, many Gu Masters choose to cultivate it due to its relatively cheap cost. Gu Masters that are skilled at hand-to-hand combat will typically get the most out of Strength Path, but some longer-range methods do exist.*
 
 ::: columns
 
@@ -7383,7 +7638,7 @@ Effect: Immediately regain 1 hit point for every {50, 20, 10} points you have in
 
 Cost: 15 portions
 
-Range: Self
+Range: 3 meters
 
 Health: 4
 
@@ -7439,7 +7694,7 @@ Health: 3
 
 Food: 50 kg of whale flesh
 
-Keywords: [Dao]
+Keywords: [**Dao**]
 
 Effect: **Beast Strength**: Your **Muscular System** is carved with Strength Path dao; Your Strength attribute permanently increases by 10 and your Fortitude attribute permanently increases by 4. For 24 hours, you cannot gain Strength or Fortitude from Whale Strength Gu. Once you’ve gained 50 Strength & 20 Fortitude from Whale Strength Gu, activating Whale Strength Gu further has no effect on you, but you permanently gain the following features:
 
@@ -7505,6 +7760,24 @@ Health: 2
 Food: <!-- TODO ->
 
 Effect: You slash a target within range with a burst of sword qi. Make an attack roll; on a hit deal {15, 40, 90} rending damage, increased by {15, 40, 90} for each time you've hit the target with Consecutive Slash Gu this turn.
+
+### Cutting Words Gu
+
+*Rank 3 Carver*
+
+Cost: 100 portions
+
+Range: Self
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: [**Dao**], [**Expendable**]
+
+Effect: Your **Head** is carved with Sword Path dao. You gain the Cutting Words *Combat Action*.
+
+**Cutting Words.** You shout, and all creatures within a 5-meter radius centered on you take 40 rending damage. If this damage is dealt to a creature's hit points, they gain *bleeding 4*.
 
 ### Dueling Arm Gu
 
@@ -7708,7 +7981,7 @@ Health: 12
 
 Food: <!-- TODO ->
 
-Whenever you are targeted by an attack from a Sword Path Gu or a non-Gu weapon within range, you may activate Sword Sheathe Gu as a *Reaction* to cover the Gu or weapon in a formless sheath, negating the triggering attack. The Gu or weapon cannot be forced out or used and the sheath has {10, 30, 120} hit points. It remains sheathed until the sheath is broken.
+Effect: Whenever you are targeted by an attack from a Sword Path Gu or a non-Gu weapon within range, you may activate Sword Sheath Gu as a *Reaction* to cover the Gu or weapon in a formless sheath, negating the triggering attack. The Gu or weapon cannot be forced out, can only be used as an improvised weapon, and the sheath has {10, 30, 120} hit points. It remains sheathed until the sheath is broken.
 
 :::
 \newpage
@@ -8233,6 +8506,22 @@ Effect: Any conditions or effects applied to a creature you touch are increased 
 
 **Supplementary:** When used as part of a killer move, any durations specified in the killer move are increased by {1, 2, 5} turns.
 
+### Instant Success Gu
+
+*Rank 4 Catalyst*
+
+Cost: 40 portions
+
+Range: Self
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Effect: The next time you activate a Gu that can be activated a finite number of times for permanent benefits (such as <span>Bear Strength Gu</span> or <span>General Soul Gu</span>) you immediately gain the maximum possible effect of the Gu, as though you had activated it the number of times required to gain the maximum effect.
+
+*For example, if you have used General Soul Gu 10 times already, then use Instant Success Gu and activate General Soul Gu again, you would take 500 damage to your soul (for the remaining 5 uses) and gain the General Soul.*
+
 ### Gu as Before Gu
 
 *Rank 4-5 Tonic*
@@ -8315,7 +8604,7 @@ Health: 4
 
 Food: <!-- TODO ->
 
-Effect: Save Time Gu can only be activated as a bonus action. You gain an additional reaction until the start of your next turn.
+Effect: Save Time Gu can only be activated as a *Bonus Action*. You gain an additional reaction until the start of your next turn.
 
 ### Self Acceleration Gu
 
@@ -8464,7 +8753,7 @@ Food: 100 g of silver (50 primeval stones)
 
 Keywords: [**Dao**], [**Expendable**]
 
-Effect: A silver triangle tattoo permanently appears on your **Torso**. Your body and aperture now flow 3 times as quickly down the River of Time. Your natural primeval essence recovery speed is tripled, you may expend triple the normal maximum primeval essence when breaking through small realms through cultivation, the required time to break through large realms through cultivation is divided by 3 (rounded up), and every year that passes, your remaining lifespan is reduced by 3 years. 
+Effect: A silver triangle tattoo permanently appears on your **Torso**. Your body and aperture now flow 3 times as quickly down the River of Time. Your natural primeval essence recovery speed is tripled, you gain 3 times as many banked hours whenever you cultivate to break through a small realm, the number of hours required to break through large realms through cultivation is divided by 3 (rounded up), and your remaining lifespan is reduced by 3 years for every year that passes. 
 
 :::
 \newpage
@@ -9580,7 +9869,7 @@ Range: 5 meters
 Health: 4
 Food: <!-- TODO ->
 
-Effect: You condense a rope of clouds. You may throw the rope like a lasso at a creature within range as a *Bonus Action*. Make an attack roll; on a hit, the creature gains the *restrained* condition. If you miss, the effect ends. The creature can use a *Combat Action* to attempt to break free by making an **Athletics** skill test with a +10 penalty. If they succeed, this effect ends.
+Effect: You condense a rope of clouds. You may throw the rope like a lasso at a creature within range as a *Bonus Action*. Make an attack roll; on a hit, the creature gains the *restrained* condition. If you miss, the effect ends. The creature can use a *Combat Action* to attempt to break free by making an **Athletics** skill test with a +10 penalty. If they succeed, the effect ends.
 
 As an activation, you may duplicate the cloud rope. Doing so increases the penalty to the **Athletics** test by +10, stacking up to a total of a +100 penalty.
 
@@ -9728,6 +10017,24 @@ Keywords: [**Sustained**]
 
 Effect: Wind Beneath Wings Gu has no effect unless you have a flying speed from a Gu of rank 4 or lower. Your flying speed is increased by 2 meters and you can make 1 more Maneuver every turn while sustained.
 
+### Wind Charge Gu
+
+*Rank 1-3 Attack*
+
+Cost: 15 portions
+
+Range: 15 meters
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: [**Defensive**]
+
+Effect: A [Tiny] object you are carrying is launched towards a target that you can see within range. Make an attack roll; on a hit, deal {3, 10, 25} force damage.
+
+You may activate Wind Charge Gu whenever you make a weapon attack with a bow without using a *Reaction*. If you do so, the attack deals an additional {3, 10, 25} force damage
+
 ### Windshield Gu
 
 *Rank 3 Carver*
@@ -9742,7 +10049,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Dao**], [**Expendable**]
 
-Effect: Your **Skin** is carved with Wind Path dao over the course of an hour. When the process completes, the air near your skin reacts to projectiles. When you are hit by a thrown weapon or ranged weapon attack, the wind deflects the projectile harmlessly to your feet. If the thrown weapon or ammunition was manifested by a Gu, your wind shield only deflects them if manifested by rank 3 or lower Gu.
+Effect: Your **Skin** is carved with Wind Path dao over the course of an hour. When the process completes, the air near your skin reacts to projectiles. When you are hit by a thrown weapon, ranged weapon attack, or an object being used as a projectile, the wind deflects the projectile harmlessly to your feet. If the thrown weapon or ammunition was manifested by a Gu, your wind shield only deflects them if manifested by rank 3 or lower Gu.
 
 ### Wind Sword Gu
 
@@ -9875,8 +10182,10 @@ Food: 1 Human Brain
 
 Effect: Brain Explosion Gu flies towards a creature within range. This can be reacted to and attacked. If Brain Explosion Gu successfully reaches the target, it burrows into their mind and becomes dormant, no longer requiring food to sustain itself. If the creature makes a **Cultivation**, **Deduction**, **Knowledge**, or **Refinement** skill test, the Brain Explosion Gu detonates, instantly killing Brain Explosion Gu and the creature. If the creature is forced by some other effect to make one of these tests, they may elect to automatically fumble it and not detonate the Brain Explosion Gu.
 
+Effects that remove the effect of [**Dao**] Gu from your body also destroy Brain Explosion Gu as long as the Gu removing the effect is rank 4 or higher.
+
 ### Careful Gu
-*Rank 3 Catalyst*
+*Rank 3-5 Catalyst*
 
 Cost: 5 portions
 
@@ -9888,7 +10197,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Expendable**]
 
-Effect: Activate before rolling the failure die of a refinement recipe for a Gu of rank 3 or lower. Increase the die by one stage (d2 -> d4 -> d6 -> d8 ->  d10 -> d12 -> d20 -> d100) to a maximum of a d100.
+Effect: Activate before rolling the failure die of a refinement recipe for a Gu of rank {3, 4, 5} or lower. Increase the die by one stage (d2 -> d4 -> d6 -> d8 ->  d10 -> d12 -> d20 -> d100) to a maximum of a d100.
 
 ### Counter Gu
 
@@ -9915,9 +10224,9 @@ Health: 4
 
 Food: <!-- TODO ->
 
-Keywords: [Dao], [Expendable]
+Keywords: [**Dao**], [**Expendable**]
 
-Effect: A blinding migraine grips you for 1 hour as your brain physically expands and Wisdom Path Dao is carved directly into your skull and grey matter. You are incapacitated for the duration, and when complete, your Cognition attribute is permanently increased by 10. The first time you fail a Deduction skill test each day, the dao marks correct your train of thought, allowing you to reroll the test.
+Effect: A blinding migraine grips you for 1 hour as your **Brain** physically expands and Wisdom Path Dao is carved directly into your skull and grey matter. You are incapacitated for the duration, and when complete, your Cognition attribute is permanently increased by 10. The first time you fail a Deduction skill test each day, the dao marks correct your train of thought, allowing you to reroll the test.
 
 ### Detection Gu
 
@@ -10197,7 +10506,7 @@ Effect: You touch an object, Gu, or creature and can immediately ascertain the f
 ### Placebo Gu
 *Rank 1 Tonic*
 
-Cost: 5 portions
+Cost: 15 portions
 
 Range: 4 meters
 
@@ -10205,7 +10514,7 @@ Health: 8
             
 Food: 100 g of sugar
 
-Effect: A creature of your choice within range regains 2 hit points.
+Effect: A creature of your choice within range regains 20 hit points. At the end of their next turn, that creature takes 20 unmitigatible force damage directly to their hit points.
 
 ### Sensitivity Gu
 
@@ -10381,7 +10690,7 @@ Effect: Manifest {3, 6, 20, 50, 100} Vajra Thoughts. Vajra Thoughts appear as sh
 
 When making the *Deduction* action, you may consume a number of Vajra thoughts up to your Cognition attribute to gain a bonus equal to -(Vajra thoughts consumed) on **Deduction** skill tests made to deduce killer moves. The thoughts consumed must be inside your mind.
 
-As an activation, you can shoot a Vajra thought at any target within range. You may only shoot Vajra thoughts that exist outside your body in this way. Make an attack roll; on a hit, each Vajra thought deals 2 force damage directly to the targets hit points.
+As an activation, you can shoot a Vajra thought at any target within range. You may only shoot Vajra thoughts that exist outside your body in this way. Make an attack roll; on a hit, each Vajra thought deals 2 force damage directly to the target's hit points.
 
 Vajra thoughts vanish after 1 hour.
 
@@ -10465,7 +10774,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Defensive**], [**Shield**], [**Sustained**]
 
-Effect: Your body is covered in wooden armor, and roots sprout from it into your blood vessels. While sustained, if you gain the *poisoned* condition from a Gu of rank 4 or lower, immmediately remove it and Blood Root Armor Gu regains hit points equal to the rank of the Gu applying the condition times 10. Blood Root Armor Gu cannot block heat or sonic damage.
+Effect: Your body is covered in wooden armor, and roots sprout from it into your blood vessels. While sustained, if you gain or already have the *poisoned* condition from a Gu of rank 4 or lower, immmediately remove it and Blood Root Armor Gu regains hit points equal to the rank of the Gu that applied the condition times 10. Blood Root Armor Gu cannot block heat or sonic damage.
 
 ### Bone Bamboo Gu
 
@@ -10568,7 +10877,7 @@ Keywords: [**Sustained**]
 
 Effect: A miniature sun manifests 5 meters above your head, illuminating a 250 kilometer sphere around it. The light does not pierce objects, but it is extremely bright. All creatures within 10 meters of the sun are *blinded*. All creatures within 1 kilometer of the sun are *blinded* while it is within their line of sight.
 
-While sustained, you return to your maximum hit points, heal all diseases, and regenerate all missing body parts at the end of each of your turns. You are also invulnerable to rending and force damage.
+While sustained, you return to your maximum hit points, remove all instances of the *poisoned* condition, and regenerate all missing body parts at the end of each of your turns. You are also invulnerable to rending and force damage.
 
 ### Cactus Pointer Gu
 
@@ -10643,7 +10952,7 @@ Food: 1 kilogram of grass and 1 kilogram of soil
 
 Keywords: [**Dao**], [**Investigative: Hearing**], [**Sustained**]
 
-Effect: Before being activated, the user of Earth Communication Ear Grass Gu must cut off one of their **Ears** and allow Earth Communication Ear Grass Gu to take its place. While sustained, roots extend from the replaced ear and allow you to hear all noises, big or small, made within range. If you put the ear to the ground, the roots connect to it and extend the range to 100 meters, but you can only hear things on top of or in the earth.
+Effect: Before being activated, the user of Earth Communication Ear Grass Gu must cut off one of their **Ears** and allow Earth Communication Ear Grass Gu to take its place. While sustained, roots extend from the replaced ear and you gain a -20 bonus to all **Awareness** skill tests based on hearing. If you put the ear to the ground, the roots connect to it and you can hear any sounds made within 50 meters, but only on top of or in the earth.
 
 ### Flowerbud Gu
 
