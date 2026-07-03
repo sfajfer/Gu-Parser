@@ -29,7 +29,7 @@ Range: 100 meters
 
 Health: 2
 
-Food: A 100,000 liter pond of *human* blood in a hole dug in Hemmorhage Soil
+Food: A 100,000 liter pond of human blood in a hole dug in Hemmorhage Soil
 
 Effect: You rupture the hearts of all *bleeding* creatures within range. They have a chance to react before they instantly die. Immediately following, make 3 attack rolls for each creature killed. The range of these attacks is 15 meters, measured from the squares the creatures were in when they died. On a hit, deal 80 rending damage. If damage is dealt to a creature's hit points in this way, they gain *bleeding 5*. If the damage kills the target, you may make an additional 3 attack rolls with the same properties and measured from the square the target was in when they died.
 
@@ -1439,7 +1439,7 @@ Food: {10, 30, 90, 300, 1000} kg of [Beast] Flesh
 
 Keywords: [**Expendable**]
 
-Effect: Target a [Beast] that you can see within range. [Beast] Enslavement Gu flies from your aperture in a straight line towards the target. Gu can be activated as a *Reaction* if they make a targeted attack roll to hit [**Beast**] Enslavement Gu en route. If the Enslavement Gu successfully reaches its target, you attempt to dominate its mind, as long as the target's *beast* classification is at or below the rank of the Enslavement Gu:
+Effect: Target a [Beast] that you can see within range. [Beast] Enslavement Gu flies from your aperture in a straight line towards the target. This can be reacted to and [Beast] Enslavement Gu can be attacked en route. If the Enslavement Gu successfully reaches its target, you attempt to dominate its mind, as long as the target's *beast* classification is at or below the rank of the Enslavement Gu:
   
 | Rank | Types of Beasts |
 |---|---|
@@ -1488,6 +1488,20 @@ Keywords: [**Expendable**]
 
 Effect: Target an ordinary *beast* of CR 24 or lower within range. Your Maximum Soul is permanently reduced by 5; the target is enslaved by you (see Enslavement Path, Ch. 3), raised to a Hundred Beast King, and its Maximum Soul is increased by 5. As part of this process, you may transfer the effect of a Gu with the [**Dao**] keyword from your body to the target's, as long as the target is not under the effect of a [**Dao**] Gu of an incompatible path.
 
+### Control Tower Gu
+
+*Rank 3-5 Manifestation*
+
+Cost: 120 portions
+
+Range: 50 meters
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Effect: Pick an unoccupied square that you can see within range. A 5-meter long copper rod manifests, rooted in the ground and pointing to the sky. While you are on the same continent as the rod, you can individually control and give orders to enslaved creatures within {20, 50, 1000} meters of the rod. The rod has {50, 120, 300} hit points and resistance to all damage.
+
 ### Chain of Command Gu
 
 *A queen ant connected via fleshy tendrils to 10 smaller solider ants.*
@@ -1504,7 +1518,7 @@ Food: A living creature kept as a pet for more than 10 days.
 
 Keywords: [**Sustained**]
 
-Effect: While sustained, a chain bursts from your fingertips and latches to a willing creature within range. When you activate Chain of Command Gu and at the start of each of your turns while sustained, you may activate a Gu from your aperture of rank {3, 4} or less without using an activation, treating the effect as if it were activated by the chosen creature. Alternatively, the creature performs a melee attack against a creature you can see within range without using a *Combat Action*. Afterwards, the creature takes 3 damage to its soul.
+Effect: While sustained, an intangible chain bursts from your fingertips and latches to a willing creature within range. When you activate Chain of Command Gu and at the start of each of your turns while sustained, you may activate a Gu from your aperture of rank {3, 4} or less without using an activation, treating the effect as if it were activated by the chosen creature. Alternatively, the creature performs a melee attack against a creature you can see within range without using a *Combat Action*. Afterwards, the creature takes 3 damage to its soul.
 
 ### Ear to the Ground Gu
 
@@ -1536,7 +1550,7 @@ Food: The aperture of a rank {1, 2, 3, 4, 5} Gu Master.
 
 Effect: A freshly refined False Aperture Gu cannot be activated until it has been fed. 
 
-You create a false aperture and bond it to a creature that you touch. The creature must not have an aperture and cannot awaken an aperture while under the effects of False Aperture Gu.
+You create a false aperture and bond it to a creature that you touch. The creature must not have an aperture and cannot awaken an aperture while under the effects of False Aperture Gu. The false aperture has no aptitude and does not generate primeval essence over time.
 
 The false aperture can store {1, 1, 1, 2, 2} Gu of rank {1, 2, 3, 4, 5} or lower. Its primeval sea can store a number of portions of rank {1, 2, 3, 4, 5} or lower primeval essence equal to the maximum primeval essence of the creature whose aperture was last consumed to feed False Aperture Gu. You may infuse the aperture with primeval essence by touching the creature as a *Combat Action* and expending the number of portions taken.
 
@@ -1678,7 +1692,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Expendable**]
 
-Effect: Target a Gu Master of rank {1, 2, 3, 4, 5} or less that you can see within range. Slavery Gu flies from your aperture in a straight line towards the target. Gu can be activated as a *Reaction* if they make a targeted attack roll to hit Slavery Gu at any point en route. If Slavery Gu reaches its target, you both have a battle of souls. If your current soul value is greater than the Gu Master's, subtract the Gu Master's current soul value from your own and you successfully permanently enslave them. You can now directly control their actions with your mind from a distance of up to (Maximum Soul) meters, as long as you can see them. They are still the same person, retaining their memories and general personality, but become wholly devoted to you, willing to do whatever you command to the highest possible standard. While directly controlling them, you can choose to take the target's turns for them; otherwise they act in whatever way they think is most helpful to you.
+Effect: Target a Gu Master of rank {1, 2, 3, 4, 5} or less that you can see within range. Slavery Gu flies from your aperture in a straight line into the target. This can be reacted to and Slavery Gu can be attacked en route. If Slavery Gu reaches its target, you both have a battle of souls. If your current soul value is greater than the Gu Master's, subtract the Gu Master's current soul value from your own and you successfully permanently enslave them. You can now directly control their actions with your mind from a distance of up to (Maximum Soul) meters, as long as you can see them. They are still the same person, retaining their memories and general personality, but become wholly devoted to you, willing to do whatever you command to the highest possible standard. While directly controlling them, you can choose to take the target's turns for them; otherwise they act in whatever way they think is most helpful to you.
 
 If the target is willing to be enslaved, they fail the battle of souls automatically and your soul takes no damage.
 
@@ -1737,6 +1751,20 @@ Effect: You touch a *beast* enslaved by you and they freeze in place. Whenever t
 *Explosive and very offensive. Movement type Gu use quick bursts of movement, and attacks often apply burning or ablaze to bypass shield gu.*
 
 ::: columns
+
+### Balefire Gu
+
+*Rank 3-5 Attack*
+
+Cost: 30 portions
+
+Range: 3 meters
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Effect: You throw a handful of blue fire at a target within range. Make an attack roll; on a hit, deal {20, 40, 120} heat damage. If this damage is dealt to a creature's hit points, they cannot regain hit points from Gu of rank {3, 4, 5} or lower until the end of their next turn.
 
 ### Boiling Blood Gu
 *Rank 3 Tonic*
@@ -2735,7 +2763,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Ingredient**]
 
-Effect: A meal you prepare is made spicy and salty. Affected creatures gain the *Fundamental Fire Path Attainment* and *Fundamental Water Path Attainment* talents.
+Effect: A meal you prepare is made spicy and salty. Affected creatures gain the *Fundamental Fire Path Attainment* and *Fundamental Water Path Attainment* until the meal wears off.
 
 ### Stave Hunger Gu
 
@@ -3855,7 +3883,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Sustained**]
 
-Effect: You manifest a shimmering curtain of multicolored light while sustained. The curtain takes up a 10 meter long line originating from a square you can see within range. **Ranged Attack** attack rolls made by creatures against a target on the opposite side of the curtain are made with a +30 penalty. Creatures that start their turn in or pass through the curtain gain the *dazed* condition as long as they can see.
+Effect: You manifest a shimmering curtain of multicolored light while sustained. The curtain takes up a 10 meter long line originating from a square you can see within range. **Ranged Attack** attack rolls made by creatures against a target on the opposite side of the curtain are made with a +30 penalty. Creatures that start their turn in or pass through the curtain gain the *dazed* condition.
 
 ### Blink Gu
 
@@ -3936,6 +3964,20 @@ Keywords: [**Sustained**]
 Effect: A sword of sunlight gathers in your hand while sustained. If you are wielding the sword and no other weapons, you may make two weapon attacks instead of one as part of the weapon attack *Combat Action*. The sword deals 30 heat and 30 rending damage. Skill tests made to parry, dodge, or block attacks made with the sword have a +10 penalty.
 
 You do not add your Strength Attribute to damage dealt by Broadsword Light Gu.
+
+### Cleansing Light Gu
+
+*Rank 1-5 Tonic*
+
+Cost: 120 portions
+
+Range: 5 meters
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Effect: You emit a flash of bright light. Creatures within range lose all negative effects and conditions applied by Gu of rank {1, 2, 3, 4, 5} or lower.
 
 ### Daylight Gu
 
@@ -5307,6 +5349,8 @@ Effect: You fire a small orb at incredibly high speed at a target within range. 
 ### Copper Tendons Gu
 *Rank 1 Carver*
 
+Next Rank: Steel Spring Tendons Gu
+
 Cost: 20 portions
 
 Range: Self
@@ -5318,6 +5362,24 @@ Food: 100 g copper ore (1/2 primeval stone)
 Keywords: [**Dao**], [**Expendable**]
 
 Effect: Your **Tendons** permanently harden into copper over the course of an hour. Reduce all rending and force damage dealt to your hit points by 2.
+
+### Steel Spring Tendons Gu
+
+*Rank 2 Carve*
+
+Previous Rank: Copper Tendons Gu
+
+Cost: 100 portions
+
+Range: Self
+
+Health: 2
+
+Food: <!-- TODO ->
+
+Keywords: [**Dao**], [**Expendalbe**]
+
+Effect: Your **Tendons** permanently harden into flexible steel over the course of an hour. Reduce all rending and force damage dealt to your hit points by 5. When you take the **Dodge** *Reaction*, you may move up to your full movement instead of half.
 
 ### Chainsaw Golden Centipede Gu
 *Rank 3 Attack*
@@ -5332,7 +5394,7 @@ Food: A handful of sharpened iron shards (1/4 primeval stone)
 
 Keywords: [**Sustained**], [**Medium**]
 
-Effect: Your arm goes down the Chainsaw Golden Centipede Gu's throat, turning your arm into a long spinning blade. While sustained, you may use Chainsaw Golden Centipede Gu to make weapon attacks with a range of 3 meters, dealing 100 rending damage on a hit. If Chainsaw Golden Centipede Gu has 120 or fewer hit points, it instead deals 40 rending damage on a hit.
+Effect: Your arm goes down the Chainsaw Golden Centipede Gu's throat, turning your arm into a long spinning blade. While sustained, you may use Chainsaw Golden Centipede Gu to make weapon attacks with a range of 3 meters, dealing 100 rending damage on a hit. If Chainsaw Golden Centipede Gu has fewer than 120 hit points, it instead deals 40 rending damage on a hit.
 
 Attacks made with Chainsaw Golden Centipede Gu have a 3x Critical Multiplier.
 
@@ -5891,9 +5953,9 @@ Food: <!-- TODO ->
 
 Effect: A green sickle curves towards a target within range. Make an attack roll; on a hit, deal 5 poison damage directly to their hit points and apply the *poisoned* condition with the following effect:
 
-- At the end of each of your turns, your Movement is reduced by 1, to a minimum of 1.
+- At the end of each of your turns, your Movement is reduced by 1, to a minimum of 1, and you gain a cumulative +10 penalty to **Close Combat** skill tests.
 
-This condition lasts for 10 minutes.
+This condition lasts for 6 turns, reduced by 1 turn for every 20 points the creature has in Fortitude.
 
 ### Synthesize Gu
 
@@ -6254,6 +6316,22 @@ Effect: Change the range of your next Gu activation to 1 meter. Has no effect on
 
 **Supplementary:** When used as part of a killer move, all ranges stated in the killer move become 1 meter. Has no effect on killer moves with a range of *self*. *Touch* becomes an attack roll against a target you can see within range.
 
+### Seal Gu
+
+*Rank 1-5 Guard*
+
+Cost: 60 portions
+
+Range: 6 meters
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Keywords: [**Defensive**]
+
+Effect: If Seal Gu is activated as a *Reaction* to a Gu Master activating a Gu of rank {1, 2, 3, 4, 5} or lower, that Gu fails to activate. The Gu Master still expends the cost and the Gu cannot be activated again for {1, 2, 3, 5, 12} turns.
+
 ### Ten Meter Gu
 *Rank 4 Catalyst*
 
@@ -6301,7 +6379,7 @@ Health: 3
 
 Food: <!-- TODO ->
 
-Effect: Immobilization Gu flies towards a creature within range. This action is reactable and Immobilization Gu can be hit with attacks while en route. If Immobilization Gu successfully reaches its target, the target gains the *restrained* and *stunned* conditions, and Immobilization Gu falls to the ground. The *restrained* condition lasts for 1 minute.
+Effect: Immobilization Gu flies towards a creature within range. This can be reacted to and Immobilization Gu can be attacked en route. If Immobilization Gu successfully reaches its target, the target gains the *restrained* and *stunned* conditions, and Immobilization Gu falls to the ground. The *restrained* condition lasts for 1 minute.
 
 ### Deactivate Gu
 
@@ -6517,7 +6595,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Dao**]
 
-Effect: You may gain the effect of General Soul Gu up to 15 times. You take 100 unmitigatible damage to your soul. After you've activated General Soul Gu 15 times across any period, you have the General soul; Whenever you would take damage to your soul from directing a creature or effect to act, reduce the damage by 1. Additionally, you may now safely increase your soul's maximum hit points beyond 1,009.
+Effect: You may gain the effect of General Soul Gu up to 15 times. You take 100 unmitigatible damage to your soul. After you've activated General Soul Gu 15 times across any period, you have the General soul; Whenever you would take damage to your soul from directing a creature or effect to act, reduce the damage by 5, to a minimum of 1. Additionally, you may now safely increase your soul's maximum hit points beyond 1,009.
 
 If your soul has already been refined at least once by another Gu, General Soul Gu has no effect.
 
@@ -6648,7 +6726,7 @@ Health: 2
 
 Food: <!-- TODO ->
 
-Effect: Piercing Shriek Gu cannot be activated if you cannot speak. You scream, and all creatures that can hear you within range take damage to their soul equal to 5 + 10% of your current soul (rounded down). Your voice is exhausted, only allowing you to speak in a whisper until you sleep for at least 4 hours. If you activate Piercing Shriek Gu again before resting your voice, you are permanently mute afterwards.
+Effect: Piercing Shriek Gu cannot be activated if you cannot speak. You scream, and all creatures that can hear you within range take damage to their soul equal to 5 + 10% of your current soul (rounded down to a maximum of 50). Your voice is exhausted, only allowing you to speak in a whisper until you sleep for at least 4 hours. If you activate Piercing Shriek Gu again before resting your voice, you are permanently mute afterwards.
 
 ### Soul Armor Gu
 
@@ -6681,6 +6759,22 @@ Health: 4
 Food: <!-- TODO ->
 
 Effect: Your soul is permanently modified to detonate when you die, immediately being destroyed and irretrievable. This effect can be rei
+
+### Soul Egg Gu
+
+*Rank 1-5 Catalyst*
+
+Cost: 20 portions
+
+Range: Self
+
+Health: 5
+
+Food: <!-- TODO ->
+
+Keywords: [**Expendable**]
+
+Effect: You regain {2, 5, 25, 250, 5000} current soul.
 
 ### Soul Fly Gu
 
@@ -7628,7 +7722,7 @@ Range: Self
 
 Health: 3
 
-Food: Natural primeval essence (none)
+Food: Natural primeval essence (does not need fed)
 
 Effect: Immediately regain 1 hit point for every {50, 20, 10} points you have in Strength.
 
@@ -9455,6 +9549,153 @@ Effect: Two of your arms transform into wings with razor sharp feathers. While s
 
 ::: columns
 
+### Urchin Strike Gu
+*Rank 2-4 Manifestation*
+
+Cost: 15 portions
+
+Range: Touch
+
+Health: 3
+
+Food: 5 kilograms of nails, spikes, and other sharp objects
+
+Keywords: [**Sustained**]
+
+Effect: The pores on your hands erupt with short urchin spikes filled with poison while sustained. These Spines cause your unarmed punch attacks or grapples to deal {5, 15, 30} damage. If this damage is dealt to a creature's hit points, they gain the *poisoned* condition with the following effect:
+
+You take {10, 20, 50} poison damage at the start of each of your turns. This effect lasts for 10 turns, reduced by 1 turn for every 20 points the target has in Fortitude to a minimum of 1 turn.
+
+This poison can also be extracted as a Combat Action, giving you 1 dose that can be coated on weapons and ammunition.
+
+### Submerge Gu
+*Rank 1 Concealment*
+
+Cost: 6 portions
+
+Range: Touch
+
+Health: 5
+
+Food: <!-- TODO ->
+
+Keywords: [**Sustained**]
+
+Effect: You or a creature you touch become *invisible* and *inaudble* while underwater. They produce no ripples unless they break the surface of the water, and any items or objects they carry are also *invisible*.
+
+### Aqua Jet Gu
+*Rank 2-5 Celerity*
+
+Cost: 25 portions
+
+Range: {4, 8, 12, 50} meters
+
+Health: 20
+
+Food: <!-- TODO ->
+
+Effect: A stream of water bursts from your heels, accelerating you in a straight line equal to this Gu's range. If you run into another creature, the creature and you both suffer force damage equal to each other's Fortitude. You deal an additional 5% of your Fortitude for each meter travelled while using this Gu.
+
+If one creature's Fortitude is more than double the other's, it does not suffer any damage from this.
+
+### Drowning Sensation Gu
+*Rank 2 Manifestation*
+
+Cost: 5 portions
+
+Range: Touch
+
+Health: 10
+
+Food: 1 liter of human tears
+
+Effect: A violent stream of water fills the target's nose and mouth; the water seems more viscous than normal and resides in their airways.
+
+In combat: May be used on a *prone* target. For each degree of success, they must pass a **Perseverance** attribute test with a +5 penalty; if this test is failed, they are *stunned*.
+
+Out of combat: This may be used on a *prone* human. Each degree of success gives you a -5 bonus on your next intimidation test against them.
+
+This Gu does not work on targets with a Water Path attainment.
+
+### Anglerfish Light Gu
+*Rank 1 Carver*
+
+Cost: 10 portions
+
+Range: Self
+
+Health: 3
+
+Food: 1 kilogram of deep sea fish (40 primeval stones)
+
+Keywords: [**Dao**], [**Expendable**]
+
+Effect: A 15-centimeter-long antenna bursts from your forehead, and a bio-luminescent bulb grows from the end of it. The bulb always emits 3 meters of bright light, doubled underwater.
+
+### Sailor's Bane Gu
+*Rank 2-4 Manifestation*
+
+Cost: 25 portions
+
+Range: {3, 5, 10} meters
+
+Health: 25
+
+Food: 10 lbs of raw coral reef
+
+Effect: Create {1, 3, 5} sharp, rocky coral reefs, 1 meter tall, each in an unoccupied space you can see within range.
+
+These reefs have {20, 50, 100} health and collapse if the ground under them is deformed. Any creature who comes into contact with them suffers {5, 10, 25} damage.
+
+If a creature falls, is pushed, or is thrown into the reefs, they suffer double the damage of the collision, in addition to the reef's contact damage.
+
+The reefs dissipate after an hour.
+
+### Amphibious Recovery Gu
+*Rank 2, 4 Tonic*
+
+Cost: 20 portions
+
+Range: Self
+
+Health: 5
+
+Food: 5 kilograms of mashed frogs and newts
+
+Keywords: [**Sustained**]
+
+Effect: Your skin becomes semi-permeable, allowing you to absorb water and regenerate cells. While *doused* or submerged in water, you regain {5, 40}/{20, 160} (doused/submerged) hit points at the start of each of your turns while sustained.
+
+At rank 4, this Gu regenerates a single severed limb at the start of each of your turns while sustained as long as you are *doused* or submerged in water.
+
+### Dowsing Gu
+*Rank 1-5 Divination*
+
+Cost: 5 portions
+
+Range: {5, 10, 25, 150, 1000} meters
+
+Health: 3
+
+Food: 1 gallon of sweat
+
+Keywords: [**Investigative: Detect**]
+
+Effect: You immediately know the exact location of *doused* creatures within range.
+
+### Water Blood Gu
+*Rank 3 Carver*
+
+Cost: 100 portions
+
+Range: Self
+
+Health: 2
+
+Food: <!-- TODO -->
+
+Effect: Over the course of an hour, your **Blood** is carved with Water Path Dao, turning into a thick, coagulating jelly. You gain immunity to the *bleeding* condition.
+
 ### Blood to Water Gu
 
 *Rank 4 Attack*
@@ -9467,7 +9708,9 @@ Health: 4
 
 Food: 1 kg of dried blood from a water path myriad beast king (500 primeval stones)
 
-Effect: A creature you touch has their blood transmuted into water. In most cases, this kills the creature. You can also target a pool of blood of up to 1000 liters, transmuting it into an equal volume of water.
+Effect: A creature you touch has their blood transmuted into water. This kills the creature, unless it doesn't require blood, or has had its blood modified by a [**Dao**] Gu of rank 5 or from any Water Path [**Dao**] Gu. 
+
+You can also target a pool of blood of up to 1000 liters, transmuting it into an equal volume of water.
 
 ### Blue Farm Slug Gu
 
@@ -9635,6 +9878,8 @@ Effect: A 1 meter radius geyser, centered on a square you can see within range, 
 
 *Rank 2 Manifestation*
 
+Previous Rank: Faucet Gu
+
 Cost: 12 portions
 
 Range: 20 meters
@@ -9688,6 +9933,34 @@ Food: <!-- TODO ->
 Keywords: [**Dao**], [**Expendable**]
 
 Effect: You are assailed with the feeling of your flesh and bones melting and reincorporating. Your **Muscles** and **Bones** are permanently carved with Water Path dao, becoming more malleable. Reduce all force damage dealt to your hit points or dealt by your unarmed attacks by 10. You can squeeze through gaps as small as 5 centimeters.
+
+### Pressure Cutter Gu
+*Rank 2-3 Attack*
+
+Next Rank: Sandblaster Gu
+
+Cost: 12 portions
+
+Range: {3, 5} meters
+
+Health: 4
+
+Food: <!-- TODO -->
+
+Effect: A stream of pressurized water shoots from your squeezed index finger and thumb towards a target you can see within range. Make an attack roll; on a hit, deal {15, 30} rending damage. If this attack was a called shot made against a limb and causes an injury, the limb is severed.
+
+### Sandblaster Gu
+*Rank 4 Attack*
+
+Cost: 20 portions
+
+Range: 5 meters
+
+Health: 2
+
+Food: <!-- TODO -->
+
+Effect: A thin hose of pressurized water mixed with sharp sediment blasts from your squeezed index finger and thumb. All targets in a 5-meter cone take 80 rending damage. All objects have vulnerability to this damage, and anything killed or destroyed by this damage is sliced neatly in two wherever it was hit.
 
 ### Soul Bubble Gu
 
@@ -9763,6 +10036,21 @@ Health: 7
 Food: <!-- TODO ->
 
 Effect: You fire a pressurized stream of water from your index finger at a target within range. Make an attack roll with a -30 bonus. On a hit, deal 3 force damage.
+
+### Tri-tip Gu
+*Rank 2-4 Manifestation*
+
+Cost: 120 portions
+
+Range: Self
+
+Health: 3
+
+Food: <!-- TODO  -->
+
+Effect: A brass trident materializes in one of your free hands. The trident is considered a spear but deals {30, 60, 150}/{40, 80, 200} (one handed/two handed) force damage on melee attacks and {20, 40, 120} force damage when thrown. If damage is dealt to a creatures hit points by the trident, they gain *bleeding {2, 3, 5}*, increased by *bleeding {2, 3, 5}* for every degree of success on your attack roll, with a critical counting as an additional degree of success. Attack rolls made with the trident while fighting underwater are made with advantage.
+
+If you deal damage with a melee attack made with the trident to the hit points of a creature that is a smaller size than yourself, you may choose to impale them to give them the *restrained* condition. If you let go of the trident or make an attack with it, the target is freed. Otherwise, they can make an **Athletics** skill test as a *Combat Action*, freeing themselves on a success.
 
 ### Undertow Gu
 
@@ -9970,6 +10258,21 @@ Food: <!-- TODO ->
 Keywords: [**Sustained**]
 
 Effect: Galeforce winds begin spinning within range. While sustained, the winds grow stronger at the start of each of your turns. **Ranged Attack** attack rolls made by creatures within range are made with a +10 penalty, with an additional +10 penalty for every time the winds have grown stronger (maximum of +30). If the attack roll originates from a Gu of wind path, it instead gains a -10 bonus, with an additional -10 bonus for every time the winds have grown stronger (maximum of -30). If used in conjunction with large volumes of water, such as over a lake or using a Gu that produces large amounts of water, that water is spread over the area, causing flooding.
+
+### Second Wind Gu
+*Rank 2 Tonic*
+
+Cost: None
+
+Range: Self
+
+Health: 3
+
+Food: <!-- TODO -->
+
+Keywords: [**Expendable**]
+
+Effect: All Second Wind Gu in your aperture immediately detonate. You regain 2 hit points and 1 portion of primeval essence for every Second Wind Gu that detonated this way. If you are rank 3 or higher, it takes 4 times as many detonations for you to recover 1 portion of primeval essence for every rank you are above 2. If you are rank 1, you regain 4 portions of primeval essence instead of 1.
 
 ### Strength Gust Gu
 
