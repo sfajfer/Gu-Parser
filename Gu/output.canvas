@@ -1,0 +1,7460 @@
+{
+  "nodes": [
+    {
+      "id": "gu_356a192b7913b04c",
+      "type": "text",
+      "text": "**Blood Battle Gu**\nRank 5 Attack\n150 portions",
+      "x": 1600,
+      "y": 0,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_da4b9237bacccdf1",
+      "type": "text",
+      "text": "**Blood Blade Gu**\nRank 3 Attack\n4 portions",
+      "x": 960,
+      "y": 0,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_77de68daecd823ba",
+      "type": "text",
+      "text": "**Blood Brother Gu**\nRank 3 Carver\n35 portions",
+      "x": 960,
+      "y": 140,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_1b6453892473a467",
+      "type": "text",
+      "text": "**Blood Daggers Gu**\nRank 2-4 Carver\n100 portions",
+      "x": 640,
+      "y": 0,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_ac3478d69a3c81fa",
+      "type": "text",
+      "text": "**Blood Demon Flower Gu**\nRank 4 Carver\n35 portions",
+      "x": 1280,
+      "y": 0,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_c1dfd96eea8cc2b6",
+      "type": "text",
+      "text": "**Blood Filter Gu**\nRank 1-5 Tonic\n10 portions",
+      "x": 320,
+      "y": 0,
+      "width": 260,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "gu_902ba3cda1883801",
+      "type": "text",
+      "text": "**Blood Fountain Gu**\nRank 2-4 Manifestation\n15 portions",
+      "x": 640,
+      "y": 140,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_fe5dbbcea5ce7e29",
+      "type": "text",
+      "text": "**Blood Handprint Gu**\nRank 5 Manifestation\n60 portions",
+      "x": 1600,
+      "y": 140,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_0ade7c2cf97f75d0",
+      "type": "text",
+      "text": "**Blood Hatred Gu**\nRank 3 Carver\n15 portions",
+      "x": 960,
+      "y": 280,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_b1d5781111d84f7b",
+      "type": "text",
+      "text": "**Blood Pool Restoration Gu**\nRank 2-5 Tonic\n50 portions",
+      "x": 640,
+      "y": 280,
+      "width": 260,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "gu_17ba0791499db908",
+      "type": "text",
+      "text": "**Blood Pouch Gu**\nRank 1-5 Container\n1 portion",
+      "x": 320,
+      "y": 140,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_7b52009b64fd0a2a",
+      "type": "text",
+      "text": "**Blood Qi Gu**\nRank 1-3 Tonic\n25 portions",
+      "x": 320,
+      "y": 280,
+      "width": 260,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "gu_bd307a3ec329e10a",
+      "type": "text",
+      "text": "**Blood Rain Gu**\nRank 3 Manifestation\n15 portions",
+      "x": 960,
+      "y": 420,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_fa35e192121eabf3",
+      "type": "text",
+      "text": "**Blood Sense Gu**\nRank 2-5 Divination\n12 portions",
+      "x": 640,
+      "y": 420,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_f1abd670358e036c",
+      "type": "text",
+      "text": "**Blood Skull Gu**\nRank 4-5 Carver\n90 portions",
+      "x": 1280,
+      "y": 140,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_1574bddb75c78a6f",
+      "type": "text",
+      "text": "**Blood Steps Gu**\nRank 3 Celerity\n9 portions",
+      "x": 960,
+      "y": 560,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_0716d9708d321ffb",
+      "type": "text",
+      "text": "**Blood Substitution Gu**\nRank 2 Manifestation\n15 portions",
+      "x": 640,
+      "y": 560,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_9e6a55b6b4563e65",
+      "type": "text",
+      "text": "**Bloody Fabric Gu**\nRank 3 Container\n10 portions",
+      "x": 960,
+      "y": 700,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_b3f0c7f6bb763af1",
+      "type": "text",
+      "text": "**Bloody Visage Gu**\nRank 4 Guard\n30 portions",
+      "x": 1280,
+      "y": 280,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_91032ad7bbcb6cf7",
+      "type": "text",
+      "text": "**Bloodstained Robe Gu**\nRank 5 Guard\n8 portions",
+      "x": 1600,
+      "y": 280,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_472b07b9fcf2c245",
+      "type": "text",
+      "text": "**Bloody Veil Gu**\nRank 1-4 Concealment\n45 portions",
+      "x": 320,
+      "y": 420,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_12c6fc06c99a4623",
+      "type": "text",
+      "text": "**Burning Blood Gu**\nRank 2 Carver\n100 portions",
+      "x": 640,
+      "y": 700,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_d435a6cdd786300d",
+      "type": "text",
+      "text": "**Flesh Bone Gu**\nRank 3 Tonic\n80 portions",
+      "x": 960,
+      "y": 840,
+      "width": 260,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "gu_4d134bc072212ace",
+      "type": "text",
+      "text": "**Gore Hound Gu**\nRank 3 Manifestation\n15 portions",
+      "x": 960,
+      "y": 980,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_f6e1126cedebf23e",
+      "type": "text",
+      "text": "**Hooked Spine Gu**\nRank 3 Manifestation\n60 portions",
+      "x": 960,
+      "y": 1120,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_887309d048beef83",
+      "type": "text",
+      "text": "**Juicy Ears Gu**\nRank 2 Carver\n100 portions",
+      "x": 640,
+      "y": 840,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_bc33ea4e26e5e1af",
+      "type": "text",
+      "text": "**Man-Beast Life Burial Gu**\nRank 2 Catalyst\nNone",
+      "x": 640,
+      "y": 980,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_0a57cb53ba59c46f",
+      "type": "text",
+      "text": "**Red Mist Gu**\nRank 2-3 Celerity\n30 portions",
+      "x": 640,
+      "y": 1120,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_7719a1c782a1ba91",
+      "type": "text",
+      "text": "**Remnant Life Gu**\nRank 5 Tonic\n50 portions",
+      "x": 1600,
+      "y": 420,
+      "width": 260,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "gu_22d200f8670dbdb3",
+      "type": "text",
+      "text": "**Rising Dead Gu**\nRank 4 Tonic\n250 portions",
+      "x": 1280,
+      "y": 420,
+      "width": 260,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "gu_632667547e7cd3e0",
+      "type": "text",
+      "text": "**Sapping Dart Gu**\nRank 1-3 Manifestation\n24 portions",
+      "x": 320,
+      "y": 560,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_cb4e5208b4cd8726",
+      "type": "text",
+      "text": "**Staunch Bleeding Gu**\nRank 1 Tonic\n12 portions",
+      "x": 320,
+      "y": 700,
+      "width": 260,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "gu_b6692ea5df920cad",
+      "type": "text",
+      "text": "**Thick Blood Gu**\nRank 1 Carver\n25 portions",
+      "x": 320,
+      "y": 840,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_f1f836cb4ea6efb2",
+      "type": "text",
+      "text": "**Vein Burst Gu**\nRank 2 Attack\n15 portions",
+      "x": 640,
+      "y": 1260,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_972a67c48192728a",
+      "type": "text",
+      "text": "**Black Hearted Gu**\nRank 4 Carver\n100 portions",
+      "x": 1280,
+      "y": 1620,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_fc074d501302eb2b",
+      "type": "text",
+      "text": "**Breath Concealment Gu**\nRank 3-5 Concealment\nNone",
+      "x": 960,
+      "y": 1620,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_cb7a1d775e800fd1",
+      "type": "text",
+      "text": "**Dark Aura Gu**\nRank 2-3 Concealment\n70 portions",
+      "x": 640,
+      "y": 1620,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_5b384ce32d8cdef0",
+      "type": "text",
+      "text": "**Dark Gu**\nRank 1-5 Concealment\n20 portions",
+      "x": 320,
+      "y": 1620,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_ca3512f4dfa95a03",
+      "type": "text",
+      "text": "**Dark Soul Gu**\nRank 3 Carver\n100 portions",
+      "x": 960,
+      "y": 1760,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_af3e133428b9e25c",
+      "type": "text",
+      "text": "**Dark Toss Gu**\nRank 1-5 Concealment\n10 portions",
+      "x": 320,
+      "y": 1760,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_761f22b2c1593d0b",
+      "type": "text",
+      "text": "**Dark Transposition Gu**\nRank 2-4 Celerity\n20 portions",
+      "x": 640,
+      "y": 1760,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_92cfceb39d57d914",
+      "type": "text",
+      "text": "**Faceless Dung Beetle Gu**\nRank 3 Carver\n100 portions",
+      "x": 960,
+      "y": 1900,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_0286dd552c9bea9a",
+      "type": "text",
+      "text": "**Invisibility Gu**\nRank 5 Concealment\n30 portions",
+      "x": 1600,
+      "y": 1620,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_98fbc42faedc0249",
+      "type": "text",
+      "text": "**Invisible Cloak Gu**\nRank 3 Concealment\n50 portions",
+      "x": 960,
+      "y": 2040,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_fb644351560d8296",
+      "type": "text",
+      "text": "**Laughter Meat Gu**\nRank 1 Container\nNone",
+      "x": 320,
+      "y": 1900,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_fe2ef495a1152561",
+      "type": "text",
+      "text": "**Medicine Leech Gu**\nRank 1-2 Tonic\n25 portions",
+      "x": 320,
+      "y": 2040,
+      "width": 260,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "gu_827bfc458708f0b4",
+      "type": "text",
+      "text": "**Multiple Sword Shadow Gu**\nRank 4 Attack\n25 portions",
+      "x": 1280,
+      "y": 1900,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_64e095fe763fc624",
+      "type": "text",
+      "text": "**Moonshadow Gu**\nRank 4 Attack\n40 portions",
+      "x": 1280,
+      "y": 1760,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_2e01e17467891f7c",
+      "type": "text",
+      "text": "**Overlapping Shadow Gu**\nRank 4 Catalyst\n20 portions",
+      "x": 1280,
+      "y": 2040,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_e1822db470e60d09",
+      "type": "text",
+      "text": "**Second Shadow Gu**\nRank 1 Carver\n30 portions",
+      "x": 320,
+      "y": 2180,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_b7eb6c689c037217",
+      "type": "text",
+      "text": "**Shadow Bond Gu**\nRank 2 Guard\n15 portions",
+      "x": 640,
+      "y": 1900,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_a9334987ece78b6f",
+      "type": "text",
+      "text": "**Shadow Daggers Gu**\nRank 1-2 Manifestation\n70 portions",
+      "x": 320,
+      "y": 2320,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_c5b76da3e608d34e",
+      "type": "text",
+      "text": "**Shadow Dog Pocket Gu**\nRank 2-3 Container\n100 portions",
+      "x": 640,
+      "y": 2040,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_80e28a51cbc26fa4",
+      "type": "text",
+      "text": "**Shadow Follower Gu**\nRank 2 Concealment\n6 portions",
+      "x": 640,
+      "y": 2180,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_8effee409c625e1a",
+      "type": "text",
+      "text": "**Shadow Sneak Gu**\nRank 3 Attack\n12 portions",
+      "x": 960,
+      "y": 2320,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_54ceb91256e8190e",
+      "type": "text",
+      "text": "**Sheep Clothes Gu**\nRank 2 Concealment\n8 portions",
+      "x": 640,
+      "y": 2320,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_9109c85a45b703f8",
+      "type": "text",
+      "text": "**Reduviidae Gu**\nRank 3 Attack\n18 portions",
+      "x": 960,
+      "y": 2180,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_667be543b02294b7",
+      "type": "text",
+      "text": "**Soul Cloak Gu**\nRank 1-5 Concealment\n3 portions",
+      "x": 320,
+      "y": 2460,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_5a5b0f9b7d3f8fc8",
+      "type": "text",
+      "text": "**Split Shadow Gu**\nRank 2-5 Manifestation\n15 portions",
+      "x": 640,
+      "y": 2460,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_e6c3dd630428fd54",
+      "type": "text",
+      "text": "**Black Antlion Gu**\nRank 1-3 Attack\n25 portions",
+      "x": 320,
+      "y": 2820,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_6c1e671f9af5b46d",
+      "type": "text",
+      "text": "**Burrow Gu**\nRank 1-3 Manifestation\n6 portions",
+      "x": 320,
+      "y": 2960,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_511a418e72591eb7",
+      "type": "text",
+      "text": "**Crystal Ladybug  Gu**\nRank 1 Container\n7 portions",
+      "x": 320,
+      "y": 3100,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_a17554a0d2b15a66",
+      "type": "text",
+      "text": "**Crystal Pillar Gu**\nRank 2-3 Manifestation\n{20, 5} portions",
+      "x": 640,
+      "y": 2820,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_c66c65175fecc310",
+      "type": "text",
+      "text": "**Stoneflesh Gu**\nRank 1 Guard\n5 portions",
+      "x": 320,
+      "y": 4220,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_2a459380709e2fe4",
+      "type": "text",
+      "text": "**Stoneskin Gu**\nRank 2 Guard\n16 portions",
+      "x": 640,
+      "y": 3380,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_59129aacfb6cebbe",
+      "type": "text",
+      "text": "**Stone Shield Gu**\nRank 2-5 Guard\n25 portions",
+      "x": 640,
+      "y": 3240,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_4d89d294cd4ca9f2",
+      "type": "text",
+      "text": "**Meteor Smash Gu**\nRank 2 Attack\n10 portions",
+      "x": 640,
+      "y": 3100,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_b4c96d80854dd27e",
+      "type": "text",
+      "text": "**Mountain Pass Gu**\nRank 3 Guard\n70 portions",
+      "x": 960,
+      "y": 2960,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_a72b20062ec2c47a",
+      "type": "text",
+      "text": "**Diaoyu Fortress Gu**\nRank 4 Guard\n120 portions",
+      "x": 1280,
+      "y": 2820,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_b7103ca278a75cad",
+      "type": "text",
+      "text": "**Granite Bones Gu**\nRank 3 Carver\n100 portions",
+      "x": 960,
+      "y": 2820,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_d02560dd9d7db446",
+      "type": "text",
+      "text": "**Granite Knuckle Cockroach Gu**\nRank 2 Carver\n100 portions",
+      "x": 640,
+      "y": 2960,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_c097638f92de80ba",
+      "type": "text",
+      "text": "**Gruel Mud Gu**\nRank 1-5 Manifestation\n10 portions",
+      "x": 320,
+      "y": 3240,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_35e995c107a71cae",
+      "type": "text",
+      "text": "**Level Ground Gu**\nRank 1-3 Manifestation\n5 portions",
+      "x": 320,
+      "y": 3380,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_1f1362ea41d1bc65",
+      "type": "text",
+      "text": "**Life-retaining Jade Coffin Gu**\nRank 5 Manifestation\n80 portions",
+      "x": 1600,
+      "y": 2820,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_450ddec8dd206c2e",
+      "type": "text",
+      "text": "**Quake Step Gu**\nRank 1 Attack\n5 portions",
+      "x": 320,
+      "y": 3520,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_d54ad009d179ae34",
+      "type": "text",
+      "text": "**Raise Earth Gu**\nRank 1 Manifestation\n16 portions",
+      "x": 320,
+      "y": 3660,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_d321d6f7ccf98b51",
+      "type": "text",
+      "text": "**Rice Pouch Grass Gu**\nRank 1 Manifestation\n20 portions",
+      "x": 320,
+      "y": 3800,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_eb4ac3033e8ab359",
+      "type": "text",
+      "text": "**Stealth Rock Gu**\nRank 1 Concealment\n4 portions",
+      "x": 320,
+      "y": 3940,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_b74f5ee9461495ba",
+      "type": "text",
+      "text": "**Stone Aperture Gu**\nRank 1-3 Catalyst\n1 portion",
+      "x": 320,
+      "y": 4080,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_b888b29826bb53dc",
+      "type": "text",
+      "text": "**Trench Gu**\nRank 2 Manifestation\n8 portions",
+      "x": 640,
+      "y": 3520,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_1d513c0bcbe33b2e",
+      "type": "text",
+      "text": "**Tremor Sense Gu**\nRank 1-3 Divination\n2 portions",
+      "x": 320,
+      "y": 4360,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_76546f9a641ede2b",
+      "type": "text",
+      "text": "**Thousand-Li Earthwolf Spider Gu**\nRank 5 Celerity\n1 portion",
+      "x": 1600,
+      "y": 2960,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_7d7116e23efef729",
+      "type": "text",
+      "text": "**[Beast] Enslavement Gu**\nRank 1-5 Carver\n{5, 15, 40, 90, 200} portions",
+      "x": 320,
+      "y": 5560,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_be461a0cd1fda052",
+      "type": "text",
+      "text": "**Beholder Gu**\nRank 1-3 Divination\n5 portions",
+      "x": 320,
+      "y": 4720,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_1352246e33277e9d",
+      "type": "text",
+      "text": "**Bonded Collar Gu**\nRank 2 Carver\n60 portions",
+      "x": 640,
+      "y": 4720,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_3c26dffc8a2e8804",
+      "type": "text",
+      "text": "**Control Tower Gu**\nRank 3-5 Manifestation\n120 portions",
+      "x": 960,
+      "y": 4860,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_e62d7f1eb43d87c2",
+      "type": "text",
+      "text": "**Chain of Command Gu**\nRank 3-4 Catalyst\n15 portions",
+      "x": 960,
+      "y": 4720,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_b37f6ddcefad7e86",
+      "type": "text",
+      "text": "**Ear to the Ground Gu**\nRank 1-3 Divination\n3 portions",
+      "x": 320,
+      "y": 4860,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_16b06bd9b738835e",
+      "type": "text",
+      "text": "**False Aperture Gu**\nRank 1-5 Carver\n25 portions",
+      "x": 320,
+      "y": 5000,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_2d0c8af807ef45ac",
+      "type": "text",
+      "text": "**Houndmaster Hivemind Gu**\nRank 2-4 Catalyst\n15 portions",
+      "x": 640,
+      "y": 4860,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_4cd66dfabbd964f8",
+      "type": "text",
+      "text": "**Last Breath Gu**\nRank 2 Catalyst\n100 portions",
+      "x": 640,
+      "y": 5000,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_8ee51caaa2c2f4ee",
+      "type": "text",
+      "text": "**Mysterious Vile Gu**\nRank 2-4 Carver\n60 portions",
+      "x": 640,
+      "y": 5140,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_08a35293e09f5084",
+      "type": "text",
+      "text": "**Nurturing Nest Gu**\nRank 4 Carver\n100 portions",
+      "x": 1280,
+      "y": 4720,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_215bb47da8fac334",
+      "type": "text",
+      "text": "**Pack Leader Gu**\nRank 2-5 Attack\n50 portions",
+      "x": 640,
+      "y": 5280,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_8e63fd3e77796b10",
+      "type": "text",
+      "text": "**Powerful Presence Gu**\nRank 2 Carver\n100 portions",
+      "x": 640,
+      "y": 5420,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_6fb84aed32facd12",
+      "type": "text",
+      "text": "**Slavery Gu**\nRank 1-5 Carver\n{20, 50, 120, 250, 400} portions",
+      "x": 320,
+      "y": 5140,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_812ed4562d321136",
+      "type": "text",
+      "text": "**Stealth Pheremone Gu**\nRank 3 Concealment\n3 portions",
+      "x": 960,
+      "y": 5000,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_31bd9b9f5f7b338e",
+      "type": "text",
+      "text": "**Unfinished Business Gu**\nRank 1-2 Catalyst\n5 portions",
+      "x": 320,
+      "y": 5280,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_9a79be611e0267e1",
+      "type": "text",
+      "text": "**Watchdog Gu**\nRank 1 Divination\n20 portions",
+      "x": 320,
+      "y": 5420,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_310b86e0b62b8285",
+      "type": "text",
+      "text": "**Balefire Gu**\nRank 3-5 Attack\n30 portions",
+      "x": 960,
+      "y": 5920,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_dbc0f004854457f5",
+      "type": "text",
+      "text": "**Boiling Blood Gu**\nRank 3 Tonic\n35 portions",
+      "x": 960,
+      "y": 6200,
+      "width": 260,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "gu_c8306ae139ac98f4",
+      "type": "text",
+      "text": "**Blazing Lotus Gu**\nRank 3 Carver\n60",
+      "x": 960,
+      "y": 6060,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_934385f53d1bd0c1",
+      "type": "text",
+      "text": "**Blazing Shield Gu**\nRank 2 Manifestation\n7 portions",
+      "x": 640,
+      "y": 5920,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_78a8efcbaaa1a9a3",
+      "type": "text",
+      "text": "**Burning Heart Gu**\nRank 2 Carver\n100 portions",
+      "x": 640,
+      "y": 6060,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_e114c448f4ab8554",
+      "type": "text",
+      "text": "**Changbai Clouds Gu**\nRank 2 Manifestation\n15 portions",
+      "x": 640,
+      "y": 6200,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_7224f997fc148baa",
+      "type": "text",
+      "text": "**Clearing Heat Gu**\nRank 2 Tonic\n40 portions",
+      "x": 640,
+      "y": 6340,
+      "width": 260,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "gu_524e05dc77239f3a",
+      "type": "text",
+      "text": "**Destruction Sphere Gu**\nRank 5 Attack\n120 portions",
+      "x": 1600,
+      "y": 5920,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_17503a6b2326f09f",
+      "type": "text",
+      "text": "**Eight Burning Eyes Gu**\nRank 1-3 Divination\n8 portions",
+      "x": 320,
+      "y": 6060,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_a1422e6a168630cd",
+      "type": "text",
+      "text": "**Ember Armor Gu**\nRank 2-3 Guard\n20 portions",
+      "x": 640,
+      "y": 6760,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_5e796e48332af414",
+      "type": "text",
+      "text": "**Ember Butterfly Gu**\nRank 1 Attack\n16 portions",
+      "x": 320,
+      "y": 6200,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_6216f8a75fd5bb3d",
+      "type": "text",
+      "text": "**Eruption Salamander Gu**\nRank 2 Catalyst\n70 portions",
+      "x": 640,
+      "y": 6900,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_601ca99d55f00a2e",
+      "type": "text",
+      "text": "**Fire Arrow Gu**\nRank 2 Attack\n8 portions",
+      "x": 640,
+      "y": 7040,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_e993215bfdaa515f",
+      "type": "text",
+      "text": "**Fire Curtain Gu**\nRank 2 Manifestation\n15 portions",
+      "x": 640,
+      "y": 7180,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_ecb7937db58ec9de",
+      "type": "text",
+      "text": "**Fire Discharge Gu**\nRank 1-2 Celerity\n20 portions",
+      "x": 320,
+      "y": 6340,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_efa6e44dfa014524",
+      "type": "text",
+      "text": "**Fire Lance Gu**\nRank 2 Attack\n5 portions",
+      "x": 640,
+      "y": 7320,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_683e725c03a87baa",
+      "type": "text",
+      "text": "**Fire Pulse Gu**\nRank 2 Attack\n20 portions",
+      "x": 640,
+      "y": 7460,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_d0e2dbb0bac1917d",
+      "type": "text",
+      "text": "**Fire Spark Gu**\nRank 1 Attack\n8 portions",
+      "x": 320,
+      "y": 6480,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_12f0de3dc76e067d",
+      "type": "text",
+      "text": "**Fire Step Gu**\nRank 1 Celerity\n5 portions",
+      "x": 320,
+      "y": 6620,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_a2e33d344f272e10",
+      "type": "text",
+      "text": "**Fireball Gu**\nRank 2-3 Attack\n20 portions",
+      "x": 640,
+      "y": 7600,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_775bc5c30e27f0e5",
+      "type": "text",
+      "text": "**Firebrand Gu**\nRank 2 Carver\n60 portions",
+      "x": 640,
+      "y": 7740,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_8bd7954c40c1e59a",
+      "type": "text",
+      "text": "**Firefly Swarm Gu**\nRank 1 Manifestation\n5 portion",
+      "x": 320,
+      "y": 6760,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_05a8ea5382b9fd88",
+      "type": "text",
+      "text": "**Charcoal Gu**\nRank 1 Manifestation\n1 portion",
+      "x": 320,
+      "y": 5920,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_40bd001563085fc3",
+      "type": "text",
+      "text": "**Double Decker Stove Gu**\nRank 2 Attack\n10 portions",
+      "x": 640,
+      "y": 6620,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_f38cfe2e2facbcc7",
+      "type": "text",
+      "text": "**Three Door Fire Hut Gu**\nRank 3 Attack\n20 portions",
+      "x": 960,
+      "y": 6900,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_0ca9277f91e40054",
+      "type": "text",
+      "text": "**Four Door Fire Tower Gu**\nRank 4 Attack\n25 portions",
+      "x": 1280,
+      "y": 6060,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_114d4eefde1dae39",
+      "type": "text",
+      "text": "**Five Door Fire Pagoda Gu**\nRank 5 Attack\n20 portions",
+      "x": 1600,
+      "y": 6060,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_008451a05e1e7aa3",
+      "type": "text",
+      "text": "**Flame Binding Gu**\nRank 2 Attack\n15 portions",
+      "x": 640,
+      "y": 7880,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_b4182bff4b3cf75f",
+      "type": "text",
+      "text": "**Flame Tongue Gu**\nRank 3 Attack\n5 portions",
+      "x": 960,
+      "y": 6340,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_8b7471f4ae0bf59f",
+      "type": "text",
+      "text": "**Flame Veil Gu**\nRank 1 Guard\n1 portion",
+      "x": 320,
+      "y": 6900,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_2a7541babb57434e",
+      "type": "text",
+      "text": "**Flying Smoke Gu**\nRank 4-5 Celerity\n6 portions",
+      "x": 1280,
+      "y": 5920,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_e794a80eb109162d",
+      "type": "text",
+      "text": "**Immolate Gu**\nRank 2 Attack\n20 portions",
+      "x": 640,
+      "y": 8020,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_91dfde1d6e005e42",
+      "type": "text",
+      "text": "**Incendiary Explosion Gu**\nRank 4 Attack\n60 portions",
+      "x": 1280,
+      "y": 6200,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_d30f79cf7fef47bd",
+      "type": "text",
+      "text": "**Kerosene Gu**\nRank 1 Manifestation\n15 portions",
+      "x": 320,
+      "y": 7180,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_95e815d1541bf6f3",
+      "type": "text",
+      "text": "**Lightning Charged Potato Gu**\nRank 2 Attack\n5 portions",
+      "x": 640,
+      "y": 8160,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_40f7c01f41895100",
+      "type": "text",
+      "text": "**Lightning Charged Potato Mother Gu**\nRank 3 Manifestation\n60X",
+      "x": 960,
+      "y": 6480,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_9e071a3a594a8964",
+      "type": "text",
+      "text": "**Scorch Palm Gu**\nRank 2 Attack\n10 portions",
+      "x": 640,
+      "y": 8300,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_e1a864f0b77f6c89",
+      "type": "text",
+      "text": "**Smoldering Cloak Gu**\nRank 1 Guard\n14 portions",
+      "x": 320,
+      "y": 7320,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_56ad4d4deaec9846",
+      "type": "text",
+      "text": "**Smoke in Ears Gu**\nRank 2 Carver\n100 portions",
+      "x": 640,
+      "y": 8440,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_fa755791d0509bb0",
+      "type": "text",
+      "text": "**Sprinting Drake Gu**\nRank 2-3 Attack\n20 portions",
+      "x": 640,
+      "y": 8580,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_c28aca23f1ef3718",
+      "type": "text",
+      "text": "**Temper Soul Gu**\nRank 3 Carver\n100 portions",
+      "x": 960,
+      "y": 6760,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_c9ca442765657fc9",
+      "type": "text",
+      "text": "**Flaming Fist Gu**\nRank 1 Catalystk\n5 portions",
+      "x": 320,
+      "y": 7040,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_2a2b47bf21a372f2",
+      "type": "text",
+      "text": "**Coiled Flame Snake Gu**\nRank 2 Attack\n20 portions",
+      "x": 640,
+      "y": 6480,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_f47aea8bdcbd1179",
+      "type": "text",
+      "text": "**Springing Dragon Gu**\nRank 3 Attack\n20 portions",
+      "x": 960,
+      "y": 6620,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_7320828c9153b2a9",
+      "type": "text",
+      "text": "**Vengeful Sun Gu**\nRank 4 Attack\n40 portions",
+      "x": 1280,
+      "y": 6340,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_50336bc687eb161e",
+      "type": "text",
+      "text": "**Appetizer Gu**\nRank 2 Catalyst\n15 portions",
+      "x": 640,
+      "y": 8940,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_3fcfb99ec010d4a8",
+      "type": "text",
+      "text": "**Bed of Rice Gu**\nRank 1-3 Catalyst\n5 portions",
+      "x": 320,
+      "y": 8940,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_b3c0730cf3f50613",
+      "type": "text",
+      "text": "**Big Smoke Tea Gu**\nRank 1 Catalyst\n1 portion",
+      "x": 320,
+      "y": 9080,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_536fb6934062440c",
+      "type": "text",
+      "text": "**Caramelized Roots Gu**\nRank 1 Catalyst\n5 portions",
+      "x": 320,
+      "y": 9220,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_39dfc9ffd3253c48",
+      "type": "text",
+      "text": "**Cloche Gu**\nRank 1-5 Container\n25 portions",
+      "x": 320,
+      "y": 9360,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_13682ac418603aa0",
+      "type": "text",
+      "text": "**Eating Wind Gu**\nRank 2 Guard\n30 portions",
+      "x": 640,
+      "y": 9080,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_b16a457a3302d7c1",
+      "type": "text",
+      "text": "**Eat Strength Gu**\nRank 4 Carver\n100 portions",
+      "x": 1280,
+      "y": 8940,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_ac2646028f5b8b9b",
+      "type": "text",
+      "text": "**Exploding Egg Gu**\nRank 1 Catalyst\n6 portions",
+      "x": 320,
+      "y": 9500,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_a6f16ab483da9847",
+      "type": "text",
+      "text": "**Fillet Gu**\nRank 2 Attack\n20 portions",
+      "x": 640,
+      "y": 9220,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_06349be70bd2d5dd",
+      "type": "text",
+      "text": "**Heavenly Flavor Gu**\nRank 3 Catalyst\n5 portions",
+      "x": 960,
+      "y": 8940,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_9d8974baddfc0e53",
+      "type": "text",
+      "text": "**Liquor Worm Gu**\nRank 1-4 Catalyst\n5 portions",
+      "x": 320,
+      "y": 9640,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_6052521b7625e31d",
+      "type": "text",
+      "text": "**Omniscient Salad Gu**\nRank 5 Catalyst\n300 portions",
+      "x": 1600,
+      "y": 8940,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_097ccd4f03d96201",
+      "type": "text",
+      "text": "**Rabbit Feet Gu**\nRank 2 Catalyst\n15 portions",
+      "x": 640,
+      "y": 9360,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_a3d12597f93e80f7",
+      "type": "text",
+      "text": "**Roast Gu**\nRank 2 Catalyst\n40 portions",
+      "x": 640,
+      "y": 9500,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_6b6277afcb65d335",
+      "type": "text",
+      "text": "**Snack Gu**\nRank 1-5 Manifestation\n{2, 5, 20, 50, 150} portions",
+      "x": 320,
+      "y": 9780,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_be057d4ca44c10a0",
+      "type": "text",
+      "text": "**Spicy Sea Pickle Gu**\nRank 3 Catalyst\n10 portions",
+      "x": 960,
+      "y": 9080,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_0159a99ed28b0581",
+      "type": "text",
+      "text": "**Stave Hunger Gu**\nRank 1 Catalyst\n25 portions",
+      "x": 320,
+      "y": 9920,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_ae1e7198bc3074ff",
+      "type": "text",
+      "text": "**Tactful Tongue Gu**\nRank 1 Carver\n10 portions",
+      "x": 320,
+      "y": 10060,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_fd93751649ac3ea8",
+      "type": "text",
+      "text": "**And Gu**\nRank 1-5 Gate\n1 portion",
+      "x": 320,
+      "y": 10420,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_a929eb33e338738d",
+      "type": "text",
+      "text": "**Or Gu**\nRank 1-5 Gate\n1 portion",
+      "x": 320,
+      "y": 10840,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_74cbd2c215c2c13c",
+      "type": "text",
+      "text": "**Not Gu**\nRank 1-5 Gate\n1 portion",
+      "x": 320,
+      "y": 10700,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_69e56976fc9bee70",
+      "type": "text",
+      "text": "**Choking Sunflower Gu**\nRank 3 Trigger\nNone",
+      "x": 960,
+      "y": 10420,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_708a77db476d737e",
+      "type": "text",
+      "text": "**Password Gu**\nRank 2 Trigger\nNone",
+      "x": 640,
+      "y": 10420,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_f76b2ea6b45eff3b",
+      "type": "text",
+      "text": "**Proximity Gu**\nRank 1-5 Trigger\nNone",
+      "x": 320,
+      "y": 10980,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_2659fc519890c924",
+      "type": "text",
+      "text": "**Witching Eye Gu**\nRank 1-5 Trigger\nNone",
+      "x": 320,
+      "y": 11400,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_717b2f3d88168305",
+      "type": "text",
+      "text": "**Impulse Gu**\nRank 1-5 Injector\n2 portions",
+      "x": 320,
+      "y": 10560,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_94940e534aedd3f6",
+      "type": "text",
+      "text": "**Repeater Gu**\nRank 3-4 Injector\n15 portions",
+      "x": 960,
+      "y": 10560,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_c1aa04bf421e5b38",
+      "type": "text",
+      "text": "**Pump Gu**\nRank 1-5 Injector\n2 portions",
+      "x": 320,
+      "y": 11120,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_572e20738130fddc",
+      "type": "text",
+      "text": "**Reservoir Gu**\nRank 1-5 Container\nNone",
+      "x": 320,
+      "y": 11260,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_d094700e379f0fb3",
+      "type": "text",
+      "text": "**Do or Die Gu**\nRank 1-5 Catalyst\nNone",
+      "x": 320,
+      "y": 11760,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_04f1241ed2b1b531",
+      "type": "text",
+      "text": "**Emancipate Gu**\nRank 2-5 Catalyst\n70 portions",
+      "x": 640,
+      "y": 11760,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_5c8f5ac0b7ad23c1",
+      "type": "text",
+      "text": "**Heal Injury Gu**\nRank 1-5 Tonic\n50 portions",
+      "x": 320,
+      "y": 11900,
+      "width": 260,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "gu_26e7458dc56ab283",
+      "type": "text",
+      "text": "**Hope Gu**\nRank 1 Carver\nNone",
+      "x": 320,
+      "y": 12040,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_25293f2761d658cc",
+      "type": "text",
+      "text": "**Lifespan Gu**\nRank 1-5 Catalyst\n3 portions",
+      "x": 320,
+      "y": 12180,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_9e44d2771c052d44",
+      "type": "text",
+      "text": "**Man Triumphing Heaven Gu**\nRank 5 Catalyst\n50 portions",
+      "x": 1600,
+      "y": 11760,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_ec7f1f65067126f3",
+      "type": "text",
+      "text": "**Primeval Elder Gu**\nRank 3-4 Container\nNone",
+      "x": 960,
+      "y": 11760,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_aee544ceddfe7ab6",
+      "type": "text",
+      "text": "**Relic Gu**\nRank 1-5 Catalyst\n5 portions",
+      "x": 320,
+      "y": 12320,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_58f0744907ea8bd8",
+      "type": "text",
+      "text": "**Trials and Tribulations Gu**\nRank 4 Catalyst\n100 portions",
+      "x": 1280,
+      "y": 11760,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_dc685e2c3fd7a3a6",
+      "type": "text",
+      "text": "**Blue Bird Ice Coffin Gu**\nRank 3 Attack\n40 portions",
+      "x": 960,
+      "y": 12680,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_bcf814ab41506290",
+      "type": "text",
+      "text": "**Blue Ice Skin Gu**\nRank 1 Carver\n15 portions",
+      "x": 320,
+      "y": 12680,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_cfa2ed2aac6d61f4",
+      "type": "text",
+      "text": "**Chill Touch Gu**\nRank 1-3 Attack\n16 portions",
+      "x": 320,
+      "y": 12820,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_87d538ef1c1db716",
+      "type": "text",
+      "text": "**Chilly Gu**\nRank 2 Manifestation\n10 portions",
+      "x": 640,
+      "y": 12680,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_f67462663a512121",
+      "type": "text",
+      "text": "**Cold Lungs Gu**\nRank 2 Carver\n100 portions",
+      "x": 640,
+      "y": 12820,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_acf1fffc01dc0193",
+      "type": "text",
+      "text": "**Frozen Lance Gu**\nRank 3 Manifestation\n24 portions",
+      "x": 960,
+      "y": 12820,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_e54183e2a040e6c0",
+      "type": "text",
+      "text": "**Frozen Maw Gu**\nRank 4 Carver\n100 portions",
+      "x": 1280,
+      "y": 12680,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_3a2dc677d8e85ac8",
+      "type": "text",
+      "text": "**Heat Sap Gu**\nRank 3 Attack\n10 portions",
+      "x": 960,
+      "y": 12960,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_2fcc820fc1d95b1e",
+      "type": "text",
+      "text": "**Heat Transference Gu**\nRank 2 Attack\n12 portions",
+      "x": 640,
+      "y": 12960,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_19a448c01aa2e7d5",
+      "type": "text",
+      "text": "**Hibernation Gu**\nRank 3 Tonic\n40 portions",
+      "x": 960,
+      "y": 13100,
+      "width": 260,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "gu_14bb99f81147d270",
+      "type": "text",
+      "text": "**Ice Blade Gu**\nRank 3 Manifestation\n30 portions",
+      "x": 960,
+      "y": 13240,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_2a79f14120945873",
+      "type": "text",
+      "text": "**Ice Crystal Gu**\nRank 2-4 Carver\n15 portions",
+      "x": 640,
+      "y": 13100,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_752ae7bdbb96bf25",
+      "type": "text",
+      "text": "**Ice Muscles Gu**\nRank 3 Carver\n100 portions",
+      "x": 960,
+      "y": 13380,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_4dea1daedbe9dc1d",
+      "type": "text",
+      "text": "**Ice Tendons Gu**\nRank 2 Carver\n100 portions",
+      "x": 640,
+      "y": 13240,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_61188f24396807ba",
+      "type": "text",
+      "text": "**Icicle Gu**\nRank 1 Attack\n15 portions",
+      "x": 320,
+      "y": 12960,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_c837307a9a2ad4d0",
+      "type": "text",
+      "text": "**Spiral Icicle Gu**\nRank 2 Attack\n10 portions",
+      "x": 640,
+      "y": 13380,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_2952aeca0fe15cf3",
+      "type": "text",
+      "text": "**Spiral Ice Spear Gu**\nRank 3 Attack\n10 portions",
+      "x": 960,
+      "y": 13520,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_9f9af029585ba014",
+      "type": "text",
+      "text": "**Spiral Ice Lance Gu**\nRank 4 Attack\n15 portions",
+      "x": 1280,
+      "y": 12820,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_7f03f3f2febc46f3",
+      "type": "text",
+      "text": "**Spiral Icicle Swarm Gu**\nRank 3 Attack\n10 portions",
+      "x": 960,
+      "y": 13660,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_1e7b95c5614637fd",
+      "type": "text",
+      "text": "**Spiral Icicle Storm Gu**\nRank 4 Attack\n10 portions",
+      "x": 1280,
+      "y": 12960,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_a165fbd61c277745",
+      "type": "text",
+      "text": "**Winter Orb Gu**\nRank 1-3 Manifestation\n100 portions",
+      "x": 320,
+      "y": 13100,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_1cc641954099c249",
+      "type": "text",
+      "text": "**Appraisal Gu**\nRank 3 Divination\n15 portions",
+      "x": 960,
+      "y": 14020,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_5f1cd7c3fb68ae7c",
+      "type": "text",
+      "text": "**Assessment Gu**\nRank 1-5 Catalyst\n10 portions",
+      "x": 320,
+      "y": 14020,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_4afa8f9e90756f0f",
+      "type": "text",
+      "text": "**Author Gu**\nRank 3 Divination\n30 portions",
+      "x": 960,
+      "y": 14160,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_3be76cc016a8c850",
+      "type": "text",
+      "text": "**Bamboo Gentleman Gu**\nRank 4 Divination\n2 portions",
+      "x": 1280,
+      "y": 14020,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_baab340181483924",
+      "type": "text",
+      "text": "**[Beast] Language Gu**\nRank 2 Divination\n3 portions",
+      "x": 640,
+      "y": 14860,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_acfdd18ea7f4a2ba",
+      "type": "text",
+      "text": "**Eating One's Words Gu**\nRank 2 Catalyst\n40 portions",
+      "x": 640,
+      "y": 14160,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_135debd4837026bf",
+      "type": "text",
+      "text": "**Encyclopedia Gu**\nRank 3 Carver\n100 portions",
+      "x": 960,
+      "y": 14300,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_1b4a364f76e9fa80",
+      "type": "text",
+      "text": "**Inscription Blade Gu**\nRank 1 Manifestation\n5 portions",
+      "x": 320,
+      "y": 14440,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_e2154fea5da2dd0d",
+      "type": "text",
+      "text": "**Heart Engraved Gu**\nRank 1-5 Container\nNone",
+      "x": 320,
+      "y": 14160,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_19187dc98dce52fa",
+      "type": "text",
+      "text": "**Digital Shade Gu**\nRank 2 Manifestation\n4 portions",
+      "x": 640,
+      "y": 14020,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_9a15f42d1c524c30",
+      "type": "text",
+      "text": "**Erase Gu**\nRank 2 Manifestation\n8 portions",
+      "x": 640,
+      "y": 14300,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_828f720439cefaeb",
+      "type": "text",
+      "text": "**Ink Blood Gu**\nRank 1 Carver\n10 portions",
+      "x": 320,
+      "y": 14300,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_0bad865a02d82f49",
+      "type": "text",
+      "text": "**Known Variable Gu**\nRank 2-3 Divination\n5 portions",
+      "x": 640,
+      "y": 14440,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_49e3d046636e06b2",
+      "type": "text",
+      "text": "**Mountain Oath Gu**\nRank 4 Carver\n40 portions",
+      "x": 1280,
+      "y": 14160,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_3d5bdf107de596ce",
+      "type": "text",
+      "text": "**Paper Crane Gu**\nRank 1 Manifestation\n12 portions",
+      "x": 320,
+      "y": 14580,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_c0ba17c23a26ff8c",
+      "type": "text",
+      "text": "**Photo-audio Gu**\nRank 3 Manifestation\n2 portions",
+      "x": 960,
+      "y": 14440,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_f37062d9a65543a4",
+      "type": "text",
+      "text": "**Poison Vow Gu**\nRank 2 Carver\n20 portions",
+      "x": 640,
+      "y": 14580,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_9a70776c743352cf",
+      "type": "text",
+      "text": "**Sword Tongue Gu**\nRank 1-5 Attack\n35 portions",
+      "x": 320,
+      "y": 14720,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_1c6637a8f2e1f75e",
+      "type": "text",
+      "text": "**Teach Gu**\nRank 3 Catalyst\n20 portions",
+      "x": 960,
+      "y": 14580,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_af06318c33c8e41c",
+      "type": "text",
+      "text": "**Truthful Bone Gu**\nRank 2 Divination\nNone",
+      "x": 640,
+      "y": 14720,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_bc15c774dca4499e",
+      "type": "text",
+      "text": "**Visual Calculus Gu**\nRank 3 Carver\n100 portions",
+      "x": 960,
+      "y": 14720,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_cfe21c6800c88f06",
+      "type": "text",
+      "text": "**Anonymous Aphid Gu**\nRank 3 Concealment\n8 portions",
+      "x": 960,
+      "y": 15220,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_c1a38b8a671f58b2",
+      "type": "text",
+      "text": "**Aurora Curtain Gu**\nRank 3 Guard\n15 portions",
+      "x": 960,
+      "y": 15360,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_42d2a6ad49f93ab4",
+      "type": "text",
+      "text": "**Blink Gu**\nRank 1 Celerity\n15 portions",
+      "x": 320,
+      "y": 15220,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_cad06f3c4901bbcd",
+      "type": "text",
+      "text": "**Blue Light Shield Gu**\nRank 1-5 Guard\n18 portions",
+      "x": 320,
+      "y": 15360,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_4c8205da3610a615",
+      "type": "text",
+      "text": "**Bright Pearl Gu**\nRank 1-3 Container\n8 portions",
+      "x": 320,
+      "y": 15500,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_2815f6b98b7a1fc0",
+      "type": "text",
+      "text": "**Bug-eyed Beetle Gu**\nRank 3 Divination\n40 portions",
+      "x": 960,
+      "y": 15780,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_eadc1dd8fc279583",
+      "type": "text",
+      "text": "**Broadsword Light Gu**\nRank 3 Manifestation\n6 portions",
+      "x": 960,
+      "y": 15640,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_4f0f5c96ca8457cc",
+      "type": "text",
+      "text": "**Cleansing Light Gu**\nRank 1-5 Tonic\n120 portions",
+      "x": 320,
+      "y": 15640,
+      "width": 260,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "gu_52fdb9f68c503e11",
+      "type": "text",
+      "text": "**Daylight Gu**\nRank 1-3 Manifestation\n1 portion",
+      "x": 320,
+      "y": 15780,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_0ec09ef9836da03f",
+      "type": "text",
+      "text": "**Dazzling Lights Gu**\nRank 2-3 Manifestation\n12 portions",
+      "x": 640,
+      "y": 15220,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_0b7f5ada6bdd5e48",
+      "type": "text",
+      "text": "**Deafening Flash Gu**\nRank 2 Attack\n30 portions",
+      "x": 640,
+      "y": 15360,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_5d23e965603269f7",
+      "type": "text",
+      "text": "**Flash Blink Gu**\nRank 1 Attack\n2 portions",
+      "x": 320,
+      "y": 15920,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_3c331613a26f3664",
+      "type": "text",
+      "text": "**Flash Inspiration Gu**\nRank 3 Divination\n15 portions",
+      "x": 960,
+      "y": 15920,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_5b7d26c4d99b9229",
+      "type": "text",
+      "text": "**Footprint Gu**\nRank 1 Divination\n4 portions",
+      "x": 320,
+      "y": 16060,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_584130e068c3f0f3",
+      "type": "text",
+      "text": "**Gentle Light Gu**\nRank 3-5 Tonic\n35 portions",
+      "x": 960,
+      "y": 16200,
+      "width": 260,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "gu_cae91e45aed80f3a",
+      "type": "text",
+      "text": "**Lift Dao Gu**\nRank 3 Catalyst\n30 portions",
+      "x": 960,
+      "y": 16620,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_9ffd1ae121c4f26f",
+      "type": "text",
+      "text": "**Light Source Gu**\nRank 3 Catalyst\n1 portion",
+      "x": 960,
+      "y": 16760,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_851cd04fbcac9538",
+      "type": "text",
+      "text": "**Little Light Gu**\nRank 1 Manifestation\n1 portion",
+      "x": 320,
+      "y": 16200,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_4af7f9edc0f545f4",
+      "type": "text",
+      "text": "**Moonlight Gu**\nRank 1 Attack\n6 portions",
+      "x": 320,
+      "y": 16340,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_01592d51db5afd01",
+      "type": "text",
+      "text": "**Moonglow Gu**\nRank 2 Attack\n20 portions",
+      "x": 640,
+      "y": 15780,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_3aed9b0313f92261",
+      "type": "text",
+      "text": "**Golden Moon Gu**\nRank 3 Attack\n20 portions",
+      "x": 960,
+      "y": 16340,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_3464dc11507c600b",
+      "type": "text",
+      "text": "**Moon Harbinger Gu**\nRank 2 Carver\n100 portions",
+      "x": 640,
+      "y": 15500,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_b4ef7df17d3dc747",
+      "type": "text",
+      "text": "**Moonscar Gu**\nRank 2 Attack\n2 portions",
+      "x": 640,
+      "y": 15920,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_ca3799b8ff860c55",
+      "type": "text",
+      "text": "**Blood Moon Gu**\nRank 3 Attack\n8 portions",
+      "x": 960,
+      "y": 15500,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_ee44c6bcc4e0dfae",
+      "type": "text",
+      "text": "**Frost Moon Gu**\nRank 3 Attack\n14 portions",
+      "x": 960,
+      "y": 16060,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_ba30fd97b4127db5",
+      "type": "text",
+      "text": "**Moonwhirl Gu**\nRank 2 Attack\n8 portions",
+      "x": 640,
+      "y": 16200,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_d6e3de36b09baee2",
+      "type": "text",
+      "text": "**Illusory Moon Gu**\nRank 3 Manifestation\n12 portions",
+      "x": 960,
+      "y": 16480,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_98fcc378d7f5adda",
+      "type": "text",
+      "text": "**Moon Raiment Gu**\nRank 2 Guard\n20 portions",
+      "x": 640,
+      "y": 15640,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_4c15dc21c91634c1",
+      "type": "text",
+      "text": "**Moon Blessing Gu**\nRank 3 Guard\n30 portions",
+      "x": 960,
+      "y": 16900,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_c9f13c16144065a9",
+      "type": "text",
+      "text": "**Moonveil Gu**\nRank 2-3 Concealment\n3 portions",
+      "x": 640,
+      "y": 16060,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_3028f51407d83338",
+      "type": "text",
+      "text": "**One-stretch Golden Light Gu**\nRank 1 Guard\n2 portions",
+      "x": 320,
+      "y": 16480,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_dd7c1a3d9d5627da",
+      "type": "text",
+      "text": "**Rainbow Light Gu**\nRank 3 Celerity\n30 portions",
+      "x": 960,
+      "y": 17040,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_c439c60b7bf00fc6",
+      "type": "text",
+      "text": "**Rainbow Prism Gu**\nRank 1-5 Divination\n7 portions",
+      "x": 320,
+      "y": 16620,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_982fd8b711279888",
+      "type": "text",
+      "text": "**Shimmer Gu**\nRank 2 Concealment\n3 portions",
+      "x": 640,
+      "y": 16340,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_5f573b82f1da8677",
+      "type": "text",
+      "text": "**Solar Flare Gu**\nRank 3 Attack\n15 portions",
+      "x": 960,
+      "y": 17180,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_09d66f6e5482d9b0",
+      "type": "text",
+      "text": "**Sunlight Pool Gu**\nRank 3 Tonic\n120 portions",
+      "x": 960,
+      "y": 17320,
+      "width": 260,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "gu_5d00f2c62873169a",
+      "type": "text",
+      "text": "**Sunspot Gu**\nRank 3 Attack\n10 portions",
+      "x": 960,
+      "y": 17460,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_1106a1dda2d68043",
+      "type": "text",
+      "text": "**Two-stretch Golden Light Gu**\nRank 2 Guard\n2 portions",
+      "x": 640,
+      "y": 16480,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_065f8e41a20c9406",
+      "type": "text",
+      "text": "**Zhulong Slither Snake Gu**\nRank 3 Celerity\n20 portions",
+      "x": 960,
+      "y": 17600,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_682a03f4cd9e0c79",
+      "type": "text",
+      "text": "**Absorb Energy Gu**\nRank 1-5 Guard\n15 portions",
+      "x": 320,
+      "y": 17960,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_25250e46745c8169",
+      "type": "text",
+      "text": "**Arcing Touch Gu**\nRank 3 Carver\n100 portions",
+      "x": 960,
+      "y": 17960,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_45cbe19f37712e7f",
+      "type": "text",
+      "text": "**Buzzing Ears Gu**\nRank 1 Divination\n3 portions",
+      "x": 320,
+      "y": 18100,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_81ecfd4383a1b3f7",
+      "type": "text",
+      "text": "**Call Lightning Gu**\nRank 3 Manifestation\n50 portions",
+      "x": 960,
+      "y": 18100,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_d5f0d9102728577d",
+      "type": "text",
+      "text": "**Capacitor Gu**\nRank 1-4 Container\n5 portions",
+      "x": 320,
+      "y": 18240,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_9a61b86ecef7f4f8",
+      "type": "text",
+      "text": "**Chain Lightning Gu**\nRank 3 Attack\n70 portions",
+      "x": 960,
+      "y": 18240,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_29350804a152f35f",
+      "type": "text",
+      "text": "**Conduit Gu**\nRank 2-3 Attack\n20 portions",
+      "x": 640,
+      "y": 17960,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_ef7de0b7dedde0a2",
+      "type": "text",
+      "text": "**Explosive Force Gu**\nRank 2 Carver\n100 portions",
+      "x": 640,
+      "y": 18100,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_eb94d5c2be91b5d6",
+      "type": "text",
+      "text": "**Hair Trigger Gu**\nRank 2 Carver\n100 portions",
+      "x": 640,
+      "y": 18240,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_733b57ae9e45bae7",
+      "type": "text",
+      "text": "**Jolt Gu**\nRank 1 Attack\n10 portions",
+      "x": 320,
+      "y": 18380,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_431bf3b995a99c2c",
+      "type": "text",
+      "text": "**Lightning Eye Gu**\nRank 3 Divination\n4 portions",
+      "x": 960,
+      "y": 18380,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_df518c2e0702a3be",
+      "type": "text",
+      "text": "**Lightning Gu**\nRank 3-5 Attack\n60 portions",
+      "x": 960,
+      "y": 18520,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_6d363479c97439b9",
+      "type": "text",
+      "text": "**Lightning Arrow Gu**\nRank 2-4 Attack\n20 portions",
+      "x": 640,
+      "y": 18380,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_f333160e6b20ba37",
+      "type": "text",
+      "text": "**Lightning Charge Gu**\nRank 2 Carver\n60 portions",
+      "x": 640,
+      "y": 18520,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_68b5193fd0f5308b",
+      "type": "text",
+      "text": "**Lightning Net Gu**\nRank 3 Attack\n10 portions",
+      "x": 960,
+      "y": 18660,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_1407c2b75f43d369",
+      "type": "text",
+      "text": "**Lightning Rod Gu**\nRank 2 Guard\n3 portions",
+      "x": 640,
+      "y": 18660,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_ba613d1fc0d93001",
+      "type": "text",
+      "text": "**Lightning Shield Gu**\nRank 1-5 Guard\n14 portions",
+      "x": 320,
+      "y": 18520,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_d8502b7d77486154",
+      "type": "text",
+      "text": "**Lightning Spear Gu**\nRank 2-4 Attack\n15 portions",
+      "x": 640,
+      "y": 18800,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_267b976f6f335984",
+      "type": "text",
+      "text": "**Thunderwings Gu**\nRank 3 Celerity\n30 portions",
+      "x": 960,
+      "y": 18940,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_3032a4beba0cc85b",
+      "type": "text",
+      "text": "**Rumbling Thunder Gu**\nRank 2 Celerity\n5 portions",
+      "x": 640,
+      "y": 18940,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_7f35419a058e19d2",
+      "type": "text",
+      "text": "**Self Strike Gu**\nRank 2 Attack\n20 portions",
+      "x": 640,
+      "y": 19080,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_367ac64a16d19e2a",
+      "type": "text",
+      "text": "**Static Step Gu**\nRank 2 Celerity\n15 portions",
+      "x": 640,
+      "y": 19220,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_7edab1f00ca6b31e",
+      "type": "text",
+      "text": "**Static Touch Gu**\nRank 1 Carver\n40 portions",
+      "x": 320,
+      "y": 18660,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_f0a4acfc86dfa063",
+      "type": "text",
+      "text": "**Stunning Strike Gu**\nRank 2 Attack\n25 portions",
+      "x": 640,
+      "y": 19360,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_b70706fdb0027063",
+      "type": "text",
+      "text": "**Superconductor Gu**\nRank 3 Carver\n100 portions",
+      "x": 960,
+      "y": 18800,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_6b0f4d9990896626",
+      "type": "text",
+      "text": "**Tempest Gu**\nRank 5 Manifestation\n35 portions",
+      "x": 1600,
+      "y": 17960,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_9d323717c1d5f918",
+      "type": "text",
+      "text": "**Thunder Hammer Gu**\nRank 5 Attack\n25 portions",
+      "x": 1600,
+      "y": 18100,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_3717862a00f88c61",
+      "type": "text",
+      "text": "**Thunderball Gu**\nRank 2-3 Attack\n15 portions",
+      "x": 640,
+      "y": 19500,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_85f1002bf139bebd",
+      "type": "text",
+      "text": "**Thunderdome Gu**\nRank 4 Manifestation\n15 portions",
+      "x": 1280,
+      "y": 17960,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_05580caed314df2d",
+      "type": "text",
+      "text": "**Volt Sprint Gu**\nRank 2 Carver\n100 portions",
+      "x": 640,
+      "y": 19640,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_3a085d1bc5fa4131",
+      "type": "text",
+      "text": "**44 False Yin Gu**\nRank 4 Attack\n44 portions",
+      "x": 1280,
+      "y": 20000,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_a02b857f2eff73e8",
+      "type": "text",
+      "text": "**88 True Yang Gu**\nRank 3 Catalyst\n8 portions",
+      "x": 960,
+      "y": 20000,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_cc8cd1ceed58e175",
+      "type": "text",
+      "text": "**Amplify Luck Gu**\nRank 2 Catalyst\n20 portions",
+      "x": 640,
+      "y": 20000,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_dd500e1c0fa57923",
+      "type": "text",
+      "text": "**Dumb Luck Gu**\nRank 2 Catalyst\n25 portions",
+      "x": 640,
+      "y": 20140,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_eb65e208b715d3b4",
+      "type": "text",
+      "text": "**Extend Luck Gu**\nRank 2 Catalyst\n10 portions",
+      "x": 640,
+      "y": 20280,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_4b2e392816d93bae",
+      "type": "text",
+      "text": "**Idiot Savant Gu**\nRank 3-5 Divination\n25 portions",
+      "x": 960,
+      "y": 20140,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_e26973e6ee8ab9cd",
+      "type": "text",
+      "text": "**Jinxed Gu**\nRank 1 Carver\n60 portions",
+      "x": 320,
+      "y": 20000,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_787d41d9c35c57ef",
+      "type": "text",
+      "text": "**Luck Cauldron Gu**\nRank 2 Carver\n100 portions",
+      "x": 640,
+      "y": 20420,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_cd0613ba91fbab0c",
+      "type": "text",
+      "text": "**Luck Inspection Gu**\nRank 3 Divination\n10 portions",
+      "x": 960,
+      "y": 20280,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_bbcbb1e844266f4a",
+      "type": "text",
+      "text": "**Magic Hands Gu**\nRank 3 Carver\n100 portions",
+      "x": 960,
+      "y": 20420,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_79816ecb0a75e0b2",
+      "type": "text",
+      "text": "**Manifest Luck Gu**\nRank 3 Manifestation\n8 portions",
+      "x": 960,
+      "y": 20560,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_9a3d6127374af09c",
+      "type": "text",
+      "text": "**Parlay Gu**\nRank 3 Catalyst\n50 portions",
+      "x": 960,
+      "y": 20700,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_72c1975b93f0fff1",
+      "type": "text",
+      "text": "**Split Luck Gu**\nRank 2 Carver\n100 portions",
+      "x": 640,
+      "y": 20560,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_ae5ffa6599c83750",
+      "type": "text",
+      "text": "**Aperture Lock Gu**\nRank 3 Carver\n75 portions",
+      "x": 960,
+      "y": 21060,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_3e0f83cc51276227",
+      "type": "text",
+      "text": "**Battle Bone Wheel Gu**\nRank 5 Attack\n8 portions",
+      "x": 1600,
+      "y": 21060,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_ed2efc1c05342a60",
+      "type": "text",
+      "text": "**Bleeding Bismuth Gu**\nRank 2 Attack\n10 portions",
+      "x": 640,
+      "y": 21340,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_af53d4aa0b9131f1",
+      "type": "text",
+      "text": "**Beast Maddening Bullet Gu**\nRank 2 Attack\n3 portions",
+      "x": 640,
+      "y": 21060,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_cd6d91089c7e219a",
+      "type": "text",
+      "text": "**Beast Tag Bullet Gu**\nRank 2 Attack\n5 portions",
+      "x": 640,
+      "y": 21200,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_a93c168323147d11",
+      "type": "text",
+      "text": "**Bronze Transmission Gu**\nRank 3 Divination\n16 portions",
+      "x": 960,
+      "y": 21200,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_97b31c942deab391",
+      "type": "text",
+      "text": "**Bullet Gu**\nRank 1 Attack\n10 portions",
+      "x": 320,
+      "y": 21060,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_6e21fce62b88ee82",
+      "type": "text",
+      "text": "**Copper Tendons Gu**\nRank 1 Carver\n20 portions",
+      "x": 320,
+      "y": 21200,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_f6b9b6ccd0440bc4",
+      "type": "text",
+      "text": "**Steel Spring Tendons Gu**\nRank 2 Carve\n100 portions",
+      "x": 640,
+      "y": 22740,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_81c69212880f2e98",
+      "type": "text",
+      "text": "**Chainsaw Golden Centipede Gu**\nRank 3 Attack\n12 portions",
+      "x": 960,
+      "y": 21340,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_f44a286f486d1199",
+      "type": "text",
+      "text": "**Gold Deflection Gu**\nRank 1-3 Guard\n5 portions",
+      "x": 320,
+      "y": 21340,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_154a31bf7fa827bc",
+      "type": "text",
+      "text": "**Golden Aurora Gu**\nRank 3 Manifestation\n5 portions",
+      "x": 960,
+      "y": 21480,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_a84c9aa070f9d126",
+      "type": "text",
+      "text": "**Golden Bell Gu**\nRank 1 Guard\n25 portions",
+      "x": 320,
+      "y": 21480,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_7fdec83a2662ffe5",
+      "type": "text",
+      "text": "**Golden Breeze Gu**\nRank 4 Tonic\n30 portions",
+      "x": 1280,
+      "y": 21060,
+      "width": 260,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "gu_5f6955d227a320c7",
+      "type": "text",
+      "text": "**Golden Needle Gu**\nRank 2 Attack\n25 portions",
+      "x": 640,
+      "y": 21480,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_81110df80ca4086e",
+      "type": "text",
+      "text": "**Grounded Beetle Gu**\nRank 1-3 Guard\n4 portions",
+      "x": 320,
+      "y": 21620,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_cb4dd52770e25882",
+      "type": "text",
+      "text": "**Heatsink Gu**\nRank 1-2 Guard\n8 portions",
+      "x": 320,
+      "y": 21760,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_914127d1002e9938",
+      "type": "text",
+      "text": "**Ironfist Grappling Gu**\nRank 3-5 Attack\n15 portions",
+      "x": 960,
+      "y": 21620,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_4551b2d552b07957",
+      "type": "text",
+      "text": "**Iron Hand Gu**\nRank 2 Manifestation\n3 portions",
+      "x": 640,
+      "y": 21620,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_4296abf737c7b579",
+      "type": "text",
+      "text": "**Iron Cabinet Gu**\nRank 4 Container\n60 portions",
+      "x": 1280,
+      "y": 21200,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_076e5a3a32038d0b",
+      "type": "text",
+      "text": "**Iron Hook Silver Slash Gu**\nRank 5 Attack\n8 portions",
+      "x": 1600,
+      "y": 21200,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_5547f6312291149b",
+      "type": "text",
+      "text": "**Iron Needle Gu**\nRank 1 Attack\n15 portions",
+      "x": 320,
+      "y": 21900,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_8d396f9047754b91",
+      "type": "text",
+      "text": "**Iron Veins Gu**\nRank 2 Carver\n100 portions",
+      "x": 640,
+      "y": 21760,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_a609bb8ab05a0d13",
+      "type": "text",
+      "text": "**Magnet Fingers Gu**\nRank 1 Manifestation\n8 portions",
+      "x": 320,
+      "y": 22040,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_c28097ad29ab61bf",
+      "type": "text",
+      "text": "**Metal Skin Gu**\nRank 1-3 Carver\n{40, 100, 100} portions",
+      "x": 320,
+      "y": 22180,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_ef2afd226e3384e3",
+      "type": "text",
+      "text": "**Polished Gold Gu**\nRank 3 Carver\n40 portions",
+      "x": 960,
+      "y": 21760,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_43814346e21444aa",
+      "type": "text",
+      "text": "**Ricochet Gu**\nRank 2 Guard\n8 portions",
+      "x": 640,
+      "y": 22040,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_fffb8e85796e61b7",
+      "type": "text",
+      "text": "**Shape Metal Gu**\nRank 2-3 Catalyst\n30 portions",
+      "x": 640,
+      "y": 22180,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_4728a26498a7441a",
+      "type": "text",
+      "text": "**Silver Bullet Gu**\nRank 2 Attack\n20 portions",
+      "x": 640,
+      "y": 22320,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_9c882d5c6a1aa240",
+      "type": "text",
+      "text": "**Silver Lining Gu**\nRank 1 Tonic\n5 portions",
+      "x": 320,
+      "y": 22320,
+      "width": 260,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "gu_0588f59014485510",
+      "type": "text",
+      "text": "**Quicksilver Lining Gu**\nRank 2 Tonic\n5 portions",
+      "x": 640,
+      "y": 21900,
+      "width": 260,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "gu_01ec40215edd21ed",
+      "type": "text",
+      "text": "**Steel Lining Gu**\nRank 2 Tonic\n5 portions",
+      "x": 640,
+      "y": 22600,
+      "width": 260,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "gu_6c41101fe24a8f80",
+      "type": "text",
+      "text": "**Steel Bones Gu**\nRank 2 Carver\n100 portions",
+      "x": 640,
+      "y": 22460,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_3e6bf6c89ba8a8b8",
+      "type": "text",
+      "text": "**Transmute Tungsten Gu**\nRank 1 Attack\n25 portions",
+      "x": 320,
+      "y": 22460,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_8da4dabfaeb4a446",
+      "type": "text",
+      "text": "**Berserk Toxin Gu**\nRank 2 Attack\n30 portions",
+      "x": 640,
+      "y": 23100,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_c415505dca69be63",
+      "type": "text",
+      "text": "**Decorum Erosion Toxin Gu**\nRank 2 Attack\n10 portions",
+      "x": 640,
+      "y": 23240,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_25a5e3012854728e",
+      "type": "text",
+      "text": "**Mithridatize Gu**\nRank 4 Carver\n100 portions",
+      "x": 1280,
+      "y": 23100,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_640bacfb48aefac1",
+      "type": "text",
+      "text": "**Poison Affinity Gu**\nRank 2 Carver\n100 portions",
+      "x": 640,
+      "y": 23520,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_35139ef894b28b73",
+      "type": "text",
+      "text": "**Poison Scorpion Gu**\nRank 3 Manifestation\n50 portions",
+      "x": 960,
+      "y": 23240,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_41f448afc82647d1",
+      "type": "text",
+      "text": "**Scorpion Faeces Gu**\nRank 2 Attack\nNone",
+      "x": 640,
+      "y": 23660,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_1b04f217730b9e67",
+      "type": "text",
+      "text": "**Nausea Gu**\nRank 2 Attack\n35 portions",
+      "x": 640,
+      "y": 23380,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_cfd1799660639c00",
+      "type": "text",
+      "text": "**Close Gate Gu**\nRank 3 Catalyst\nNone",
+      "x": 960,
+      "y": 23100,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_3341b16b2e02679e",
+      "type": "text",
+      "text": "**Single Gate Poison Gu**\nRank 3 Attack\n30 portions",
+      "x": 960,
+      "y": 23380,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_89a1c105a4720482",
+      "type": "text",
+      "text": "**Slowness Toxin Gu**\nRank 2 Attack\n12 portions",
+      "x": 640,
+      "y": 23800,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_0026476a20bfbd08",
+      "type": "text",
+      "text": "**Synthesize Gu**\nRank 2-5 Manifestation\n40 portions",
+      "x": 640,
+      "y": 23940,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_efbc0848b836a9de",
+      "type": "text",
+      "text": "**Tipped Daggers Gu**\nRank 2-4 Attack\n100 portions",
+      "x": 640,
+      "y": 24080,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_8ada660e06b787f2",
+      "type": "text",
+      "text": "**Toxic Pore Gu**\nRank 2 Carver\n100 portions",
+      "x": 640,
+      "y": 24220,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_1a1162ec85b1d212",
+      "type": "text",
+      "text": "**Aperture Reduction Gu**\nRank 1-5 Catalyst\n80 portions",
+      "x": 320,
+      "y": 24580,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_90af7edbfd8a161a",
+      "type": "text",
+      "text": "**Blast Shield Gu**\nRank 2-4 Guard\n10 portions",
+      "x": 640,
+      "y": 24580,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_d20016547f489da2",
+      "type": "text",
+      "text": "**Catalog Gu**\nRank 4 Container\n40 portions",
+      "x": 1280,
+      "y": 24580,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_86970064ea53b6d6",
+      "type": "text",
+      "text": "**Dark Knowledge Gu**\nRank 3 Catalyst\n50 portions",
+      "x": 960,
+      "y": 24580,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_abf749051d8b0009",
+      "type": "text",
+      "text": "**Eye for Quality Gu**\nRank 4 Carver\n100 portions",
+      "x": 1280,
+      "y": 24720,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_2a5ac580e608daa6",
+      "type": "text",
+      "text": "**Morphing Colors Gu**\nRank 2-4 Catalyst\n40 portions",
+      "x": 640,
+      "y": 24720,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_a1773d62a609dd09",
+      "type": "text",
+      "text": "**Refine Walls Gu**\nRank 2-4 Catalyst\n100 portions",
+      "x": 640,
+      "y": 24860,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_b6e7a22c25e9e714",
+      "type": "text",
+      "text": "**Reverse Refinement Gu**\nRank 1-5 Catalyst\n40 portions",
+      "x": 320,
+      "y": 24720,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_8d6f9131366dac0c",
+      "type": "text",
+      "text": "**Revert Gu**\nRank 2-5 Catalyst\n5 portions",
+      "x": 640,
+      "y": 25000,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_15a17abee2bf17c4",
+      "type": "text",
+      "text": "**Purple Venom Viper Gu**\nRank 3 Catalyst\n15 portions",
+      "x": 960,
+      "y": 24720,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_56e43ae4ca9369ef",
+      "type": "text",
+      "text": "**Undefeated Hundred Battles Gu**\nRank 5 Catlayst\n40 portions",
+      "x": 1600,
+      "y": 24580,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_a0d04378f37973ff",
+      "type": "text",
+      "text": "**Aura Filter Gu**\nRank 4-5 Guard\n20 portions",
+      "x": 1280,
+      "y": 25360,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_b00168585f7b81b6",
+      "type": "text",
+      "text": "**Big Gu**\nRank 3 Catalyst\n10 portions",
+      "x": 960,
+      "y": 25360,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_f090932162756b79",
+      "type": "text",
+      "text": "**Close Attack Gu**\nRank 2-3 Catalyst\n12 portions",
+      "x": 640,
+      "y": 25360,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_9aaa0b523023790b",
+      "type": "text",
+      "text": "**Concentrate Gu**\nRank 1-4 Catalyst\n25 portions",
+      "x": 320,
+      "y": 25360,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_5e06d22c8893e27d",
+      "type": "text",
+      "text": "**Critical Gu**\nRank 1-5 Catalyst\n30 portions",
+      "x": 320,
+      "y": 25500,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_97705a95fdc2a488",
+      "type": "text",
+      "text": "**Millimeter Gu**\nRank 2 Catalyst\n5 portions",
+      "x": 640,
+      "y": 25640,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_3554dce55f341edd",
+      "type": "text",
+      "text": "**Meter Gu**\nRank 3 Catalyst\n5 portions",
+      "x": 960,
+      "y": 25500,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_6d93f2a0e5f0fe2c",
+      "type": "text",
+      "text": "**Seal Gu**\nRank 1-5 Guard\n60 portions",
+      "x": 320,
+      "y": 25780,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_a5133248b1b55f7b",
+      "type": "text",
+      "text": "**Ten Meter Gu**\nRank 4 Catalyst\n25 portions",
+      "x": 1280,
+      "y": 25780,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_4a0e88cf529fbbdc",
+      "type": "text",
+      "text": "**Hundred Meter Gu**\nRank 5 Catalyst\n60 portions",
+      "x": 1600,
+      "y": 25360,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_348763862f0a868b",
+      "type": "text",
+      "text": "**Immobilization Gu**\nRank 4 Attack\n20 portions",
+      "x": 1280,
+      "y": 25500,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_b6e2efd8ffb991dd",
+      "type": "text",
+      "text": "**Deactivate Gu**\nRank 1-5 Guard\n50 portions",
+      "x": 320,
+      "y": 25640,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_be4d979ef9808e41",
+      "type": "text",
+      "text": "**Inactive Gu**\nRank 2-5 Guard\n35 portions",
+      "x": 640,
+      "y": 25500,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_0d990fa9636db56c",
+      "type": "text",
+      "text": "**Ranged Combat Gu**\nRank 2-4 Catalyst\n20 portions",
+      "x": 640,
+      "y": 25780,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_c829eb96cef056a9",
+      "type": "text",
+      "text": "**Sacrifice Gu**\nRank 4 Catalyst\n40 portions",
+      "x": 1280,
+      "y": 25640,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_c30749cf5bc74c7c",
+      "type": "text",
+      "text": "**Share Gu**\nRank 3-5 Catalyst\n40 portions",
+      "x": 960,
+      "y": 25640,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_00f7eea0d077127d",
+      "type": "text",
+      "text": "**Small Gu**\nRank 2 Catalyst\n4 portions",
+      "x": 640,
+      "y": 25920,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_d0226f9e35dab550",
+      "type": "text",
+      "text": "**Tiny Gu**\nRank 3-5 Catalyst\n8 portions",
+      "x": 960,
+      "y": 25780,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_8c4a0a7afbb10de1",
+      "type": "text",
+      "text": "**Burial Soul Toad Gu**\nRank 3-4 Container\n30 portions",
+      "x": 960,
+      "y": 26280,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_b741f2520f68d7b8",
+      "type": "text",
+      "text": "**[Beast] Soul Gu**\nRank 3 Carver\n100 portions",
+      "x": 960,
+      "y": 27820,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_855679730970f8a0",
+      "type": "text",
+      "text": "**Eat Soul Gu**\nRank 3 Carver\n100 portions",
+      "x": 960,
+      "y": 26420,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_295df4a5051a775d",
+      "type": "text",
+      "text": "**Elusive Ghost Gu**\nRank 4 Celerity\n4 portions",
+      "x": 1280,
+      "y": 26280,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_f7e19157e9c4e0b9",
+      "type": "text",
+      "text": "**General Soul Gu**\nRank 3 Carver\n100 portions",
+      "x": 960,
+      "y": 26560,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_11307768e6d77951",
+      "type": "text",
+      "text": "**Ghost Eye Gu**\nRank 2-3 Divination\n15 portions",
+      "x": 640,
+      "y": 26280,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_1ed8625b87fe7be2",
+      "type": "text",
+      "text": "**Ghost Fire Gu**\nRank 2 Attack\n15 portions",
+      "x": 640,
+      "y": 26420,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_f369b411c5eb95ab",
+      "type": "text",
+      "text": "**Ghost Soldier Gu**\nRank 2-4 Manifestation\n30 portions",
+      "x": 640,
+      "y": 26560,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_4c629c4c340105f4",
+      "type": "text",
+      "text": "**Ghostly Touch Gu**\nRank 3 Carver\n100 portions",
+      "x": 960,
+      "y": 26700,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_0715d58c74869d44",
+      "type": "text",
+      "text": "**Guts Gu**\nRank 1 Carver\n1 portion",
+      "x": 320,
+      "y": 26280,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_b0c68924acc44f1f",
+      "type": "text",
+      "text": "**Ironclad Soul Beetle Gu**\nRank 2 Carver\n100 portions",
+      "x": 640,
+      "y": 26700,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_bc62305b6cff49d4",
+      "type": "text",
+      "text": "**Misshapen Soul Gu**\nRank 3 Catalyst\n25 portions",
+      "x": 960,
+      "y": 26840,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_86cf294a07a8aa25",
+      "type": "text",
+      "text": "**Piercing Shriek Gu**\nRank 2 Attack\n30 portions",
+      "x": 640,
+      "y": 26840,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_2bc4a9de212381b2",
+      "type": "text",
+      "text": "**Soul Armor Gu**\nRank 1-5 Guard\n7 portions",
+      "x": 320,
+      "y": 26420,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_20387dbb740a1024",
+      "type": "text",
+      "text": "**Soul Detonation Gu**\nRank 2 Carver\n10 portions",
+      "x": 640,
+      "y": 26980,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_10309cbe2800a679",
+      "type": "text",
+      "text": "**Soul Egg Gu**\nRank 1-5 Catalyst\n20 portions",
+      "x": 320,
+      "y": 26560,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_9ed4f29f8b6857ff",
+      "type": "text",
+      "text": "**Soul Fly Gu**\nRank 4 Celerity\n6 portions",
+      "x": 1280,
+      "y": 26420,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_ab7f7b955330dc8d",
+      "type": "text",
+      "text": "**Soul Language Gu**\nRank 2 Divination\n10 portions",
+      "x": 640,
+      "y": 27120,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_63b4f91cf8f3dcf5",
+      "type": "text",
+      "text": "**Soul Lantern Gu**\nRank 3 Divination\n100 portions",
+      "x": 960,
+      "y": 26980,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_5e63673cbc075e2d",
+      "type": "text",
+      "text": "**Soul Search Gu**\nRank 3-5 Divination\nA number of portions equal to the target's current soul.",
+      "x": 960,
+      "y": 27120,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_8980dc86c1e9ea32",
+      "type": "text",
+      "text": "**Soul Sense Gu**\nRank 3 Divination\n2 portions",
+      "x": 960,
+      "y": 27260,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_c35a9fc52bb556c7",
+      "type": "text",
+      "text": "**Soul Strength Gu**\nRank 2 Carver\n100 portions",
+      "x": 640,
+      "y": 27260,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_7ee51d9582ef3d3b",
+      "type": "text",
+      "text": "**Soul Transposition Gu**\nRank 5 Attack\n200 portions",
+      "x": 1600,
+      "y": 26280,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_b202977c0fc07e1c",
+      "type": "text",
+      "text": "**Spirit Incubating Flea Gu**\nRank 3 Catalyst\n5 portions",
+      "x": 960,
+      "y": 27400,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_e6de89674d9f1d79",
+      "type": "text",
+      "text": "**Tranquil Soul Gu**\nRank 3 Carver\n100 portions",
+      "x": 960,
+      "y": 27540,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_beba4d5d3ffb8fac",
+      "type": "text",
+      "text": "**Wicked Kiss Gu**\nRank 3 Attack\n80 portions",
+      "x": 960,
+      "y": 27680,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_3352d0d8278c176f",
+      "type": "text",
+      "text": "**Bass Eardrums Gu**\nRank 1-3 Carver\n100 portions",
+      "x": 320,
+      "y": 28180,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_329dc1daf9fb9d5e",
+      "type": "text",
+      "text": "**Blind Howler Monkey Gu**\nRank 4 Divination\n60 portions",
+      "x": 1280,
+      "y": 28180,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_83fdc3407ccf6871",
+      "type": "text",
+      "text": "**Clairaudiance Gu**\nRank 1-3 Divination\n20 portions",
+      "x": 320,
+      "y": 28320,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_6e9b99384f21dc46",
+      "type": "text",
+      "text": "**Copper Warhorn Gu**\nRank 1 Manifestation\n4 portions",
+      "x": 320,
+      "y": 28460,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_5715aa02de07dc08",
+      "type": "text",
+      "text": "**Dampen Acoustics Gu**\nRank 3-5 Guard\n8 portions",
+      "x": 960,
+      "y": 28180,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_4396c2d023b9d985",
+      "type": "text",
+      "text": "**Echo Gu**\nRank 2-4 Guard\n16 portions",
+      "x": 640,
+      "y": 28180,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_8749f5bad0754ddc",
+      "type": "text",
+      "text": "**Heart Sound Gu**\nRank 2 Divination\n2 portions",
+      "x": 640,
+      "y": 28320,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_279e901e056c2d8c",
+      "type": "text",
+      "text": "**Heaven and Earth Magnificent Sound Gu**\nRank 5 Attack\n15 portions",
+      "x": 1600,
+      "y": 28180,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_4dc77829a6951810",
+      "type": "text",
+      "text": "**Ringing Steel Gu**\nRank 2 Manifestation\n35 portions",
+      "x": 640,
+      "y": 28460,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_93ac1946cb917abc",
+      "type": "text",
+      "text": "**Tripwire Gu**\nRank 1 Divination\n10 portions",
+      "x": 320,
+      "y": 28600,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_1f0037c5e92481b3",
+      "type": "text",
+      "text": "**Voice Cast Gu**\nRank 1-4 Manifestation\n3 portions",
+      "x": 320,
+      "y": 28740,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_7a95563490d87e36",
+      "type": "text",
+      "text": "**Archer's Paradox Gu**\nRank 3-5 Celerity\n{10, 35} portions",
+      "x": 960,
+      "y": 29100,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_1c76c42db69f242f",
+      "type": "text",
+      "text": "**Dimensional Lock Gu**\nRank 4-5 Manifestation\n200 portions",
+      "x": 1280,
+      "y": 29100,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_020c4877362530fc",
+      "type": "text",
+      "text": "**Formless Space Gu**\nRank 1-4 Container\nNone",
+      "x": 320,
+      "y": 29100,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_a785bdbf3c99e050",
+      "type": "text",
+      "text": "**Moving Perspective Cup Gu**\nRank 5 Container\n20 portions",
+      "x": 1600,
+      "y": 29100,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_77873674e5df0c6b",
+      "type": "text",
+      "text": "**Position Swap Gu**\nRank 3 Celerity\n(10 * distance to target in meters) portions",
+      "x": 960,
+      "y": 29240,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_7a698699a9229b27",
+      "type": "text",
+      "text": "**Spacial Rift Gu**\nRank 3-4 Catalyst\n(2 * X) portions",
+      "x": 960,
+      "y": 29380,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_62866ab415331d03",
+      "type": "text",
+      "text": "**Star Dart Gu**\nRank 1 Attack\n14 portions",
+      "x": 320,
+      "y": 29240,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_fba7b60b15f0b26a",
+      "type": "text",
+      "text": "**Star Letter Gu**\nRank 4 Manifestation\n100 portions",
+      "x": 1280,
+      "y": 29240,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_2aed8cef33a640e5",
+      "type": "text",
+      "text": "**Star Rain Gu**\nRank 3 Attack\n40 portions",
+      "x": 960,
+      "y": 29520,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_75988f5ac0575a8d",
+      "type": "text",
+      "text": "**Star River Gu**\nRank 5 Attack\n30 portions",
+      "x": 1600,
+      "y": 29240,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_f8c024c4ad95bf78",
+      "type": "text",
+      "text": "**Stargate Gu**\nRank 5 Manifestation\n150 portions",
+      "x": 1600,
+      "y": 29380,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_6c0ac76ca9fe1af8",
+      "type": "text",
+      "text": "**Trip Gu**\nRank 1 Attack\n4 portions",
+      "x": 320,
+      "y": 29380,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_a2092f63a2f91825",
+      "type": "text",
+      "text": "**All-Out Effort Gu**\nRank 1-5 Catalyst\n15 portions",
+      "x": 320,
+      "y": 29880,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_82ad38f885211232",
+      "type": "text",
+      "text": "**Bear Strength Gu**\nRank 1 Carver\n40 portions",
+      "x": 320,
+      "y": 30020,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_8949eb0b6a2ef059",
+      "type": "text",
+      "text": "**Beastman Strength Gu**\nRank 3 Carver\n100 portions",
+      "x": 960,
+      "y": 29880,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_784ef0059227d579",
+      "type": "text",
+      "text": "**Blobfish Strength Gu**\nRank 1 Carver\n40 portions",
+      "x": 320,
+      "y": 30160,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_6c4c04be8f82a4e0",
+      "type": "text",
+      "text": "**Boar Strength Gu**\nRank 1 Carver\n40 portions",
+      "x": 320,
+      "y": 30300,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_bf9e9998a83a0659",
+      "type": "text",
+      "text": "**Crane Strength Gu**\nRank 1 Carver\n40 portions",
+      "x": 320,
+      "y": 30580,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_06cb3f00aa09252f",
+      "type": "text",
+      "text": "**Crocodile Strength Gu**\nRank 1 Carver\n40 portions",
+      "x": 320,
+      "y": 30720,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_0fdf6a63ef21d8a7",
+      "type": "text",
+      "text": "**Deer Strength Gu**\nRank 1 Carver\n40 portions",
+      "x": 320,
+      "y": 30860,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_6d0e1050797b03d8",
+      "type": "text",
+      "text": "**Elephant Strength Gu**\nRank 2 Carver\n100 portions",
+      "x": 640,
+      "y": 30160,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_5dd8b53aacfc4614",
+      "type": "text",
+      "text": "**Erase Strength Gu**\nRank 2 Catalyst\n30 portions",
+      "x": 640,
+      "y": 30300,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_e076fa133a86ed3f",
+      "type": "text",
+      "text": "**Leviathan Strength Gu**\nRank 5 Carver\n100 portions",
+      "x": 1600,
+      "y": 29880,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_ac3e7b007d7ab0ba",
+      "type": "text",
+      "text": "**Serpent Strength Gu**\nRank 3 Carver\n100 portions",
+      "x": 960,
+      "y": 30160,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_9a3e61b6bcc8abec",
+      "type": "text",
+      "text": "**Shark-fin Wolf Strength Gu**\nRank 4 Carver\n100 portions",
+      "x": 1280,
+      "y": 29880,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_ac9c957760424d46",
+      "type": "text",
+      "text": "**Tanuki Strength Gu**\nRank 2 Carver\n100 portions",
+      "x": 640,
+      "y": 30720,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_5a9295d8fa430d03",
+      "type": "text",
+      "text": "**Big Strength Gu**\nRank 2 Catalyst\n25 portions",
+      "x": 640,
+      "y": 29880,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_08d55d01921d9875",
+      "type": "text",
+      "text": "**Bitter Strength Gu**\nRank 2-4 Catalyst\n8 portions",
+      "x": 640,
+      "y": 30020,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_f04b1d726c615672",
+      "type": "text",
+      "text": "**Brute Force Longbeetle Gu**\nRank 1 Catalyst\n30 portions",
+      "x": 320,
+      "y": 30440,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_5fd7e33e01c871f0",
+      "type": "text",
+      "text": "**Exert Strength Gu**\nRank 2 Attack\n10 portions",
+      "x": 640,
+      "y": 30440,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_d96adb142a1f7ede",
+      "type": "text",
+      "text": "**Ivory Armor Gu**\nRank 2-4 Guard\n5 portions",
+      "x": 640,
+      "y": 30580,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_9d4650d4e8944e0e",
+      "type": "text",
+      "text": "**Normal Force Gu**\nRank 3 Catalyst\nA number of portions equal to the total damage of the triggering attack",
+      "x": 960,
+      "y": 30020,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_3af0af21718ad757",
+      "type": "text",
+      "text": "**[Path] Strength Gu**\nRank 3 Catalyst\n10 portions",
+      "x": 960,
+      "y": 30440,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_4ac2bbff5b524a78",
+      "type": "text",
+      "text": "**Self Reliance Gu**\nRank 1-3 Tonic\n30 portions",
+      "x": 320,
+      "y": 31000,
+      "width": 260,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "gu_14019988a92023b2",
+      "type": "text",
+      "text": "**Thunderclap Gu**\nRank 2-4 Attack\n15 portions",
+      "x": 640,
+      "y": 30860,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_b02b70815b8520a2",
+      "type": "text",
+      "text": "**Tortoise Strength Gu**\nRank 1 Carver\n40 portions",
+      "x": 320,
+      "y": 31140,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_51eac6b471a284d3",
+      "type": "text",
+      "text": "**Toughen Up Gu**\nRank 3 Carver\n100 portions",
+      "x": 960,
+      "y": 30300,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_d36550fc4422fde2",
+      "type": "text",
+      "text": "**Whale Strength Gu**\nRank 4 Carver\n100 portions",
+      "x": 1280,
+      "y": 30020,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_06be19ff5cbfb5db",
+      "type": "text",
+      "text": "**Wolf Strength Gu**\nRank 1 Carver\n40 portions",
+      "x": 320,
+      "y": 31280,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_bf0d80b16262738f",
+      "type": "text",
+      "text": "**Aegis Gu**\nRank 2-3 Guard\n20 portions",
+      "x": 640,
+      "y": 31640,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_e973a64ce098778b",
+      "type": "text",
+      "text": "**Consecutive Slash Gu**\nRank 2-4 Attack\n14 portions",
+      "x": 640,
+      "y": 31780,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_668f37d8c8de8cea",
+      "type": "text",
+      "text": "**Cutting Words Gu**\nRank 3 Carver\n100 portions",
+      "x": 960,
+      "y": 31640,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_5a73b747ec74bdd9",
+      "type": "text",
+      "text": "**Dueling Arm Gu**\nRank 3 Manifestation\n12 portions",
+      "x": 960,
+      "y": 31780,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_07fd89a40a3755e2",
+      "type": "text",
+      "text": "**Flash Sword Gu**\nRank 4 Celerity\n18 portions",
+      "x": 1280,
+      "y": 31640,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_6f946e26bbbc0956",
+      "type": "text",
+      "text": "**Pierce Gu**\nRank 1-3 Attack\n25 portions",
+      "x": 320,
+      "y": 31780,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_f8b5f622dcf940ae",
+      "type": "text",
+      "text": "**Sabre Gu**\nRank 2 Manifestation\n10 portions",
+      "x": 640,
+      "y": 31920,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_cf2f328d24859d56",
+      "type": "text",
+      "text": "**Separate Gu**\nRank 1 Attack\n8 portions",
+      "x": 320,
+      "y": 31920,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_ec2b67d5467580f9",
+      "type": "text",
+      "text": "**Sole Sword Gu**\nRank 4-5 Carver\n4 portions",
+      "x": 1280,
+      "y": 31780,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_3977dced04b7d0c7",
+      "type": "text",
+      "text": "**Cut Gu**\nRank 1 Attack\n10 portions",
+      "x": 320,
+      "y": 31640,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_e3e097dc79d8161b",
+      "type": "text",
+      "text": "**Slash Gu**\nRank 2 Attack\n10 portions",
+      "x": 640,
+      "y": 32200,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_264c3f3470cadac6",
+      "type": "text",
+      "text": "**Rend Gu**\nRank 3 Attack\n10 portions",
+      "x": 960,
+      "y": 31920,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_5e5ad0b76c763373",
+      "type": "text",
+      "text": "**Split Hill Gu**\nRank 4 Attack\n20 portions",
+      "x": 1280,
+      "y": 31920,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_cf06ed6df6eb6ebc",
+      "type": "text",
+      "text": "**Split Mountain Gu**\nRank 5 Attack\n40 portions",
+      "x": 1600,
+      "y": 31640,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_7ed28031fea34286",
+      "type": "text",
+      "text": "**Sharpen Gu**\nRank 2-5 Carver\n35 portions",
+      "x": 640,
+      "y": 32060,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_1625434cebb5e5c4",
+      "type": "text",
+      "text": "**Sword Sheath Gu**\nRank 2-4 Guard\n8 portions",
+      "x": 640,
+      "y": 32340,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_6e75d23a0574afce",
+      "type": "text",
+      "text": "**Borrow {Ten, One Hundred} Jun Gu**\nRank 3-4 Attack\n45 portions",
+      "x": 960,
+      "y": 32700,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_38c07d9eb6f585cb",
+      "type": "text",
+      "text": "**Disarm Gu**\nRank 2-3 Attack\n10 portions",
+      "x": 640,
+      "y": 32700,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_8665243ef242a2b1",
+      "type": "text",
+      "text": "**Drain Heat Gu**\nRank 1 Catalyst\n6 portions",
+      "x": 320,
+      "y": 32700,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_fbea31c7083ef34d",
+      "type": "text",
+      "text": "**Drain Life Gu**\nRank 2 Attack\n6 portions",
+      "x": 640,
+      "y": 32840,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_eaef52968c5b1fa7",
+      "type": "text",
+      "text": "**Drain Vitality Gu**\nRank 2 Attack\n40 portions",
+      "x": 640,
+      "y": 32980,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_6153f0b97fb44420",
+      "type": "text",
+      "text": "**Grand Thief Hand Gu**\nRank 5 Attack\n80 portions",
+      "x": 1600,
+      "y": 32700,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_2978e0c34dbebfc4",
+      "type": "text",
+      "text": "**Gu Laundering Gu**\nRank 1-5 Catalyst\n10 * target Gu rank",
+      "x": 320,
+      "y": 32840,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_d051bf1ddf82f79c",
+      "type": "text",
+      "text": "**Icefang Bat Gu**\nRank 3 Attack\n15 portions",
+      "x": 960,
+      "y": 32840,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_9ee0df7c8a647ff4",
+      "type": "text",
+      "text": "**Identity Theft Gu**\nRank 4 Concealment\n60 portions",
+      "x": 1280,
+      "y": 32700,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_329a970dfa7f977b",
+      "type": "text",
+      "text": "**Invade Aperture Gu**\nRank 4 Divination\n40 portions",
+      "x": 1280,
+      "y": 32840,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_3b69df951b3d4c18",
+      "type": "text",
+      "text": "**Least Resistance Gu**\nRank 3 Divination\n20 portions",
+      "x": 960,
+      "y": 32980,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_6cc71d91778fcdda",
+      "type": "text",
+      "text": "**Leech Life Gu**\nRank 2 Tonic\n5 portions",
+      "x": 640,
+      "y": 33120,
+      "width": 260,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "gu_8f98b68c4d83cf50",
+      "type": "text",
+      "text": "**Plagiarism Gu**\nRank 2 Catalyst\n5 portions",
+      "x": 640,
+      "y": 33260,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_ee16ee0fa7f21a41",
+      "type": "text",
+      "text": "**Plunder Gu**\nRank 2 Attack\n5 portions",
+      "x": 640,
+      "y": 33400,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_343ae8e26ca054cf",
+      "type": "text",
+      "text": "**Size Up Gu**\nRank 3 Divination\n8 portions",
+      "x": 960,
+      "y": 33120,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_1b0a69d74c5ab68f",
+      "type": "text",
+      "text": "**Smuggler's Den Gu**\nRank 1-5 Carver\n100 portions",
+      "x": 320,
+      "y": 32980,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_014a1aa3f7a2c657",
+      "type": "text",
+      "text": "**Snatch Gu**\nRank 2 Catalyst\n35 portions",
+      "x": 640,
+      "y": 33540,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_77d67ab1e3d05296",
+      "type": "text",
+      "text": "**Steal Luck Gu**\nRank 1 Attack\n30 portions",
+      "x": 320,
+      "y": 33120,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_c56f5cb661da5719",
+      "type": "text",
+      "text": "**Steal Touch Gu**\nRank 1 Tonic\n5 portions",
+      "x": 320,
+      "y": 33260,
+      "width": 260,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "gu_456f2361d6773721",
+      "type": "text",
+      "text": "**Steal Hearing Gu**\nRank 2 Attack\n10 portions",
+      "x": 640,
+      "y": 33680,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_f1e75747bc4c6d0b",
+      "type": "text",
+      "text": "**Steal Sight Gu**\nRank 2 Attack\n25 portions",
+      "x": 640,
+      "y": 33820,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_93e097e319c2db13",
+      "type": "text",
+      "text": "**Steal Sense Gu**\nRank 3 Attack\n15 portions",
+      "x": 960,
+      "y": 33260,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_ccddaf626302032b",
+      "type": "text",
+      "text": "**Stolen Time Gu**\nRank 4 Attack\n50 portions",
+      "x": 1280,
+      "y": 32980,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_d049c44e2fd67b6e",
+      "type": "text",
+      "text": "**Transfer Momentum Gu**\nRank 2 Guard\n4 portions",
+      "x": 640,
+      "y": 33960,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_edd6ebda641b723c",
+      "type": "text",
+      "text": "**Void Pocket Gu**\nRank 1 Carver\n50 portions",
+      "x": 320,
+      "y": 33400,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_f83a383c0fa81f29",
+      "type": "text",
+      "text": "**Acceleration Fruit Gu**\nRank 2 Catalyst\nNone",
+      "x": 640,
+      "y": 34320,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_2c9a62c3748f4846",
+      "type": "text",
+      "text": "**Autumn Cicada Gu**\nRank 5 Attack\n80 portions",
+      "x": 1600,
+      "y": 34320,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_2f9f705a38307c47",
+      "type": "text",
+      "text": "**Backtrack Gu**\nRank 4-5 Divination\n80 portions",
+      "x": 1280,
+      "y": 34320,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_7110e0d3f236986f",
+      "type": "text",
+      "text": "**Extend Affliction Gu**\nRank 2-5 Attack\n15 portions",
+      "x": 640,
+      "y": 34460,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_300122350a32530a",
+      "type": "text",
+      "text": "**Instant Success Gu**\nRank 4 Catalyst\n40 portions",
+      "x": 1280,
+      "y": 34600,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_3ead28f890ec0f5b",
+      "type": "text",
+      "text": "**Gu as Before Gu**\nRank 4-5 Tonic\n40 portions",
+      "x": 1280,
+      "y": 34460,
+      "width": 260,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "gu_e408d89ae85c9a0b",
+      "type": "text",
+      "text": "**Man as Before Gu**\nRank 5 Tonic\n90 portions",
+      "x": 1600,
+      "y": 34460,
+      "width": 260,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "gu_1185401df4fc07ec",
+      "type": "text",
+      "text": "**Mountain as Before Gu**\nRank 5 Tonic\n70 portions",
+      "x": 1600,
+      "y": 34600,
+      "width": 260,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "gu_07a85bd180d31c96",
+      "type": "text",
+      "text": "**Rewind Gu**\nRank 1-5 Guard\n90 portions",
+      "x": 320,
+      "y": 34320,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_6d5db0e809f71a43",
+      "type": "text",
+      "text": "**River as Before Gu**\nRank 5 Tonic\n50 portions",
+      "x": 1600,
+      "y": 34740,
+      "width": 260,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "gu_2d3fbcffe8a44d7f",
+      "type": "text",
+      "text": "**Save Time Gu**\nRank 3 Catalyst\n15 portions",
+      "x": 960,
+      "y": 34320,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_b7f5113f83376fc4",
+      "type": "text",
+      "text": "**Self Acceleration Gu**\nRank 3 Catalyst\n25 portions",
+      "x": 960,
+      "y": 34460,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_ce09b127d48f8386",
+      "type": "text",
+      "text": "**Shrink Affliction Gu**\nRank 1-5 Tonic\n18 portions",
+      "x": 320,
+      "y": 34460,
+      "width": 260,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "gu_10d293a95915109e",
+      "type": "text",
+      "text": "**Shrinking Inchworm Gu**\nRank 3-4 Attack\n32 portions",
+      "x": 960,
+      "y": 34600,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_3f1522d025592284",
+      "type": "text",
+      "text": "**Slow Down Gu**\nRank 3 Guard\n8 portions",
+      "x": 960,
+      "y": 34740,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_f5b68d74621aa361",
+      "type": "text",
+      "text": "**Slow Steps Gu**\nRank 1-3 Attack\n20 portions",
+      "x": 320,
+      "y": 34600,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_b903ea6300ffc957",
+      "type": "text",
+      "text": "**Split Second Gu**\nRank 1-5 Celerity\n10 portions",
+      "x": 320,
+      "y": 34740,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_142e9ae35ca00044",
+      "type": "text",
+      "text": "**Spring Cicada Gu**\nRank 5 Guard\n20 portions",
+      "x": 1600,
+      "y": 34880,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_0486ffb0d9c84cf1",
+      "type": "text",
+      "text": "**Time Concealment Gu**\nRank 3-4 Concealment\n9 portions",
+      "x": 960,
+      "y": 35020,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_8a279e5c5354af5a",
+      "type": "text",
+      "text": "**Time Luck Gu**\nRank 2 Catalyst\n5 portions",
+      "x": 640,
+      "y": 34600,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_0b6a63765cf0acb1",
+      "type": "text",
+      "text": "**Third Watch Gu**\nRank 3 Carver\n100 portions",
+      "x": 960,
+      "y": 34880,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_91afc4c291705972",
+      "type": "text",
+      "text": "**Azure Wolf Bite Gu**\nRank 4 Attack\n5 portions",
+      "x": 1280,
+      "y": 35380,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_22ef9733f34012fe",
+      "type": "text",
+      "text": "**Azure Wolf Claw Gu**\nRank 4 Attack\n4 portions",
+      "x": 1280,
+      "y": 35520,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_8de23aaaec61b2cb",
+      "type": "text",
+      "text": "**Azure Wolf Skin Gu**\nRank 4 Guard\n12 portions",
+      "x": 1280,
+      "y": 35660,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_6632e7ca34bf65b8",
+      "type": "text",
+      "text": "**Bat Wings Gu**\nRank 2 Manifestation\n4 portions",
+      "x": 640,
+      "y": 35380,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_00a8a5c3f7bac086",
+      "type": "text",
+      "text": "**Big Teeth Gu**\nRank 2 Attack\n7 portions",
+      "x": 640,
+      "y": 35520,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_d5155d043a8e6fff",
+      "type": "text",
+      "text": "**Black Mane Gu**\nRank 2 Guard\n14 portions",
+      "x": 640,
+      "y": 35660,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_22ab0e4326f1e909",
+      "type": "text",
+      "text": "**Bone Wings Gu**\nRank 4 Manifestation\n100 portions",
+      "x": 1280,
+      "y": 35800,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_1d7deb7af392ce1d",
+      "type": "text",
+      "text": "**Cold Blood Gu**\nRank 1 Concealment\n10 portions",
+      "x": 320,
+      "y": 35380,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_945335a6aaa02e86",
+      "type": "text",
+      "text": "**Frog Legs Gu**\nRank 1 Carver\n35 portions",
+      "x": 320,
+      "y": 35520,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_5c64cc5d7cc05237",
+      "type": "text",
+      "text": "**Hand-ear Gu**\nRank 2 Divination\n4 portions",
+      "x": 640,
+      "y": 35800,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_9d94ce174298e084",
+      "type": "text",
+      "text": "**Jade Skin Gu**\nRank 1-5 Guard\n16 portions",
+      "x": 320,
+      "y": 35660,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_0313e644f8fda754",
+      "type": "text",
+      "text": "**Lava Crocodile Cannon Gu**\nRank 2 Attack\n25 portions",
+      "x": 640,
+      "y": 35940,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_3a69aa1b60febf63",
+      "type": "text",
+      "text": "**Lava Crocodile Jaw Gu**\nRank 1 Attack\n6 portions",
+      "x": 320,
+      "y": 35800,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_ae7329c979b3cd96",
+      "type": "text",
+      "text": "**Lava Crocodile Scales Gu**\nRank 2 Guard\n10 portions",
+      "x": 640,
+      "y": 36080,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_be2793cdd2af9b68",
+      "type": "text",
+      "text": "**Lava Crocodile Tail Gu**\nRank 1 Celerity\n2 portions",
+      "x": 320,
+      "y": 35940,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_4e86d8c0a0eb12d7",
+      "type": "text",
+      "text": "**Longarm Gu**\nRank 1 Catalyst\n5 portions",
+      "x": 320,
+      "y": 36080,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_7ec24305aabd0395",
+      "type": "text",
+      "text": "**Ram's Head Gu**\nRank 3 Manifestation\n10 portions",
+      "x": 960,
+      "y": 35520,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_093f0b067a05c353",
+      "type": "text",
+      "text": "**Roaming Zombie Gu**\nRank 2 Carver\n10 portions",
+      "x": 640,
+      "y": 36220,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_3cc5149977a9d4be",
+      "type": "text",
+      "text": "**Hairy Zombie Gu**\nRank 3 Carver\n10 portions",
+      "x": 960,
+      "y": 35380,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_a8a2b30f8dba82d6",
+      "type": "text",
+      "text": "**Hopping Zombie Gu**\nRank 4 Carver\n10 portions",
+      "x": 1280,
+      "y": 35940,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_acf10f2c0a9d0034",
+      "type": "text",
+      "text": "**Asura Zombie Gu**\nRank 5 Carver\n15 portions",
+      "x": 1600,
+      "y": 35380,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_d06b6c54863ac33d",
+      "type": "text",
+      "text": "**Blood Wight Zombie Gu**\nRank 5 Carver\n10 portions",
+      "x": 1600,
+      "y": 35520,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_f0483f255e0ce2c9",
+      "type": "text",
+      "text": "**Earth Chief Zombie Gu**\nRank 5 Carver\n10 portions",
+      "x": 1600,
+      "y": 35660,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_b87bed12954890a8",
+      "type": "text",
+      "text": "**Heavenly Demon Zombie Gu**\nRank 5 Carver\n20 portions",
+      "x": 1600,
+      "y": 35800,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_9741f79aca77af5b",
+      "type": "text",
+      "text": "**Nightmare Zombie Gu**\nRank 5 Carver\n15 portions",
+      "x": 1600,
+      "y": 35940,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_461742bbd8cc55ac",
+      "type": "text",
+      "text": "**Plague Zombie Gu**\nRank 5 Carver\n10 portions",
+      "x": 1600,
+      "y": 36080,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_3219b5be78da72e8",
+      "type": "text",
+      "text": "**Wide Knuckle Gu**\nRank 1 Catalyst\n7 portions",
+      "x": 320,
+      "y": 36220,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_916f5b10fee9db4c",
+      "type": "text",
+      "text": "**Wind Scythe Bird Plumes Gu**\nRank 2 Guard\n3 portions",
+      "x": 640,
+      "y": 36360,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_2ef28d314a746794",
+      "type": "text",
+      "text": "**Wind Scythe Bird Wings Gu**\nRank 3 Celerity\n22 portions",
+      "x": 960,
+      "y": 35660,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_cf94db48fb7aa4da",
+      "type": "text",
+      "text": "**Urchin Strike Gu**\nRank 2-4 Manifestation\n15 portions",
+      "x": 640,
+      "y": 38680,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_a4c36ded9dbf60a5",
+      "type": "text",
+      "text": "**Submerge Gu**\nRank 1 Concealment\n6 portions",
+      "x": 320,
+      "y": 37420,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_f53eac2e4221f179",
+      "type": "text",
+      "text": "**Aqua Jet Gu**\nRank 2-5 Celerity\n25 portions",
+      "x": 640,
+      "y": 36860,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_53e56691fe7c8271",
+      "type": "text",
+      "text": "**Drowning Sensation Gu**\nRank 2 Attack\n15 portions",
+      "x": 640,
+      "y": 37140,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_c8c06cfae2f59de7",
+      "type": "text",
+      "text": "**Anglerfish Light Gu**\nRank 1 Carver\n10 portions",
+      "x": 320,
+      "y": 36720,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_cfa1150f17871867",
+      "type": "text",
+      "text": "**Sailor's Bane Gu**\nRank 2-4 Manifestation\n25 portions",
+      "x": 640,
+      "y": 37980,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_170377543ef02d80",
+      "type": "text",
+      "text": "**Amphibious Recovery Gu**\nRank 2-4 Tonic\n20 portions",
+      "x": 640,
+      "y": 36720,
+      "width": 260,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "gu_859371c78674de37",
+      "type": "text",
+      "text": "**Dowsing Gu**\nRank 1-5 Divination\n5 portions",
+      "x": 320,
+      "y": 36860,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_9d6ad3cc125c3c4d",
+      "type": "text",
+      "text": "**Water Blood Gu**\nRank 3 Carver\n100 portions",
+      "x": 960,
+      "y": 37700,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_2473f01571bf0dcb",
+      "type": "text",
+      "text": "**Blood to Water Gu**\nRank 4 Attack\n40 portions",
+      "x": 1280,
+      "y": 36720,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_84582c1dbe026475",
+      "type": "text",
+      "text": "**Blue Farm Slug Gu**\nRank 3 Container\n4 portions",
+      "x": 960,
+      "y": 36720,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_77c8184f671aa039",
+      "type": "text",
+      "text": "**Carapace Gu**\nRank 2 Guard\n12 portions",
+      "x": 640,
+      "y": 37000,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_904f2cc1c3677bb3",
+      "type": "text",
+      "text": "**Dilute Poison Gu**\nRank 4-5 Tonic\n40 portions",
+      "x": 1280,
+      "y": 36860,
+      "width": 260,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "gu_68b7933743e4841a",
+      "type": "text",
+      "text": "**Drown Gu**\nRank 3 Attack\n75 portions",
+      "x": 960,
+      "y": 36860,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_fe2fb474076a872e",
+      "type": "text",
+      "text": "**Faucet Gu**\nRank 1 Manifestation\n4 portions",
+      "x": 320,
+      "y": 37000,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_e77a763321d6cf82",
+      "type": "text",
+      "text": "**Fish Scales Gu**\nRank 1-3 Guard\n10 portions",
+      "x": 320,
+      "y": 37140,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_ceab25abfedcba41",
+      "type": "text",
+      "text": "**Flow Gu**\nRank 2 Celerity\n3 portions",
+      "x": 640,
+      "y": 37280,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_6643521711328a1e",
+      "type": "text",
+      "text": "**Geyser Gu**\nRank 3 Manifestation\n25 portions",
+      "x": 960,
+      "y": 37000,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_8a1beaee63fed318",
+      "type": "text",
+      "text": "**Hose Gu**\nRank 2 Manifestation\n12 portions",
+      "x": 640,
+      "y": 37420,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_fc8d9e6e58db7ca8",
+      "type": "text",
+      "text": "**Jelly Bubble Gu**\nRank 2 Guard\n10 portions",
+      "x": 640,
+      "y": 37560,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_4260e7eabc193825",
+      "type": "text",
+      "text": "**Land Becomes Sea Gu**\nRank 3-4 Manifestation\n160 portions",
+      "x": 960,
+      "y": 37140,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_2bfba6b3b2af0ccf",
+      "type": "text",
+      "text": "**Liquid Flesh Gu**\nRank 2 Carver\n100 portions",
+      "x": 640,
+      "y": 37700,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_7ee08d3afb3a2ef0",
+      "type": "text",
+      "text": "**Pressure Cutter Gu**\nRank 2-3 Attack\n12 portions",
+      "x": 640,
+      "y": 37840,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_f33f7ae89c2c6ab8",
+      "type": "text",
+      "text": "**Sandblaster Gu**\nRank 4 Attack\n20 portions",
+      "x": 1280,
+      "y": 37000,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_fa1a65120bd41529",
+      "type": "text",
+      "text": "**Soul Bubble Gu**\nRank 2-3 Catalyst\n60 portions",
+      "x": 640,
+      "y": 38120,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_05a53e3696e2a6dd",
+      "type": "text",
+      "text": "**Spiral Water Arrow Gu**\nRank 3 Attack\n12 portions",
+      "x": 960,
+      "y": 37280,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_0fb914ab018d3fbf",
+      "type": "text",
+      "text": "**Spring Rain Gu**\nRank 3 Tonic\n40 portions",
+      "x": 960,
+      "y": 37420,
+      "width": 260,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "gu_7c33876368ece2e1",
+      "type": "text",
+      "text": "**Steam Burst Gu**\nRank 2 Attack\n8 portions",
+      "x": 640,
+      "y": 38260,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_e77f8d53c6dfa1c3",
+      "type": "text",
+      "text": "**Stream Gu**\nRank 1 Attack\n2 portions",
+      "x": 320,
+      "y": 37280,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_7a9ca14dcab2ffdc",
+      "type": "text",
+      "text": "**Tri-tip Gu**\nRank 2-4 Manifestation\n120 portions",
+      "x": 640,
+      "y": 38400,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_3db2991a3bd1f2ca",
+      "type": "text",
+      "text": "**Undertow Gu**\nRank 2-3 Manifestation\n20 portions",
+      "x": 640,
+      "y": 38540,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_9f682df245668969",
+      "type": "text",
+      "text": "**Water Armor Gu**\nRank 3 Guard\n25 portions",
+      "x": 960,
+      "y": 37560,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_985d6ac20b189c12",
+      "type": "text",
+      "text": "**Water Trace Gu**\nRank 3 Celerity\n4 portions",
+      "x": 960,
+      "y": 37840,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_9c676e003b8932ac",
+      "type": "text",
+      "text": "**Air Resistance Gu**\nRank 2 Catalyst\n4 portions",
+      "x": 640,
+      "y": 39040,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_c6eeaa0539eaa4ce",
+      "type": "text",
+      "text": "**Big Breath Gu**\nRank 1 Carver\n40 portions",
+      "x": 320,
+      "y": 39040,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_a32c5cfee7647805",
+      "type": "text",
+      "text": "**Cloud Rope Gu**\nRank 4 Attack\n20 portions",
+      "x": 1280,
+      "y": 39040,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_4088f87e6ecef91b",
+      "type": "text",
+      "text": "**Feather Step Gu**\nRank 2 Celerity\n2 portions",
+      "x": 640,
+      "y": 39180,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_e4dd8a3f00e999f7",
+      "type": "text",
+      "text": "**Footless Bird Gu**\nRank 3 Celerity\n3 portions",
+      "x": 960,
+      "y": 39180,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_55da3f56239d2acf",
+      "type": "text",
+      "text": "**Free Spirit Gu**\nRank 2 Carver\n5 portions",
+      "x": 640,
+      "y": 39460,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_867cd58f3fe35290",
+      "type": "text",
+      "text": "**Fierce Wind Gu**\nRank 2 Guard\n20 portions",
+      "x": 640,
+      "y": 39320,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_efa260adfcac648a",
+      "type": "text",
+      "text": "**Flying Cloud Gu**\nRank 3 Manifestation\n35 portions",
+      "x": 960,
+      "y": 39040,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_2134834173800a88",
+      "type": "text",
+      "text": "**Hurricane Gu**\nRank 3 Manifestation\n35 portions",
+      "x": 960,
+      "y": 39320,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_ed29c0d8b33574e6",
+      "type": "text",
+      "text": "**Second Wind Gu**\nRank 2 Tonic\nNone",
+      "x": 640,
+      "y": 39600,
+      "width": 260,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "gu_620807a1bbd690fc",
+      "type": "text",
+      "text": "**Strength Gust Gu**\nRank 1 Attack\n12 portions",
+      "x": 320,
+      "y": 39180,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_c2548064eaf018a1",
+      "type": "text",
+      "text": "**Wind Sense Gu**\nRank 1 Carver\n20 portions",
+      "x": 320,
+      "y": 39460,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_edd6bb4181065a5b",
+      "type": "text",
+      "text": "**Wind Beneath Wings Gu**\nRank 4 Celerity\n10 portions",
+      "x": 1280,
+      "y": 39180,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_ad1bf290f3ae791d",
+      "type": "text",
+      "text": "**Wind Charge Gu**\nRank 1-3 Attack\n15 portions",
+      "x": 320,
+      "y": 39320,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_8b4753ed1cb27a4a",
+      "type": "text",
+      "text": "**Windshield Gu**\nRank 3 Carver\n100 portions",
+      "x": 960,
+      "y": 39460,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_91eb375e8e71d9ce",
+      "type": "text",
+      "text": "**Wind Sword Gu**\nRank 2-4 Attack\n7 portions",
+      "x": 640,
+      "y": 39740,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_13b724905530d4de",
+      "type": "text",
+      "text": "**Armchair General Gu**\nRank 3 Catalyst\n30 portions",
+      "x": 960,
+      "y": 40100,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_15aa0c7e8fbd2923",
+      "type": "text",
+      "text": "**Awake Gu**\nRank 1-3 Catalyst\n6 portions",
+      "x": 320,
+      "y": 40100,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_3bb18d9ab531def4",
+      "type": "text",
+      "text": "**Awaken Cloud Gu**\nRank 4 Divination\n40 portions",
+      "x": 1280,
+      "y": 40100,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_73fb9760f330bcf6",
+      "type": "text",
+      "text": "**Awaken Soul Gu**\nRank 2 Catalyst\n10 portions",
+      "x": 640,
+      "y": 40100,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_8d255e1e608e20d0",
+      "type": "text",
+      "text": "**Battle Will Gu**\nRank 3 Catalyst\n15 portions",
+      "x": 960,
+      "y": 40240,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_f8d0f85975e49b95",
+      "type": "text",
+      "text": "**Blazing Thoughts Gu**\nRank 2 Divination\n35 portions",
+      "x": 640,
+      "y": 40240,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_8290abc6c261e044",
+      "type": "text",
+      "text": "**Brain Explosion Gu**\nRank 4 Attack\n55 portions",
+      "x": 1280,
+      "y": 40240,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_a29e971b5176a9fa",
+      "type": "text",
+      "text": "**Careful Gu**\nRank 3-5 Catalyst\n5 portions",
+      "x": 960,
+      "y": 40380,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_aa62ffff47619bf0",
+      "type": "text",
+      "text": "**Counter Gu**\nRank 2-4 Guard\n25 portions",
+      "x": 640,
+      "y": 40380,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_72ab8108eff0514f",
+      "type": "text",
+      "text": "**Deep Mind Gu**\nRank 3 Carver\n40 portions",
+      "x": 960,
+      "y": 40520,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_80cc9feae5756e54",
+      "type": "text",
+      "text": "**Detection Gu**\nRank 1-5 Divination\n35 portions",
+      "x": 320,
+      "y": 40240,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_dad39ce1a0f516e1",
+      "type": "text",
+      "text": "**Enamor Gu**\nRank 2 Attack\n25 portions",
+      "x": 640,
+      "y": 40520,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_63843e04b0f7a32d",
+      "type": "text",
+      "text": "**Detective Thoughts Gu**\nRank 3-4 Divination\n20 portions",
+      "x": 960,
+      "y": 40660,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_aa4b27d555e488b8",
+      "type": "text",
+      "text": "**Feinting Fist Gu**\nRank 2 Catalyst\n5 portions",
+      "x": 640,
+      "y": 40660,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_ae694b0755cd5eed",
+      "type": "text",
+      "text": "**Freezing Thoughts Gu**\nRank 2-4 Divination\n20 portions",
+      "x": 640,
+      "y": 40800,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_1bdf1a2fc92382e7",
+      "type": "text",
+      "text": "**Give Up Gu**\nRank 3 Attack\n25",
+      "x": 960,
+      "y": 40800,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_2456caf1512365bb",
+      "type": "text",
+      "text": "**Human Secret Gu**\nRank 3-5 Divination\n40 portions",
+      "x": 960,
+      "y": 40940,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_8746b7e5d534efa1",
+      "type": "text",
+      "text": "**Kind Thoughts Gu**\nRank 2-4 Divination\n40 portions",
+      "x": 640,
+      "y": 40940,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_30222b26c6fe9abd",
+      "type": "text",
+      "text": "**Lightning Thoughts Gu**\nRank 3-4 Divination\n40 portions",
+      "x": 960,
+      "y": 41080,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_ff6d1d2c33244083",
+      "type": "text",
+      "text": "**Little Will Gu**\nRank 1-3 Catalyst\n10 portions",
+      "x": 320,
+      "y": 40380,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_ec91fc2dc062c0f2",
+      "type": "text",
+      "text": "**Longing Thoughts Gu**\nRank 1-5 Divination\n15 portions",
+      "x": 320,
+      "y": 40520,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_cf32406111908544",
+      "type": "text",
+      "text": "**Malicious Thoughts Gu**\nRank 1-5 Divination\n15 portions",
+      "x": 320,
+      "y": 40660,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_dc51d239fbced2ce",
+      "type": "text",
+      "text": "**Martial Art Mantis Gu**\nRank 2 Catalyst\n12 portions",
+      "x": 640,
+      "y": 41080,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_8157eff8389a499c",
+      "type": "text",
+      "text": "**Mind Fortress Gu**\nRank 1-5 Guard\n15 portions",
+      "x": 320,
+      "y": 40800,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_01eebb18768df62a",
+      "type": "text",
+      "text": "**Mind Reconstruction Gu**\nRank 2 Tonic\n40 portions",
+      "x": 640,
+      "y": 41220,
+      "width": 260,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "gu_5dca477752fc5022",
+      "type": "text",
+      "text": "**One Mind Gu**\nRank 2-5 Catalyst\n10X portions",
+      "x": 640,
+      "y": 41360,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_44b2920d7e9cb7c0",
+      "type": "text",
+      "text": "**Future Market Gu**\nRank 4 Divination\n25 portions",
+      "x": 1280,
+      "y": 40380,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_9a84e151813e6605",
+      "type": "text",
+      "text": "**Placebo Gu**\nRank 1 Tonic\n15 portions",
+      "x": 320,
+      "y": 40940,
+      "width": 260,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "gu_47d5c9c207cca57d",
+      "type": "text",
+      "text": "**Sensitivity Gu**\nRank 3 Divination\n35 portions",
+      "x": 960,
+      "y": 41220,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_3f4ed2f1010b876e",
+      "type": "text",
+      "text": "**Shared Sense Gu**\nRank 3 Divination\n90 portions",
+      "x": 960,
+      "y": 41360,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_bdab02b526850c0e",
+      "type": "text",
+      "text": "**Sharp Intent Gu**\nRank 3-4 Manifestation\n20 portions",
+      "x": 960,
+      "y": 41500,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_2c9baea38488b23d",
+      "type": "text",
+      "text": "**Space Thoughts Gu**\nRank 1-5 Divination\n30 portions",
+      "x": 320,
+      "y": 41080,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_6e9aaa5a8a5e8ead",
+      "type": "text",
+      "text": "**Thinking Blood Gu**\nRank 2 Carver\n25 portions",
+      "x": 640,
+      "y": 41500,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_e7ee3efaf77443c0",
+      "type": "text",
+      "text": "**Thinking Soul Gu**\nRank 3 Carver\n100 portions",
+      "x": 960,
+      "y": 41640,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_43b4d1d4656278e0",
+      "type": "text",
+      "text": "**Thinking Twice Gu**\nRank 2 Catalyst\n20 portions",
+      "x": 640,
+      "y": 41640,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_08ec2efcf0142e45",
+      "type": "text",
+      "text": "**Third Eye Gu**\nRank 3 Carver\n100 portions",
+      "x": 960,
+      "y": 41780,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_83a002e8ffbe10a8",
+      "type": "text",
+      "text": "**{Two, Three, Four, Five} Tasks at Once Gu**\nRank 2-5 Catalyst\n15 portions",
+      "x": 640,
+      "y": 41920,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_bc60205da2555fc0",
+      "type": "text",
+      "text": "**Vajra Arms Gu**\nRank 2 Manifestation\n5 portions",
+      "x": 640,
+      "y": 41780,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_88a9d5a83b2b7e4b",
+      "type": "text",
+      "text": "**Vajra Thoughts Gu**\nRank 1-5 Divination\n12 portions",
+      "x": 320,
+      "y": 41220,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_afc3bf9d346f20c1",
+      "type": "text",
+      "text": "**Warrior's Intuition Gu**\nRank 1 Catalyst\n10 portions",
+      "x": 320,
+      "y": 41360,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_40e0ce8abc662ad8",
+      "type": "text",
+      "text": "**Bark Skin Gu**\nRank 1 Guard\n4 portions",
+      "x": 320,
+      "y": 42280,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_a52b27e785768645",
+      "type": "text",
+      "text": "**Become Tree Gu**\nRank 3 Concealment\n5 portions",
+      "x": 960,
+      "y": 42280,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_d2578a848888259f",
+      "type": "text",
+      "text": "**Blood Root Armor Gu**\nRank 3 Guard\n15 portions",
+      "x": 960,
+      "y": 42420,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_99316daea530a41f",
+      "type": "text",
+      "text": "**Bone Bamboo Gu**\nRank 1 Manifestation\n4 portions",
+      "x": 320,
+      "y": 42420,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_dcd7d0e3f3c05153",
+      "type": "text",
+      "text": "**Branching Wings Gu**\nRank 2 Manifestation\n75 portions",
+      "x": 640,
+      "y": 42280,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_4c8596c838c9d498",
+      "type": "text",
+      "text": "**Photosynthesis Gu**\nRank 2 Tonic\n14 portions",
+      "x": 640,
+      "y": 43120,
+      "width": 260,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "gu_f7b41d20b69937da",
+      "type": "text",
+      "text": "**Clorophyl Armor Gu**\nRank 3 Tonic\n6 portions",
+      "x": 960,
+      "y": 42700,
+      "width": 260,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "gu_961cc96ada94bed0",
+      "type": "text",
+      "text": "**Phoenix Mantle Gu**\nRank 4 Tonic\n8 portions",
+      "x": 1280,
+      "y": 42280,
+      "width": 260,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "gu_17820ac1fd68b225",
+      "type": "text",
+      "text": "**Burning Canopy Blessing Gu**\nRank 5 Tonic\n40 portions",
+      "x": 1600,
+      "y": 42280,
+      "width": 260,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "gu_4de62d12209f2c3b",
+      "type": "text",
+      "text": "**Cactus Pointer Gu**\nRank 3 Divination\n5 portions",
+      "x": 960,
+      "y": 42560,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_491173598037c270",
+      "type": "text",
+      "text": "**Chloroplast Gu**\nRank 2 Carver\n100 portions",
+      "x": 640,
+      "y": 42420,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_70ac2ffcf11f24d5",
+      "type": "text",
+      "text": "**Creamy Sap Gu**\nRank 1 Tonic\n15 portions",
+      "x": 320,
+      "y": 42560,
+      "width": 260,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "gu_93f271ad5efd7ea6",
+      "type": "text",
+      "text": "**Dark Moss Gu**\nRank 1 Concealment\n4 portions",
+      "x": 320,
+      "y": 42700,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_918fc64d3247435e",
+      "type": "text",
+      "text": "**Earth Communication Ear Grass Gu**\nRank 1 Divination\n3 portions",
+      "x": 320,
+      "y": 42840,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_e1c03d2c445ffd0b",
+      "type": "text",
+      "text": "**Flowerbud Gu**\nRank 2 Container\nNone",
+      "x": 640,
+      "y": 42560,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_db00e4fdc8a6d8fc",
+      "type": "text",
+      "text": "**Fragrant Daisy Gu**\nRank 3 Concealment\n30 portions",
+      "x": 960,
+      "y": 42840,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_4dcee7f85df40fc7",
+      "type": "text",
+      "text": "**Growing Power Gu**\nRank 3 Catalyst\n5 portions",
+      "x": 960,
+      "y": 42980,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_e30e49d63907db14",
+      "type": "text",
+      "text": "**Vitality Leaf Gu**\nRank 1 Tonic\nNone",
+      "x": 320,
+      "y": 43820,
+      "width": 260,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "gu_f90a34bcd66e597a",
+      "type": "text",
+      "text": "**Nine-leaf Vitality Grass Gu**\nRank 2 Manifestation\n10 portions",
+      "x": 640,
+      "y": 42840,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_f597ae7c454f8d38",
+      "type": "text",
+      "text": "**Heavenly Essence Treasure Lotus Gu**\nRank 3 Manifestation\nNone",
+      "x": 960,
+      "y": 43120,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_9dbb7f83a82dff4d",
+      "type": "text",
+      "text": "**Metabolize Essence Gu**\nRank 2 Tonic\n5 portions",
+      "x": 640,
+      "y": 42700,
+      "width": 260,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "gu_6765c043a097743f",
+      "type": "text",
+      "text": "**Paper Tiger Gu**\nRank 2 Concealment\nNone",
+      "x": 640,
+      "y": 42980,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_28903f610228f970",
+      "type": "text",
+      "text": "**Primeval Roots Gu**\nRank 2 Carver\n100 portions",
+      "x": 640,
+      "y": 43260,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_091d039b02ddf4d2",
+      "type": "text",
+      "text": "**Primeval Tree Heart Gu**\nRank 1-5 Catalyst\nNone",
+      "x": 320,
+      "y": 43120,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_b66cd90e3946dd63",
+      "type": "text",
+      "text": "**Problem Nipped in the Bud Gu**\nRank 4 Attack\n20 portions",
+      "x": 1280,
+      "y": 42420,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_88547be1130859cf",
+      "type": "text",
+      "text": "**Regrowth Gu**\nRank 1 Tonic\n35 portions",
+      "x": 320,
+      "y": 43260,
+      "width": 260,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "gu_af7166a5d6ddde19",
+      "type": "text",
+      "text": "**Resurgence Gu**\nRank 2 Tonic\n15 portions",
+      "x": 640,
+      "y": 43400,
+      "width": 260,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "gu_cd3f0c85b158c08a",
+      "type": "text",
+      "text": "**Rot Gu**\nRank 2 Catalyst\n10 portions",
+      "x": 640,
+      "y": 43540,
+      "width": 260,
+      "height": 90,
+      "color": "2"
+    },
+    {
+      "id": "gu_74da6152f5b23ae3",
+      "type": "text",
+      "text": "**Sapping Toxin Gu**\nRank 1-3 Tonic\n8 portions",
+      "x": 320,
+      "y": 43400,
+      "width": 260,
+      "height": 90,
+      "color": "4"
+    },
+    {
+      "id": "gu_34c66477519b949b",
+      "type": "text",
+      "text": "**Scarecrow Gu**\nRank 1 Manifestation\n15 portions",
+      "x": 320,
+      "y": 43540,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_9f3bdbf605248e18",
+      "type": "text",
+      "text": "**Stranglewood Gu**\nRank 2 Attack\n14 portions",
+      "x": 640,
+      "y": 43680,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_1cf9ade625b51586",
+      "type": "text",
+      "text": "**Thorn Burst Gu**\nRank 1 Attack\n25 portions",
+      "x": 320,
+      "y": 43680,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_97e01b6f38ed3790",
+      "type": "text",
+      "text": "**Thorn Whip Gu**\nRank 2 Attack\n18 portions",
+      "x": 640,
+      "y": 43820,
+      "width": 260,
+      "height": 90,
+      "color": "1"
+    },
+    {
+      "id": "gu_540d3e47795cb7cf",
+      "type": "text",
+      "text": "**One Star Cave Gu**\nRank 1 Container\n50 portions",
+      "x": 320,
+      "y": 42980,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_dca7d04102c326cf",
+      "type": "text",
+      "text": "**Two Star Cave Gu**\nRank 2 Container\n50 portions",
+      "x": 640,
+      "y": 43960,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_ee49886656eacc14",
+      "type": "text",
+      "text": "**Three Star Cave Gu**\nRank 3 Container\n50 portions",
+      "x": 960,
+      "y": 43260,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_fcd72fa5e7909174",
+      "type": "text",
+      "text": "**Wardrobe Gu**\nRank 2 Container\n1 portion",
+      "x": 640,
+      "y": 44100,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_c6cf93cb5f3e51a3",
+      "type": "text",
+      "text": "**Wine Sack Flower Gu**\nRank 1 Manifestation\n15 portions",
+      "x": 320,
+      "y": 43960,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_e0cc7b71e9bf62b7",
+      "type": "text",
+      "text": "**Wood Charm Gu**\nRank 3 Carver\n2 portions",
+      "x": 960,
+      "y": 43400,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_b2029ba5ea1042d7",
+      "type": "text",
+      "text": "**Wood Origin Gu**\nRank 3 Carver\n100 portions",
+      "x": 960,
+      "y": 43540,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "group_1cf7435db1edcdc2",
+      "type": "group",
+      "label": "Blood Path",
+      "x": 260,
+      "y": -90,
+      "width": 1660,
+      "height": 1500
+    },
+    {
+      "id": "group_d7b51124d3ce5390",
+      "type": "group",
+      "label": "Dark Path",
+      "x": 260,
+      "y": 1530,
+      "width": 1660,
+      "height": 1080
+    },
+    {
+      "id": "group_293828c4f6b59da7",
+      "type": "group",
+      "label": "Earth Path",
+      "x": 260,
+      "y": 2730,
+      "width": 1660,
+      "height": 1780
+    },
+    {
+      "id": "group_8dc9df92d8d5a053",
+      "type": "group",
+      "label": "Enslavement Path",
+      "x": 260,
+      "y": 4630,
+      "width": 1340,
+      "height": 1080
+    },
+    {
+      "id": "group_1d6b1e0a4abb134f",
+      "type": "group",
+      "label": "Fire Path",
+      "x": 260,
+      "y": 5830,
+      "width": 1660,
+      "height": 2900
+    },
+    {
+      "id": "group_2d2df4c7c2cc60dc",
+      "type": "group",
+      "label": "Food Path",
+      "x": 260,
+      "y": 8850,
+      "width": 1660,
+      "height": 1360
+    },
+    {
+      "id": "group_0618ec97366f560b",
+      "type": "group",
+      "label": "Formation Path",
+      "x": 260,
+      "y": 10330,
+      "width": 1020,
+      "height": 1220
+    },
+    {
+      "id": "group_2789ad8f4a9f2d80",
+      "type": "group",
+      "label": "Human Path",
+      "x": 260,
+      "y": 11670,
+      "width": 1660,
+      "height": 800
+    },
+    {
+      "id": "group_0e15d3988876d92c",
+      "type": "group",
+      "label": "Ice Path",
+      "x": 260,
+      "y": 12590,
+      "width": 1340,
+      "height": 1220
+    },
+    {
+      "id": "group_0684e52b96af5ae1",
+      "type": "group",
+      "label": "Information Path",
+      "x": 260,
+      "y": 13930,
+      "width": 1340,
+      "height": 1080
+    },
+    {
+      "id": "group_d0860f2815d5a303",
+      "type": "group",
+      "label": "Light Path",
+      "x": 260,
+      "y": 15130,
+      "width": 1020,
+      "height": 2620
+    },
+    {
+      "id": "group_067ef6efa33bd491",
+      "type": "group",
+      "label": "Lightning Path",
+      "x": 260,
+      "y": 17870,
+      "width": 1660,
+      "height": 1920
+    },
+    {
+      "id": "group_0e2955afe0a4ee54",
+      "type": "group",
+      "label": "Luck Path",
+      "x": 260,
+      "y": 19910,
+      "width": 1340,
+      "height": 940
+    },
+    {
+      "id": "group_074f73d66a84369d",
+      "type": "group",
+      "label": "Metal Path",
+      "x": 260,
+      "y": 20970,
+      "width": 1660,
+      "height": 1920
+    },
+    {
+      "id": "group_e32f969c81bc5cfd",
+      "type": "group",
+      "label": "Poison Path",
+      "x": 580,
+      "y": 23010,
+      "width": 1020,
+      "height": 1360
+    },
+    {
+      "id": "group_ac7be0cbf324d70a",
+      "type": "group",
+      "label": "Refinement Path",
+      "x": 260,
+      "y": 24490,
+      "width": 1660,
+      "height": 660
+    },
+    {
+      "id": "group_cec7c1be889255ec",
+      "type": "group",
+      "label": "Rule Path",
+      "x": 260,
+      "y": 25270,
+      "width": 1660,
+      "height": 800
+    },
+    {
+      "id": "group_1c9c1f75329bd9e7",
+      "type": "group",
+      "label": "Soul Path",
+      "x": 260,
+      "y": 26190,
+      "width": 1660,
+      "height": 1780
+    },
+    {
+      "id": "group_f507234b577629d3",
+      "type": "group",
+      "label": "Sound Path",
+      "x": 260,
+      "y": 28090,
+      "width": 1660,
+      "height": 800
+    },
+    {
+      "id": "group_df3f96e404133a14",
+      "type": "group",
+      "label": "Space Path",
+      "x": 260,
+      "y": 29010,
+      "width": 1660,
+      "height": 660
+    },
+    {
+      "id": "group_7a41c1c6b1b3e964",
+      "type": "group",
+      "label": "Strength Path",
+      "x": 260,
+      "y": 29790,
+      "width": 1660,
+      "height": 1640
+    },
+    {
+      "id": "group_2df4f3fdd3e788e5",
+      "type": "group",
+      "label": "Sword Path",
+      "x": 260,
+      "y": 31550,
+      "width": 1660,
+      "height": 940
+    },
+    {
+      "id": "group_1fe9701b9dbfc553",
+      "type": "group",
+      "label": "Theft Path",
+      "x": 260,
+      "y": 32610,
+      "width": 1660,
+      "height": 1500
+    },
+    {
+      "id": "group_973fc9fda35376a6",
+      "type": "group",
+      "label": "Time Path",
+      "x": 260,
+      "y": 34230,
+      "width": 1660,
+      "height": 940
+    },
+    {
+      "id": "group_22b8bf056856e468",
+      "type": "group",
+      "label": "Transformation Path",
+      "x": 260,
+      "y": 35290,
+      "width": 1660,
+      "height": 1220
+    },
+    {
+      "id": "group_434c0606713d12be",
+      "type": "group",
+      "label": "Water Path",
+      "x": 260,
+      "y": 36630,
+      "width": 1340,
+      "height": 2200
+    },
+    {
+      "id": "group_67cde116a163e002",
+      "type": "group",
+      "label": "Wind Path",
+      "x": 260,
+      "y": 38950,
+      "width": 1340,
+      "height": 940
+    },
+    {
+      "id": "group_d0229d7a17a8d97c",
+      "type": "group",
+      "label": "Wisdom Path",
+      "x": 260,
+      "y": 40010,
+      "width": 1340,
+      "height": 2060
+    },
+    {
+      "id": "group_d9a29aef8c42fc47",
+      "type": "group",
+      "label": "Wood Path",
+      "x": 260,
+      "y": 42190,
+      "width": 1660,
+      "height": 2060
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_0b4f5291d1103e3e",
+      "fromNode": "gu_9e6a55b6b4563e65",
+      "fromSide": "right",
+      "toNode": "gu_b3f0c7f6bb763af1",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_176426ad2a61a9bc",
+      "fromNode": "gu_b3f0c7f6bb763af1",
+      "fromSide": "right",
+      "toNode": "gu_91032ad7bbcb6cf7",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_74a18071b41541fe",
+      "fromNode": "gu_d6e3de36b09baee2",
+      "fromSide": "right",
+      "toNode": "gu_64e095fe763fc624",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_feff0abafc93049e",
+      "fromNode": "gu_91dfde1d6e005e42",
+      "fromSide": "right",
+      "toNode": "gu_524e05dc77239f3a",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_b71afa3e3b835fad",
+      "fromNode": "gu_05a8ea5382b9fd88",
+      "fromSide": "right",
+      "toNode": "gu_40bd001563085fc3",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_077485c27021f72c",
+      "fromNode": "gu_40bd001563085fc3",
+      "fromSide": "right",
+      "toNode": "gu_f38cfe2e2facbcc7",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_1452490229f57627",
+      "fromNode": "gu_f38cfe2e2facbcc7",
+      "fromSide": "right",
+      "toNode": "gu_0ca9277f91e40054",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_1f6e8a01b33bdeb3",
+      "fromNode": "gu_0ca9277f91e40054",
+      "fromSide": "right",
+      "toNode": "gu_114d4eefde1dae39",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_9cf8498ae7801894",
+      "fromNode": "gu_a2e33d344f272e10",
+      "fromSide": "right",
+      "toNode": "gu_91dfde1d6e005e42",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_3d47c7940a722331",
+      "fromNode": "gu_c9ca442765657fc9",
+      "fromSide": "right",
+      "toNode": "gu_2a2b47bf21a372f2",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_9032693384640f15",
+      "fromNode": "gu_2a2b47bf21a372f2",
+      "fromSide": "right",
+      "toNode": "gu_f47aea8bdcbd1179",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_2daf41e0397afe40",
+      "fromNode": "gu_f47aea8bdcbd1179",
+      "fromSide": "right",
+      "toNode": "gu_7320828c9153b2a9",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_72d4d7dd2dacff50",
+      "fromNode": "gu_61188f24396807ba",
+      "fromSide": "right",
+      "toNode": "gu_c837307a9a2ad4d0",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_5a9d9dce2b506ed1",
+      "fromNode": "gu_c837307a9a2ad4d0",
+      "fromSide": "right",
+      "toNode": "gu_2952aeca0fe15cf3",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_802af48f2e529238",
+      "fromNode": "gu_2952aeca0fe15cf3",
+      "fromSide": "right",
+      "toNode": "gu_9f9af029585ba014",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_3e13507c2f05c902",
+      "fromNode": "gu_c837307a9a2ad4d0",
+      "fromSide": "right",
+      "toNode": "gu_7f03f3f2febc46f3",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_51a3e792f951ceb5",
+      "fromNode": "gu_7f03f3f2febc46f3",
+      "fromSide": "right",
+      "toNode": "gu_1e7b95c5614637fd",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_93c8a479428c3376",
+      "fromNode": "gu_19187dc98dce52fa",
+      "fromSide": "right",
+      "toNode": "gu_c0ba17c23a26ff8c",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_dc0837bd2ade5aae",
+      "fromNode": "gu_4af7f9edc0f545f4",
+      "fromSide": "right",
+      "toNode": "gu_01592d51db5afd01",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_512d792a4f93d00d",
+      "fromNode": "gu_01592d51db5afd01",
+      "fromSide": "right",
+      "toNode": "gu_3aed9b0313f92261",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_dddf01466b934052",
+      "fromNode": "gu_4af7f9edc0f545f4",
+      "fromSide": "right",
+      "toNode": "gu_3464dc11507c600b",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_927d3e4750603a65",
+      "fromNode": "gu_4af7f9edc0f545f4",
+      "fromSide": "right",
+      "toNode": "gu_b4ef7df17d3dc747",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_44022c9a27806327",
+      "fromNode": "gu_01592d51db5afd01",
+      "fromSide": "right",
+      "toNode": "gu_ca3799b8ff860c55",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_57128d36f153bf95",
+      "fromNode": "gu_b4ef7df17d3dc747",
+      "fromSide": "right",
+      "toNode": "gu_ca3799b8ff860c55",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_94de027ffd987d4f",
+      "fromNode": "gu_b4ef7df17d3dc747",
+      "fromSide": "right",
+      "toNode": "gu_ee44c6bcc4e0dfae",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_2a60f10d99a7a3fd",
+      "fromNode": "gu_4af7f9edc0f545f4",
+      "fromSide": "right",
+      "toNode": "gu_ba30fd97b4127db5",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_cbb7c8b1cc7fb940",
+      "fromNode": "gu_ba30fd97b4127db5",
+      "fromSide": "right",
+      "toNode": "gu_d6e3de36b09baee2",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_ffffd2d0811ad032",
+      "fromNode": "gu_4af7f9edc0f545f4",
+      "fromSide": "right",
+      "toNode": "gu_98fcc378d7f5adda",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_c317950446be5584",
+      "fromNode": "gu_98fcc378d7f5adda",
+      "fromSide": "right",
+      "toNode": "gu_4c15dc21c91634c1",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_d3268fc777b756fc",
+      "fromNode": "gu_4af7f9edc0f545f4",
+      "fromSide": "right",
+      "toNode": "gu_c9f13c16144065a9",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_a37a1591fc75cdbc",
+      "fromNode": "gu_3028f51407d83338",
+      "fromSide": "right",
+      "toNode": "gu_1106a1dda2d68043",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_742f4d48650f8c8a",
+      "fromNode": "gu_7f35419a058e19d2",
+      "fromSide": "right",
+      "toNode": "gu_9a61b86ecef7f4f8",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_d877bd526d4f5596",
+      "fromNode": "gu_733b57ae9e45bae7",
+      "fromSide": "right",
+      "toNode": "gu_6d363479c97439b9",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_b26f221b3e158ba1",
+      "fromNode": "gu_733b57ae9e45bae7",
+      "fromSide": "right",
+      "toNode": "gu_d8502b7d77486154",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_fa6f23d403e3aa5d",
+      "fromNode": "gu_a02b857f2eff73e8",
+      "fromSide": "right",
+      "toNode": "gu_3a085d1bc5fa4131",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_01247c4d60e6f121",
+      "fromNode": "gu_6e21fce62b88ee82",
+      "fromSide": "right",
+      "toNode": "gu_f6b9b6ccd0440bc4",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_1c50157c3ffaf03c",
+      "fromNode": "gu_4551b2d552b07957",
+      "fromSide": "right",
+      "toNode": "gu_914127d1002e9938",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_45392ebe8b648d13",
+      "fromNode": "gu_9c882d5c6a1aa240",
+      "fromSide": "right",
+      "toNode": "gu_0588f59014485510",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_fa75b66716f33fa1",
+      "fromNode": "gu_9c882d5c6a1aa240",
+      "fromSide": "right",
+      "toNode": "gu_01ec40215edd21ed",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_10f9c2775032639e",
+      "fromNode": "gu_3977dced04b7d0c7",
+      "fromSide": "right",
+      "toNode": "gu_e3e097dc79d8161b",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_b8ab38f56ddf1174",
+      "fromNode": "gu_e3e097dc79d8161b",
+      "fromSide": "right",
+      "toNode": "gu_264c3f3470cadac6",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_93d4ee7716803219",
+      "fromNode": "gu_264c3f3470cadac6",
+      "fromSide": "right",
+      "toNode": "gu_5e5ad0b76c763373",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_900d35b2cba9bfe8",
+      "fromNode": "gu_5e5ad0b76c763373",
+      "fromSide": "right",
+      "toNode": "gu_cf06ed6df6eb6ebc",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_dc63369ccd56fa71",
+      "fromNode": "gu_343ae8e26ca054cf",
+      "fromSide": "right",
+      "toNode": "gu_329a970dfa7f977b",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_bc52868534f0fba9",
+      "fromNode": "gu_c56f5cb661da5719",
+      "fromSide": "right",
+      "toNode": "gu_456f2361d6773721",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_273814c9c9aa1abb",
+      "fromNode": "gu_c56f5cb661da5719",
+      "fromSide": "right",
+      "toNode": "gu_f1e75747bc4c6d0b",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_7756e227b1184ad1",
+      "fromNode": "gu_456f2361d6773721",
+      "fromSide": "right",
+      "toNode": "gu_93e097e319c2db13",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_fd9e93da11a056a5",
+      "fromNode": "gu_f1e75747bc4c6d0b",
+      "fromSide": "right",
+      "toNode": "gu_93e097e319c2db13",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_0d5d17a4ea76b2e4",
+      "fromNode": "gu_f83a383c0fa81f29",
+      "fromSide": "right",
+      "toNode": "gu_b7f5113f83376fc4",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_6baffc4d56d74083",
+      "fromNode": "gu_093f0b067a05c353",
+      "fromSide": "right",
+      "toNode": "gu_3cc5149977a9d4be",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_33809d4ebe60fc8b",
+      "fromNode": "gu_3cc5149977a9d4be",
+      "fromSide": "right",
+      "toNode": "gu_a8a2b30f8dba82d6",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_ca38a7f6936ff6b4",
+      "fromNode": "gu_53e56691fe7c8271",
+      "fromSide": "right",
+      "toNode": "gu_68b7933743e4841a",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_64574bccfec7fe4b",
+      "fromNode": "gu_fe2fb474076a872e",
+      "fromSide": "right",
+      "toNode": "gu_8a1beaee63fed318",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_03b34a63c57e0984",
+      "fromNode": "gu_ceab25abfedcba41",
+      "fromSide": "right",
+      "toNode": "gu_985d6ac20b189c12",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_402b2bf77f3b2865",
+      "fromNode": "gu_4088f87e6ecef91b",
+      "fromSide": "right",
+      "toNode": "gu_9c676e003b8932ac",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_92d4b58b83cd4d6b",
+      "fromNode": "gu_4c8596c838c9d498",
+      "fromSide": "right",
+      "toNode": "gu_f7b41d20b69937da",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_22c90d4c483e328a",
+      "fromNode": "gu_f7b41d20b69937da",
+      "fromSide": "right",
+      "toNode": "gu_961cc96ada94bed0",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_5b91086826ea9e07",
+      "fromNode": "gu_961cc96ada94bed0",
+      "fromSide": "right",
+      "toNode": "gu_17820ac1fd68b225",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_3d03c938d195c7c8",
+      "fromNode": "gu_9c882d5c6a1aa240",
+      "fromSide": "right",
+      "toNode": "gu_af7166a5d6ddde19",
+      "toSide": "left"
+    }
+  ]
+}
