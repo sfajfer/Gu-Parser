@@ -30,6 +30,16 @@ Any Gu name referenced in a `previousRank`/`nextRank` string that isn't
 found in the dataset is reported at the end as a likely typo/missing
 entry, and rendered as a small red "MISSING: X" stub node so broken
 links are visible directly on the canvas instead of silently dropped.
+
+Gu with neither a `previousRank` nor a `nextRank` (i.e. not part of any
+upgrade chain at all) are skipped entirely - they don't belong on an
+upgrade-tree canvas.
+
+Within each path, nodes are ordered top-to-bottom using a barycenter
+pass: each tier's nodes are sorted by the average row-position of their
+already-placed predecessors, so connected chains land in the same row
+instead of being scattered alphabetically and forcing edges to snake
+across unrelated nodes.
 """
 
 import json
@@ -88,13 +98,22 @@ def main():
     with open(in_path, "r", encoding="utf-8") as f:
         gu_list = json.load(f)
 
-    name_to_gu = {g["name"]: g for g in gu_list}
     missing_refs = set()
+
+    def is_relevant(g):
+        """A Gu only belongs on the upgrade-tree canvas if it actually
+        participates in a chain (has a previousRank and/or nextRank)."""
+        prev = (g.get("previousRank") or "").strip()
+        nxt = (g.get("nextRank") or "").strip()
+        return bool(prev) or bool(nxt)
+
+    relevant_gu = [g for g in gu_list if is_relevant(g)]
+    skipped_count = len(gu_list) - len(relevant_gu)
 
     # ---- Build node records ----
     # node id -> dict(kind='gu'|'junction'|'missing', ...)
     nodes = {}
-    for g in gu_list:
+    for g in relevant_gu:
         nid = f"gu_{stable_id(g.get('id', g['name']))}"
         rank = g.get("rank") or [0]
         tier = min(rank) if isinstance(rank, list) else rank
@@ -126,7 +145,7 @@ def main():
 
     # ---- Build edges (and junction nodes for AND-groups) ----
     edges = []  # list of (from_id, to_id)
-    for g in gu_list:
+    for g in relevant_gu:
         child_id = find_node_id_by_name(g["name"])
         groups = parse_prev_rank(g.get("previousRank", ""))
         for and_names in groups:
@@ -154,32 +173,55 @@ def main():
                         edges.append((sid, jkey))
                 edges.append((jkey, child_id))
 
-    # ---- Layout: group by path, then by tier, stack vertically ----
+    # ---- Layout: group by path, order within each path via barycenter ----
+    predecessors = defaultdict(list)
+    for src, dst in edges:
+        predecessors[dst].append(src)
+
     paths = sorted({n["path"] for n in nodes.values()})
+
+    # For each path independently: process tiers left-to-right, and within
+    # each tier sort nodes by the average row of their already-placed
+    # predecessors (barycenter heuristic). Nodes with no placed predecessor
+    # fall back to alphabetical, after connected nodes. This keeps chains
+    # roughly aligned in a straight row instead of scattering alphabetically
+    # and forcing edges to cross over unrelated nodes.
+    row_of = {}          # nid -> row index (local to its tier, per path)
+    path_max_rows = {}   # path -> widest tier (rows needed) in that path
+
+    for path in paths:
+        path_nids = [nid for nid, n in nodes.items() if n["path"] == path]
+        tiers = sorted({nodes[nid]["tier"] for nid in path_nids})
+        assigned = {}  # nid -> row, filled in as we go tier by tier
+        widest = 1
+        for tier in tiers:
+            tier_nids = [nid for nid in path_nids if nodes[nid]["tier"] == tier]
+
+            def sort_key(nid):
+                preds = [p for p in predecessors[nid] if p in assigned]
+                if preds:
+                    avg_row = sum(assigned[p] for p in preds) / len(preds)
+                    return (0, avg_row, nodes[nid]["name"])
+                return (1, 0.0, nodes[nid]["name"])
+
+            tier_nids.sort(key=sort_key)
+            for i, nid in enumerate(tier_nids):
+                assigned[nid] = i
+            widest = max(widest, len(tier_nids))
+        row_of.update(assigned)
+        path_max_rows[path] = widest
+
     path_y_offset = {}
     cursor_y = 0
     for path in paths:
         path_y_offset[path] = cursor_y
-        path_nodes = [n for n in nodes.values() if n["path"] == path]
-        max_stack = max(
-            (sum(1 for n2 in path_nodes if n2["tier"] == t) for t in {n["tier"] for n in path_nodes}),
-            default=1,
-        )
-        cursor_y += max_stack * Y_SPACING + PATH_GAP
-
-    # bucket nodes by (path, tier) to stack them without overlap
-    buckets = defaultdict(list)
-    for nid, n in nodes.items():
-        buckets[(n["path"], n["tier"])].append(nid)
+        cursor_y += path_max_rows[path] * Y_SPACING + PATH_GAP
 
     positions = {}
-    for (path, tier), nid_list in buckets.items():
-        nid_list.sort(key=lambda nid: nodes[nid]["name"])
-        base_y = path_y_offset[path]
-        for i, nid in enumerate(nid_list):
-            x = tier * X_SPACING
-            y = base_y + i * Y_SPACING
-            positions[nid] = (x, y)
+    for nid, n in nodes.items():
+        x = n["tier"] * X_SPACING
+        y = path_y_offset[n["path"]] + row_of[nid] * Y_SPACING
+        positions[nid] = (x, y)
 
     # ---- Emit Canvas JSON ----
     canvas_nodes = []
@@ -262,6 +304,8 @@ def main():
         json.dump(canvas, f, indent=2, ensure_ascii=False)
 
     print(f"Wrote {len(canvas_nodes)} nodes and {len(canvas_edges)} edges to {out_path}")
+    if skipped_count:
+        print(f"Skipped {skipped_count} Gu with no previousRank/nextRank (not part of any upgrade chain)")
     if missing_refs:
         print(f"\n⚠ {len(missing_refs)} referenced Gu name(s) not found in your dataset (likely typos or not-yet-added entries):")
         for name in sorted(missing_refs):
