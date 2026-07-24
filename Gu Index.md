@@ -2416,7 +2416,7 @@ Effect: Your Maximum Soul is permanently increased by 20.
 
 ### Flaming Fist Gu
 
-*Rank 1 Catalystk*
+*Rank 1 Catalyst*
 
 Next Rank: Coiled Flame Snake Gu
 
@@ -8469,7 +8469,7 @@ Effect: A creature you touch loses their sense of sight. They gain the *blinded*
 
 *Rank 3 Attack*
 
-Previous Rank: Steal Hearing Gu, Steal Sight Gu
+Previous Rank: Steal Hearing Gu + Steal Sight Gu
 
 Cost: 15 portions
 
@@ -8543,6 +8543,8 @@ Effect: A small fold is permanently etched into your **Head** in the space behin
 *A bunch of grey berries that burst into freshwater when chewed.*
 
 *Rank 2 Catalyst*
+
+Next Rank: Self Acceleration Gu
 
 Cost: None
 
@@ -9262,6 +9264,8 @@ As long as you have 9 or fewer **Livor Mortis Tokens**, every month you go witho
 
 *Rank 5 Carver*
 
+Previous Rank: Hopping Zombie Gu
+
 Cost: 15 portions
 
 Range: Self
@@ -9300,6 +9304,8 @@ As long as you have 9 or fewer **Livor Mortis Tokens**, every month you go witho
 
 *Rank 5 Carver*
 
+Previous Rank: Hopping Zombie Gu
+
 Cost: 10 portions
 
 Range: Self
@@ -9336,6 +9342,8 @@ As long as you have 9 or fewer **Livor Mortis Tokens**, every month you go witho
 
 *Rank 5 Carver*
 
+Previous Rank: Hopping Zombie Gu
+
 Cost: 10 portions
 
 Range: Self
@@ -9371,6 +9379,8 @@ As long as you have 9 or fewer **Livor Mortis Tokens**, every month you go witho
 ### Heavenly Demon Zombie Gu
 
 *Rank 5 Carver*
+
+Previous Rank: Hopping Zombie Gu
 
 Cost: 20 portions
 
@@ -9409,6 +9419,8 @@ As long as you have 9 or fewer **Livor Mortis Tokens**, every month you go witho
 ### Nightmare Zombie Gu
 *Rank 5 Carver*
 
+Previous Rank: Hopping Zombie Gu
+
 Cost: 15 portions
 
 Range: Self
@@ -9445,6 +9457,8 @@ As long as you have 9 or fewer **Livor Mortis Tokens**, every month you go witho
 
 ### Plague Zombie Gu
 *Rank 5 Carver*
+
+Previous Rank: Hopping Zombie Gu
 
 Cost: 10 portions
 
@@ -9954,6 +9968,8 @@ Effect: A stream of pressurized water shoots from your squeezed index finger and
 ### Sandblaster Gu
 *Rank 4 Attack*
 
+Previous Rank: Pressure Cutter Gu
+
 Cost: 20 portions
 
 Range: 5 meters
@@ -10164,11 +10180,11 @@ Effect: You condense a rope of clouds. You may throw the rope like a lasso at a 
 As an activation, you may duplicate the cloud rope. Doing so increases the penalty to the **Athletics** skill test by +10, stacking up to a total of a +100 penalty.
 
 ### Feather Step Gu
-*Rank 2 Celerity*
+*Rank 1 Celerity*
 
 Next Rank: Air Resistance Gu
 
-Cost: 2 portions
+Cost: 8 portions
 
 Range: Self
 

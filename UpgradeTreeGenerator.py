@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """
-UpgradeTreeGenerator.py
+gu_to_canvas.py
 
 Converts a flat JSON list of Gu (from your markdown parser) into an
 Obsidian Canvas (.canvas) file laying out the full upgrade tree/DAG,
 including AND-combination junctions (e.g. "Cool Gu + Dope Gu -> Awesome Gu").
 
 Usage:
-    python UpgradeTreeGenerator.py input.json output.canvas
+    python gu_to_canvas.py input.json output.canvas
 
 Edge semantics (parsed from each Gu's `previousRank` field):
     "Cool Gu, Dope Gu"        -> either Cool Gu OR Dope Gu can upgrade into this Gu
@@ -20,11 +20,18 @@ canvas, since Canvas edges are single-source: both prerequisites point
 into the junction, and the junction points into the resulting Gu.
 
 Layout:
-    - X axis = rank tier (min(rank) of the Gu). Junctions sit at the
-      midpoint between their prerequisites and their result.
-    - Y axis = grouped/stacked by `path`, with a labeled Canvas group
-      region drawn around each path's nodes so trees stay visually
-      separated on one big canvas.
+    - X axis = graph depth (longest path from a root prerequisite), NOT
+      rank number. A node sits one column right of its latest-placed
+      predecessor, so junctions and multi-rank-spanning Gu land in a
+      sensible column instead of being squeezed to fit a rank grid.
+    - Y axis = grouped/stacked by `path`. Within a path, a node with a
+      single predecessor inherits that predecessor's row outright (kept
+      in a straight horizontal line); a node with multiple predecessors
+      (e.g. an AND-junction) takes their average row. Rows are only
+      shifted when two nodes would otherwise collide, so straight chains
+      are preserved even if it leaves visual gaps elsewhere. Nodes whose
+      only predecessor is in a different `path` can't be aligned this
+      way and fall back to being appended after the last-placed node.
 
 Any Gu name referenced in a `previousRank`/`nextRank` string that isn't
 found in the dataset is reported at the end as a likely typo/missing
@@ -34,12 +41,6 @@ links are visible directly on the canvas instead of silently dropped.
 Gu with neither a `previousRank` nor a `nextRank` (i.e. not part of any
 upgrade chain at all) are skipped entirely - they don't belong on an
 upgrade-tree canvas.
-
-Within each path, nodes are ordered top-to-bottom using a barycenter
-pass: each tier's nodes are sorted by the average row-position of their
-already-placed predecessors, so connected chains land in the same row
-instead of being scattered alphabetically and forcing edges to snake
-across unrelated nodes.
 """
 
 import json
@@ -59,11 +60,16 @@ JUNCTION_HEIGHT = 60
 GROUP_PADDING = 60
 
 TYPE_COLORS = {
-    "Attack": "1",     # red
-    "Tonic": "4",       # green
-    "Catalyst": "2",   # orange
-    "Defense": "5",     # cyan
-    "Utility": "6",     # purple
+    "Attack": "#e93147",           # red
+    "Tonic": "#08b94e",             # green
+    "Catalyst": "#e8973f",         # orange
+    "Guard": "#08b7c4",             # cyan
+    "Divination": "#7852ee",       # purple
+    "Celerity": "#e0c43e",         # yellow
+    "Manifestation": "#3f8ae8",   # blue
+    "Carver": "#c43f8a",             # magenta
+    "Container": "#8a8a8a",         # gray
+    "Concealment": "#4a4a6a",     # slate
 }
 
 
@@ -90,7 +96,7 @@ def parse_prev_rank(prev_rank_str):
 
 def main():
     if len(sys.argv) < 3:
-        print("Usage: python UpgradeTreeGenerator.py input.json output.canvas")
+        print("Usage: python gu_to_canvas.py input.json output.canvas")
         sys.exit(1)
 
     in_path, out_path = sys.argv[1], sys.argv[2]
@@ -115,13 +121,10 @@ def main():
     nodes = {}
     for g in relevant_gu:
         nid = f"gu_{stable_id(g.get('id', g['name']))}"
-        rank = g.get("rank") or [0]
-        tier = min(rank) if isinstance(rank, list) else rank
         nodes[nid] = {
             "kind": "gu",
             "name": g["name"],
             "path": g.get("path", "Unsorted"),
-            "tier": tier,
             "gu": g,
         }
 
@@ -133,7 +136,6 @@ def main():
                 "kind": "missing",
                 "name": name,
                 "path": "MISSING",
-                "tier": 0,
             }
         return nid
 
@@ -157,59 +159,131 @@ def main():
                 jkey = "junction_" + stable_id(*sorted(and_names), g["name"])
                 if jkey not in nodes:
                     src_ids = [find_node_id_by_name(n) for n in and_names]
-                    src_tiers = [
-                        nodes[sid]["tier"] for sid in src_ids
-                        if nodes[sid]["kind"] != "missing"
-                    ]
-                    tier = (max(src_tiers) if src_tiers else 0) + 0.5
                     nodes[jkey] = {
                         "kind": "junction",
                         "name": " + ".join(and_names),
                         "path": nodes[child_id]["path"] if nodes[child_id]["kind"] != "missing" else "Unsorted",
-                        "tier": tier,
                         "inputs": src_ids,
                     }
                     for sid in src_ids:
                         edges.append((sid, jkey))
                 edges.append((jkey, child_id))
 
-    # ---- Layout: group by path, order within each path via barycenter ----
+    # ---- Layout ----
     predecessors = defaultdict(list)
     for src, dst in edges:
         predecessors[dst].append(src)
 
+    # X axis: longest-path layering. A node's layer = 1 + the deepest
+    # layer among its predecessors (0 if it has none). This is driven
+    # purely by graph structure, not by rank number, so junctions and
+    # Gu that span multiple ranks land in a sensible column instead of
+    # being squeezed to fit a rank-aligned grid.
+    layer_of = {}
+
+    def compute_layer(nid, visiting):
+        if nid in layer_of:
+            return layer_of[nid]
+        if nid in visiting:
+            layer_of[nid] = 0  # cycle guard; shouldn't happen in valid data
+            return 0
+        visiting.add(nid)
+        preds = predecessors.get(nid, [])
+        layer_of[nid] = 0 if not preds else 1 + max(compute_layer(p, visiting) for p in preds)
+        visiting.discard(nid)
+        return layer_of[nid]
+
+    for nid in nodes:
+        compute_layer(nid, set())
+
     paths = sorted({n["path"] for n in nodes.values()})
 
-    # For each path independently: process tiers left-to-right, and within
-    # each tier sort nodes by the average row of their already-placed
-    # predecessors (barycenter heuristic). Nodes with no placed predecessor
-    # fall back to alphabetical, after connected nodes. This keeps chains
-    # roughly aligned in a straight row instead of scattering alphabetically
-    # and forcing edges to cross over unrelated nodes.
-    row_of = {}          # nid -> row index (local to its tier, per path)
-    path_max_rows = {}   # path -> widest tier (rows needed) in that path
+    # How many children does each node have, globally? Used to pick a
+    # shared node's "primary" parent - the more exclusive (lower fan-out)
+    # one - when it has more than one.
+    out_degree = defaultdict(int)
+    for src, _dst in edges:
+        out_degree[src] += 1
 
+    # ---- Y axis: reserve a contiguous vertical band per family ----
+    # Resolving row conflicts one node at a time (even with a priority
+    # order) can still let a shared/merge node wedge itself between two
+    # rows that belong to an unrelated sibling group. Instead, every node
+    # picks exactly one "primary parent" - its most exclusive same-path
+    # predecessor - turning the DAG into a proper spanning tree. Each root
+    # of that tree (and everything under it) then gets a strictly
+    # non-overlapping vertical band, sized to its subtree, via the
+    # standard tree-layout technique of centering a parent over its
+    # children's rows. Any other (non-primary) predecessor relationship -
+    # an AND-junction's other input, or a Gu reachable from two different
+    # chains - is still drawn as an edge; it just doesn't influence row
+    # placement, so it may legitimately cross into another family's band.
+    # That crossing reflects the data (the node really is shared) rather
+    # than being an artifact of the layout.
+    primary_parent = {}
     for path in paths:
-        path_nids = [nid for nid, n in nodes.items() if n["path"] == path]
-        tiers = sorted({nodes[nid]["tier"] for nid in path_nids})
-        assigned = {}  # nid -> row, filled in as we go tier by tier
-        widest = 1
-        for tier in tiers:
-            tier_nids = [nid for nid in path_nids if nodes[nid]["tier"] == tier]
+        path_nid_set = {nid for nid, n in nodes.items() if n["path"] == path}
+        for nid in path_nid_set:
+            same_path_preds = [p for p in predecessors[nid] if p in path_nid_set]
+            if not same_path_preds:
+                primary_parent[nid] = None
+            elif len(same_path_preds) == 1:
+                primary_parent[nid] = same_path_preds[0]
+            else:
+                primary_parent[nid] = min(same_path_preds, key=lambda p: (out_degree[p], nodes[p]["name"]))
 
-            def sort_key(nid):
-                preds = [p for p in predecessors[nid] if p in assigned]
-                if preds:
-                    avg_row = sum(assigned[p] for p in preds) / len(preds)
-                    return (0, avg_row, nodes[nid]["name"])
-                return (1, 0.0, nodes[nid]["name"])
+    primary_children = defaultdict(list)
+    for nid, parent in primary_parent.items():
+        if parent is not None:
+            primary_children[parent].append(nid)
+    for parent, kids in primary_children.items():
+        kids.sort(key=lambda nid: (layer_of[nid], nodes[nid]["name"]))
 
-            tier_nids.sort(key=sort_key)
-            for i, nid in enumerate(tier_nids):
-                assigned[nid] = i
-            widest = max(widest, len(tier_nids))
-        row_of.update(assigned)
-        path_max_rows[path] = widest
+    leaf_count = {}
+
+    def compute_leaf_count(nid, visiting):
+        if nid in leaf_count:
+            return leaf_count[nid]
+        if nid in visiting:
+            leaf_count[nid] = 1  # cycle guard; shouldn't happen in valid data
+            return 1
+        visiting.add(nid)
+        kids = primary_children.get(nid, [])
+        leaf_count[nid] = 1 if not kids else sum(compute_leaf_count(c, visiting) for c in kids)
+        visiting.discard(nid)
+        return leaf_count[nid]
+
+    for nid in nodes:
+        compute_leaf_count(nid, set())
+
+    row_of = {}
+
+    def assign_rows(nid, row_start):
+        """Lay out nid's primary subtree starting at row_start. Leaves
+        consume one row each, in order; an internal node is centered
+        over the rows its own children ended up on. Returns the next
+        free row after this entire subtree's band."""
+        kids = primary_children.get(nid, [])
+        if not kids:
+            row_of[nid] = row_start
+            return row_start + 1
+        cursor = row_start
+        for c in kids:
+            cursor = assign_rows(c, cursor)
+        row_of[nid] = round(sum(row_of[c] for c in kids) / len(kids))
+        return cursor
+
+    path_max_rows = {}
+    for path in paths:
+        path_nid_set = [nid for nid, n in nodes.items() if n["path"] == path]
+        local_roots = sorted(
+            (nid for nid in path_nid_set if primary_parent[nid] is None),
+            key=lambda nid: (layer_of[nid], nodes[nid]["name"]),
+        )
+        cursor = 0
+        for root in local_roots:
+            cursor = assign_rows(root, cursor)
+        path_max_rows[path] = cursor
 
     path_y_offset = {}
     cursor_y = 0
@@ -219,7 +293,7 @@ def main():
 
     positions = {}
     for nid, n in nodes.items():
-        x = n["tier"] * X_SPACING
+        x = layer_of[nid] * X_SPACING
         y = path_y_offset[n["path"]] + row_of[nid] * Y_SPACING
         positions[nid] = (x, y)
 
