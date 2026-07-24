@@ -1,6 +1,11 @@
 package sfajfer.GuParser;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -15,10 +20,12 @@ import java.util.regex.Pattern;
 public class GuParserLocal {
 
     private static final String JSON_OUTPUT_PATH = "../Gu-SRD/src/assets/gu-index.json";
+    private static final String BEAST_OUTPUT_PATH = "../Gu-SRD/src/assets/beast-index.json";
 
     public static void main(String[] args) {
         GuParserLocal parser = new GuParserLocal();
         parser.parseAndPopulate("Gu Index.md");
+        parser.parseBeast("Beast Index.md");
     }
 
     public void parseAndPopulate(String fileName) {
@@ -196,6 +203,274 @@ public class GuParserLocal {
         }
     }
 
+    private static final Pattern OVERRIDE_TIER_PATTERN =
+            Pattern.compile("^(Hundred|Thousand|Myriad|Emperor):\\s*\\{(.*)$");
+    private static final Pattern OVERRIDE_ENTRY_PATTERN =
+            Pattern.compile("([A-Za-z][A-Za-z ]*?):\\s*[\"\u201C]([^\"\u201D]*)[\"\u201D]");
+
+    public void parseBeast(String fileName) {
+        int idCounter = 0;
+
+        System.out.println("Starting Beast Index refinement process using file: " + fileName);
+
+        // Accumulate every parsed Beast so we can write them all to JSON at the end
+        List<Map<String, Object>> allBeastEntries = new ArrayList<>();
+
+        File file = new File(fileName);
+        if (!file.exists()) {
+            System.err.println("FATAL ERROR: Could not find " + fileName + " in the current directory.");
+            return;
+        }
+
+        try (InputStream is = new FileInputStream(file)) {
+            BufferedReader reader = new BufferedReader(new InputStreamReader(is, StandardCharsets.UTF_8));
+            String line;
+
+            Map<String, Object> currentBeast = null;
+            Map<String, Object> primaryAttributes = null;
+            Map<String, Object> secondaryAttributes = null;
+            Map<String, Object> hordeRules = null;
+            Map<String, Object> overrides = null;
+            List<String> features = null;
+            List<String> combatActions = null;
+
+            // Description, PrimaryAttributes, SecondaryAttributes, Features, CombatActions, HordeRules, Override
+            String currentSection = null;
+
+            boolean inOverrideBlock = false;
+            String overrideTier = null;
+            StringBuilder overrideBlockBuilder = new StringBuilder();
+
+            while ((line = reader.readLine()) != null) {
+                String trimmed = line.trim();
+
+                if (trimmed.isEmpty()) continue;
+
+                // Section markers: "<!-- Description -->", "<!-- Features ->", etc.
+                if (trimmed.startsWith("<!--")) {
+                    String marker = trimmed.replace("-->", "").replace("<!--", "").replace("\u2192", "").trim();
+                    if (marker.equalsIgnoreCase("Description")) currentSection = "Description";
+                    else if (marker.equalsIgnoreCase("Primary Attributes")) currentSection = "PrimaryAttributes";
+                    else if (marker.equalsIgnoreCase("Secondary Attributes")) currentSection = "SecondaryAttributes";
+                    else if (marker.equalsIgnoreCase("Features")) currentSection = "Features";
+                    else if (marker.equalsIgnoreCase("Combat Actions")) currentSection = "CombatActions";
+                    else if (marker.equalsIgnoreCase("Horde Rules")) currentSection = "HordeRules";
+                    else if (marker.equalsIgnoreCase("Override")) currentSection = "Override";
+                    continue;
+                }
+
+                if (trimmed.startsWith("### ")) {
+                    saveBeast(currentBeast, primaryAttributes, secondaryAttributes, features,
+                            combatActions, hordeRules, overrides, allBeastEntries, idCounter);
+                    idCounter++;
+
+                    currentBeast = new LinkedHashMap<>();
+                    currentBeast.put("Name", trimmed.substring(4).trim());
+
+                    primaryAttributes = new LinkedHashMap<>();
+                    secondaryAttributes = new LinkedHashMap<>();
+                    hordeRules = new LinkedHashMap<>();
+                    overrides = new LinkedHashMap<>();
+                    features = new ArrayList<>();
+                    combatActions = new ArrayList<>();
+
+                    currentSection = null;
+                    inOverrideBlock = false;
+                    overrideTier = null;
+                    overrideBlockBuilder = new StringBuilder();
+                    continue;
+                }
+
+                if (currentBeast == null) continue;
+
+                // Override blocks can span multiple lines: "Hundred: { ... }"
+                if ("Override".equals(currentSection)) {
+                    if (inOverrideBlock) {
+                        if (trimmed.contains("}")) {
+                            overrideBlockBuilder.append(" ").append(trimmed.substring(0, trimmed.indexOf('}')));
+                            overrides.put(overrideTier, parseOverrideBlock(overrideBlockBuilder.toString()));
+                            inOverrideBlock = false;
+                            overrideTier = null;
+                            overrideBlockBuilder = new StringBuilder();
+                        } else {
+                            overrideBlockBuilder.append(" ").append(trimmed);
+                        }
+                        continue;
+                    }
+
+                    Matcher tierMatcher = OVERRIDE_TIER_PATTERN.matcher(trimmed);
+                    if (tierMatcher.find()) {
+                        String tier = tierMatcher.group(1);
+                        String rest = tierMatcher.group(2);
+                        if (rest.contains("}")) {
+                            overrides.put(tier, parseOverrideBlock(rest.substring(0, rest.indexOf('}'))));
+                        } else {
+                            overrideTier = tier;
+                            inOverrideBlock = true;
+                            overrideBlockBuilder = new StringBuilder(rest);
+                        }
+                    }
+                    continue;
+                }
+
+                if (currentSection == null) continue;
+
+                switch (currentSection) {
+                    case "Description":
+                        if (trimmed.startsWith("Description:")) {
+                            currentBeast.put("Description", trimmed.substring("Description:".length()).trim());
+                        }
+                        break;
+
+                    case "PrimaryAttributes":
+                        putKeyValue(primaryAttributes, trimmed);
+                        break;
+
+                    case "SecondaryAttributes":
+                        putKeyValue(secondaryAttributes, trimmed);
+                        break;
+
+                    case "Features":
+                        if (trimmed.startsWith("Feature:")) {
+                            String content = trimmed.substring("Feature:".length()).trim();
+                            if (!content.isEmpty()) features.add(content);
+                        }
+                        break;
+
+                    case "CombatActions":
+                        if (trimmed.startsWith("Action:")) {
+                            String content = trimmed.substring("Action:".length()).trim();
+                            if (!content.isEmpty()) combatActions.add(content);
+                        }
+                        break;
+
+                    case "HordeRules":
+                        if (trimmed.startsWith("Grade:")) {
+                            hordeRules.put("Grade", trimmed.substring("Grade:".length()).trim());
+                        } else if (trimmed.startsWith("Upkeep:")) {
+                            String raw = trimmed.substring("Upkeep:".length()).trim();
+                            try { hordeRules.put("Upkeep", Integer.parseInt(raw.replace(",", ""))); }
+                            catch (NumberFormatException e) { hordeRules.put("Upkeep", raw); }
+                        } else if (trimmed.startsWith("Primary Biomes:")) {
+                            hordeRules.put("PrimaryBiomes", splitToList(trimmed.substring("Primary Biomes:".length())));
+                        } else if (trimmed.startsWith("Secondary Biomes:")) {
+                            hordeRules.put("SecondaryBiomes", splitToList(trimmed.substring("Secondary Biomes:".length())));
+                        }
+                        break;
+
+                    default:
+                        break;
+                }
+            }
+
+            // Save the very last Beast in the file
+            saveBeast(currentBeast, primaryAttributes, secondaryAttributes, features,
+                    combatActions, hordeRules, overrides, allBeastEntries, idCounter);
+            System.out.println("Beast Index successfully refined internally.");
+
+            // Write all accumulated entries to a JSON file
+            writeJsonFile(allBeastEntries, BEAST_OUTPUT_PATH);
+
+        } catch (IOException e) {
+            System.err.println("Failed to read Beast Index file: " + e.getMessage());
+        }
+    }
+
+    private void putKeyValue(Map<String, Object> map, String line) {
+        int idx = line.indexOf(':');
+        if (idx < 0) return;
+        String key = line.substring(0, idx).trim();
+        String value = line.substring(idx + 1).trim();
+        if (value.isEmpty()) return;
+        try {
+            map.put(key, Integer.parseInt(value));
+        } catch (NumberFormatException e) {
+            map.put(key, value);
+        }
+    }
+
+    private List<String> splitToList(String raw) {
+        List<String> list = new ArrayList<>();
+        if (raw == null) return list;
+        for (String part : raw.split(",")) {
+            String p = part.trim();
+            if (!p.isEmpty()) list.add(p);
+        }
+        return list;
+    }
+
+    // Parses the content of a single override tier block, e.g.
+    //   Feature: "Jade Eyes - The Jade Stone Monkey can see perfectly ..."
+    // into { "Jade Eyes": "Jade Eyes - The Jade Stone Monkey can see perfectly ..." }
+    private Map<String, Object> parseOverrideBlock(String content) {
+        Map<String, Object> result = new LinkedHashMap<>();
+        if (content == null) return result;
+        String cleaned = content.trim();
+        if (cleaned.isEmpty()) return result;
+
+        Matcher m = OVERRIDE_ENTRY_PATTERN.matcher(cleaned);
+        boolean found = false;
+        while (m.find()) {
+            found = true;
+            String fieldType = m.group(1).trim();
+            String value = m.group(2).trim();
+
+            // Feature/Action overrides are written as "Name - Description";
+            // use the name as the override key so it maps onto the original entry.
+            int dashIdx = value.indexOf(" - ");
+            if (dashIdx > 0) {
+                result.put(value.substring(0, dashIdx).trim(), value);
+            } else {
+                result.put(fieldType, value);
+            }
+        }
+
+        if (!found) {
+            // Fallback for unquoted "Key - Value" pairs
+            for (String part : cleaned.split(",")) {
+                String p = part.trim();
+                if (p.isEmpty()) continue;
+                int dashIdx = p.indexOf('-');
+                if (dashIdx > 0) {
+                    result.put(p.substring(0, dashIdx).trim(), p.substring(dashIdx + 1).trim());
+                }
+            }
+        }
+
+        return result;
+    }
+
+    private void saveBeast(Map<String, Object> currentBeast,
+                            Map<String, Object> primaryAttributes,
+                            Map<String, Object> secondaryAttributes,
+                            List<String> features,
+                            List<String> combatActions,
+                            Map<String, Object> hordeRules,
+                            Map<String, Object> overrides,
+                            List<Map<String, Object>> allBeastEntries,
+                            int id) {
+        if (currentBeast == null) return;
+
+        currentBeast.put("id", id);
+
+        if (primaryAttributes != null && !primaryAttributes.isEmpty()) {
+            currentBeast.put("PrimaryAttributes", primaryAttributes);
+        }
+        if (secondaryAttributes != null && !secondaryAttributes.isEmpty()) {
+            currentBeast.put("SecondaryAttributes", secondaryAttributes);
+        }
+        if (features != null) currentBeast.put("Features", features);
+        if (combatActions != null) currentBeast.put("CombatActions", combatActions);
+        if (hordeRules != null && !hordeRules.isEmpty()) {
+            currentBeast.put("HordeRules", hordeRules);
+        }
+        if (overrides != null && !overrides.isEmpty()) {
+            currentBeast.put("Override", overrides);
+        }
+
+        allBeastEntries.add(currentBeast);
+    }
+
     private List<String> parseEffectIntoArray(String rawEffect) {
         List<String> effectArray = new ArrayList<>();
         if (rawEffect == null || rawEffect.trim().isEmpty()) {
@@ -262,8 +537,12 @@ public class GuParserLocal {
     }
 
     private void writeJsonFile(List<Map<String, Object>> entries) {
+        writeJsonFile(entries, JSON_OUTPUT_PATH);
+    }
+
+    private void writeJsonFile(List<Map<String, Object>> entries, String outputPathStr) {
         try {
-            Path outputPath = Paths.get(JSON_OUTPUT_PATH);
+            Path outputPath = Paths.get(outputPathStr);
             Files.createDirectories(outputPath.getParent());
 
             StringBuilder sb = new StringBuilder("[\n");

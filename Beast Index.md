@@ -1,519 +1,148 @@
-### Black Boar
-CR: 0
-Attitude: 5
-Wisdom: 30
-Cognition: 5
-Agility: 50
-Fortitude: 5
-Fortitude Multiplier: 4
-Strength: 40
-Base Movement: 3
-Soul: 4
-Feature: Camouflage - While in dim light, **Awareness** skill tests made to see the Black Boar are made with a +20 penalty.
-Feature: Boar - The Black Boar can make a **Gore** *Combat Action* for free and with a -20 bonus on the attack roll against a creature if it hit that creature with a **Charge** *Combat Action* this turn.
-Combat Action: Charge - Cannot be used to move through *Difficult Terrain*. The Black Boar expends all of its movement to move double that number of meters in a straight line, stopping when it is in a square adjacent to a creature or wall. If the Black Boar stops at a creature, it and the target make an opposed **Close Combat** skill test. If the Black Boar wins, the target takes 5 force damage and is knocked *prone*. **Dodge** skill tests made to avoid this attack are made with a -5 bonus for every 2 meters the Black Boar charged. If this attack is dodged, the Black Boar does not stop until it has moved the full distance or struck a creature or wall. If it hits a wall, the wall and Black Boar each take 5 force damage.
-Combat Action: Gore - The Black Boar gores a target with its tusks. Make an attack roll; on a hit, deal 9 rending damage. If this damage is dealt to a creature's hit points, they gain *bleeding 2*.
+### Jade Stone Monkey
+<!-- Description →
+Description: Named from their stone skin and jade gemstone eyes, Jade Stone Monkeys are fiercely territorial but seldom attack outside of their breeding grounds. Their intelligence is noteworthy, and they often form alliances and rivalries with nearby Clans and beast groups. It’s commonly known that bright flashes of light overwhelm their eyes, temporarily discombobulating them. The jade eyes of Beast Kings can even see invisible creatures.
+<!-- Primary Attributes -->
+Att: 10
+Wis: 30
+Cog: 20
+Agi: 40
+Fort: 20
+<!-- Secondary Attributes -->
+Size: Small
+Movement: 4
+Fortitude Multiplier: 2
+Reactions: 1
+Soul: 5
+Number of Attacks: 1
+Primary Attack: Slam
+
+<!-- Features →
+Feature: Monkey - The Jade Stone Monkey can move through tree canopies as if they were solid ground, so long as the trees are close enough together for the monkey to jump between them. The Jade Stone Monkey also has a -40 bonus to all Athletics skill tests made to climb.
+Feature: Stoneskin - The Jade Stone Monkey reduces all rending and force damage dealt to its hit points by [4 + 10% Fort].
+Feature: Jade Eyes - The Jade Stone Monkey can see perfectly in both dim light and darkness. When exposed to a bright flash of light, the Jade Stone Monkey is disoriented and gains the stunned condition.
+<!-- Combat Actions -->
+Action: Bite - Melee Attack, 1 meter. The Jade Stone Monkey bites a target. Make an attack roll; on a hit, deal [2 + 20% Str] force damage. If this damage is dealt to a creature’s hit points, it gains bleeding [1 + 5% Str].
+Action: Slam - Melee Attack, 1 meter. The Jade Stone Monkey slaps a target. Make an attack roll; on a hit, deal [4 + 10% Str] force damage.
+<!-- Horde Rules -->
+Grade: Elite
+Upkeep: 8
+Primary Biomes: Bamboo Forest, Jungle, Cave
+Secondary Biomes: Mountain, Forest
+<!-- Override -->
+Hundred: { 
+Feature: “Jade Eyes - The Jade Stone Monkey can see perfectly in both dim light and darkness, and can see invisible creatures as long as the source of their invisibility is rank 1. When exposed to a bright flash of light, the Jade Stone Monkey is disoriented and gains the dazed condition.” }
+Thousand: {
+Feature: “Jade Eyes - The Jade Stone Monkey can see perfectly in both dim light and darkness, and can see invisible creatures as long as the source of their invisibility is rank 2 or lower. When exposed to a bright flash of light, the Jade Stone Monkey is disoriented and gains the dazed condition.” }
+Myriad: {
+Feature: “Jade Eyes - The Jade Stone Monkey can see perfectly in both dim light and darkness, and can see invisible creatures as long as the source of their invisibility is rank 3 or lower. When exposed to a bright flash of light, the Jade Stone Monkey is disoriented and gains the dazed condition.” }
+Emperor: {
+Feature: “Jade Eyes - The Jade Stone Monkey can see perfectly in both dim light and darkness, and can see invisible creatures as long as the source of their invisibility is rank 4 or lower. When exposed to a bright flash of light, the Jade Stone Monkey is disoriented and gains the dazed condition.” }
+
 
 ### Black Boar
-King: Hundred
-CR: 12
-Attitude: 5
-Wisdom: 
-Cognition: 10
-Agility: 
-Fortitude: 
-Fortitude Multiplier: 
-Strength: 
-Base Movement: 
-Soul: 
-Feature: 
-Combat Action: 
-Wild Gu: []
+<!-- Description -->
+Description: Black Boars have dark hides and hair that cause them to blend in with nearly any environment, so long as the lighting is not too good. Beast Kings are completely invisible in dim light or darkness.
+<!-- Primary Attributes -->
+Att: 10
+Wis: 20
+Cog: 10
+Agi: 50
+Fort: 15
+<!-- Secondary Attributes -->
+Size: Medium
+Movement: 3
+Fortitude Multiplier: 3
+Reactions: 1
+Soul: 2
+Number of Attacks: 1
+Primary Attack: Gore
 
-### Black Boar
-King: Thousand
-CR: 22
-Attitude: 5
-Wisdom: 
-Cognition: 
-Agility: 
-Fortitude: 
-Fortitude Multiplier: 
-Strength: 
-Base Movement: 
-Soul: 
-Feature: 
-Combat Action: 
-Wild Gu: []
+<!-- Features -->
+Feature: Boar - The Black Boar can make a Gore Combat Action for free and with advantage on the attack roll when the Black Boar collides with a target as part of its Charge Combat Action. The attack must be made against the target collided with, and cannot be made if the target is knocked aside from the collision. 
+Feature: Camouflage - While the Black Boar is in dim light or darkness, Awareness skill tests made to see it are made with disadvantage.
+<!-- Combat Actions -->
+Action: Gore - The Black Boar gores a target with its tusks. Make an attack roll; on a hit, deal [4 + 20% Str] rending damage. If this damage is dealt to a creature's hit points, they gain bleeding [1 + 5% Str].
+Action: Charge - Cannot be used to move through Difficult Terrain. The Black Boar expends all of its movement to move double that number of meters in a straight line, colliding with any creatures or objects in its path.
+<!-- Horde Rules -->
+Grade: Standard
+Upkeep: 2
+Primary Biomes: Forest, Marsh
+Secondary Biomes: Bamboo Forest, Jungle
+<!-- Override -->
+Hundred: {
+Feature: “Camouflage - While the Black Boar is in dim light or darkness, it is invisible. The source of this invisibility is considered to be rank 1.” }
+Thousand: {
+Feature: “Camouflage - While the Black Boar is in dim light or darkness, it is invisible. The source of this invisibility is considered to be rank 2.” }
+Myriad: {
+Feature: “Camouflage - While the Black Boar is in dim light or darkness, it is invisible. The source of this invisibility is considered to be rank 3.” }
+Emperor: {
+Feature: “Camouflage - While the Black Boar is in dim light or darkness, it is invisible. The source of this invisibility is considered to be rank 4.” }
 
-### Black Boar
-King: Myriad
-CR: 34
-Attitude: 10
-Wisdom: 
-Cognition: 50
-Agility: 
-Fortitude: 
-Fortitude Multiplier: 
-Strength: 
-Base Movement: 
-Soul: 
-Feature: 
-Combat Action: 
-Wild Gu: []
 
-### Black Boar
-King: Emperor
-CR: 45
-Attitude: 20
-Wisdom: 
-Cognition: 80
-Agility: 
-Fortitude: 
-Fortitude Multiplier: 
-Strength: 
-Base Movement: 
-Soul: 
-Feature: 
-Combat Action: 
-Wild Gu: []
+### Mound Tiger
+<!-- Description →
+Description: Mound Tigers are the size of hills and spend years at a time sleeping. Settlements have been known to be built atop them before falling apart when the Mound Tiger awakens to feed or migrate. When relaxed, one would be forgiven for thinking Mound Tigers are slow and lumbering. But when a fight begins, they move at deadly speeds.
+<!-- Primary Attributes -->
+Att: 40
+Wis: 100
+Cog: 40
+Agi: 120
+Fort: 300
+<!-- Secondary Attributes -->
+Size: Huge (20 x 5)
+Movement: 10
+Fortitude Multiplier: 5
+Reactions: 1
+Soul: 20
+Number of Attacks: 2
+Primary Attack: Swipe
 
-### White Boar
-CR: 
-Attitude: 
-Wisdom: 
-Cognition: 
-Agility: 
-Fortitude: 
-Fortitude Multiplier: 
-Strength: 
-Base Movement: 
-Soul: 
-Feature: Glimmer - While the White Boar is in bright light, **Awareness** skill tests made to see it are made with a -20 bonus and **Ranged Attack** skill tests made to hit it with an attack are made with a +10 penalty.
-Combat Action: 
+<!-- Features -->
+Feature: Tiger - While in a jungle or forest, Awareness skill tests made to see the Mound Tiger are made with disadvantage.
+Feature: Gigantism - The Mound Tiger’s upkeep cost is only expended once a month rather than once a week.
+<!-- Combat Actions -->
+Action: Swipe - Melee Attack, 2 meters. The Mound Tiger swipes its paw at a target. Make an attack roll; on a hit deal [1 + 10% Str] force damage, [1 + 10% Str] rending damage, and the target is thrown 10 meters in the direction of the Mound Tiger’s choice, colliding with anything in their path and landing prone. The target cannot be thrown in a way that would make it collide with the Mound Tiger. If the rending damage is dealt to a creature’s hit points, they gain bleeding [1 + 5% Str].
+Action: Bite - Melee Attack, 1 meter. The Mound Tiger bites a target. Make an attack roll; on a hit deal [2 + 20% Str] force damage. If this damage is dealt to a creature’s hit points, they gain bleeding [1 + 5% Str].
+<!-- Horde Rules -->
+Grade: Mutated
+Upkeep: 12,000
+Primary Biomes: Jungle, Forest, Mountain
+Secondary Biomes: Taiga, Marsh
+<!-- Override -->
+Hundred: {}
 
-### White Boar
-King: Hundred
-CR: 
-Attitude: 
-Wisdom: 
-Cognition: 
-Agility: 
-Fortitude: 
-Fortitude Multiplier: 
-Strength: 
-Base Movement: 
-Soul: 
-Feature: 
-Combat Action: 
-Wild Gu: []
 
-### White Boar
-King: Thousand
-CR: 
-Attitude: 
-Wisdom: 
-Cognition: 
-Agility: 
-Fortitude: 
-Fortitude Multiplier: 
-Strength: 
-Base Movement: 
-Soul: 
-Feature: 
-Combat Action: 
-Wild Gu: []
+### Lightning Wolf
+<!-- Description →
+Description: Lightning Wolves are a common sight at high altitudes. Despite their name, they are not actually attuned with Lightning Path, instead merely having bright blue coats that shine in sunlight. Their speed is notable, but their sense of smell is ordinary compared to other canines.
+<!-- Primary Attributes -->
+Att: 10
+Wis: 20
+Cog: 10
+Agi: 80
+Fort: 15
+<!-- Secondary Attributes -->
+Size: Medium
+Movement: 7
+Fortitude Multiplier: 2
+Reactions: 1
+Soul: 2
+Number of Attacks: 1
+Primary Attack: Bite
 
-### White Boar
-King: Myriad
-CR: 
-Attitude: 
-Wisdom: 
-Cognition: 
-Agility: 
-Fortitude: 
-Fortitude Multiplier: 
-Strength: 
-Base Movement: 
-Soul: 
-Feature: 
-Combat Action: 
-Wild Gu: []
-
-### White Boar
-King: Emperor
-CR: 
-Attitude: 
-Wisdom: 
-Cognition: 
-Agility: 
-Fortitude: 
-Fortitude Multiplier: 
-Strength: 
-Base Movement: 
-Soul: 
-Feature: 
-Combat Action: 
-Wild Gu: []
-
-### Flower Boar
-King: 
-CR: 
-Attitude: 
-Wisdom: 
-Cognition: 
-Agility: 
-Fortitude: 
-Fortitude Multiplier: 
-Strength: 
-Base Movement: 
-Soul: 
-Feature: Sweet Scent - The Flower Boar smells strongly of flowers and **Awareness** skill tests made to smell it are made with a -20 bonus.
-Feature: Life from Death - When the Flower Boar dies, its body rapidly decomposes as a [Medium] tree grows from the carcass, taking up the space previously occupied by the Flower Boar.
-Combat Action: 
-
-### Thunder Boar
-King: 
-CR: 
-Attitude: 
-Wisdom: 
-Cognition: 
-Agility: 
-Fortitude: 
-Fortitude Multiplier: 
-Strength: 
-Base Movement: 
-Soul: 
-Feature: Booming Charge - When the Thunder Boar hits a target with its **Charge** *Combat Action*, a deafening boom rings out, audible from up to 1 kilometer away. All creatures within 2 meters of the target take 4 sonic damage.
-Feature: Durable Eardrums - The Thunder Boar has resistance to sonic damage.
-Combat Action: 
-
-### Water Boar
-King: 
-CR: 
-Attitude: 
-Wisdom: 
-Cognition: 
-Agility: 
-Fortitude: 
-Fortitude Multiplier: 
-Strength: 
-Base Movement: 
-Soul: 
-Feature: Webbed Hooves - The Water Boar does not consider water to be *Difficult Terrain* and can use its **Charge** *Combat Action* while underwater.
-Combat Action: 
-
-### Brown Bear
-King: 
-CR: 
-Attitude: 
-Wisdom: 
-Cognition: 
-Agility: 
-Fortitude: 
-Fortitude Multiplier: 
-Strength: 
-Base Movement: 
-Soul: 
-Feature: 
-Combat Action: 
-
-### Grand Bear
-King: 
-CR: 
-Attitude: 
-Wisdom: 
-Cognition: 
-Agility: 
-Fortitude: 
-Fortitude Multiplier: 
-Strength: 
-Base Movement: 
-Soul: 
-Feature: 
-Combat Action: 
-
-### Grey Wolf
-King: 
-CR: 
-Attitude: 
-Wisdom: 
-Cognition: 
-Agility: 
-Fortitude: 
-Fortitude Multiplier: 
-Strength: 
-Base Movement: 
-Soul: 
-Feature: 
-Combat Action: 
-
-### Wind Wolf
-King: 
-CR: 
-Attitude: 
-Wisdom: 
-Cognition: 
-Agility: 
-Fortitude: 
-Fortitude Multiplier: 
-Strength: 
-Base Movement: 
-Soul: 
-Feature: 
-Combat Action: 
-
-### Turtleback Wolf
-King: 
-CR: 
-Attitude: 
-Wisdom: 
-Cognition: 
-Agility: 
-Fortitude: 
-Fortitude Multiplier: 
-Strength: 
-Base Movement: 
-Soul: 
-Feature: 
-Combat Action: 
-
-### Thunder Crown Wolf
-King: 
-CR: 
-Attitude: 
-Wisdom: 
-Cognition: 
-Agility: 
-Fortitude: 
-Fortitude Multiplier: 
-Strength: 
-Base Movement: 
-Soul: 
-Feature: 
-Combat Action: 
-
-### Thunder Crown Wolves
-King: 
-CR: 
-Attitude: 
-Wisdom: 
-Cognition: 
-Agility: 
-Fortitude: 
-Fortitude Multiplier: 
-Strength: 
-Base Movement: 
-Soul: 
-Feature: 
-Combat Action: 
-
-### Shark Fin Wolf
-King: 
-CR: 
-Attitude: 
-Wisdom: 
-Cognition: 
-Agility: 
-Fortitude: 
-Fortitude Multiplier: 
-Strength: 
-Base Movement: 
-Soul: 
-Feature: 
-Combat Action: 
-
-### Turtle Jade Wolf
-King: 
-CR: 
-Attitude: 
-Wisdom: 
-Cognition: 
-Agility: 
-Fortitude: 
-Fortitude Multiplier: 
-Strength: 
-Base Movement: 
-Soul: 
-Feature: 
-Combat Action: 
-
-### Sky Wolf
-King: 
-CR: 
-Attitude: 
-Wisdom: 
-Cognition: 
-Agility: 
-Fortitude: 
-Fortitude Multiplier: 
-Strength: 
-Base Movement: 
-Soul: 
-Feature: 
-Combat Action: 
-
-### Iron Crown Eagle
-King: 
-CR: 
-Attitude: 
-Wisdom: 
-Cognition: 
-Agility: 
-Fortitude: 
-Fortitude Multiplier: 
-Strength: 
-Base Movement: 
-Soul: 
-Feature: 
-Combat Action: 
-
-### Iron Eagle
-King: 
-CR: 
-Attitude: 
-Wisdom: 
-Cognition: 
-Agility: 
-Fortitude: 
-Fortitude Multiplier: 
-Strength: 
-Base Movement: 
-Soul: 
-Feature: 
-Combat Action: 
-
-### Iron Beak Flying Crane
-King: 
-CR: 
-Attitude: 
-Wisdom: 
-Cognition: 
-Agility: 
-Fortitude: 
-Fortitude Multiplier: 
-Strength: 
-Base Movement: 
-Soul: 
-Feature: 
-Combat Action: 
-
-### Ironbeak Flying Crane
-King: 
-CR: 
-Attitude: 
-Wisdom: 
-Cognition: 
-Agility: 
-Fortitude: 
-Fortitude Multiplier: 
-Strength: 
-Base Movement: 
-Soul: 
-Feature: 
-Combat Action: 
-
-### Winged Crane
-King: 
-CR: 
-Attitude: 
-Wisdom: 
-Cognition: 
-Agility: 
-Fortitude: 
-Fortitude Multiplier: 
-Strength: 
-Base Movement: 
-Soul: 
-Feature: 
-Combat Action: 
-
-### Immortal Crane
-King: 
-CR: 
-Attitude: 
-Wisdom: 
-Cognition: 
-Agility: 
-Fortitude: 
-Fortitude Multiplier: 
-Strength: 
-Base Movement: 
-Soul: 
-Feature: 
-Combat Action: 
-
-### Sky Crane
-King: 
-CR: 
-Attitude: 
-Wisdom: 
-Cognition: 
-Agility: 
-Fortitude: 
-Fortitude Multiplier: 
-Strength: 
-Base Movement: 
-Soul: 
-Feature: 
-Combat Action: 
-
-### Rock Mountain Immortal Monkey
-King: 
-CR: 
-Attitude: 
-Wisdom: 
-Cognition: 
-Agility: 
-Fortitude: 
-Fortitude Multiplier: 
-Strength: 
-Base Movement: 
-Soul: 
-Feature: 
-Combat Action: 
-
-### Icefall Divine Ape
-King: 
-CR: 
-Attitude: 
-Wisdom: 
-Cognition: 
-Agility: 
-Fortitude: 
-Fortitude Multiplier: 
-Strength: 
-Base Movement: 
-Soul: 
-Feature: 
-Combat Action: 
-
-### Fighting Star Desolate Hound
-King: 
-CR: 
-Attitude: 
-Wisdom: 
-Cognition: 
-Agility: 
-Fortitude: 
-Fortitude Multiplier: 
-Strength: 
-Base Movement: 
-Soul: 
-Feature: 
-Combat Action: 
-
-### Sky Tiger
-King: 
-CR: 
-Attitude: 
-Wisdom: 
-Cognition: 
-Agility: 
-Fortitude: 
-Fortitude Multiplier: 
-Strength: 
-Base Movement: 
-Soul: 
-Feature: 
-Combat Action:
+<!-- Features -->
+Feature: Weak Nose - The Lightning Wolf cannot make Awareness skill tests based on smell unless the smell is strong enough for an ordinary human to perceive.
+Feature:
+<!-- Combat Actions -->
+Action: Bite - Melee Attack, 1 meter. The Lightning Wolf bites a target. Make an attack roll; on a hit, deal [2 + 20% Str] force damage. If this damage is dealt to a creature’s hit points, it gains bleeding [1 + 5% Str].
+Action: Pounce - Melee Attack, 3 meters - The lightning wolf jumps to the closest unoccupied square that is adjacent to the target. The target and the lightning wolf make an opposed Athletics skill test. If the lightning wolf wins, the target is knocked prone and the Lightning Wolf can immediately make a single Bite attack for free against the target.
+<!-- Horde Rules -->
+Grade: Standard
+Upkeep: 1
+Primary Biomes:
+Secondary Biomes:
+<!-- Override -->
+Hundred: {}
+Thousand: {}
+Myriad: {}
+Emperor: {}
