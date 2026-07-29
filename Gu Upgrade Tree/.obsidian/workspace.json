@@ -13,15 +13,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "output.canvas",
+                "file": "Trees.canvas",
                 "viewState": {
-                  "x": 880.8098927274284,
-                  "y": 22824.730824301212,
-                  "zoom": -0.8833410703804944
+                  "x": 471.2791539894224,
+                  "y": 9309.331764574556,
+                  "zoom": -0.9999999999999996
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "output"
+              "title": "Trees"
             }
           }
         ]
@@ -189,6 +189,7 @@
   "active": "b91f59b0af1900e6",
   "lastOpenFiles": [
     "output.canvas",
+    "Trees.canvas",
     "Welcome.md"
   ]
 }

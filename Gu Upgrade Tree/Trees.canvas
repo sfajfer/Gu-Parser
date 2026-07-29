@@ -1,0 +1,3056 @@
+{
+  "nodes": [
+    {
+      "id": "gu_902ba3cda1883801",
+      "type": "text",
+      "text": "**Blood Fountain Gu**\nRank 2-4 Manifestation\n15 portions",
+      "x": 0,
+      "y": 0,
+      "width": 260,
+      "height": 90,
+      "color": "#3f8ae8"
+    },
+    {
+      "id": "gu_fe5dbbcea5ce7e29",
+      "type": "text",
+      "text": "**Blood Handprint Gu**\nRank 5 Manifestation\n60 portions",
+      "x": 320,
+      "y": 0,
+      "width": 260,
+      "height": 90,
+      "color": "#3f8ae8"
+    },
+    {
+      "id": "gu_9e6a55b6b4563e65",
+      "type": "text",
+      "text": "**Bloody Fabric Gu**\nRank 3 Container\n10 portions",
+      "x": 0,
+      "y": 140,
+      "width": 260,
+      "height": 90,
+      "color": "#8a8a8a"
+    },
+    {
+      "id": "gu_b3f0c7f6bb763af1",
+      "type": "text",
+      "text": "**Bloody Visage Gu**\nRank 4 Guard\n30 portions",
+      "x": 320,
+      "y": 140,
+      "width": 260,
+      "height": 90,
+      "color": "#08b7c4"
+    },
+    {
+      "id": "gu_91032ad7bbcb6cf7",
+      "type": "text",
+      "text": "**Bloodstained Robe Gu**\nRank 5 Guard\n8 portions",
+      "x": 640,
+      "y": 140,
+      "width": 260,
+      "height": 90,
+      "color": "#08b7c4"
+    },
+    {
+      "id": "gu_7719a1c782a1ba91",
+      "type": "text",
+      "text": "**Remnant Life Gu**\nRank 5 Tonic\n50 portions",
+      "x": 320,
+      "y": 280,
+      "width": 260,
+      "height": 90,
+      "color": "#08b94e"
+    },
+    {
+      "id": "gu_22d200f8670dbdb3",
+      "type": "text",
+      "text": "**Rising Dead Gu**\nRank 4 Tonic\n250 portions",
+      "x": 0,
+      "y": 280,
+      "width": 260,
+      "height": 90,
+      "color": "#08b94e"
+    },
+    {
+      "id": "gu_98fbc42faedc0249",
+      "type": "text",
+      "text": "**Invisible Cloak Gu**\nRank 3 Concealment\n50 portions",
+      "x": 320,
+      "y": 780,
+      "width": 260,
+      "height": 90,
+      "color": "#4a4a6a"
+    },
+    {
+      "id": "gu_64e095fe763fc624",
+      "type": "text",
+      "text": "**Moonshadow Gu**\nRank 4 Attack\n40 portions",
+      "x": 960,
+      "y": 920,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_e1822db470e60d09",
+      "type": "text",
+      "text": "**Second Shadow Gu**\nRank 1 Carver\n30 portions",
+      "x": 0,
+      "y": 640,
+      "width": 260,
+      "height": 90,
+      "color": "#c43f8a"
+    },
+    {
+      "id": "gu_80e28a51cbc26fa4",
+      "type": "text",
+      "text": "**Shadow Follower Gu**\nRank 2 Concealment\n6 portions",
+      "x": 0,
+      "y": 780,
+      "width": 260,
+      "height": 90,
+      "color": "#4a4a6a"
+    },
+    {
+      "id": "gu_5a5b0f9b7d3f8fc8",
+      "type": "text",
+      "text": "**Split Shadow Gu**\nRank 2-5 Manifestation\n15 portions",
+      "x": 320,
+      "y": 640,
+      "width": 260,
+      "height": 90,
+      "color": "#3f8ae8"
+    },
+    {
+      "id": "gu_c66c65175fecc310",
+      "type": "text",
+      "text": "**Stoneflesh Gu**\nRank 1 Guard\n5 portions",
+      "x": 0,
+      "y": 1560,
+      "width": 260,
+      "height": 90,
+      "color": "#08b7c4"
+    },
+    {
+      "id": "gu_2a459380709e2fe4",
+      "type": "text",
+      "text": "**Stoneskin Gu**\nRank 2 Guard\n16 portions",
+      "x": 320,
+      "y": 1560,
+      "width": 260,
+      "height": 90,
+      "color": "#08b7c4"
+    },
+    {
+      "id": "gu_4d89d294cd4ca9f2",
+      "type": "text",
+      "text": "**Meteor Smash Gu**\nRank 2 Attack\n10 portions",
+      "x": 320,
+      "y": 1420,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_b4c96d80854dd27e",
+      "type": "text",
+      "text": "**Mountain Pass Gu**\nRank 3 Guard\n70 portions",
+      "x": 640,
+      "y": 1560,
+      "width": 260,
+      "height": 90,
+      "color": "#08b7c4"
+    },
+    {
+      "id": "gu_a72b20062ec2c47a",
+      "type": "text",
+      "text": "**Diaoyu Fortress Gu**\nRank 4 Guard\n120 portions",
+      "x": 960,
+      "y": 1560,
+      "width": 260,
+      "height": 90,
+      "color": "#08b7c4"
+    },
+    {
+      "id": "gu_b7103ca278a75cad",
+      "type": "text",
+      "text": "**Granite Bones Gu**\nRank 3 Carver\n100 portions",
+      "x": 320,
+      "y": 1280,
+      "width": 260,
+      "height": 90,
+      "color": "#c43f8a"
+    },
+    {
+      "id": "gu_d02560dd9d7db446",
+      "type": "text",
+      "text": "**Granite Knuckle Cockroach Gu**\nRank 2 Carver\n100 portions",
+      "x": 0,
+      "y": 1280,
+      "width": 260,
+      "height": 90,
+      "color": "#c43f8a"
+    },
+    {
+      "id": "gu_450ddec8dd206c2e",
+      "type": "text",
+      "text": "**Quake Step Gu**\nRank 1 Attack\n5 portions",
+      "x": 0,
+      "y": 1420,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_524e05dc77239f3a",
+      "type": "text",
+      "text": "**Destruction Sphere Gu**\nRank 5 Attack\n120 portions",
+      "x": 640,
+      "y": 2340,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_a1422e6a168630cd",
+      "type": "text",
+      "text": "**Ember Armor Gu**\nRank 2-3 Guard\n20 portions",
+      "x": 640,
+      "y": 2480,
+      "width": 260,
+      "height": 90,
+      "color": "#08b7c4"
+    },
+    {
+      "id": "gu_5e796e48332af414",
+      "type": "text",
+      "text": "**Ember Butterfly Gu**\nRank 1 Attack\n16 portions",
+      "x": 0,
+      "y": 2060,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_601ca99d55f00a2e",
+      "type": "text",
+      "text": "**Fire Arrow Gu**\nRank 2 Attack\n70 portions",
+      "x": 640,
+      "y": 2200,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_d0e2dbb0bac1917d",
+      "type": "text",
+      "text": "**Fire Spark Gu**\nRank 1 Attack\n8 portions",
+      "x": 0,
+      "y": 2200,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_a2e33d344f272e10",
+      "type": "text",
+      "text": "**Fireball Gu**\nRank 2-3 Attack\n20 portions",
+      "x": 0,
+      "y": 2340,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_05a8ea5382b9fd88",
+      "type": "text",
+      "text": "**Charcoal Gu**\nRank 1 Manifestation\n1 portion",
+      "x": 0,
+      "y": 1920,
+      "width": 260,
+      "height": 90,
+      "color": "#3f8ae8"
+    },
+    {
+      "id": "gu_40bd001563085fc3",
+      "type": "text",
+      "text": "**Double Decker Stove Gu**\nRank 2 Attack\n10 portions",
+      "x": 320,
+      "y": 1920,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_f38cfe2e2facbcc7",
+      "type": "text",
+      "text": "**Three Door Fire Hut Gu**\nRank 3 Attack\n20 portions",
+      "x": 640,
+      "y": 1920,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_0ca9277f91e40054",
+      "type": "text",
+      "text": "**Four Door Fire Tower Gu**\nRank 4 Attack\n25 portions",
+      "x": 960,
+      "y": 1920,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_114d4eefde1dae39",
+      "type": "text",
+      "text": "**Five Door Fire Pagoda Gu**\nRank 5 Attack\n20 portions",
+      "x": 1280,
+      "y": 1920,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_8b7471f4ae0bf59f",
+      "type": "text",
+      "text": "**Flame Veil Gu**\nRank 1 Guard\n1 portion",
+      "x": 0,
+      "y": 2480,
+      "width": 260,
+      "height": 90,
+      "color": "#08b7c4"
+    },
+    {
+      "id": "gu_91dfde1d6e005e42",
+      "type": "text",
+      "text": "**Incendiary Explosion Gu**\nRank 4 Attack\n60 portions",
+      "x": 320,
+      "y": 2340,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_95e815d1541bf6f3",
+      "type": "text",
+      "text": "**Lightning Charged Potato Gu**\nRank 2 Attack\n5 portions",
+      "x": 0,
+      "y": 2760,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_40f7c01f41895100",
+      "type": "text",
+      "text": "**Lightning Charged Potato Mother Gu**\nRank 3 Manifestation\n60X",
+      "x": 320,
+      "y": 2760,
+      "width": 260,
+      "height": 90,
+      "color": "#3f8ae8"
+    },
+    {
+      "id": "gu_e1a864f0b77f6c89",
+      "type": "text",
+      "text": "**Smoldering Cloak Gu**\nRank 1 Guard\n14 portions",
+      "x": 0,
+      "y": 2900,
+      "width": 260,
+      "height": 90,
+      "color": "#08b7c4"
+    },
+    {
+      "id": "gu_c9ca442765657fc9",
+      "type": "text",
+      "text": "**Flaming Fist Gu**\nRank 1 Catalyst\n5 portions",
+      "x": 0,
+      "y": 2620,
+      "width": 260,
+      "height": 90,
+      "color": "#e8973f"
+    },
+    {
+      "id": "gu_2a2b47bf21a372f2",
+      "type": "text",
+      "text": "**Coiled Flame Snake Gu**\nRank 2 Attack\n20 portions",
+      "x": 320,
+      "y": 2620,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_f47aea8bdcbd1179",
+      "type": "text",
+      "text": "**Springing Dragon Gu**\nRank 3 Attack\n20 portions",
+      "x": 640,
+      "y": 2620,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_7320828c9153b2a9",
+      "type": "text",
+      "text": "**Vengeful Sun Gu**\nRank 4 Attack\n40 portions",
+      "x": 960,
+      "y": 2620,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_bcf814ab41506290",
+      "type": "text",
+      "text": "**Blue Ice Skin Gu**\nRank 1 Carver\n15 portions",
+      "x": 0,
+      "y": 3260,
+      "width": 260,
+      "height": 90,
+      "color": "#c43f8a"
+    },
+    {
+      "id": "gu_f67462663a512121",
+      "type": "text",
+      "text": "**Cold Lungs Gu**\nRank 2 Carver\n100 portions",
+      "x": 320,
+      "y": 3260,
+      "width": 260,
+      "height": 90,
+      "color": "#c43f8a"
+    },
+    {
+      "id": "gu_e54183e2a040e6c0",
+      "type": "text",
+      "text": "**Frozen Maw Gu**\nRank 4 Carver\n100 portions",
+      "x": 960,
+      "y": 3400,
+      "width": 260,
+      "height": 90,
+      "color": "#c43f8a"
+    },
+    {
+      "id": "gu_3a2dc677d8e85ac8",
+      "type": "text",
+      "text": "**Heat Sap Gu**\nRank 3 Attack\n10 portions",
+      "x": 320,
+      "y": 3540,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_2fcc820fc1d95b1e",
+      "type": "text",
+      "text": "**Heat Transference Gu**\nRank 2 Attack\n12 portions",
+      "x": 0,
+      "y": 3540,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_752ae7bdbb96bf25",
+      "type": "text",
+      "text": "**Ice Muscles Gu**\nRank 3 Carver\n100 portions",
+      "x": 640,
+      "y": 3400,
+      "width": 260,
+      "height": 90,
+      "color": "#c43f8a"
+    },
+    {
+      "id": "gu_4dea1daedbe9dc1d",
+      "type": "text",
+      "text": "**Ice Tendons Gu**\nRank 2 Carver\n100 portions",
+      "x": 320,
+      "y": 3400,
+      "width": 260,
+      "height": 90,
+      "color": "#c43f8a"
+    },
+    {
+      "id": "gu_61188f24396807ba",
+      "type": "text",
+      "text": "**Icicle Gu**\nRank 1 Attack\n15 portions",
+      "x": 0,
+      "y": 3820,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_c837307a9a2ad4d0",
+      "type": "text",
+      "text": "**Spiral Icicle Gu**\nRank 2 Attack\n10 portions",
+      "x": 320,
+      "y": 3820,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_2952aeca0fe15cf3",
+      "type": "text",
+      "text": "**Spiral Ice Spear Gu**\nRank 3 Attack\n10 portions",
+      "x": 640,
+      "y": 3680,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_9f9af029585ba014",
+      "type": "text",
+      "text": "**Spiral Ice Lance Gu**\nRank 4 Attack\n15 portions",
+      "x": 960,
+      "y": 3680,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_7f03f3f2febc46f3",
+      "type": "text",
+      "text": "**Spiral Icicle Swarm Gu**\nRank 3 Attack\n10 portions",
+      "x": 640,
+      "y": 3820,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_1e7b95c5614637fd",
+      "type": "text",
+      "text": "**Spiral Icicle Storm Gu**\nRank 4 Attack\n10 portions",
+      "x": 960,
+      "y": 3820,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_19187dc98dce52fa",
+      "type": "text",
+      "text": "**Digital Shade Gu**\nRank 2 Manifestation\n4 portions",
+      "x": 0,
+      "y": 4180,
+      "width": 260,
+      "height": 90,
+      "color": "#3f8ae8"
+    },
+    {
+      "id": "gu_c0ba17c23a26ff8c",
+      "type": "text",
+      "text": "**Photo-audio Gu**\nRank 3 Manifestation\n2 portions",
+      "x": 320,
+      "y": 4180,
+      "width": 260,
+      "height": 90,
+      "color": "#3f8ae8"
+    },
+    {
+      "id": "gu_cfe21c6800c88f06",
+      "type": "text",
+      "text": "**Anonymous Aphid Gu**\nRank 3 Concealment\n8 portions",
+      "x": 320,
+      "y": 6080,
+      "width": 260,
+      "height": 90,
+      "color": "#4a4a6a"
+    },
+    {
+      "id": "gu_4f0f5c96ca8457cc",
+      "type": "text",
+      "text": "**Cleansing Light Gu**\nRank 1-5 Tonic\n120 portions",
+      "x": 0,
+      "y": 4540,
+      "width": 260,
+      "height": 90,
+      "color": "#08b94e"
+    },
+    {
+      "id": "gu_0ec09ef9836da03f",
+      "type": "text",
+      "text": "**Dazzling Lights Gu**\nRank 2-3 Manifestation\n12 portions",
+      "x": 320,
+      "y": 4820,
+      "width": 260,
+      "height": 90,
+      "color": "#3f8ae8"
+    },
+    {
+      "id": "gu_0b7f5ada6bdd5e48",
+      "type": "text",
+      "text": "**Deafening Flash Gu**\nRank 2 Attack\n30 portions",
+      "x": 320,
+      "y": 4680,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_5d23e965603269f7",
+      "type": "text",
+      "text": "**Flash Blink Gu**\nRank 1 Attack\n2 portions",
+      "x": 0,
+      "y": 4680,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_851cd04fbcac9538",
+      "type": "text",
+      "text": "**Little Light Gu**\nRank 1 Manifestation\n1 portion",
+      "x": 0,
+      "y": 4820,
+      "width": 260,
+      "height": 90,
+      "color": "#3f8ae8"
+    },
+    {
+      "id": "gu_4af7f9edc0f545f4",
+      "type": "text",
+      "text": "**Moonlight Gu**\nRank 1 Attack\n6 portions",
+      "x": 0,
+      "y": 5380,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_01592d51db5afd01",
+      "type": "text",
+      "text": "**Moonglow Gu**\nRank 2 Attack\n20 portions",
+      "x": 320,
+      "y": 5380,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_3aed9b0313f92261",
+      "type": "text",
+      "text": "**Golden Moon Gu**\nRank 3 Attack\n20 portions",
+      "x": 640,
+      "y": 5240,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_3464dc11507c600b",
+      "type": "text",
+      "text": "**Moon Harbinger Gu**\nRank 2 Carver\n100 portions",
+      "x": 320,
+      "y": 4960,
+      "width": 260,
+      "height": 90,
+      "color": "#c43f8a"
+    },
+    {
+      "id": "gu_b4ef7df17d3dc747",
+      "type": "text",
+      "text": "**Moonscar Gu**\nRank 2 Attack\n2 portions",
+      "x": 320,
+      "y": 5520,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_ca3799b8ff860c55",
+      "type": "text",
+      "text": "**Blood Moon Gu**\nRank 3 Attack\n8 portions",
+      "x": 960,
+      "y": 5380,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_ee44c6bcc4e0dfae",
+      "type": "text",
+      "text": "**Frost Moon Gu**\nRank 3 Attack\n14 portions",
+      "x": 640,
+      "y": 5520,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_ba30fd97b4127db5",
+      "type": "text",
+      "text": "**Moonwhirl Gu**\nRank 2 Attack\n8 portions",
+      "x": 320,
+      "y": 5800,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_d6e3de36b09baee2",
+      "type": "text",
+      "text": "**Illusory Moon Gu**\nRank 3 Manifestation\n12 portions",
+      "x": 640,
+      "y": 5800,
+      "width": 260,
+      "height": 90,
+      "color": "#3f8ae8"
+    },
+    {
+      "id": "gu_98fcc378d7f5adda",
+      "type": "text",
+      "text": "**Moon Raiment Gu**\nRank 2 Guard\n20 portions",
+      "x": 320,
+      "y": 5100,
+      "width": 260,
+      "height": 90,
+      "color": "#08b7c4"
+    },
+    {
+      "id": "gu_4c15dc21c91634c1",
+      "type": "text",
+      "text": "**Moon Blessing Gu**\nRank 3 Guard\n30 portions",
+      "x": 640,
+      "y": 5100,
+      "width": 260,
+      "height": 90,
+      "color": "#08b7c4"
+    },
+    {
+      "id": "gu_c9f13c16144065a9",
+      "type": "text",
+      "text": "**Moonveil Gu**\nRank 2-3 Concealment\n3 portions",
+      "x": 320,
+      "y": 5660,
+      "width": 260,
+      "height": 90,
+      "color": "#4a4a6a"
+    },
+    {
+      "id": "gu_3028f51407d83338",
+      "type": "text",
+      "text": "**One-stretch Golden Light Gu**\nRank 1 Guard\n2 portions",
+      "x": 0,
+      "y": 5940,
+      "width": 260,
+      "height": 90,
+      "color": "#08b7c4"
+    },
+    {
+      "id": "gu_982fd8b711279888",
+      "type": "text",
+      "text": "**Shimmer Gu**\nRank 2 Concealment\n3 portions",
+      "x": 0,
+      "y": 6080,
+      "width": 260,
+      "height": 90,
+      "color": "#4a4a6a"
+    },
+    {
+      "id": "gu_1106a1dda2d68043",
+      "type": "text",
+      "text": "**Two-stretch Golden Light Gu**\nRank 2 Guard\n2 portions",
+      "x": 320,
+      "y": 5940,
+      "width": 260,
+      "height": 90,
+      "color": "#08b7c4"
+    },
+    {
+      "id": "gu_25250e46745c8169",
+      "type": "text",
+      "text": "**Arcing Touch Gu**\nRank 3 Carver\n100 portions",
+      "x": 320,
+      "y": 7140,
+      "width": 260,
+      "height": 90,
+      "color": "#c43f8a"
+    },
+    {
+      "id": "gu_9a61b86ecef7f4f8",
+      "type": "text",
+      "text": "**Chain Lightning Gu**\nRank 3 Attack\n70 portions",
+      "x": 320,
+      "y": 7000,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_eb94d5c2be91b5d6",
+      "type": "text",
+      "text": "**Hair Trigger Gu**\nRank 2 Carver\n100 portions",
+      "x": 0,
+      "y": 6440,
+      "width": 260,
+      "height": 90,
+      "color": "#c43f8a"
+    },
+    {
+      "id": "gu_733b57ae9e45bae7",
+      "type": "text",
+      "text": "**Jolt Gu**\nRank 1 Attack\n10 portions",
+      "x": 0,
+      "y": 6720,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_6d363479c97439b9",
+      "type": "text",
+      "text": "**Lightning Arrow Gu**\nRank 2-4 Attack\n20 portions",
+      "x": 320,
+      "y": 6580,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_d8502b7d77486154",
+      "type": "text",
+      "text": "**Lightning Spear Gu**\nRank 2-4 Attack\n15 portions",
+      "x": 320,
+      "y": 6720,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_267b976f6f335984",
+      "type": "text",
+      "text": "**Thunderwings Gu**\nRank 3 Celerity\n30 portions",
+      "x": 320,
+      "y": 6860,
+      "width": 260,
+      "height": 90,
+      "color": "#e0c43e"
+    },
+    {
+      "id": "gu_3032a4beba0cc85b",
+      "type": "text",
+      "text": "**Rumbling Thunder Gu**\nRank 2 Celerity\n5 portions",
+      "x": 0,
+      "y": 6860,
+      "width": 260,
+      "height": 90,
+      "color": "#e0c43e"
+    },
+    {
+      "id": "gu_7f35419a058e19d2",
+      "type": "text",
+      "text": "**Self Strike Gu**\nRank 2 Attack\n20 portions",
+      "x": 0,
+      "y": 7000,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_7edab1f00ca6b31e",
+      "type": "text",
+      "text": "**Static Touch Gu**\nRank 1-2 Carver\n100 portions",
+      "x": 0,
+      "y": 7140,
+      "width": 260,
+      "height": 90,
+      "color": "#c43f8a"
+    },
+    {
+      "id": "gu_b70706fdb0027063",
+      "type": "text",
+      "text": "**Superconductor Gu**\nRank 3 Carver\n100 portions",
+      "x": 320,
+      "y": 6440,
+      "width": 260,
+      "height": 90,
+      "color": "#c43f8a"
+    },
+    {
+      "id": "gu_3a085d1bc5fa4131",
+      "type": "text",
+      "text": "**44 False Yin Gu**\nRank 4 Attack\n44 portions",
+      "x": 320,
+      "y": 7500,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_a02b857f2eff73e8",
+      "type": "text",
+      "text": "**88 True Yang Gu**\nRank 3 Catalyst\n8 portions",
+      "x": 0,
+      "y": 7500,
+      "width": 260,
+      "height": 90,
+      "color": "#e8973f"
+    },
+    {
+      "id": "gu_af53d4aa0b9131f1",
+      "type": "text",
+      "text": "**Beast Maddening Bullet Gu**\nRank 2 Attack\n3 portions",
+      "x": 320,
+      "y": 7860,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_cd6d91089c7e219a",
+      "type": "text",
+      "text": "**Beast Tag Bullet Gu**\nRank 2 Attack\n5 portions",
+      "x": 320,
+      "y": 8000,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_97b31c942deab391",
+      "type": "text",
+      "text": "**Bullet Gu**\nRank 1 Attack\n10 portions",
+      "x": 0,
+      "y": 8000,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_6e21fce62b88ee82",
+      "type": "text",
+      "text": "**Copper Tendons Gu**\nRank 1 Carver\n20 portions",
+      "x": 0,
+      "y": 8280,
+      "width": 260,
+      "height": 90,
+      "color": "#c43f8a"
+    },
+    {
+      "id": "gu_f6b9b6ccd0440bc4",
+      "type": "text",
+      "text": "**Steel Spring Tendons Gu**\nRank 2 Carve\n100 portions",
+      "x": 320,
+      "y": 8280,
+      "width": 260,
+      "height": 90,
+      "color": ""
+    },
+    {
+      "id": "gu_a84c9aa070f9d126",
+      "type": "text",
+      "text": "**Golden Bell Gu**\nRank 1 Guard\n25 portions",
+      "x": 0,
+      "y": 8420,
+      "width": 260,
+      "height": 90,
+      "color": "#08b7c4"
+    },
+    {
+      "id": "gu_5f6955d227a320c7",
+      "type": "text",
+      "text": "**Golden Needle Gu**\nRank 2 Attack\n25 portions",
+      "x": 320,
+      "y": 8700,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_914127d1002e9938",
+      "type": "text",
+      "text": "**Ironfist Grappling Gu**\nRank 3-5 Attack\n15 portions",
+      "x": 320,
+      "y": 8560,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_4551b2d552b07957",
+      "type": "text",
+      "text": "**Iron Hand Gu**\nRank 2 Manifestation\n3 portions",
+      "x": 0,
+      "y": 8560,
+      "width": 260,
+      "height": 90,
+      "color": "#3f8ae8"
+    },
+    {
+      "id": "gu_5547f6312291149b",
+      "type": "text",
+      "text": "**Iron Needle Gu**\nRank 1 Attack\n15 portions",
+      "x": 0,
+      "y": 8700,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_a609bb8ab05a0d13",
+      "type": "text",
+      "text": "**Magnet Fingers Gu**\nRank 1 Manifestation\n8 portions",
+      "x": 0,
+      "y": 8840,
+      "width": 260,
+      "height": 90,
+      "color": "#3f8ae8"
+    },
+    {
+      "id": "gu_43814346e21444aa",
+      "type": "text",
+      "text": "**Ricochet Gu**\nRank 2 Guard\n8 portions",
+      "x": 320,
+      "y": 8420,
+      "width": 260,
+      "height": 90,
+      "color": "#08b7c4"
+    },
+    {
+      "id": "gu_fffb8e85796e61b7",
+      "type": "text",
+      "text": "**Shape Metal Gu**\nRank 2-3 Catalyst\n30 portions",
+      "x": 320,
+      "y": 8840,
+      "width": 260,
+      "height": 90,
+      "color": "#e8973f"
+    },
+    {
+      "id": "gu_4728a26498a7441a",
+      "type": "text",
+      "text": "**Silver Bullet Gu**\nRank 2 Attack\n20 portions",
+      "x": 320,
+      "y": 8140,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_9c882d5c6a1aa240",
+      "type": "text",
+      "text": "**Silver Lining Gu**\nRank 1 Tonic\n5 portions",
+      "x": 0,
+      "y": 8980,
+      "width": 260,
+      "height": 90,
+      "color": "#08b94e"
+    },
+    {
+      "id": "gu_0588f59014485510",
+      "type": "text",
+      "text": "**Quicksilver Lining Gu**\nRank 2 Tonic\n5 portions",
+      "x": 320,
+      "y": 8980,
+      "width": 260,
+      "height": 90,
+      "color": "#08b94e"
+    },
+    {
+      "id": "gu_01ec40215edd21ed",
+      "type": "text",
+      "text": "**Steel Lining Gu**\nRank 2 Tonic\n5 portions",
+      "x": 320,
+      "y": 9120,
+      "width": 260,
+      "height": 90,
+      "color": "#08b94e"
+    },
+    {
+      "id": "gu_b6e2efd8ffb991dd",
+      "type": "text",
+      "text": "**Millimeter Gu**\nRank 2 Catalyst\n5 portions",
+      "x": 0,
+      "y": 9480,
+      "width": 260,
+      "height": 90,
+      "color": "#e8973f"
+    },
+    {
+      "id": "gu_be4d979ef9808e41",
+      "type": "text",
+      "text": "**Meter Gu**\nRank 3 Catalyst\n5 portions",
+      "x": 320,
+      "y": 9480,
+      "width": 260,
+      "height": 90,
+      "color": "#e8973f"
+    },
+    {
+      "id": "gu_c829eb96cef056a9",
+      "type": "text",
+      "text": "**Ten Meter Gu**\nRank 4 Catalyst\n25 portions",
+      "x": 640,
+      "y": 9480,
+      "width": 260,
+      "height": 90,
+      "color": "#e8973f"
+    },
+    {
+      "id": "gu_c30749cf5bc74c7c",
+      "type": "text",
+      "text": "**Hundred Meter Gu**\nRank 5 Catalyst\n60 portions",
+      "x": 960,
+      "y": 9480,
+      "width": 260,
+      "height": 90,
+      "color": "#e8973f"
+    },
+    {
+      "id": "gu_f7e19157e9c4e0b9",
+      "type": "text",
+      "text": "**Small Gu**\nRank 2 Catalyst\n4 portions",
+      "x": 0,
+      "y": 9620,
+      "width": 260,
+      "height": 90,
+      "color": "#e8973f"
+    },
+    {
+      "id": "gu_11307768e6d77951",
+      "type": "text",
+      "text": "**Tiny Gu**\nRank 3-5 Catalyst\n8 portions",
+      "x": 320,
+      "y": 9620,
+      "width": 260,
+      "height": 90,
+      "color": "#e8973f"
+    },
+    {
+      "id": "gu_86cf294a07a8aa25",
+      "type": "text",
+      "text": "**Ghost Fire Gu**\nRank 2 Attack\n15 portions",
+      "x": 0,
+      "y": 9980,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_b202977c0fc07e1c",
+      "type": "text",
+      "text": "**Soul Language Gu**\nRank 2 Divination\n10 portions",
+      "x": 0,
+      "y": 10260,
+      "width": 260,
+      "height": 90,
+      "color": "#7852ee"
+    },
+    {
+      "id": "gu_e6de89674d9f1d79",
+      "type": "text",
+      "text": "**Soul Lantern Gu**\nRank 3 Divination\n100 portions",
+      "x": 320,
+      "y": 10120,
+      "width": 260,
+      "height": 90,
+      "color": "#7852ee"
+    },
+    {
+      "id": "gu_beba4d5d3ffb8fac",
+      "type": "text",
+      "text": "**Soul Search Gu**\nRank 3-5 Divination\nA number of portions equal to the target's current soul.",
+      "x": 320,
+      "y": 10260,
+      "width": 260,
+      "height": 90,
+      "color": "#7852ee"
+    },
+    {
+      "id": "gu_3352d0d8278c176f",
+      "type": "text",
+      "text": "**Soul Sense Gu**\nRank 3 Divination\n2 portions",
+      "x": 320,
+      "y": 10400,
+      "width": 260,
+      "height": 90,
+      "color": "#7852ee"
+    },
+    {
+      "id": "gu_4396c2d023b9d985",
+      "type": "text",
+      "text": "**Wicked Kiss Gu**\nRank 3 Attack\n80 portions",
+      "x": 320,
+      "y": 9980,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_2aed8cef33a640e5",
+      "type": "text",
+      "text": "**Formless Space Gu**\nRank 1-4 Container\nNone",
+      "x": 0,
+      "y": 10760,
+      "width": 260,
+      "height": 90,
+      "color": "#8a8a8a"
+    },
+    {
+      "id": "gu_75988f5ac0575a8d",
+      "type": "text",
+      "text": "**Moving Perspective Cup Gu**\nRank 5 Container\n20 portions",
+      "x": 320,
+      "y": 10760,
+      "width": 260,
+      "height": 90,
+      "color": "#8a8a8a"
+    },
+    {
+      "id": "gu_3af0af21718ad757",
+      "type": "text",
+      "text": "**Big Strength Gu**\nRank 2 Catalyst\n25 portions",
+      "x": 320,
+      "y": 11120,
+      "width": 260,
+      "height": 90,
+      "color": "#e8973f"
+    },
+    {
+      "id": "gu_14019988a92023b2",
+      "type": "text",
+      "text": "**Brute Force Longhorn Beetle Gu**\nRank 1 Catalyst\n30 portions",
+      "x": 0,
+      "y": 11120,
+      "width": 260,
+      "height": 90,
+      "color": "#e8973f"
+    },
+    {
+      "id": "gu_1625434cebb5e5c4",
+      "type": "text",
+      "text": "**Cut Gu**\nRank 1 Attack\n10 portions",
+      "x": 0,
+      "y": 11480,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_6e75d23a0574afce",
+      "type": "text",
+      "text": "**Slash Gu**\nRank 2 Attack\n10 portions",
+      "x": 320,
+      "y": 11480,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_38c07d9eb6f585cb",
+      "type": "text",
+      "text": "**Rend Gu**\nRank 3 Attack\n10 portions",
+      "x": 640,
+      "y": 11480,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_8665243ef242a2b1",
+      "type": "text",
+      "text": "**Split Hill Gu**\nRank 4 Attack\n20 portions",
+      "x": 960,
+      "y": 11480,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_fbea31c7083ef34d",
+      "type": "text",
+      "text": "**Split Mountain Gu**\nRank 5 Attack\n40 portions",
+      "x": 1280,
+      "y": 11480,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_9ee0df7c8a647ff4",
+      "type": "text",
+      "text": "**Drain Heat Gu**\nRank 1 Catalyst\n6 portions",
+      "x": 0,
+      "y": 11840,
+      "width": 260,
+      "height": 90,
+      "color": "#e8973f"
+    },
+    {
+      "id": "gu_329a970dfa7f977b",
+      "type": "text",
+      "text": "**Drain Life Gu**\nRank 2 Attack\n6 portions",
+      "x": 320,
+      "y": 11840,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_3b69df951b3d4c18",
+      "type": "text",
+      "text": "**Drain Vitality Gu**\nRank 2 Attack\n40 portions",
+      "x": 320,
+      "y": 11980,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_ee16ee0fa7f21a41",
+      "type": "text",
+      "text": "**Icefang Bat Gu**\nRank 3 Attack\n15 portions",
+      "x": 960,
+      "y": 11840,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_1b0a69d74c5ab68f",
+      "type": "text",
+      "text": "**Invade Aperture Gu**\nRank 4 Divination\n40 portions",
+      "x": 320,
+      "y": 12120,
+      "width": 260,
+      "height": 90,
+      "color": "#7852ee"
+    },
+    {
+      "id": "gu_f1e75747bc4c6d0b",
+      "type": "text",
+      "text": "**Size Up Gu**\nRank 3 Divination\n8 portions",
+      "x": 0,
+      "y": 12120,
+      "width": 260,
+      "height": 90,
+      "color": "#7852ee"
+    },
+    {
+      "id": "gu_edd6ebda641b723c",
+      "type": "text",
+      "text": "**Steal Touch Gu**\nRank 1 Tonic\n5 portions",
+      "x": 0,
+      "y": 12400,
+      "width": 260,
+      "height": 90,
+      "color": "#08b94e"
+    },
+    {
+      "id": "gu_f83a383c0fa81f29",
+      "type": "text",
+      "text": "**Steal Hearing Gu**\nRank 2 Attack\n10 portions",
+      "x": 320,
+      "y": 12260,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_2c9a62c3748f4846",
+      "type": "text",
+      "text": "**Steal Sight Gu**\nRank 2 Attack\n25 portions",
+      "x": 320,
+      "y": 12400,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_2f9f705a38307c47",
+      "type": "text",
+      "text": "**Steal Sense Gu**\nRank 3 Attack\n15 portions",
+      "x": 960,
+      "y": 12260,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_e408d89ae85c9a0b",
+      "type": "text",
+      "text": "**Acceleration Fruit Gu**\nRank 2 Catalyst\nNone",
+      "x": 0,
+      "y": 12760,
+      "width": 260,
+      "height": 90,
+      "color": "#e8973f"
+    },
+    {
+      "id": "gu_b7f5113f83376fc4",
+      "type": "text",
+      "text": "**Gu as Before Gu**\nRank 4-5 Tonic\n40 portions",
+      "x": 0,
+      "y": 13040,
+      "width": 260,
+      "height": 90,
+      "color": "#08b94e"
+    },
+    {
+      "id": "gu_ce09b127d48f8386",
+      "type": "text",
+      "text": "**Man as Before Gu**\nRank 5 Tonic\n90 portions",
+      "x": 320,
+      "y": 12900,
+      "width": 260,
+      "height": 90,
+      "color": "#08b94e"
+    },
+    {
+      "id": "gu_10d293a95915109e",
+      "type": "text",
+      "text": "**Mountain as Before Gu**\nRank 5 Tonic\n220 portions",
+      "x": 320,
+      "y": 13040,
+      "width": 260,
+      "height": 90,
+      "color": "#08b94e"
+    },
+    {
+      "id": "gu_f5b68d74621aa361",
+      "type": "text",
+      "text": "**River as Before Gu**\nRank 5 Tonic\n150 portions",
+      "x": 320,
+      "y": 13180,
+      "width": 260,
+      "height": 90,
+      "color": "#08b94e"
+    },
+    {
+      "id": "gu_142e9ae35ca00044",
+      "type": "text",
+      "text": "**Self Acceleration Gu**\nRank 3 Catalyst\n25 portions",
+      "x": 320,
+      "y": 12760,
+      "width": 260,
+      "height": 90,
+      "color": "#e8973f"
+    },
+    {
+      "id": "gu_3cc5149977a9d4be",
+      "type": "text",
+      "text": "**Lava Crocodile Cannon Gu**\nRank 2 Attack\n25 portions",
+      "x": 640,
+      "y": 13680,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_a8a2b30f8dba82d6",
+      "type": "text",
+      "text": "**Lava Crocodile Jaw Gu**\nRank 1 Attack\n6 portions",
+      "x": 0,
+      "y": 13540,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_acf10f2c0a9d0034",
+      "type": "text",
+      "text": "**Lava Crocodile Scales Gu**\nRank 2 Guard\n10 portions",
+      "x": 640,
+      "y": 13540,
+      "width": 260,
+      "height": 90,
+      "color": "#08b7c4"
+    },
+    {
+      "id": "gu_d06b6c54863ac33d",
+      "type": "text",
+      "text": "**Lava Crocodile Tail Gu**\nRank 1 Celerity\n2 portions",
+      "x": 0,
+      "y": 13680,
+      "width": 260,
+      "height": 90,
+      "color": "#e0c43e"
+    },
+    {
+      "id": "gu_9741f79aca77af5b",
+      "type": "text",
+      "text": "**Roaming Zombie Gu**\nRank 2 Carver\n10 portions",
+      "x": 0,
+      "y": 14100,
+      "width": 260,
+      "height": 90,
+      "color": "#c43f8a"
+    },
+    {
+      "id": "gu_461742bbd8cc55ac",
+      "type": "text",
+      "text": "**Hairy Zombie Gu**\nRank 3 Carver\n10 portions",
+      "x": 320,
+      "y": 14100,
+      "width": 260,
+      "height": 90,
+      "color": "#c43f8a"
+    },
+    {
+      "id": "gu_3219b5be78da72e8",
+      "type": "text",
+      "text": "**Hopping Zombie Gu**\nRank 4 Carver\n10 portions",
+      "x": 640,
+      "y": 14100,
+      "width": 260,
+      "height": 90,
+      "color": "#c43f8a"
+    },
+    {
+      "id": "gu_916f5b10fee9db4c",
+      "type": "text",
+      "text": "**Asura Zombie Gu**\nRank 5 Carver\n15 portions",
+      "x": 1280,
+      "y": 14240,
+      "width": 260,
+      "height": 90,
+      "color": "#c43f8a"
+    },
+    {
+      "id": "gu_2ef28d314a746794",
+      "type": "text",
+      "text": "**Blood Wight Zombie Gu**\nRank 5 Carver\n10 portions",
+      "x": 960,
+      "y": 13820,
+      "width": 260,
+      "height": 90,
+      "color": "#c43f8a"
+    },
+    {
+      "id": "gu_cf94db48fb7aa4da",
+      "type": "text",
+      "text": "**Earth Chief Zombie Gu**\nRank 5 Carver\n10 portions",
+      "x": 960,
+      "y": 13960,
+      "width": 260,
+      "height": 90,
+      "color": "#c43f8a"
+    },
+    {
+      "id": "gu_a4c36ded9dbf60a5",
+      "type": "text",
+      "text": "**Heavenly Demon Zombie Gu**\nRank 5 Carver\n20 portions",
+      "x": 960,
+      "y": 14100,
+      "width": 260,
+      "height": 90,
+      "color": "#c43f8a"
+    },
+    {
+      "id": "gu_f53eac2e4221f179",
+      "type": "text",
+      "text": "**Nightmare Zombie Gu**\nRank 5 Carver\n15 portions",
+      "x": 960,
+      "y": 14380,
+      "width": 260,
+      "height": 90,
+      "color": "#c43f8a"
+    },
+    {
+      "id": "gu_53e56691fe7c8271",
+      "type": "text",
+      "text": "**Plague Zombie Gu**\nRank 5 Carver\n10 portions",
+      "x": 960,
+      "y": 14520,
+      "width": 260,
+      "height": 90,
+      "color": "#c43f8a"
+    },
+    {
+      "id": "gu_cfa1150f17871867",
+      "type": "text",
+      "text": "**Wind Scythe Bird Plumes Gu**\nRank 2 Guard\n3 portions",
+      "x": 0,
+      "y": 14660,
+      "width": 260,
+      "height": 90,
+      "color": "#08b7c4"
+    },
+    {
+      "id": "gu_170377543ef02d80",
+      "type": "text",
+      "text": "**Wind Scythe Bird Wings Gu**\nRank 3 Celerity\n22 portions",
+      "x": 320,
+      "y": 14660,
+      "width": 260,
+      "height": 90,
+      "color": "#e0c43e"
+    },
+    {
+      "id": "gu_84582c1dbe026475",
+      "type": "text",
+      "text": "**Drowning Sensation Gu**\nRank 2 Attack\n15 portions",
+      "x": 0,
+      "y": 15020,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_e77a763321d6cf82",
+      "type": "text",
+      "text": "**Water Blood Gu**\nRank 3 Carver\n100 portions",
+      "x": 320,
+      "y": 15580,
+      "width": 260,
+      "height": 90,
+      "color": "#c43f8a"
+    },
+    {
+      "id": "gu_4260e7eabc193825",
+      "type": "text",
+      "text": "**Drown Gu**\nRank 3 Attack\n75 portions",
+      "x": 320,
+      "y": 15020,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_2bfba6b3b2af0ccf",
+      "type": "text",
+      "text": "**Faucet Gu**\nRank 1 Manifestation\n4 portions",
+      "x": 0,
+      "y": 15160,
+      "width": 260,
+      "height": 90,
+      "color": "#3f8ae8"
+    },
+    {
+      "id": "gu_7ee08d3afb3a2ef0",
+      "type": "text",
+      "text": "**Fish Scales Gu**\nRank 1-3 Guard\n10 portions",
+      "x": 0,
+      "y": 15300,
+      "width": 260,
+      "height": 90,
+      "color": "#08b7c4"
+    },
+    {
+      "id": "gu_f33f7ae89c2c6ab8",
+      "type": "text",
+      "text": "**Flow Gu**\nRank 2 Celerity\n3 portions",
+      "x": 0,
+      "y": 15440,
+      "width": 260,
+      "height": 90,
+      "color": "#e0c43e"
+    },
+    {
+      "id": "gu_05a53e3696e2a6dd",
+      "type": "text",
+      "text": "**Hose Gu**\nRank 2 Manifestation\n12 portions",
+      "x": 320,
+      "y": 15160,
+      "width": 260,
+      "height": 90,
+      "color": "#3f8ae8"
+    },
+    {
+      "id": "gu_e77f8d53c6dfa1c3",
+      "type": "text",
+      "text": "**Liquid Flesh Gu**\nRank 2 Carver\n100 portions",
+      "x": 0,
+      "y": 15580,
+      "width": 260,
+      "height": 90,
+      "color": "#c43f8a"
+    },
+    {
+      "id": "gu_7a9ca14dcab2ffdc",
+      "type": "text",
+      "text": "**Pressure Cutter Gu**\nRank 2-3 Attack\n12 portions",
+      "x": 0,
+      "y": 15720,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_3db2991a3bd1f2ca",
+      "type": "text",
+      "text": "**Sandblaster Gu**\nRank 4 Attack\n20 portions",
+      "x": 320,
+      "y": 15720,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_867cd58f3fe35290",
+      "type": "text",
+      "text": "**Water Trace Gu**\nRank 3 Celerity\n4 portions",
+      "x": 320,
+      "y": 15440,
+      "width": 260,
+      "height": 90,
+      "color": "#e0c43e"
+    },
+    {
+      "id": "gu_efa260adfcac648a",
+      "type": "text",
+      "text": "**Air Resistance Gu**\nRank 2 Catalyst\n4 portions",
+      "x": 320,
+      "y": 16080,
+      "width": 260,
+      "height": 90,
+      "color": "#e8973f"
+    },
+    {
+      "id": "gu_620807a1bbd690fc",
+      "type": "text",
+      "text": "**Feather Step Gu**\nRank 1 Celerity\n8 portions",
+      "x": 0,
+      "y": 16080,
+      "width": 260,
+      "height": 90,
+      "color": "#e0c43e"
+    },
+    {
+      "id": "gu_ad1bf290f3ae791d",
+      "type": "text",
+      "text": "**Fierce Wind Gu**\nRank 2 Guard\n20 portions",
+      "x": 0,
+      "y": 16220,
+      "width": 260,
+      "height": 90,
+      "color": "#08b7c4"
+    },
+    {
+      "id": "gu_8b4753ed1cb27a4a",
+      "type": "text",
+      "text": "**Flying Cloud Gu**\nRank 3 Manifestation\n35 portions",
+      "x": 0,
+      "y": 16360,
+      "width": 260,
+      "height": 90,
+      "color": "#3f8ae8"
+    },
+    {
+      "id": "gu_73fb9760f330bcf6",
+      "type": "text",
+      "text": "**Wind Beneath Wings Gu**\nRank 4 Celerity\n10 portions",
+      "x": 320,
+      "y": 16360,
+      "width": 260,
+      "height": 90,
+      "color": "#e0c43e"
+    },
+    {
+      "id": "gu_93f271ad5efd7ea6",
+      "type": "text",
+      "text": "**Photosynthesis Gu**\nRank 2 Tonic\n14 portions",
+      "x": 0,
+      "y": 16860,
+      "width": 260,
+      "height": 90,
+      "color": "#08b94e"
+    },
+    {
+      "id": "gu_918fc64d3247435e",
+      "type": "text",
+      "text": "**Clorophyl Armor Gu**\nRank 3 Tonic\n6 portions",
+      "x": 320,
+      "y": 16860,
+      "width": 260,
+      "height": 90,
+      "color": "#08b94e"
+    },
+    {
+      "id": "gu_e1c03d2c445ffd0b",
+      "type": "text",
+      "text": "**Phoenix Mantle Gu**\nRank 4 Tonic\n8 portions",
+      "x": 640,
+      "y": 16860,
+      "width": 260,
+      "height": 90,
+      "color": "#08b94e"
+    },
+    {
+      "id": "gu_db00e4fdc8a6d8fc",
+      "type": "text",
+      "text": "**Burning Canopy Blessing Gu**\nRank 5 Tonic\n40 portions",
+      "x": 960,
+      "y": 16860,
+      "width": 260,
+      "height": 90,
+      "color": "#08b94e"
+    },
+    {
+      "id": "gu_f90a34bcd66e597a",
+      "type": "text",
+      "text": "**Creamy Sap Gu**\nRank 1 Tonic\n15 portions",
+      "x": 0,
+      "y": 16720,
+      "width": 260,
+      "height": 90,
+      "color": "#08b94e"
+    },
+    {
+      "id": "gu_cd3f0c85b158c08a",
+      "type": "text",
+      "text": "**Metabolize Essence Gu**\nRank 2 Tonic\n30 portions",
+      "x": 320,
+      "y": 16720,
+      "width": 260,
+      "height": 90,
+      "color": "#08b94e"
+    },
+    {
+      "id": "gu_34c66477519b949b",
+      "type": "text",
+      "text": "**Primeval Roots Gu**\nRank 2 Carver\n100 portions",
+      "x": 0,
+      "y": 17000,
+      "width": 260,
+      "height": 90,
+      "color": "#c43f8a"
+    },
+    {
+      "id": "gu_540d3e47795cb7cf",
+      "type": "text",
+      "text": "**Resurgence Gu**\nRank 2 Tonic\n15 portions",
+      "x": 320,
+      "y": 17280,
+      "width": 260,
+      "height": 90,
+      "color": "#08b94e"
+    },
+    {
+      "id": "gu_e0cc7b71e9bf62b7",
+      "type": "text",
+      "text": "**Thorn Burst Gu**\nRank 1 Attack\n25 portions",
+      "x": 0,
+      "y": 17140,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_b2029ba5ea1042d7",
+      "type": "text",
+      "text": "**Thorn Whip Gu**\nRank 2 Attack\n18 portions",
+      "x": 320,
+      "y": 17140,
+      "width": 260,
+      "height": 90,
+      "color": "#e93147"
+    },
+    {
+      "id": "gu_a79e9a409bded192",
+      "type": "text",
+      "text": "**Wood Charm Gu**\nRank 3 Carver\n2 portions",
+      "x": 320,
+      "y": 17000,
+      "width": 260,
+      "height": 90,
+      "color": "#c43f8a"
+    },
+    {
+      "id": "junction_c9d13c5d6112dd97",
+      "type": "text",
+      "text": "⊕ Flame Veil Gu + Smoldering Cloak Gu",
+      "x": 320,
+      "y": 2480,
+      "width": 200,
+      "height": 60,
+      "color": "3"
+    },
+    {
+      "id": "junction_7d876e9330bcc786",
+      "type": "text",
+      "text": "⊕ Fire Spark Gu + Ember Butterfly Gu",
+      "x": 320,
+      "y": 2200,
+      "width": 200,
+      "height": 60,
+      "color": "3"
+    },
+    {
+      "id": "junction_6655321b219f2d29",
+      "type": "text",
+      "text": "⊕ Moonglow Gu + Moonscar Gu",
+      "x": 640,
+      "y": 5380,
+      "width": 200,
+      "height": 60,
+      "color": "3"
+    },
+    {
+      "id": "junction_5a676b139ab445e0",
+      "type": "text",
+      "text": "⊕ Drain Life Gu + Drain Vitality Gu",
+      "x": 640,
+      "y": 11840,
+      "width": 200,
+      "height": 60,
+      "color": "3"
+    },
+    {
+      "id": "junction_c8fd5dad67421b4c",
+      "type": "text",
+      "text": "⊕ Steal Hearing Gu + Steal Sight Gu",
+      "x": 640,
+      "y": 12260,
+      "width": 200,
+      "height": 60,
+      "color": "3"
+    },
+    {
+      "id": "junction_1053a2eafd899c40",
+      "type": "text",
+      "text": "⊕ Lava Crocodile Tail Gu + Ember Butterfly Gu",
+      "x": 320,
+      "y": 13680,
+      "width": 200,
+      "height": 60,
+      "color": "3"
+    },
+    {
+      "id": "junction_b5e6b7deb59a768e",
+      "type": "text",
+      "text": "⊕ Fish Scales Gu + Lava Crocodile Jaw Gu",
+      "x": 320,
+      "y": 13540,
+      "width": 200,
+      "height": 60,
+      "color": "3"
+    },
+    {
+      "id": "junction_d39cea20587b3c35",
+      "type": "text",
+      "text": "⊕ Hopping Zombie Gu + Cleansing Light Gu",
+      "x": 960,
+      "y": 14240,
+      "width": 200,
+      "height": 60,
+      "color": "3"
+    },
+    {
+      "id": "group_1cf7435db1edcdc2",
+      "type": "group",
+      "label": "Blood Path",
+      "x": -60,
+      "y": -90,
+      "width": 1020,
+      "height": 520
+    },
+    {
+      "id": "group_d7b51124d3ce5390",
+      "type": "group",
+      "label": "Dark Path",
+      "x": -60,
+      "y": 550,
+      "width": 1340,
+      "height": 520
+    },
+    {
+      "id": "group_293828c4f6b59da7",
+      "type": "group",
+      "label": "Earth Path",
+      "x": -60,
+      "y": 1190,
+      "width": 1340,
+      "height": 520
+    },
+    {
+      "id": "group_1d6b1e0a4abb134f",
+      "type": "group",
+      "label": "Fire Path",
+      "x": -60,
+      "y": 1830,
+      "width": 1660,
+      "height": 1220
+    },
+    {
+      "id": "group_0e15d3988876d92c",
+      "type": "group",
+      "label": "Ice Path",
+      "x": -60,
+      "y": 3170,
+      "width": 1340,
+      "height": 800
+    },
+    {
+      "id": "group_0684e52b96af5ae1",
+      "type": "group",
+      "label": "Information Path",
+      "x": -60,
+      "y": 4090,
+      "width": 700,
+      "height": 240
+    },
+    {
+      "id": "group_d0860f2815d5a303",
+      "type": "group",
+      "label": "Light Path",
+      "x": -60,
+      "y": 4450,
+      "width": 1340,
+      "height": 1780
+    },
+    {
+      "id": "group_067ef6efa33bd491",
+      "type": "group",
+      "label": "Lightning Path",
+      "x": -60,
+      "y": 6350,
+      "width": 700,
+      "height": 940
+    },
+    {
+      "id": "group_0e2955afe0a4ee54",
+      "type": "group",
+      "label": "Luck Path",
+      "x": -60,
+      "y": 7410,
+      "width": 700,
+      "height": 240
+    },
+    {
+      "id": "group_074f73d66a84369d",
+      "type": "group",
+      "label": "Metal Path",
+      "x": -60,
+      "y": 7770,
+      "width": 700,
+      "height": 1500
+    },
+    {
+      "id": "group_cec7c1be889255ec",
+      "type": "group",
+      "label": "Rule Path",
+      "x": -60,
+      "y": 9390,
+      "width": 1340,
+      "height": 380
+    },
+    {
+      "id": "group_1c9c1f75329bd9e7",
+      "type": "group",
+      "label": "Soul Path",
+      "x": -60,
+      "y": 9890,
+      "width": 700,
+      "height": 660
+    },
+    {
+      "id": "group_df3f96e404133a14",
+      "type": "group",
+      "label": "Space Path",
+      "x": -60,
+      "y": 10670,
+      "width": 700,
+      "height": 240
+    },
+    {
+      "id": "group_7a41c1c6b1b3e964",
+      "type": "group",
+      "label": "Strength Path",
+      "x": -60,
+      "y": 11030,
+      "width": 700,
+      "height": 240
+    },
+    {
+      "id": "group_2df4f3fdd3e788e5",
+      "type": "group",
+      "label": "Sword Path",
+      "x": -60,
+      "y": 11390,
+      "width": 1660,
+      "height": 240
+    },
+    {
+      "id": "group_1fe9701b9dbfc553",
+      "type": "group",
+      "label": "Theft Path",
+      "x": -60,
+      "y": 11750,
+      "width": 1340,
+      "height": 800
+    },
+    {
+      "id": "group_973fc9fda35376a6",
+      "type": "group",
+      "label": "Time Path",
+      "x": -60,
+      "y": 12670,
+      "width": 700,
+      "height": 660
+    },
+    {
+      "id": "group_22b8bf056856e468",
+      "type": "group",
+      "label": "Transformation Path",
+      "x": -60,
+      "y": 13450,
+      "width": 1660,
+      "height": 1360
+    },
+    {
+      "id": "group_434c0606713d12be",
+      "type": "group",
+      "label": "Water Path",
+      "x": -60,
+      "y": 14930,
+      "width": 700,
+      "height": 940
+    },
+    {
+      "id": "group_67cde116a163e002",
+      "type": "group",
+      "label": "Wind Path",
+      "x": -60,
+      "y": 15990,
+      "width": 700,
+      "height": 520
+    },
+    {
+      "id": "group_d9a29aef8c42fc47",
+      "type": "group",
+      "label": "Wood Path",
+      "x": -60,
+      "y": 16630,
+      "width": 1340,
+      "height": 800
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_dcc07c258827f2aa",
+      "fromNode": "gu_902ba3cda1883801",
+      "fromSide": "right",
+      "toNode": "gu_fe5dbbcea5ce7e29",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_a94ff766accf96a2",
+      "fromNode": "gu_9e6a55b6b4563e65",
+      "fromSide": "right",
+      "toNode": "gu_b3f0c7f6bb763af1",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_d4aaa3adcb15f320",
+      "fromNode": "gu_b3f0c7f6bb763af1",
+      "fromSide": "right",
+      "toNode": "gu_91032ad7bbcb6cf7",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_79de1883c4a4816c",
+      "fromNode": "gu_22d200f8670dbdb3",
+      "fromSide": "right",
+      "toNode": "gu_7719a1c782a1ba91",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_6d97f418b0c27764",
+      "fromNode": "gu_80e28a51cbc26fa4",
+      "fromSide": "right",
+      "toNode": "gu_98fbc42faedc0249",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_554e47f1b7f4baee",
+      "fromNode": "gu_d6e3de36b09baee2",
+      "fromSide": "right",
+      "toNode": "gu_64e095fe763fc624",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_4714ebfe726a1ef2",
+      "fromNode": "gu_e1822db470e60d09",
+      "fromSide": "right",
+      "toNode": "gu_5a5b0f9b7d3f8fc8",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_eccac9b7b500f0ec",
+      "fromNode": "gu_c66c65175fecc310",
+      "fromSide": "right",
+      "toNode": "gu_2a459380709e2fe4",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_9a3381fdadf6b182",
+      "fromNode": "gu_450ddec8dd206c2e",
+      "fromSide": "right",
+      "toNode": "gu_4d89d294cd4ca9f2",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_e46d50d940759e8b",
+      "fromNode": "gu_2a459380709e2fe4",
+      "fromSide": "right",
+      "toNode": "gu_b4c96d80854dd27e",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_ebb976664d26fe46",
+      "fromNode": "gu_b4c96d80854dd27e",
+      "fromSide": "right",
+      "toNode": "gu_a72b20062ec2c47a",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_5981bbc163147b55",
+      "fromNode": "gu_d02560dd9d7db446",
+      "fromSide": "right",
+      "toNode": "gu_b7103ca278a75cad",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_df03d3b54cbd243f",
+      "fromNode": "gu_91dfde1d6e005e42",
+      "fromSide": "right",
+      "toNode": "gu_524e05dc77239f3a",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_2e93e5c77a7f57fa",
+      "fromNode": "gu_8b7471f4ae0bf59f",
+      "fromSide": "right",
+      "toNode": "junction_c9d13c5d6112dd97",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_582ba2efb62cdf81",
+      "fromNode": "gu_e1a864f0b77f6c89",
+      "fromSide": "right",
+      "toNode": "junction_c9d13c5d6112dd97",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_ed6d17849d8ef9f6",
+      "fromNode": "junction_c9d13c5d6112dd97",
+      "fromSide": "right",
+      "toNode": "gu_a1422e6a168630cd",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_c35fd874041f6197",
+      "fromNode": "gu_d0e2dbb0bac1917d",
+      "fromSide": "right",
+      "toNode": "junction_7d876e9330bcc786",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_2300096f1717f99e",
+      "fromNode": "gu_5e796e48332af414",
+      "fromSide": "right",
+      "toNode": "junction_7d876e9330bcc786",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_fbc2b66525c0ce72",
+      "fromNode": "junction_7d876e9330bcc786",
+      "fromSide": "right",
+      "toNode": "gu_601ca99d55f00a2e",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_182c5cd8fcf18967",
+      "fromNode": "gu_05a8ea5382b9fd88",
+      "fromSide": "right",
+      "toNode": "gu_40bd001563085fc3",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_0f860ca90737f709",
+      "fromNode": "gu_40bd001563085fc3",
+      "fromSide": "right",
+      "toNode": "gu_f38cfe2e2facbcc7",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_2f99ca9d5ac0092a",
+      "fromNode": "gu_f38cfe2e2facbcc7",
+      "fromSide": "right",
+      "toNode": "gu_0ca9277f91e40054",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_b7c576326e3bf4ec",
+      "fromNode": "gu_0ca9277f91e40054",
+      "fromSide": "right",
+      "toNode": "gu_114d4eefde1dae39",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_e202530c942c781a",
+      "fromNode": "gu_a2e33d344f272e10",
+      "fromSide": "right",
+      "toNode": "gu_91dfde1d6e005e42",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_7c6dd581089fff47",
+      "fromNode": "gu_95e815d1541bf6f3",
+      "fromSide": "right",
+      "toNode": "gu_40f7c01f41895100",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_25afc5cd40c197fe",
+      "fromNode": "gu_c9ca442765657fc9",
+      "fromSide": "right",
+      "toNode": "gu_2a2b47bf21a372f2",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_f55bcb47dd558421",
+      "fromNode": "gu_2a2b47bf21a372f2",
+      "fromSide": "right",
+      "toNode": "gu_f47aea8bdcbd1179",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_b63bf5de054735b7",
+      "fromNode": "gu_f47aea8bdcbd1179",
+      "fromSide": "right",
+      "toNode": "gu_7320828c9153b2a9",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_727aaa24e9f73805",
+      "fromNode": "gu_bcf814ab41506290",
+      "fromSide": "right",
+      "toNode": "gu_f67462663a512121",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_808fda733f218fa1",
+      "fromNode": "gu_752ae7bdbb96bf25",
+      "fromSide": "right",
+      "toNode": "gu_e54183e2a040e6c0",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_3adcc67af93bbb72",
+      "fromNode": "gu_2fcc820fc1d95b1e",
+      "fromSide": "right",
+      "toNode": "gu_3a2dc677d8e85ac8",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_b85acf0ef0473d8c",
+      "fromNode": "gu_4dea1daedbe9dc1d",
+      "fromSide": "right",
+      "toNode": "gu_752ae7bdbb96bf25",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_2d932353bac8787d",
+      "fromNode": "gu_bcf814ab41506290",
+      "fromSide": "right",
+      "toNode": "gu_4dea1daedbe9dc1d",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_5816a6e052133881",
+      "fromNode": "gu_61188f24396807ba",
+      "fromSide": "right",
+      "toNode": "gu_c837307a9a2ad4d0",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_53105161bd60bbdb",
+      "fromNode": "gu_c837307a9a2ad4d0",
+      "fromSide": "right",
+      "toNode": "gu_2952aeca0fe15cf3",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_c1a9689f875c2848",
+      "fromNode": "gu_2952aeca0fe15cf3",
+      "fromSide": "right",
+      "toNode": "gu_9f9af029585ba014",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_34002e20f002dd4e",
+      "fromNode": "gu_c837307a9a2ad4d0",
+      "fromSide": "right",
+      "toNode": "gu_7f03f3f2febc46f3",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_b0323d895ea250e7",
+      "fromNode": "gu_7f03f3f2febc46f3",
+      "fromSide": "right",
+      "toNode": "gu_1e7b95c5614637fd",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_dba3bedd7c51ddd9",
+      "fromNode": "gu_19187dc98dce52fa",
+      "fromSide": "right",
+      "toNode": "gu_c0ba17c23a26ff8c",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_214b65996bacb649",
+      "fromNode": "gu_982fd8b711279888",
+      "fromSide": "right",
+      "toNode": "gu_cfe21c6800c88f06",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_c82579d712384539",
+      "fromNode": "gu_851cd04fbcac9538",
+      "fromSide": "right",
+      "toNode": "gu_0ec09ef9836da03f",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_ed7a527037ae4288",
+      "fromNode": "gu_5d23e965603269f7",
+      "fromSide": "right",
+      "toNode": "gu_0b7f5ada6bdd5e48",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_4a8ee2c2d8933ee0",
+      "fromNode": "gu_4af7f9edc0f545f4",
+      "fromSide": "right",
+      "toNode": "gu_01592d51db5afd01",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_dc99c351f375eddb",
+      "fromNode": "gu_01592d51db5afd01",
+      "fromSide": "right",
+      "toNode": "gu_3aed9b0313f92261",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_b3749b7ed2f5f13c",
+      "fromNode": "gu_4af7f9edc0f545f4",
+      "fromSide": "right",
+      "toNode": "gu_3464dc11507c600b",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_5bb19983cb2aced5",
+      "fromNode": "gu_4af7f9edc0f545f4",
+      "fromSide": "right",
+      "toNode": "gu_b4ef7df17d3dc747",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_b5608b264b0a7cc5",
+      "fromNode": "gu_01592d51db5afd01",
+      "fromSide": "right",
+      "toNode": "junction_6655321b219f2d29",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_3476b63f84b7fc4f",
+      "fromNode": "gu_b4ef7df17d3dc747",
+      "fromSide": "right",
+      "toNode": "junction_6655321b219f2d29",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_76382836fd8030c8",
+      "fromNode": "junction_6655321b219f2d29",
+      "fromSide": "right",
+      "toNode": "gu_ca3799b8ff860c55",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_a0e290e92fe1975d",
+      "fromNode": "gu_b4ef7df17d3dc747",
+      "fromSide": "right",
+      "toNode": "gu_ee44c6bcc4e0dfae",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_40ef80eec03069e4",
+      "fromNode": "gu_4af7f9edc0f545f4",
+      "fromSide": "right",
+      "toNode": "gu_ba30fd97b4127db5",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_e8bf63aa51cd7078",
+      "fromNode": "gu_ba30fd97b4127db5",
+      "fromSide": "right",
+      "toNode": "gu_d6e3de36b09baee2",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_3858a1903c368b0d",
+      "fromNode": "gu_4af7f9edc0f545f4",
+      "fromSide": "right",
+      "toNode": "gu_98fcc378d7f5adda",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_bcf083d751f3d225",
+      "fromNode": "gu_98fcc378d7f5adda",
+      "fromSide": "right",
+      "toNode": "gu_4c15dc21c91634c1",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_b0489a57b8efd67e",
+      "fromNode": "gu_4af7f9edc0f545f4",
+      "fromSide": "right",
+      "toNode": "gu_c9f13c16144065a9",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_d8179e49ab2df5d0",
+      "fromNode": "gu_3028f51407d83338",
+      "fromSide": "right",
+      "toNode": "gu_1106a1dda2d68043",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_99f4c0095d9ae62c",
+      "fromNode": "gu_7edab1f00ca6b31e",
+      "fromSide": "right",
+      "toNode": "gu_25250e46745c8169",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_34160fa5bf05eaed",
+      "fromNode": "gu_7f35419a058e19d2",
+      "fromSide": "right",
+      "toNode": "gu_9a61b86ecef7f4f8",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_e8eb1f10d1cf8646",
+      "fromNode": "gu_733b57ae9e45bae7",
+      "fromSide": "right",
+      "toNode": "gu_6d363479c97439b9",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_97cc185aea82aa78",
+      "fromNode": "gu_733b57ae9e45bae7",
+      "fromSide": "right",
+      "toNode": "gu_d8502b7d77486154",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_60bea20cf84bc468",
+      "fromNode": "gu_3032a4beba0cc85b",
+      "fromSide": "right",
+      "toNode": "gu_267b976f6f335984",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_d0a0ed469cf0f04f",
+      "fromNode": "gu_eb94d5c2be91b5d6",
+      "fromSide": "right",
+      "toNode": "gu_b70706fdb0027063",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_a54036639675e659",
+      "fromNode": "gu_a02b857f2eff73e8",
+      "fromSide": "right",
+      "toNode": "gu_3a085d1bc5fa4131",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_6405e5c585d2b548",
+      "fromNode": "gu_97b31c942deab391",
+      "fromSide": "right",
+      "toNode": "gu_af53d4aa0b9131f1",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_77d723aca25c7769",
+      "fromNode": "gu_97b31c942deab391",
+      "fromSide": "right",
+      "toNode": "gu_cd6d91089c7e219a",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_f267ffd510097ca9",
+      "fromNode": "gu_6e21fce62b88ee82",
+      "fromSide": "right",
+      "toNode": "gu_f6b9b6ccd0440bc4",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_b7b24e7122798785",
+      "fromNode": "gu_5547f6312291149b",
+      "fromSide": "right",
+      "toNode": "gu_5f6955d227a320c7",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_9d65c0428b6f5559",
+      "fromNode": "gu_4551b2d552b07957",
+      "fromSide": "right",
+      "toNode": "gu_914127d1002e9938",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_cd5dcc862f5bcdb4",
+      "fromNode": "gu_a84c9aa070f9d126",
+      "fromSide": "right",
+      "toNode": "gu_43814346e21444aa",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_445d512324db8319",
+      "fromNode": "gu_a609bb8ab05a0d13",
+      "fromSide": "right",
+      "toNode": "gu_fffb8e85796e61b7",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_95c309fd61c3cc58",
+      "fromNode": "gu_97b31c942deab391",
+      "fromSide": "right",
+      "toNode": "gu_4728a26498a7441a",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_00ed93ee0692cd69",
+      "fromNode": "gu_9c882d5c6a1aa240",
+      "fromSide": "right",
+      "toNode": "gu_0588f59014485510",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_fdeaec44ac453863",
+      "fromNode": "gu_9c882d5c6a1aa240",
+      "fromSide": "right",
+      "toNode": "gu_01ec40215edd21ed",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_4760bea0454828a9",
+      "fromNode": "gu_b6e2efd8ffb991dd",
+      "fromSide": "right",
+      "toNode": "gu_be4d979ef9808e41",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_78b42c380c29f6b9",
+      "fromNode": "gu_be4d979ef9808e41",
+      "fromSide": "right",
+      "toNode": "gu_c829eb96cef056a9",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_9130178b67a48aed",
+      "fromNode": "gu_c829eb96cef056a9",
+      "fromSide": "right",
+      "toNode": "gu_c30749cf5bc74c7c",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_6833dfe43aba46b6",
+      "fromNode": "gu_f7e19157e9c4e0b9",
+      "fromSide": "right",
+      "toNode": "gu_11307768e6d77951",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_4de1fb1572a72f9b",
+      "fromNode": "gu_b202977c0fc07e1c",
+      "fromSide": "right",
+      "toNode": "gu_e6de89674d9f1d79",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_f01716571d954019",
+      "fromNode": "gu_b202977c0fc07e1c",
+      "fromSide": "right",
+      "toNode": "gu_beba4d5d3ffb8fac",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_f53b8a0f916a80d6",
+      "fromNode": "gu_b202977c0fc07e1c",
+      "fromSide": "right",
+      "toNode": "gu_3352d0d8278c176f",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_b1051c06294677fc",
+      "fromNode": "gu_86cf294a07a8aa25",
+      "fromSide": "right",
+      "toNode": "gu_4396c2d023b9d985",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_bc4ce8a4a0573435",
+      "fromNode": "gu_2aed8cef33a640e5",
+      "fromSide": "right",
+      "toNode": "gu_75988f5ac0575a8d",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_459603644b1afdd5",
+      "fromNode": "gu_14019988a92023b2",
+      "fromSide": "right",
+      "toNode": "gu_3af0af21718ad757",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_727b9ad996b6d0f4",
+      "fromNode": "gu_1625434cebb5e5c4",
+      "fromSide": "right",
+      "toNode": "gu_6e75d23a0574afce",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_ac538a0d1f30129b",
+      "fromNode": "gu_6e75d23a0574afce",
+      "fromSide": "right",
+      "toNode": "gu_38c07d9eb6f585cb",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_90d83b423120e390",
+      "fromNode": "gu_38c07d9eb6f585cb",
+      "fromSide": "right",
+      "toNode": "gu_8665243ef242a2b1",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_851e35cdfc8c8a28",
+      "fromNode": "gu_8665243ef242a2b1",
+      "fromSide": "right",
+      "toNode": "gu_fbea31c7083ef34d",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_8a0b5c7ced86e311",
+      "fromNode": "gu_9ee0df7c8a647ff4",
+      "fromSide": "right",
+      "toNode": "gu_329a970dfa7f977b",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_2e244abf64aaba88",
+      "fromNode": "gu_9ee0df7c8a647ff4",
+      "fromSide": "right",
+      "toNode": "gu_3b69df951b3d4c18",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_f787e42b66d0707d",
+      "fromNode": "gu_329a970dfa7f977b",
+      "fromSide": "right",
+      "toNode": "junction_5a676b139ab445e0",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_0f9a683010aec272",
+      "fromNode": "gu_3b69df951b3d4c18",
+      "fromSide": "right",
+      "toNode": "junction_5a676b139ab445e0",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_8e98dd891c186508",
+      "fromNode": "junction_5a676b139ab445e0",
+      "fromSide": "right",
+      "toNode": "gu_ee16ee0fa7f21a41",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_d8f513286d70ecaf",
+      "fromNode": "gu_f1e75747bc4c6d0b",
+      "fromSide": "right",
+      "toNode": "gu_1b0a69d74c5ab68f",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_591380f656983b87",
+      "fromNode": "gu_edd6ebda641b723c",
+      "fromSide": "right",
+      "toNode": "gu_f83a383c0fa81f29",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_90c9f55ebe1195af",
+      "fromNode": "gu_edd6ebda641b723c",
+      "fromSide": "right",
+      "toNode": "gu_2c9a62c3748f4846",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_e26321bf06f654a7",
+      "fromNode": "gu_f83a383c0fa81f29",
+      "fromSide": "right",
+      "toNode": "junction_c8fd5dad67421b4c",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_1afdf8aca2628f81",
+      "fromNode": "gu_2c9a62c3748f4846",
+      "fromSide": "right",
+      "toNode": "junction_c8fd5dad67421b4c",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_799e1149ff918792",
+      "fromNode": "junction_c8fd5dad67421b4c",
+      "fromSide": "right",
+      "toNode": "gu_2f9f705a38307c47",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_6cda0308a865dbb2",
+      "fromNode": "gu_b7f5113f83376fc4",
+      "fromSide": "right",
+      "toNode": "gu_ce09b127d48f8386",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_01c62cd033303e6f",
+      "fromNode": "gu_b7f5113f83376fc4",
+      "fromSide": "right",
+      "toNode": "gu_10d293a95915109e",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_f455efc1af61d571",
+      "fromNode": "gu_b7f5113f83376fc4",
+      "fromSide": "right",
+      "toNode": "gu_f5b68d74621aa361",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_11d371a0272cf8d3",
+      "fromNode": "gu_e408d89ae85c9a0b",
+      "fromSide": "right",
+      "toNode": "gu_142e9ae35ca00044",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_b24aa7902a31a3a9",
+      "fromNode": "gu_d06b6c54863ac33d",
+      "fromSide": "right",
+      "toNode": "junction_1053a2eafd899c40",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_9c3809e9e11652a4",
+      "fromNode": "gu_5e796e48332af414",
+      "fromSide": "right",
+      "toNode": "junction_1053a2eafd899c40",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_72068d1923a330a3",
+      "fromNode": "junction_1053a2eafd899c40",
+      "fromSide": "right",
+      "toNode": "gu_3cc5149977a9d4be",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_9a6fe73a905d7a33",
+      "fromNode": "gu_7ee08d3afb3a2ef0",
+      "fromSide": "right",
+      "toNode": "junction_b5e6b7deb59a768e",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_45b141fec1ef776a",
+      "fromNode": "gu_a8a2b30f8dba82d6",
+      "fromSide": "right",
+      "toNode": "junction_b5e6b7deb59a768e",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_9bca99467cc1692b",
+      "fromNode": "junction_b5e6b7deb59a768e",
+      "fromSide": "right",
+      "toNode": "gu_acf10f2c0a9d0034",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_aaf221b6bf664172",
+      "fromNode": "gu_9741f79aca77af5b",
+      "fromSide": "right",
+      "toNode": "gu_461742bbd8cc55ac",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_7848e48fde76a581",
+      "fromNode": "gu_461742bbd8cc55ac",
+      "fromSide": "right",
+      "toNode": "gu_3219b5be78da72e8",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_8ac6ab124b8a32c0",
+      "fromNode": "gu_3219b5be78da72e8",
+      "fromSide": "right",
+      "toNode": "junction_d39cea20587b3c35",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_f1189fb6824f3a2d",
+      "fromNode": "gu_4f0f5c96ca8457cc",
+      "fromSide": "right",
+      "toNode": "junction_d39cea20587b3c35",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_51c0e75ca17bbc16",
+      "fromNode": "junction_d39cea20587b3c35",
+      "fromSide": "right",
+      "toNode": "gu_916f5b10fee9db4c",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_50bb149b02882e0a",
+      "fromNode": "gu_3219b5be78da72e8",
+      "fromSide": "right",
+      "toNode": "gu_2ef28d314a746794",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_01d02e317b8c490b",
+      "fromNode": "gu_3219b5be78da72e8",
+      "fromSide": "right",
+      "toNode": "gu_cf94db48fb7aa4da",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_f9800da7a01f2459",
+      "fromNode": "gu_3219b5be78da72e8",
+      "fromSide": "right",
+      "toNode": "gu_a4c36ded9dbf60a5",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_e1d1a419fc56f9cf",
+      "fromNode": "gu_3219b5be78da72e8",
+      "fromSide": "right",
+      "toNode": "gu_f53eac2e4221f179",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_5bca513acce4ffde",
+      "fromNode": "gu_3219b5be78da72e8",
+      "fromSide": "right",
+      "toNode": "gu_53e56691fe7c8271",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_0fcff95b2dea2995",
+      "fromNode": "gu_cfa1150f17871867",
+      "fromSide": "right",
+      "toNode": "gu_170377543ef02d80",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_73789842a610cf45",
+      "fromNode": "gu_e77f8d53c6dfa1c3",
+      "fromSide": "right",
+      "toNode": "gu_e77a763321d6cf82",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_0da8cfcda075bfd8",
+      "fromNode": "gu_84582c1dbe026475",
+      "fromSide": "right",
+      "toNode": "gu_4260e7eabc193825",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_22d99d8e4d31d644",
+      "fromNode": "gu_2bfba6b3b2af0ccf",
+      "fromSide": "right",
+      "toNode": "gu_05a53e3696e2a6dd",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_5a951bc8cfffa45d",
+      "fromNode": "gu_7a9ca14dcab2ffdc",
+      "fromSide": "right",
+      "toNode": "gu_3db2991a3bd1f2ca",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_806df3c70bcc89cd",
+      "fromNode": "gu_f33f7ae89c2c6ab8",
+      "fromSide": "right",
+      "toNode": "gu_867cd58f3fe35290",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_4529112336be3148",
+      "fromNode": "gu_620807a1bbd690fc",
+      "fromSide": "right",
+      "toNode": "gu_efa260adfcac648a",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_fc4c0bde034c5cc2",
+      "fromNode": "gu_8b4753ed1cb27a4a",
+      "fromSide": "right",
+      "toNode": "gu_73fb9760f330bcf6",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_13a5520ea96fe48c",
+      "fromNode": "gu_93f271ad5efd7ea6",
+      "fromSide": "right",
+      "toNode": "gu_918fc64d3247435e",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_452ef93af590d149",
+      "fromNode": "gu_918fc64d3247435e",
+      "fromSide": "right",
+      "toNode": "gu_e1c03d2c445ffd0b",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_5bd3793aebf0e65f",
+      "fromNode": "gu_e1c03d2c445ffd0b",
+      "fromSide": "right",
+      "toNode": "gu_db00e4fdc8a6d8fc",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_d5cbbd565cd0562c",
+      "fromNode": "gu_f90a34bcd66e597a",
+      "fromSide": "right",
+      "toNode": "gu_cd3f0c85b158c08a",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_4b77806c221b566e",
+      "fromNode": "gu_9c882d5c6a1aa240",
+      "fromSide": "right",
+      "toNode": "gu_540d3e47795cb7cf",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_c0b1d7cc18c1c841",
+      "fromNode": "gu_e0cc7b71e9bf62b7",
+      "fromSide": "right",
+      "toNode": "gu_b2029ba5ea1042d7",
+      "toSide": "left"
+    },
+    {
+      "id": "edge_761dd6358ecde65e",
+      "fromNode": "gu_34c66477519b949b",
+      "fromSide": "right",
+      "toNode": "gu_a79e9a409bded192",
+      "toSide": "left"
+    }
+  ]
+}

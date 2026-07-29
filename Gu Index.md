@@ -126,6 +126,8 @@ Effect: You immediately remove all instances of the *Poisoned* condition applied
 
 *Rank 2-4 Manifestation*
 
+Next Rank: Blood Handprint Gu
+
 Cost: 15 portions
 
 Range: 1 meter
@@ -138,6 +140,8 @@ Effect: {20, 40, 100} liters of ordinary blood pours from your finger into an un
 
 ### Blood Handprint Gu
 *Rank 5 Manifestation*
+
+Previous Rank: Blood Fountain Gu
 
 Cost: 60 portions
 
@@ -508,13 +512,15 @@ Health: 3
 
 Food: <!-- TODO ->
 
-Keywords: [**Defensive**]
+Keywords: [**Burst Movement**]
 
-Effect: You disappear in a cloud of bloody mist and teleport to an unoccuped square that you can see within range. If Red Mist Gu was activated as a *Reaction* to being hit with an attack, you dodge it as long as the effect didn't have the [**Undodgeable**] keyword.
+Effect: You disappear in a cloud of bloody mist and teleport to an unoccuped square that you can see within range.
 
 ### Remnant Life Gu
 
 *Rank 5 Tonic*
+
+Previous Rank: Rising Dead Gu
 
 Cost: 50 portions
 
@@ -531,6 +537,8 @@ Effect: The next time you die, your body reforms in the exact spot you used Remn
 ### Rising Dead Gu
 
 *Rank 4 Tonic*
+
+Next Rank: Remnant Life Gu
 
 Cost: 250 portions
 
@@ -725,7 +733,7 @@ Health: 2
 
 Food: <!-- TODO ->
 
-Effect: Dark Transposition Gu has no effect if you are in bright light. You and any objects you are carrying become *invisible.* As a *Reaction* to any trigger, you may teleport to a square within range as long as that square is not in bright light, and this effect ends. If you become lit by bright light, move, or take any actions before using the teleport, this effect ends.
+Effect: Dark Transposition Gu has no effect if you are in bright light. You and any objects you are carrying become *invisible.* As a *Reaction*, you may teleport to a square within range as long as that square is not in bright light, and this effect ends. If you become lit by bright light, move, or take any actions before using the teleport, this effect ends.
 
 ### Faceless Dung Beetle Gu
 
@@ -760,6 +768,8 @@ Effect: You and any objects you are carrying become *inaudible*, *invisible* and
 ### Invisible Cloak Gu
 
 *Rank 3 Concealment*
+
+Previous Rank: Shadow Follower Gu
 
 Cost: 50 portions
 
@@ -853,6 +863,8 @@ Effect: The next time you activate a Dark Path attack Gu before the end of your 
 
 *Rank 1 Carver*
 
+Next Rank: Split Shadow Gu
+
 Cost: 30 portions
 
 Range: Self
@@ -912,6 +924,8 @@ Effect: Your shadow becomes the door to a pocket dimension that only living crea
 
 ### Shadow Follower Gu
 *Rank 2 Concealment*
+
+Next Rank: Invisible Cloak Gu
 
 Cost: 6 portions
 
@@ -990,6 +1004,8 @@ Effect: Your soul is *undetectable* while sustained.
 ### Split Shadow Gu
 
 *Rank 2-5 Manifestation*
+
+Previous Rank: Second Shadow Gu
 
 Cost: 15 portions
 
@@ -1136,6 +1152,8 @@ Effect: While sustained, the first Gu effect of rank {2, 3, 4, 5} or lower that 
 
 *Rank 2 Attack*
 
+Previous Rank: Quake Step Gu
+
 Cost: 10 portions
 
 Range: Self
@@ -1187,6 +1205,8 @@ Effect: Dense stone walls rise in a 5 meter by 5 meter square perimeter, centere
 ### Granite Bones Gu
 *Rank 3 Carver*
 
+Previous Rank: Granite Knuckle Cockroach Gu
+
 Cost: 100 portions
 
 Range: Self
@@ -1202,6 +1222,8 @@ Effect: You are assailed with a horrendous pain for 1 hour. You are incapable of
 ### Granite Knuckle Cockroach Gu
 
 *Rank 2 Carver*
+
+Next Rank: Granite Bones Gu
 
 Cost: 100 portions
 
@@ -1262,6 +1284,8 @@ Effect: A jade coffin appears around you, sealing you inside. It cannot move on 
 
 ### Quake Step Gu
 *Rank 1 Attack*
+
+Next Rank: Meteor Smash Gu
 
 Cost: 5 portions
 
@@ -1887,6 +1911,8 @@ Effect: Six white orbs appear on your face in a spider-eye pattern. While sustai
 ### Ember Armor Gu
 *Rank 2-3 Guard*
 
+Previous Rank: Flame Veil Gu + Smoldering Cloak Gu
+
 Cost: 20 portions  
 
 Range: Self  
@@ -1901,6 +1927,8 @@ Effect: A flaming carapace covers your body. While sustained, you are immune to 
 
 ### Ember Butterfly Gu
 *Rank 1 Attack*
+
+Next Rank: Fire Arrow Gu, Lava Crocodile Cannon Gu
 
 Cost: 16 portions  
 
@@ -1930,17 +1958,19 @@ All creatures within range with the *ablaze* condition immediately explode, taki
 ### Fire Arrow Gu
 *Rank 2 Attack*
 
-Cost: 8 portions  
+Previous Rank: Fire Spark Gu + Ember Butterfly Gu
 
-Range: 12 meters  
+Cost: 70 portions  
 
-Health: 11 
+Range: 6 meters  
+
+Health: 3
 
 Food: 1 liter of pitch (2 primeval stones)
 
 Keywords: [**Piercing**]
 
-Effect: Shoot a flaming arrow at a target within range. Make an attack roll; on a hit, deal 10 heat damage and 10 force damage. Ignites flammable objects it hits.
+Effect: Shoot a flaming arrow at a target within range. Make an attack roll; on a hit, deal 10 heat damage and 10 force damage. If the arrow struck a creature, it explodes, dealing 20 heat damage and inflicting the *burning* condition on all creatures within a 1-meter radius of the target, including the target themself.
 
 ### Fire Curtain Gu
 *Rank 2 Manifestation*
@@ -1949,7 +1979,7 @@ Cost: 15 portions
 
 Range: 6 meters  
 
-Health: 20  
+Health: 3 
 
 Food: <!-- TODO ->
 
@@ -1967,6 +1997,8 @@ Range: Self
 Health: 8
 
 Food: {1, 5} liters of pitch ({1, 5} primeval stones)
+
+Keywords: [**Burst Movement**]
 
 Effect: An explosion thrusts you {5, 20} meters in a straight line in a direction of your choice, causing a collision if there is a creature or object in the path. If a creature is in the square directly opposite the line when you activate Fire Discharge Gu (i.e. behind you if you are traveling forward), that creature takes {10, 30} heat damage.
 
@@ -2002,6 +2034,8 @@ Effect: You release a pulse of fire in a straight line. All creatures in a 1 met
 
 ### Fire Spark Gu
 *Rank 1 Attack*
+
+Next Rank: Fire Arrow Gu
 
 Cost: 8 portions  
 
@@ -2196,6 +2230,8 @@ Effect: You lash out with a tongue of flame towards a target within range. Make 
 ### Flame Veil Gu
 *Rank 1 Guard*
 
+Next Rank: Ember Armor Gu
+
 Cost: 1 portion
 
 Range: Self
@@ -2227,7 +2263,7 @@ Effect: You gain the ability to fly, leaving a trail of smoke in your wake. Whil
 ### Immolate Gu
 *Rank 2 Attack*
 
-Cost: 20 portions
+Cost: 50 portions
 
 Range: Touch
 
@@ -2273,6 +2309,8 @@ Effect: You lob a ball of kerosene to a square within range. Creatures and objec
 ### Lightning Charged Potato Gu
 *Rank 2 Attack*
 
+Next Rank: Lightning Charged Potato Mother Gu
+
 Cost: 5 portions
 
 Range: Touch
@@ -2287,6 +2325,8 @@ Effect: Lightning Charged Potato Gu must be buried in any kind of soil before ac
 
 ### Lightning Charged Potato Mother Gu
 *Rank 3 Manifestation*
+
+Previous Rank: Lightning Charged Potato Gu
 
 Cost: 60X
 
@@ -2313,6 +2353,8 @@ Effect: Your palm ignites with intense heat. A creature you touch takes 16 heat 
 
 ### Smoldering Cloak Gu
 *Rank 1 Guard*
+
+Next Rank: Ember Armor Gu
 
 Cost: 14 portions  
 
@@ -3148,6 +3190,8 @@ Effect: A blue dove flies from you towards a target square within range before d
 
 *Rank 1 Carver*
 
+Next Rank: Cold Lungs Gu, Ice Tendons Gu
+
 Cost: 15 portions
 
 Range: Self
@@ -3194,6 +3238,8 @@ Effect: A [**Small**] or smaller object that you touch becomes permanently cold 
 
 *Rank 2 Carver*
 
+Previous Rank: Blue Ice Skin Gu
+
 Cost: 100 portions
 
 Range: Self
@@ -3226,7 +3272,7 @@ Effect: While susatined, you manifest a lance made of ice in a free hand that ca
 
 *Rank 4 Carver*
 
-Upgrade Tree: Drain Heat
+Previous Rank: Ice Muscles Gu
 
 Cost: 100 portions
 
@@ -3243,6 +3289,8 @@ Effect: Over the course of an hour, your **Facial Muscles** and teeth are painfu
 ### Heat Sap Gu
 *Rank 3 Attack*
 
+Previous Rank: Heat Transference Gu
+
 Cost: 10 portions
 
 Range: 10 meters
@@ -3258,6 +3306,8 @@ Effect: While sustained, you sap the heat of nearby creatures; if a creature sta
 ### Heat Transference Gu
 
 *Rank 2 Attack*
+
+Next Rank: Heat Sap Gu
 
 Cost: 12 portions
 
@@ -3344,6 +3394,10 @@ Every month you go without activating Ice Crystal Gu reduces the number of **Ice
 ### Ice Muscles Gu
 *Rank 3 Carver*
 
+Previous Rank: Ice Tendons Gu
+
+Next Rank: Frozen Maw Gu
+
 Cost: 100 portions
 
 Range: Self
@@ -3359,6 +3413,10 @@ Effect: You are assailed with a piercing pain for 1 hour while your **Muscular S
 ### Ice Tendons Gu
 
 *Rank 2 Carver*
+
+Previous Rank: Blue Ice Skin Gu
+
+Next Rank: Ice Muscles Gu
 
 Cost: 100 portions
 
@@ -3859,6 +3917,8 @@ Effect: Over the course of an hour, you are *blinded* while your **Eyes** are ca
 
 *Rank 3 Concealment*
 
+Previous Rank: Shimmer Gu
+
 Cost: 8 portions
 
 Range: Self
@@ -3889,7 +3949,7 @@ Effect: You manifest a shimmering curtain of multicolored light while sustained.
 
 ### Blink Gu
 
-*Rank 1 Celerity*
+*Rank 2 Celerity*
 
 Cost: 15 portions
 
@@ -3898,6 +3958,8 @@ Range: 1 meter
 Health: 2
 
 Food: <!-- TODO ->
+
+Keywords: [**Burst Movement**]
 
 Effect: You teleport to an unoccupied square within range.
 
@@ -3971,6 +4033,8 @@ You do not add your Strength Attribute to damage dealt by Broadsword Light Gu.
 
 *Rank 1-5 Tonic*
 
+Next Rank: Asura Zombie Gu
+
 Cost: 120 portions
 
 Range: 5 meters
@@ -4001,6 +4065,8 @@ Effect: Every square within range is filled with bright light that spreads aroun
 
 *Rank 2-3 Manifestation*
 
+Previous Rank: Little Light Gu
+
 Cost: 12 portions
 
 Range: 12 meters
@@ -4016,9 +4082,10 @@ Effect: Choose {1, 3} unoccupied squares that you can see within range. A brilli
 Creatures with the *blinded* condition or that lack eyes are immune to this effect.
 
 ### Deafening Flash Gu
-\break
 
 *Rank 2 Attack*
+
+Previous Rank: Flash Blink Gu
 
 Cost: 30 portions
 
@@ -4039,6 +4106,8 @@ If the creature cannot see or hear, Deafening Flash Gu has no effect on them.
 ### Flash Blink Gu
 
 *Rank 1 Attack*
+
+Next Rank: Deafening Flash Gu
 
 Cost: 2 portions
 
@@ -4132,6 +4201,8 @@ Effect: The cost of your next Gu activation is halved (rounded down, to a minimu
 ### Little Light Gu
 
 *Rank 1 Manifestation*
+
+Next Rank: Dazzling Lights Gu
 
 Cost: 1 portion
 
@@ -4232,7 +4303,7 @@ Effect: You hurl a flat, crescent-shaped beam of light. Make an attack roll agai
 
 *Rank 3 Attack*
 
-Previous Rank: Moonglow Gu, Moonscar Gu
+Previous Rank: Moonglow Gu + Moonscar Gu
 
 Cost: 8 portions
 
@@ -4384,7 +4455,7 @@ Health: 4
 
 Food: Light from all colors of the rainbow, or light from White Heaven
 
-Effect: Choose a square that you can see within range. You turn into a beam of light and nearly instantaneously move to the target square. You ignore effects that trigger when you move through their area of effect, but can still be stopped by barriers. The speed of travel is so fast that it disorients you and expends all of your *Reactions*.
+Effect: Choose a square that you can see within range. You turn into a beam of light and nearly instantaneously move to the target square. You ignore effects that trigger when you move through their area of effect, but can still be stopped by barriers. The speed of travel is so fast that it disorients you and expends all of your remaining *Reactions*.
 
 If you would move through darkness created by a Gu of rank 4 or higher, you instead stop in the square immediately before it.
 
@@ -4408,6 +4479,8 @@ The prism disappears after 1 minute.
 
 ### Shimmer Gu
 *Rank 2 Concealment*
+
+Next Rank: Anonymous Aphid Gu
 
 Cost: 3 portions
 
@@ -4534,6 +4607,8 @@ If the attack is from a Gu that is the same rank as Absorb Energy Gu and has a c
 
 *Rank 3 Carver*
 
+Previous Rank: Static Touch Gu
+
 Cost: 100 portions
 
 Range: Self
@@ -4642,6 +4717,8 @@ Effect: Your **Arm Muscles** are permanently carved with Lightning Path dao, mak
 ### Hair Trigger Gu
 
 *Rank 2 Carver*
+
+Next Rank: Superconductor Gu
 
 Cost: 100 portions
 
@@ -4814,6 +4891,8 @@ Effect: You hurl a spear of lightning at a target within range. Make an attack r
 
 *Rank 3 Celerity*
 
+Previous Rank: Rumbling Thunder Gu
+
 Cost: 30 portions
 
 Range: Self
@@ -4829,6 +4908,8 @@ Effect: Wings of lightning appear on your back. While sustained, you gain a flyi
 ### Rumbling Thunder Gu
 
 *Rank 2 Celerity*
+
+Next Rank: Thunderwings Gu
 
 Cost: 5 portions
 
@@ -4871,15 +4952,17 @@ Health: 4
 
 Food: 50g of magnetite sand (2 primeval stones)
 
-Keywords: [**Defensive**], [**Split Second**]
+Keywords: [**Burst Movement**], [**Split Second**]
 
-Effect: You blink to an unoccupied square within range, leaving a crackle of static in your wake. If Static Step Gu was activated as a *Reaction* to being hit with an attack, you dodge it as long as the effect didn't have the [**Undodgeable**] keyword. If the attack was a **Melee Attack** or a **Grapple** *Combat Action*, the attacker takes 10 shock damage.
+Effect: You teleport to an unoccupied square within range, leaving a crackle of static in your wake. If Static Step Gu was activated as a *Reaction* to being hit with a **Melee Attack** or a **Grapple** *Combat Action*, the attacker takes 10 shock damage.
 
 ### Static Touch Gu
 
-*Rank 1 Carver*
+*Rank 1-2 Carver*
 
-Cost: 40 portions
+Next Rank: Arcing Touch Gu
+
+Cost: 100 portions
 
 Range: Self
 
@@ -4889,7 +4972,7 @@ Food: A piece of wool
 
 Keywords: [**Dao**], [**Expendable**]
 
-Effect: Your **Hands** permanently carry a static charge. When you touch a creature or hit it with a punch attack, you may choose to release a small spark. This deals 1 shock damage and ignites flammable objects.
+Effect: Your **Hands** permanently carry a static charge. When you touch a creature or hit it with a punch attack, you may choose to release a small spark. This deals {1, 8} shock damage and ignites flammable objects.
 
 ### Stunning Strike Gu
 
@@ -4909,6 +4992,8 @@ Effect: A slow arc of electricity shoots towards a target within range. Make an 
 
 *Rank 3 Carver*
 
+Previous Rank: Hair Trigger Gu
+
 Cost: 100 portions
 
 Range: Self
@@ -4919,7 +5004,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Dao**], [**Expendable**]
 
-Effect: Your **Nervous System** is permanently etched with Lightning Path Dao, making it transmit information nearly instantly between your brain and muscles. You can react to effects even if they have the [**Split Second**] keyword and gain a -20 bonus to initiative tests.
+Effect: Your **Nervous System** is permanently etched with Lightning Path Dao, making it transmit information nearly instantly between your brain and muscles. You can react to effects normally if they have the [**Split Second**] keyword and gain a -20 bonus to initiative tests.
 
 ### Tempest Gu 
 
@@ -5278,6 +5363,8 @@ Effect: Make an attack roll against a creature within range. On a hit, cubes of 
 ### Beast Maddening Bullet Gu
 *Rank 2 Attack*
 
+Previous Rank: Bullet Gu
+
 Cost: 3 portions
 
 Range: 15 meters
@@ -5298,6 +5385,8 @@ The implanted *beast* immediately uses a *Reaction* to make a melee attack again
 
 ### Beast Tag Bullet Gu
 *Rank 2 Attack*
+
+Previous Rank: Bullet Gu
 
 Cost: 5 portions
 
@@ -5335,6 +5424,8 @@ Effect: You speak a name aloud and picture the person's face in your mind as Bro
 
 ### Bullet Gu
 *Rank 1 Attack*
+
+Next Rank: Silver Bullet Gu, Beast Tag Bullet Gu, Beast Maddening Bullet Gu
 
 Cost: 10 portions
 
@@ -5434,6 +5525,8 @@ Effect: While sustained, you are surrounded by a shimmering golden aurora. You g
 ### Golden Bell Gu
 *Rank 1 Guard*
 
+Next Rank: Ricochet Gu
+
 Cost: 25 portions
 
 Range: 2 meters
@@ -5464,6 +5557,8 @@ Effect: While sustained, a calming breeze flows around you. All creatures within
 ### Golden Needle Gu
 *Rank 2 Attack*
 
+Previous Rank: Iron Needle Gu
+
 Cost: 25 portions
 
 Range: 15 meters
@@ -5474,7 +5569,7 @@ Food: <!-- TODO ->
 
 Keywords: [**Piercing**]
 
-Effect: A cloud of golden needles shoots from your sleeve in a line 15 meters long and 3 meters wide. Creatures in the area take 10 force damage. If this damage is dealt to their hit points, they gain *bleeding 1*.
+Effect: A cloud of golden needles shoots from your sleeve in a line 6 meters long and 3 meters wide. Creatures in the area take 10 force damage. If this damage is dealt to their hit points, they gain *bleeding 1*.
 
 ### Grounded Beetle Gu
 *Rank 1-3 Guard*
@@ -5580,6 +5675,8 @@ Effect: You launch a silver and a steel blade, each at a target within range. On
 ### Iron Needle Gu
 *Rank 1 Attack*
 
+Next Rank: Golden Needle Gu
+
 Cost: 15 portions
 
 Range: 10 meters
@@ -5610,6 +5707,8 @@ Effect: Your **Circulatory System** permanently hardens into iron over the cours
 ### Magnet Fingers Gu
 
 *Rank 1 Manifestation*
+
+Next Rank: Shape Metal Gu
 
 Cost: 8 portions
 
@@ -5657,6 +5756,8 @@ Effect: Your aptitude is permanently increased by 5%, to a maximum of 99%.
 
 *Rank 2 Guard*
 
+Previous Rank: Golden Bell Gu
+
 Cost: 8 portions
 
 Range: Self
@@ -5673,6 +5774,8 @@ Effect: While sustained, if you are hit by an attack roll from a Gu of rank 2 or
 
 *Rank 2-3 Catalyst*
 
+Previous Rank: Magnet Fingers Gu
+
 Cost: 30 portions
 
 Range: Touch
@@ -5685,6 +5788,8 @@ Effect: You touch a {[**Medium**], [**Large**]} or smaller metal object. That ob
 
 ### Silver Bullet Gu
 *Rank 2 Attack*
+
+Previous Rank: Bullet Gu
 
 Cost: 20 portions
 
@@ -5789,6 +5894,115 @@ A creature can expend its *Combat Action* to doff the armor.
 *Applies debilitating conditions to enemies. They may just deal damage or cause extreme symptoms. Some can even spread between creatures.*
 
 ::: columns
+
+### Venom Fang Gu
+
+*Rank 1 Attack*
+
+Cost: 10 portions
+
+Range: Self
+
+Health: 4
+
+Food: 200 milliliters of viper venom
+
+Keywords: [**Sustained**]
+
+Effect: Your bite secretes a mild venom while sustained. When you deal damage to a creature's hit points with a bite attack, they gain the *poisoned* condition with the following effect:
+
+- You take 6 poison damage directly to your hit points at the start of each of your turns.
+
+This condition lasts for 3 turns.
+
+### Toxic Spore Gu
+
+*A cluster of pale mushrooms that shiver when disturbed.*
+
+*Rank 1 Manifestation*
+
+Cost: 60 portions
+
+Range: 6 meters
+
+Health: 2
+
+Food: <!-- TODO -->
+
+Effect: You release a cloud of fine spores in a 2 meter radius centered on a point within range. Any creature that ends its turn within the cloud gains the *poisoned* condition with the following effect:
+
+- You take 5 poison damage directly to your hit points at the start of each of your turns.
+- You have the *dazed* condition. It is not removed at the end of each of your turns.
+  
+This condition lasts for 3 turns.
+
+The cloud lingers for 1 minute but is dispersed by strong winds.
+
+### Poison Sac Gu
+
+*Rank 1 Carver*
+
+Cost: 60 portions
+
+Range: Self
+
+Health: 3
+
+Food: 500 milliliters of venom from any venomous creature
+
+Keywords: [**Dao**], [**Expendable**]
+
+Effect: A small gland grows beneath your tongue, permanently modifying your **Head** with Poison Path dao. Once per day, you may excrete a dose of mild venom that can be stored in a vial, used to coat a weapon, or ingested. A creature that ingests it or is cut by a coated weapon gains the *poisoned* condition with the following effect:
+
+- You take 5 poison damage directly to your hit points at the start of each of your turns.
+
+### Numbing Skin Gu
+
+*Rank 1 Carver*
+
+Cost: 50 portions
+
+Range: Self
+
+Health: 3
+
+Food: 100 milliliters of numbfish slime
+
+Keywords: [**Dao**], [**Expendable**]
+
+Effect: Your **Skin** is permanently modified to secrete a faint numbing agent. Any creature that grapples with you or makes skin-to-skin contact with you suffers a +20 penalty to **Close Combat** skill tests and a -20 bonus to Perseverance Attribute tests until the end of their next turn.
+
+### Blind Blue Monarch Gu
+
+*Rank 1-3 Divination*
+
+Cost: 20 portions
+
+Range: {1, 8, 50} meters
+
+Health: 3
+
+Food: <!-- TODO ->
+
+Keywords: [**Investigative: Detect**]
+
+Effect: You immediately sense the exact location of any poison within range.
+
+### Sulfur Spring Cricket Gu
+
+*Rank 1 Celerity*
+
+Cost: 20 portions
+
+Range: 3 meters
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Keywords: [**Burst Movement**]
+
+Effect: You release a small burst of caustic vapor from glands behind your shoulder blades, propelling you in a 3-meter straight line in any direction. Any creature adjacent to your original square takes 10 heat damage.
 
 ### Berserk Toxin Gu
 
@@ -6287,6 +6501,8 @@ Effect: Any attack rolls made as a result of your next Gu activation count as a 
 ### Millimeter Gu
 *Rank 2 Catalyst*
 
+Next Rank: Meter Gu
+
 Cost: 5 portions
 
 Range: Self
@@ -6303,6 +6519,10 @@ Effect: Change the range of your next Gu activation to *Touch*. Has no effect on
 
 ### Meter Gu
 *Rank 3 Catalyst*
+
+Previous Rank: Millimeter Gu
+
+Next Rank: Ten Meter Gu
 
 Cost: 5 portions
 
@@ -6337,6 +6557,10 @@ Effect: If Seal Gu is activated as a *Reaction* to a Gu Master activating a Gu o
 ### Ten Meter Gu
 *Rank 4 Catalyst*
 
+Previous Rank: Meter Gu
+
+Next Rank: Hundred Meter Gu
+
 Cost: 25 portions
 
 Range: Self
@@ -6353,6 +6577,8 @@ Effect: Change the range of your next Gu activation to 10 meters. Has no effect 
 
 ### Hundred Meter Gu
 *Rank 5 Catalyst*
+
+Previous Rank: Ten Meter Gu
 
 Cost: 60 portions
 
@@ -6472,6 +6698,8 @@ If the Gu or killer move deals damage, halve the amount of damage.
 
 *Rank 2 Catalyst*
 
+Next Rank: Tiny Gu
+
 Cost: 4 portions
 
 Range: Self
@@ -6491,6 +6719,8 @@ If the Gu or killer move has the [**Transformation**] keyword, the size of the t
 ### Tiny Gu
 
 *Rank 3-5 Catalyst*
+
+Previous Rank: Small Gu
 
 Cost: 8 portions
 
@@ -6620,6 +6850,8 @@ Effect: A spectral, *invisible* ghost eye appears next to you. You see through i
 ### Ghost Fire Gu
 
 *Rank 2 Attack*
+
+Next Rank: Wicked Kiss Gu
 
 Cost: 15 portions
 
@@ -6798,6 +7030,8 @@ Effect: You gain a flying speed equal to 2 + (2% current soul) meters (rounded d
 
 *Rank 2 Divination*
 
+Next Rank: Soul Sense Gu, Soul Lantern Gu, Soul Search Gu
+
 Cost: 10 portions
 
 Range: 3 meters
@@ -6816,6 +7050,8 @@ Effect: While sustained, you can understand the screeching of all disembodied so
 
 *Rank 3 Divination*
 
+Previous Rank: Soul Language Gu
+
 Cost: 100 portions
 
 Range: Touch
@@ -6832,6 +7068,8 @@ Activating Soul Lantern Gu while it has a soul inside of it has no effect. The l
 
 *Rank 3-5 Divination*
 
+Previous Rank: Soul Language Gu
+
 Cost: A number of portions equal to the target's current soul.
 
 Range: Touch
@@ -6845,6 +7083,8 @@ Effect: You read through a soul that you touch over the course of {8 hours, 1 ho
 ### Soul Sense Gu
 
 *Rank 3 Divination*
+
+Previous Rank: Soul Language Gu
 
 Cost: 2 portions
 
@@ -6921,6 +7161,8 @@ Effect: Your **Brain** is carved with Soul Path dao, strengthening your soul and
 ### Wicked Kiss Gu
 
 *Rank 3 Attack*
+
+Previous Rank: Ghost Fire Gu
 
 Cost: 80 portions
 
@@ -7135,10 +7377,10 @@ Health: 3
 
 Food: {1, 100} kg of honey from a black pitch bee hive ({100, 10,000} primeval stones)
 
-Effect: Archer's Paradox Gu can only be activated as a *Reaction* to a projectile being used. Using your *Reaction* to activate Archer's Paradox Gu ignores the [**Split Second**] keyword.
+Effect: Archer's Paradox Gu can only be activated as a *Reaction* to a creature making a ranged attack roll. The effect of Archer's Paradox Gu ignores the [**Split Second**] keyword.
 
 * **Rank 3:** The projectile takes twice as long to hit, giving reacting creatures a -40 bonus to **Dodge** skill tests made to dodge it.
-* **Rank 5:** The projectile is locked in place in the square of the user and is frozen. At the end of your next turn, the projectile continues as if it were just used, in a line towards the square its target was in when it was used, hitting the first creature in the line.
+* **Rank 5:** The projectile is locked in place in the square of the user and is frozen. At the end of your next turn, the projectile continues as if it were just used, in a line that ends in the square its original target was in when it was used, hitting the first creature in the line.
 
 ### Dimensional Lock Gu
 *One of the signature methods of space path, Dimensional Lock Gu is very effective at preventing escapes and attacks. No teleportation Gu below rank 6 can pierce its effects. It appears as a floating glass box containing within the starry sky of black heaven.*
@@ -7161,6 +7403,8 @@ Effect: For {1 hour, 1 day}, a {5, 15} meter cube, centered on the square you ac
 
 *Rank 1-4 Container*
 
+Next Rank: Moving Perspective Cup Gu
+
 Cost: None
 
 Range: Self
@@ -7175,6 +7419,8 @@ Effect: Formless Space Gu cannot be activated. Items smaller than 50 cubic centi
 *When Moving Perspective Cup Gu is refined, two are created. They appear like metal goblets, one silver, the other gold. If either dies, Moving Perspective Cup Gu becomes useless.*
 
 *Rank 5 Container*
+
+Previous Rank: Formless Space Gu
 
 Cost: 20 portions
 
@@ -7256,7 +7502,7 @@ Effect: You manifest a sheet of parchment and think of a message with up to 100 
 
 ### Star Rain Gu
 
-*Rank 3 Attack*
+*Rank 3-4 Attack*
 
 Cost: 40 portions
 
@@ -7266,7 +7512,7 @@ Health: 3
 
 Food: <!-- TODO ->
 
-Effect: Stars rain from the sky all around you. Choose up to 8 different squares within range. Each square cannot be within 3 meters of another square chosen as a target for Star Rain Gu. Stars rain on each of the chosen squares, dealing 35 heat damage to any creature within a 1-meter radius.
+Effect: Stars rain from the sky all around you. Choose up to {6, 10} different squares within range. Each square cannot be within 2 meters of another square chosen as a target for Star Rain Gu. Stars rain on each of the chosen squares, dealing {35, 60} heat damage to any creature within a 1-meter radius.
 
 ### Star River Gu
 
@@ -7599,6 +7845,8 @@ Whenever you deal damage to a creature with an unarmed melee attack, roll 1d6. I
 ### Big Strength Gu
 *Rank 2 Catalyst*
 
+Previous Rank: Brute Force Longhorn Beetle Gu
+
 Cost: 25 portions
 
 Range: Self
@@ -7628,6 +7876,8 @@ Effect: While sustained, your Strength Attribute is increased by {5, 10, 25} * y
 
 ### Brute Force Longhorn Beetle Gu
 *Rank 1 Catalyst*
+
+Next Rank: Big Strength Gu
 
 Cost: 30 portions
 
@@ -7902,7 +8152,7 @@ Health: 11
 
 Food: <!-- TODO ->
 
-Keywords: [**Sustained**]
+Keywords: [**Sustained**], [**Burst Movement**]
 
 Effect: While sustained, you may fly in a straight line of up to 30 meters as an Activation. This movement does not trigger collision, but if you move through an occupied square, the occupant takes 120 rending damage. **Dodge** skill tests made to avoid this attack are made with a +40 penalty.
 
@@ -8124,7 +8374,7 @@ Effect: A creature you can see within range must succeed an **Athletics** skill 
 
 *Rank 1 Catalyst*
 
-Upgrade Tree: Drain Heat
+Next Rank: Drain Life Gu, Drain Vitality Gu
 
 Cost: 6 portions
 
@@ -8140,7 +8390,9 @@ Effect: A [**Small**] or smaller object you touch has its heat drained, and lowe
 
 *Rank 2 Attack*
 
-Upgrade Tree: Drain Heat
+Previous Rank: Drain Heat Gu
+
+Next Rank: Icefang Bat Gu
 
 Cost: 6 portions
 
@@ -8156,7 +8408,9 @@ Effect: A creature you touch takes 4 unmitigatable heat damage directly to their
 
 *Rank 2 Attack*
 
-Upgrade Tree: Drain Heat
+Previous Rank: Drain Heat Gu
+
+Next Rank: Icefang Bat Gu
 
 Cost: 40 portions
 
@@ -8214,7 +8468,7 @@ Effect: Gu Laundering Gu devours a target Gu of rank {1, 2, 3, 4, 5} or lower. O
 
 *Rank 3 Attack*
 
-Upgrade Tree: Drain Heat
+Previous Rank: Drain Life Gu + Drain Vitality Gu
 
 Cost: 15 portions
 
@@ -8624,6 +8878,8 @@ Effect: The next time you activate a Gu that can be activated a finite number of
 
 *Rank 4-5 Tonic*
 
+Next Rank: Man as Before Gu, Mountain as Before Gu, River as Before Gu
+
 Cost: 40 portions
 
 Range: Touch
@@ -8637,6 +8893,8 @@ Effect: A Gu or Gu corpse of rank {4, 5} or lower that you touch is returned to 
 ### Man as Before Gu
 
 *Rank 5 Tonic*
+
+Previous Rank: Gu as Before Gu
 
 Cost: 90 portions
 
@@ -8652,7 +8910,9 @@ Effect: A creature or corpse within range is transported up the River of Time to
 
 *Rank 5 Tonic*
 
-Cost: 70 portions
+Previous Rank: Gu as Before Gu
+
+Cost: 220 portions
 
 Range: 100 meters
 
@@ -8680,7 +8940,9 @@ Effect: Rewind Gu can only be activated as a *Reaction* to you or a creature tha
 
 *Rank 5 Tonic*
 
-Cost: 50 portions
+Previous Rank: Gu as Before Gu
+
+Cost: 150 portions
 
 Range: 100 meters
 
@@ -8688,7 +8950,7 @@ Health: 4
 
 Food: <!-- TODO ->
 
-Effect: A river that you can see within range is transported up the River of Time and reverted to the state it was in 1 year ago. This effect reverts all portions of the river within 100 kilometers of you.
+Effect: A river that you can see within range is transported up the River of Time and reverted to the state it was in 1 year ago. This effect reverts all portions of the river within 1,000 kilometers of you.
 
 ### Save Time Gu
 
@@ -8792,7 +9054,7 @@ Health: 2
 
 Food: 1 lb of fine sand
 
-Effect: Split Second Gu can be activated without using a *Reaction* when an [**Split Second**] Gu is activated by another creature you can see. You make a *Reaction* against it as normal. Skill tests made as part of the *Reaction* have a {+80, +60, +30, +10, -10} modifier.
+Effect: Split Second Gu can be activated without using a *Reaction* when a [**Split Second**] Gu is activated by another creature you can see. You make a *Reaction* against it as normal. Skill tests made as part of the *Reaction* have a {+80, +60, +30, +10, -10} modifier.
 
 ### Spring Cicada Gu
 
@@ -8917,6 +9179,21 @@ Keywords: [**Defensive**], [**Shield**], [**Sustained**]
 
 Effect: While sustained, thick Azure Wolf hairs sprout all over your body, covering you in a protective coat. Azure Wolf Skin Gu cannot block sonic damage.
 
+### Hollow Ribs Gu
+
+*Rank 2 Carver*
+
+Cost: 100 portions
+
+Range: Self
+
+Health: 4
+
+Food: <!-- TODO ->
+
+Keywords: [**Dao**], [**Expendable**]
+
+Effect: A small internal reservoir grows beneath your ribs, permanently modifying your **Bones** with Poison Path dao. You may store a vial of poison or a [**Tiny**] object, creature, or Gu in each rib, totaling 24 different reservoirs. Withdrawing something stored in a reservoir can be done as a **Bonus Action**.
 
 ### Bat Wings Gu
 
@@ -9050,6 +9327,8 @@ Effect: Your body is shrouded in jade while sustained. You are not a valid targe
 
 *Rank 2 Attack*
 
+Previous Rank: Lava Crocodile Tail Gu + Ember Butterfly Gu
+
 Cost: 25 portions
 
 Range: 8 meters
@@ -9068,6 +9347,8 @@ A 1 meter radius centered on the target square is filled with lava and considere
 
 *Rank 1 Attack*
 
+Next Rank: Lava Crocodile Scales Gu
+
 Cost: 6 portions
 
 Range: Self
@@ -9084,6 +9365,8 @@ Effect: Your teeth grow red hot and your saliva boils from your mouth while sust
 
 *Rank 2 Guard*
 
+Previous Rank: Fish Scales Gu + Lava Crocodile Jaw Gu
+
 Cost: 10 portions
 
 Range: Self
@@ -9099,6 +9382,8 @@ Effect: Obsidian scales cover your body while sustained. Lava Crocodile Scales G
 ### Lava Crocodile Tail Gu
 
 *Rank 1 Celerity*
+
+Next Rank: Lava Crocodile Cannon Gu
 
 Cost: 2 portions
 
@@ -9264,7 +9549,7 @@ As long as you have 9 or fewer **Livor Mortis Tokens**, every month you go witho
 
 *Rank 5 Carver*
 
-Previous Rank: Hopping Zombie Gu
+Previous Rank: Hopping Zombie Gu + Cleansing Light Gu
 
 Cost: 15 portions
 
@@ -9521,6 +9806,8 @@ Effect: While sustained, your hands grow to double their original size. You gain
 
 *Rank 2 Guard*
 
+Next Rank: Wind Scythe Bird Wings Gu
+
 Cost: 3 portions
 
 Range: Self
@@ -9541,6 +9828,8 @@ If this damage is dealt to their hit points, they gain *bleeding 2.*
 ### Wind Scythe Bird Wings Gu
 
 *Rank 3 Celerity*
+
+Previous Rank: Wind Scythe Bird Plumes Gu
 
 Cost: 22 portions
 
@@ -9610,9 +9899,9 @@ Health: 20
 
 Food: <!-- TODO ->
 
-Effect: A stream of water bursts from your heels, accelerating you in a straight line equal to this Gu's range. If you run into another creature, the creature and you both suffer force damage equal to each other's Fortitude. You deal an additional 5% of your Fortitude for each meter travelled while using this Gu.
+Keywords: [**Burst Movement**]
 
-If one creature's Fortitude is more than double the other's, it does not suffer any damage from this.
+Effect: A stream of water bursts from your heels, accelerating you {4, 8, 12, 50} meters in a straight line. You deal an additional 5% of your Fortitude for each meter travelled while using this Gu.
 
 ### Drowning Sensation Gu
 *Rank 2 Attack*
@@ -9697,6 +9986,8 @@ Effect: You immediately know the exact location of *doused* creatures within ran
 
 ### Water Blood Gu
 *Rank 3 Carver*
+
+Previous Rank: Liquid Flesh Gu
 
 Cost: 100 portions
 
@@ -9845,6 +10136,8 @@ Effect: 5 liters of fresh water pours from your fingertip. If poured on a creatu
 
 *Rank 1-3 Guard*
 
+Next Rank: Lava Crocodile Scales Gu
+
 Cost: 10 portions
 
 Range: Self
@@ -9937,6 +10230,8 @@ Effect: All earth, soil, and stone within range is transmuted into an equal volu
 ### Liquid Flesh Gu
 
 *Rank 2 Carver*
+
+Next Rank: Water Blood Gu
 
 Cost: 100 portions
 
@@ -10250,6 +10545,8 @@ Effect: Winds pick up in a 2 meter radius, centered on the square you were in wh
 
 *Rank 3 Manifestation*
 
+Next Rank: Wind Beneath Wings Gu
+
 Cost: 35 portions
 
 Range: 1 meter
@@ -10325,6 +10622,8 @@ Effect: Your **Skin** is carved with Wind Path dao, permanently making your hair
 ### Wind Beneath Wings Gu
 
 *Rank 4 Celerity*
+
+Previous Rank: Flying Cloud Gu
 
 Cost: 10 portions
 
@@ -11235,6 +11534,8 @@ Effect: Your **Skin** is permanently carved with Wood Path dao, taking on a perm
 ### Creamy Sap Gu
 *Rank 1 Tonic*
 
+Next Rank: Metabolize Essence Gu
+
 Cost: 15 portions
 
 Range: Touch
@@ -11333,7 +11634,7 @@ Food: Sunlight and fresh air
 
 Keywords: [**Unrefinable**], [**Expendable**]
 
-Effect: A creature can eat Vitality Grass Gu as a *Bonus Action* to regain 15 hit points, reduced by 1 for every Vitality Grass Gu they've eaten today, resetting at sunrise.
+Effect: A creature can eat Vitality Leaf Gu as a *Bonus Action* to regain 15 hit points, reduced by 1 for every Vitality Leaf Gu they've eaten today, resetting at sunrise.
 
 *Vitality Leaf Gu is produced by rank 2 <span>Nine-leaf Vitality Grass Gu</span>*
 
@@ -11371,7 +11672,9 @@ Effect: Cannot be activated. Passively sprouts 50 primeval essence stones every 
 
 *Rank 2 Tonic*
 
-Cost: 5 portions
+Previous Rank: Creamy Sap Gu
+
+Cost: 30 portions
 
 Range: Touch
 
@@ -11399,6 +11702,8 @@ Effect: As long as you are rank 2, the aura of your primeval essence is increase
 ### Primeval Roots Gu
 
 *Rank 2 Carver*
+
+Next Rank: Wood Charm Gu
 
 Cost: 100 portions
 
@@ -11538,6 +11843,8 @@ Effect: Choose a 2-meter radius centered on a square you can see within range. R
 ### Thorn Burst Gu
 *Rank 1 Attack*
 
+Next Rank: Thorn Whip Gu
+
 Cost: 25 portions
 
 Range: 5 meters
@@ -11551,6 +11858,8 @@ Effect: A cloud of thorns bursts from your outstretched hand in a 5-meter cone. 
 ### Thorn Whip Gu
 
 *Rank 2 Attack*
+
+Previous Rank: Thorn Burst Gu
 
 Cost: 18 portions
 
@@ -11648,6 +11957,8 @@ Effect: Wine Sack Flower Gu blooms, forming a bowl made of petals containing 3 k
 ### Wood Charm Gu
 *Rank 3 Carver*
 
+Previous Rank: Primeval Roots Gu
+
 Cost: 2 portions
 
 Range: Self
@@ -11701,3 +12012,5 @@ Effect: You carve Wood Path dao into your **Torso**, gaining a **Wood Dao Token*
 
 
 :::
+
+<!--                     ----------------------------------------------->
