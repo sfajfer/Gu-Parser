@@ -1311,19 +1311,6 @@ Food: <!-- TODO ->
 
 Effect: Stone or soil beneath your feet is pulled to an unoccupied square within range, forming a 40-centimeter tall wall that creatures [**Medium**] and smaller can hide behind. [**Medium**] creatures get partial cover from attackers on the opposite side, while [**Small**] and [**Tiny**] creatures get full cover.
 
-### Rice Pouch Grass Gu
-*Rank 1 Manifestation*
-
-Cost: 20 portions
-
-Range: Self
-
-Health: 15
-
-Food: 1 kg water
-
-Effect: Rice Pouch Grass Gu fills iteself with 5 kg of long blades of rice.
-
 ### Stealth Rock Gu
 *Rank 1 Concealment*
 
@@ -1775,6 +1762,38 @@ Effect: You touch a *beast* enslaved by you and they freeze in place. Whenever t
 *Explosive and very offensive. Movement type Gu use quick bursts of movement, and attacks often apply burning or ablaze to bypass shield gu.*
 
 ::: columns
+
+### Fire Breath Gu
+*Rank 3 Attack*
+
+Previous Rank: Hot Belly Rice Wine Gu
+
+Next Rank: Spitting Dragon Gu
+
+Cost: 
+
+Range: 
+
+Health: 
+
+Food: 
+
+Effect: 
+
+### Spitting Dragon Gu
+*Rank 4-5 Attack*
+
+Previous Rank: Fire Breath Gu
+
+Cost: 
+
+Range: 
+
+Health: 
+
+Food: 
+
+Effect: 
 
 ### Balefire Gu
 
@@ -2328,6 +2347,8 @@ Effect: Lightning Charged Potato Gu must be buried in any kind of soil before ac
 
 Previous Rank: Lightning Charged Potato Gu
 
+Next Rank: Lightning Charged Thorn Potato Gu
+
 Cost: 60X
 
 Range: Self
@@ -2538,6 +2559,119 @@ Effect: Vengeful Sun Gu can only be activated as a *Reaction* to being hit by an
 *An uncommon path to cultivate, Food Path's greatest strength for mortals is to reduce the financial burden of feeding Gu. That being said, it excels at feeding Gu, humans, and beasts alike, and Food Path Gu Masters are highly sought after by organizations.*
 
 ::: columns
+
+### Wine Sack Flower Gu
+*Rank 1 Manifestation*
+
+Next Rank: Hot Belly Rice Wine Gu, Pitcher Plant Gu
+
+Cost: 15 portions
+
+Range: Self
+
+Health: 9
+
+Food: 1 kg rice (1/4 primeval stone)
+
+Effect: Wine Sack Flower Gu blooms, forming a bowl made of petals containing 3 kg of rice wine.
+
+### Rice Pouch Grass Gu
+*Rank 1 Manifestation*
+
+Next Rank: Fertilizer Gu, Rice Culm Gu, Hot Belly Rice Wine Gu
+
+Cost: 20 portions
+
+Range: Self
+
+Health: 15
+
+Food: 1 kg water
+
+Effect: Rice Pouch Grass Gu fills iteself with 5 kg of long blades of rice.
+
+### Rice Culm Gu
+
+*Rank 2 Manifestation*
+
+Previous Rank: Rice Pouch Grass Gu
+
+Cost:
+
+Range:
+
+Health:
+
+Food:
+
+Effect:
+
+### Hot Belly Rice Wine Gu
+
+*Rank 2 Manifestation*
+
+Previous Rank: Rice Pouch Grass Gu + Wine Sack Flower Gu
+
+Next Rank: Fire Breath Gu, Vigorous Brew Gu
+
+Cost:
+
+Range:
+
+Health:
+
+Food:
+
+Effect:
+
+### Vigorous Brew Gu
+
+*Rank 3 Manifestation*
+
+Previous Rank: Hot Belly Rice Wine Gu
+
+Cost:
+
+Range:
+
+Health:
+
+Food:
+
+Effect:
+
+### Pitcher Plant Gu
+
+*Rank 2 Container*
+
+Previous Rank: Wine Sack Flower Gu
+
+Cost:
+
+Range:
+
+Health:
+
+Food:
+
+Effect:
+
+### Fertilizer Gu
+*Rank 2 Manifestation*
+
+Previous Rank: Rice Pouch Grass Gu + Smelly Fart Worm Gu
+
+Next Rank: Overgrowth Gu
+
+Cost: 
+
+Range: 
+
+Health: 
+
+Food: 
+
+Effect: 
 
 ### Appetizer Gu
 
@@ -3651,6 +3785,8 @@ Effect: While sustained, you can communicate with [Beast]s. If a [Beast] has a C
 ### Eating One's Words Gu
 
 *Rank 2 Catalyst*
+
+Previous Rank: Smelly Fart Worm Gu
 
 Cost: 40 portions
 
@@ -5895,6 +6031,21 @@ A creature can expend its *Combat Action* to doff the armor.
 
 ::: columns
 
+### Smelly Fart Worm Gu
+*Rank 1 Manifestation*
+
+Next Rank: Fertilizer Gu, Eating One's Words Gu
+
+Cost: 
+
+Range: 
+
+Health: 
+
+Food: 
+
+Effect: 
+
 ### Venom Fang Gu
 
 *Rank 1 Attack*
@@ -7474,7 +7625,9 @@ Effect: Choose a square you can see within range. While sustained, you may choos
 
 *Rank 1 Attack*
 
-Cost: 14 portions
+Next Rank: Shooting Eye Gu, Star Blanket Gu, Starburst Gu, Star Eyes Gu
+
+Cost: 30 portions
 
 Range: 8 meters
 
@@ -7486,9 +7639,153 @@ Keywords: [**Undodgeable**]
 
 Effect: A dart of blue light shoots from your finger towards a target within range, dealing 4 force and 4 heat damage.
 
+### Shooting Eye Gu
+
+*Rank 2 Divination*
+
+Previous Rank: Star Dart Gu
+
+Next Rank: Thousand Eye Blanket Gu
+
+Cost:
+
+Range:
+
+Health:
+
+Food:
+
+Effect:
+
+### Shooting Eye Gu
+
+*Rank 2 Divination*
+
+Cost:
+
+Range:
+
+Health:
+
+Food:
+
+Effect:
+
+### Star Blanket Gu
+
+*Rank 2 Manifestation*
+
+Previous Rank: Star Dart Gu
+
+Next Rank: Thousand Eye Blanket Gu, Star Cloak Gu
+
+Cost:
+
+Range:
+
+Health:
+
+Food:
+
+Effect:
+
+### Starburst Gu
+
+*Rank 2 Attack*
+
+Previous Rank: Star Dart Gu
+
+Next Rank: Star Rain Gu
+
+Cost:
+
+Range:
+
+Health:
+
+Food:
+
+Effect:
+
+### Star Eyes Gu
+
+*Rank 2 Carver*
+
+Previous Rank: Star Dart Gu
+
+Next Rank: Starry Thoughts Gu
+
+Cost:
+
+Range:
+
+Health:
+
+Food:
+
+Keywords: [**Dao**], [**Expendable**]
+
+Effect:
+
+### Thousand Eye Blanket Gu
+
+*Rank 3 Manifestation*
+
+Previous Rank: Shooting Eye Gu + Star Blanket Gu
+
+Next Rank: Stars Are My Eyes Gu
+
+Cost:
+
+Range:
+
+Health:
+
+Food:
+
+Effect:
+
+### Star Cloak Gu
+
+*Rank 3-4 Manifestation*
+
+Previous Rank: Star Blanket Gu
+
+Next Rank: Celestial Cape Gu
+
+Cost:
+
+Range:
+
+Health:
+
+Food:
+
+Effect:
+
+### Starry Thoughts Gu
+
+*Rank 3 Divination*
+
+Previous Rank: Star Eyes Gu
+
+Next Rank: Star Letter Gu
+
+Cost:
+
+Range:
+
+Health:
+
+Food:
+
+Effect:
+
 ### Star Letter Gu
 
 *Rank 4 Manifestation*
+
+Previous Rank: Starry Thoughts Gu
 
 Cost: 100 portions
 
@@ -7504,6 +7801,10 @@ Effect: You manifest a sheet of parchment and think of a message with up to 100 
 
 *Rank 3-4 Attack*
 
+Previous Rank: Starburst Gu
+
+Next Rank: Star River Gu, Heaven Descending Gu
+
 Cost: 40 portions
 
 Range: 20 meters
@@ -7514,9 +7815,61 @@ Food: <!-- TODO ->
 
 Effect: Stars rain from the sky all around you. Choose up to {6, 10} different squares within range. Each square cannot be within 2 meters of another square chosen as a target for Star Rain Gu. Stars rain on each of the chosen squares, dealing {35, 60} heat damage to any creature within a 1-meter radius.
 
+### Stars Are My Eyes Gu
+
+*Rank 4 Divination*
+
+Previous Rank: Thousand Eye Blanket Gu
+
+Next Rank: Star Battlefield Gu
+
+Cost:
+
+Range:
+
+Health:
+
+Food:
+
+Effect:
+
+### Star Battlefield Gu
+
+*Rank 5 Manifestation*
+
+Previous Rank: Stars Are My Eyes Gu
+
+Cost:
+
+Range:
+
+Health:
+
+Food:
+
+Effect:
+
+### Heaven Descending Gu
+
+*Rank 5 Attack*
+
+Previous Rank: Star Rain Gu
+
+Cost:
+
+Range:
+
+Health:
+
+Food:
+
+Effect:
+
 ### Star River Gu
 
 *Rank 5 Attack*
+
+Previous Rank: Star Rain Gu
 
 Cost: 30 portions
 
@@ -7607,6 +7960,10 @@ Whenever you deal damage to a creature with an unarmed melee attack, roll 1d6. I
 ### Beastman Strength Gu
 
 *Rank 3 Carver*
+
+Previous Rank: Beastman Hide Gu
+
+Next Rank: Beastman Transformation Gu
 
 Cost: 100 portions
 
@@ -9123,9 +9480,193 @@ Effect: A silver triangle tattoo permanently appears on your **Torso**. Your bod
 
 ::: columns
 
-[**Azure Wolf Transformation**]
+### Beast Skin Gu
 
-*Azure wolves are a nearly extinct mutated beast that grow more energetic the longer they battle.*
+*Rank 1 Guard*
+
+Next Rank: Boar Pelt Gu, Whisker Gu, Chameleon Skin Gu, Beastman Hide Gu, Quill Coat Gu, Spike Fur Gu
+
+Cost:
+
+Range:
+
+Health:
+
+Food:
+
+Effect:
+
+### Boar Pelt Gu
+
+*Rank 2-3 Guard*
+
+Previous Rank: Beast Skin Gu
+
+Next Rank: Azure Wolf Skin Gu, Rhinoceros Hide Gu
+
+Cost:
+
+Range:
+
+Health:
+
+Food:
+
+Effect:
+
+### Rhinoceros Hide Gu
+
+*Rank 4-5 Guard*
+
+Previous Rank: Boar Pelt Gu
+
+Cost:
+
+Range:
+
+Health:
+
+Food:
+
+Effect:
+
+### Whisker Gu
+
+*Rank 2-3 Divination*
+
+Previous Rank: Beast Skin Gu
+
+Next Rank: Chameleon Sense Gu
+
+Cost:
+
+Range:
+
+Health:
+
+Food:
+
+Effect:
+
+### Chameleon Skin Gu
+
+*Rank 2-3 Concealment*
+
+Previous Rank: Beast Skin Gu
+
+Next Rank: Chameleon Sense Gu
+
+Cost:
+
+Range:
+
+Health:
+
+Food:
+
+Effect:
+
+### Chameleon Sense Gu
+
+*Rank 4-5 Divination*
+
+Previous Rank: Whisker Gu + Chameleon Skin Gu
+
+Cost:
+
+Range:
+
+Health:
+
+Food:
+
+Effect:
+
+### Beastman Hide Gu
+
+*Rank 2 Guard*
+
+Previous Rank: Beast Skin Gu
+
+Next Rank: Beastman Strength Gu
+
+Cost:
+
+Range:
+
+Health:
+
+Food:
+
+Effect:
+
+### Beastman Transformation Gu
+
+*Rank 4 Carver*
+
+Previous Rank: Beastman Strength Gu
+
+Cost:
+
+Range:
+
+Health:
+
+Food:
+
+Effect:
+
+### Quill Coat Gu
+
+*Rank 2 Guard*
+
+Previous Rank: Beast Skin Gu
+
+Next Rank: Thousand Needle Fur Gu
+
+Cost:
+
+Range:
+
+Health:
+
+Food:
+
+Effect:
+
+### Thousand Needle Fur Gu
+
+*Rank 3-4 Attack*
+
+Previous Rank: Quill Coat Gu + Spike Fur Gu
+
+Cost:
+
+Range:
+
+Health:
+
+Food:
+
+Effect:
+
+### Spike Fur Gu
+
+*Rank 2 Attack*
+
+Previous Rank: Beast Skin Gu
+
+Next Rank: Thousand Needle Fur Gu
+
+Cost:
+
+Range:
+
+Health:
+
+Food:
+
+Effect:
 
 ### Azure Wolf Bite Gu
 
@@ -9166,6 +9707,8 @@ Effect: Your hands and feet become paws, complete with razor sharp claws. Your m
 ### Azure Wolf Skin Gu
 
 *Rank 4 Guard*
+
+Previous Rank: Boar Pelt Gu
 
 Cost: 12 portions
 
@@ -11337,6 +11880,38 @@ Effect: Warrior's Intuition Gu can only be activated after hitting a creature wi
 
 ::: columns
 
+### Overgrowth Gu
+*Rank 3-4 Manifestation*
+
+Previous Rank: Fertilizer Gu
+
+Next Rank: Jungle Growth Gu
+
+Cost: 
+
+Range: 
+
+Health: 
+
+Food: 
+
+Effect: 
+
+### Jungle Growth Gu
+*Rank 5 Manifestation*
+
+Previous Rank: Living Soil Gu + Overgrowth Gu
+
+Cost: 
+
+Range: 
+
+Health: 
+
+Food: 
+
+Effect: 
+
 ### Bark Skin Gu
 *Rank 1 Guard*
 
@@ -11830,6 +12405,10 @@ If within a 2x2 area there are 3 or more scarecrows, hiding behind them instead 
 ### Stranglewood Gu
 *Rank 2 Attack*
 
+Previous Rank: Thorn Burst Gu
+
+Next Rank: Living Soil Gu
+
 Cost: 14 portions
 
 Range: 5 meters
@@ -11840,10 +12419,27 @@ Food: <!-- TODO ->
 
 Effect: Choose a 2-meter radius centered on a square you can see within range. Roots and vines burst forth from the ground, and creatures in the area must succeed an **Athletics** skill test with a +10 penalty or else be *restrained* for 1 minute. A *restrained* creature can remake the test as a *Combat Action* on its turn to free itself.
 
+### Living Soil Gu
+*Rank 3-4 Attack*
+
+Previous Rank: Stranglewood Gu
+
+Next Rank: Jungle Growth Gu
+
+Cost: 
+
+Range: 
+
+Health: 
+
+Food: 
+
+Effect: 
+
 ### Thorn Burst Gu
 *Rank 1 Attack*
 
-Next Rank: Thorn Whip Gu
+Next Rank: Thorn Whip Gu, Stranglewood Gu, Thorn Stream Gu
 
 Cost: 25 portions
 
@@ -11855,11 +12451,109 @@ Food: 500 g of roses
 
 Effect: A cloud of thorns bursts from your outstretched hand in a 5-meter cone. Creatures in the area take 6 force damage.
 
+### Thorn Mine Gu
+*Rank 2-3 Manifestation*
+
+Previous Rank: Thorn Burst Gu
+
+Next Rank: Lightning Charged Thorn Potato Gu
+
+Cost: 
+
+Range: 
+
+Health: 
+
+Food: 
+
+Effect: 
+
+### Lightning Charged Thorn Potato Gu
+*Rank 4 Manifestation*
+
+Previous Rank: Thorn Mine Gu + Lightning Charged Potato Mother Gu
+
+Cost: 
+
+Range: 
+
+Health: 
+
+Food: 
+
+Effect: 
+
+### Thorn Stream Gu
+*Rank 2-3 Attack*
+
+Previous Rank: Thorn Burst Gu
+
+Next Rank: Thorn Cluster Gu, Trichome Whip Gu
+
+Cost: 
+
+Range: 
+
+Health: 
+
+Food: 
+
+Effect: 
+
+### Thorn Cluster Gu
+*Rank 4 Attack*
+
+Previous Rank: Thorn Stream Gu
+
+Next Rank: Thorn Cluster Bomb Gu, Ash Rain Gu
+
+Cost: 
+
+Range: 
+
+Health: 
+
+Food: 
+
+Effect: 
+
+### Thorn Cluster Bomb Gu
+*Rank 5 Attack*
+
+Previous Rank: Thorn Cluster Gu
+
+Cost: 
+
+Range: 
+
+Health: 
+
+Food: 
+
+Effect: 
+
+### Ash Rain Gu
+*Rank 5 Attack*
+
+Previous Rank: Thorn Cluster Gu
+
+Cost: 
+
+Range: 
+
+Health: 
+
+Food: 
+
+Effect: 
+
 ### Thorn Whip Gu
 
 *Rank 2 Attack*
 
 Previous Rank: Thorn Burst Gu
+
+Next Rank: Thorn Cudgel Gu
 
 Cost: 18 portions
 
@@ -11877,11 +12571,45 @@ Effect: You attack a target within range with a thorny whip. Make an attack roll
 
 **Pull:** The whip wraps around the target and constricts to pull them towards you. If the target is a creature, they must succeed an **Athletics** skill test or else be pulled to the closest square adjacent to you. The whip cannot pull objects or creatures that weigh more than 125 kilograms.
 
-*This Gu appears to be an acorn of brown color at rank 1, getting darker as it is upgraded. Rank 3 Three Star Cave Gu is pitch black.*
+### Thorn Cudgel Gu
+*Rank 3 Manifestation*
+
+Previous Rank: Thorn Whip Gu
+
+Next Rank: Trichome Whip Gu
+
+Cost: 
+
+Range: 
+
+Health: 
+
+Food: 
+
+Effect: 
+
+### Trichome Whip Gu
+*Rank 4 Manifestation*
+
+Previous Rank: Thorn Cudgel Gu
+
+Cost: 
+
+Range: 
+
+Health: 
+
+Food: 
+
+Effect: 
 
 ### One Star Cave Gu
 
+*This Gu appears to be an acorn of brown color at rank 1, getting darker as it is upgraded. Rank 3 Three Star Cave Gu is pitch black.*
+
 *Rank 1 Container*
+
+Next Rank: Two Star Cave Gu
 
 Cost: 50 portions
 
@@ -11897,7 +12625,13 @@ The tree has 50 hit points and vulnerability to heat and rending damage. If the 
 
 ### Two Star Cave Gu
 
+*This Gu appears to be an acorn of brown color at rank 1, getting darker as it is upgraded. Rank 3 Three Star Cave Gu is pitch black.*
+
 *Rank 2 Container*
+
+Previous Rank: One Star Cave Gu
+
+Next Rank: Three Star Cave Gu
 
 Cost: 50 portions
 
@@ -11913,7 +12647,11 @@ The tree has 250 hit points and vulnerability to heat and rending damage. If the
 
 ### Three Star Cave Gu
 
+*This Gu appears to be an acorn of brown color at rank 1, getting darker as it is upgraded. Rank 3 Three Star Cave Gu is pitch black.*
+
 *Rank 3 Container*
+
+Previous Rank: Two Star Cave Gu
 
 Cost: 50 portions
 
@@ -11940,19 +12678,6 @@ Health: 25
 Food: 1 kg of silk (5 primeval stones)
 
 Effect: Wardrobe Gu can store up to 50 kg of clothes and armor. Upon activation, a set of clothes stored inside Wardrobe Gu of your choice replaces whatever you are wearing, while the clothes you were wearing are stored within Wardrobe Gu. If you do not choose an outfit, you merely store the clothes you are wearing.
-
-### Wine Sack Flower Gu
-*Rank 1 Manifestation*
-
-Cost: 15 portions
-
-Range: Self
-
-Health: 9
-
-Food: 1 kg rice (1/4 primeval stone)
-
-Effect: Wine Sack Flower Gu blooms, forming a bowl made of petals containing 3 kg of rice wine.
 
 ### Wood Charm Gu
 *Rank 3 Carver*
