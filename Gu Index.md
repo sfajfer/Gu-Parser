@@ -12409,7 +12409,7 @@ Previous Rank: Thorn Burst Gu
 
 Next Rank: Living Soil Gu
 
-Cost: 14 portions
+Cost: 45 portions
 
 Range: 5 meters
 
@@ -12441,7 +12441,7 @@ Effect:
 
 Next Rank: Thorn Whip Gu, Stranglewood Gu, Thorn Stream Gu
 
-Cost: 25 portions
+Cost: 50 portions
 
 Range: 5 meters
 
@@ -12458,15 +12458,17 @@ Previous Rank: Thorn Burst Gu
 
 Next Rank: Lightning Charged Thorn Potato Gu
 
-Cost: 
+Cost: 90 portions
 
-Range: 
+Range: Self
 
-Health: 
+Health: 2
 
-Food: 
+Food: <!-- TODO ->
 
-Effect: 
+Keywords: [**Split Second**]
+
+Effect: A [**Tiny**] walnut manifests in your hand. It can be buried in loose earth as a *Bonus Action*. When buried in the ground, the walnut is armed, and if any creature steps on the square it is buried in, the walnut explodes. Anything in a 1-meter radius of the square takes {15, 40} rending damage.
 
 ### Lightning Charged Thorn Potato Gu
 *Rank 4 Manifestation*
